@@ -29,7 +29,7 @@ The evidence for a high-carbohydrate diet being pro-thyroid is overwhelming.
 
 - Adequate glucose is required for the deiodinase enzymes to efficiently convert inactive T4 into active T3. Low-carb diets are notoriously anti-thyroid for this reason.
 
-- A high-carb diet promotes a high NAD⁺/NADH ratio, pulling the cell out of the reductive stress that suppresses all metabolic function, including thyroid hormone synthesis and action.
+- A high-carb diet promotes a high NAD⁺/NADH ratio, pulling the cell out of the reductive stress that suppresses all metabolic function, including thyroid hormone synthesis and action. Consuming a high-carbohydrate, low-fat diet (where fat constitutes <20% of total calories) prevents PPAR-alpha signaling, lowers free fatty acids (FFAs), and raises NAD⁺ via Pyruvate Dehydrogenase (PDH), actively increasing the baseline metabolic rate.
 
 **The Case Against High Fat:**
 

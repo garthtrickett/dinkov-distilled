@@ -10,9 +10,9 @@ tags:
 
 ### The Electron Transport Chain (ETC): Our Cellular Power Grid
 
-Imagine your mitochondria house a sophisticated power grid, a series of five power stations known as Complexes (I, II, III, IV, and V). The entire purpose of this grid is to convert the raw energy from food into a usable form of cellular currency, ATP. The "electricity" flowing through this grid is a stream of high-energy electrons.
+Imagine your mitochondria house a sophisticated power grid, a series of five power stations known as Complexes (I, II, III, IV, and V). The entire purpose of this grid is to convert the raw energy from food into a usable form of cellular currency, ATP. Cells maintain an incredibly tight 8-to-12 second reserve of ATP and creatine phosphate. The "electricity" flowing through this grid is a stream of high-energy electrons.
 
-These electrons are delivered to the grid by molecular "trucks": NADH and FADH₂. These trucks get loaded up with electrons during the initial breakdown of fats and carbohydrates.
+These electrons are delivered to the grid by molecular "trucks": NADH and FADH₂.
 
 - **NADH** delivers its electron cargo to the start of the line, at **Complex I**.
 

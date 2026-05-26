@@ -19,7 +19,7 @@ From a bioenergetic perspective, these are not diseases of willpower, but diseas
 
 
 
-The core of the problem is not an excess of calories, but a fundamental inability to properly *use* fuel. A diabetic cell is like a cancerous cell in one key respect: it is metabolically broken. Due to the relentless blocking effect of the Randle Cycle, the diabetic cell is **stuck oxidizing fats.** This forces a state of severe metabolic inflexibility where it simply **can't burn starch well.** The glucose from carbohydrates, with its mitochondrial on-ramp blocked, has nowhere to go.
+The core of the problem is not an excess of calories, but a fundamental inability to properly *use* fuel. Insulin resistance is physically characterized by localized muscle and liver fat accumulation, leading to an intramuscular acyl-CoA gridlock. A diabetic cell is like a cancerous cell in one key respect: it is metabolically broken. Due to the relentless blocking effect of the Randle Cycle, the diabetic cell is **stuck oxidizing fats.** This forces a state of severe metabolic inflexibility where it simply **can't burn starch well.** The glucose from carbohydrates, with its mitochondrial on-ramp blocked, has nowhere to go.
 
 
 

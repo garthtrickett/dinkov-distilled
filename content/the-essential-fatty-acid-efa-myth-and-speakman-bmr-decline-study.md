@@ -9,7 +9,7 @@ tags:
 ---
 
 ### **The Declining Baseline Metabolic Rate (BMR)**
-Modern research by J.R. Speakman demonstrates a steady, documented decline in global baseline metabolic rates (BMR) over the last 30 to 40 years. This downward trend is highly correlated with the rise in metabolic diseases and obesity. Obesity is fundamentally an adaptation to a low metabolic rate, rather than a simple failure of willpower or caloric calculation. From a bioenergetic standpoint, being mildly overweight with a roaring, high metabolic rate is significantly healthier than being lean with a chronically suppressed, hypometroid metabolism. 
+Modern research by J.R. Speakman demonstrates a steady, documented decline in global baseline metabolic rates (BMR) over the last 30 to 40 years. Chronic caloric restriction downregulates BMR long-term, which can trigger rapid fat regain during refeeding (the fat overshoot model). This downward trend is highly correlated with the rise in metabolic diseases and obesity. Obesity is fundamentally a survival-driven adaptation to a depressed metabolic rate, rather than a simple failure of willpower or caloric calculation. From a bioenergetic standpoint, being mildly overweight with a roaring, high metabolic rate is significantly healthier than being lean with a chronically suppressed, hypometroid metabolism. 
 
 Furthermore, historical data from the USDA indicates that the average male in 1939 consumed approximately 4,500 calories per day while remaining lean and physically active, reflecting a vastly higher baseline of energy conversion than today's standard of 2,000–2,500 calories.
 

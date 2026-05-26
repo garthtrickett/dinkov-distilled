@@ -53,7 +53,9 @@ When the proton gradient is dissipated by uncoupling, the already-struggling cel
 
 
 
-This is the danger of powerful, artificial uncoupling agents like 2,4-Dinitrophenol (DNP). While nothing comes close to DNP’s fat-burning potential, its considerable downsides stem from this exact mechanism. It is an uncontrolled uncoupler. It forces a massive proton leak regardless of the cell's metabolic state, which can lead to catastrophic energy depletion and dangerous overheating (hyperthermia). You don't want to go above 39°C (102.2°F) with DNP, a testament to its potent but risky nature.
+This is the danger of powerful, artificial uncoupling agents like 2,4-Dinitrophenol (DNP). While nothing comes close to DNP’s fat-burning potential, its considerable downsides stem from this exact mechanism. It is an uncontrolled uncoupler. It forces a massive proton leak regardless of the cell's metabolic state, which can lead to catastrophic energy depletion and dangerous overheating (hyperthermia). You don't want to go above 39°C (102.2°F) with DNP, a testament to its potent but risky nature. 
+
+Exogenous uncoupling agents vary in efficiency and safety. In laboratory settings, CCCP achieves approximately 4% uncoupling. For fat loss, BAM15 is considered an upgraded, safer chemical analog of DNP because it selectively targets mitochondrial uncoupling without displaying the same risk of runaway hyperthermia.
 
 
 

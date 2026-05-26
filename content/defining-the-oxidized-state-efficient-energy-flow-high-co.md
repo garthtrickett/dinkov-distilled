@@ -15,7 +15,7 @@ The oxidized state is the cellular state of health. It is the signature of a hig
 
 
 
-In this state, there are fewer problems getting the electrons from your food to the oxygen waiting at the end of the electron transport chain. This smooth, "forward electron flow" is incredibly efficient, minimizing the electron "leaks" that generate excessive and damaging reactive oxygen species (ROS). In fact, the clean oxidation of glucose in the mitochondria produces 30-40 times less ROS than other, less efficient pathways.
+In this state, there are fewer problems getting the electrons from your food to the oxygen waiting at the end of the electron transport chain. This smooth, "forward electron flow" is incredibly efficient, minimizing the electron "leaks" that generate excessive and damaging reactive oxygen species (ROS). The efficiently oxidized state is characterized by high ratios of both NAD⁺/NADH and FAD/FADH₂, alongside active ATP consumption. ATP consumption is what creates the ADP demand that drives forward proton flow. In fact, the clean oxidation of glucose in the mitochondria produces 30-40 times less ROS than other, less efficient pathways. Under these conditions, adaptive mitochondrial uncoupling lowers mitochondrial membrane potential, which prevents over-reduction of the ETC complexes and minimizes pathological ROS.
 
 
 

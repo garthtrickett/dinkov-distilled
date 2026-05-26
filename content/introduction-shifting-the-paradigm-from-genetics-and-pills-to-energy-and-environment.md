@@ -20,7 +20,9 @@ This booklet proposes a radical and empowering alternative: your health is not a
 
 
 
-The bioenergetic view posits that nearly every condition not present from birth should be considered a metabolic disease—a problem of energy production that can be influenced and often reversed. The vast majority of people experience a declining metabolic rate with advancing age, yet we treat the downstream consequences—the weight gain, the hormonal imbalances, the chronic fatigue—as separate, unrelated diseases. In reality, taking steps to restore and accelerate the metabolic rate often leads to the correction of multiple, if not all, of these diagnosed problems. Health is energy.
+The bioenergetic view posits that nearly every condition not present from birth should be considered a metabolic disease—a problem of energy production that can be influenced and often reversed. Standard medical interventions (such as extreme fasting, aggressive LDL lowering, and rigid restriction of simple sugars) attempt to slow a compromised engine so it breaks slower. Conversely, the bioenergetic goal is to change the environment (minimizing seed oils, plastics, and EMFs) to unblock the engine so it runs efficiently. 
+
+The vast majority of people experience a declining metabolic rate with advancing age, yet we treat the downstream consequences—the weight gain, the hormonal imbalances, the chronic fatigue—as separate, unrelated diseases. In reality, taking steps to restore and accelerate the metabolic rate often leads to the correction of multiple, if not all, of these diagnosed problems. Health is energy.
 
 
 
