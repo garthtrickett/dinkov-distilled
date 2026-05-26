@@ -8,8 +8,6 @@ tags:
   - health/vitalist/booklet
 ---
 
-# **Dinkov Distilled: The Metabolic Theory Of Health**
-
 > ⚠️ **Temporary Raw & Combined Notes Viewing Links:**
 > * [Assorted Notes Combined (Fully Consolidated Manual)](assorted-notes-combined.md) 
 > * [Personal Experimental Log and Sourcing](personal-experimental-log-and-sourcing.md) 
