@@ -8,12 +8,6 @@ tags:
   - auto-archived
 ---
 
-Of course. This is a critical transition point in the booklet, moving from the individual components of food to the overarching strategy of how to eat. An introduction here is essential to frame the principles that follow.
-
-Here is the introductory section, "Dietary Frameworks & Principles."
-
-
----
 
 ### Dietary Frameworks & Principles
 

@@ -25,7 +25,7 @@ Glycine is the true hero of this story. It directly combats the metabolic damage
 
 1. **It Alleviates Reductive Stress:** Remember the toxic buildup of fatty acid intermediates (acyl-CoA) in the muscle caused by high BCAAs? Glycine has the remarkable ability to directly bind to these excess acyl groups in a process called **glycine conjugation.** This new molecule is then safely excreted in the urine, effectively acting as a detoxification pathway that clears the muscular engine blockage.
 
-1. **It Spares NAD⁺:** By reducing the metabolic burden of clearing excess BCAAs, glycine helps to preserve the cell's precious pool of NAD⁺, pushing the system back toward a healthier, oxidized state.
+1. **It Spares NAD⁺ & Inhibits Fat Production:** By reducing the metabolic burden of clearing excess BCAAs, glycine helps to preserve the cell's precious pool of NAD⁺, pushing the system back toward a healthier, oxidized state. It also actively decreases fatty acid synthase.
 
 1. **It Supports Gut Health:** Glycine has been shown to directly increase **gut barrier function**, helping to prevent the leakage of inflammatory endotoxins that further drive metabolic dysfunction.
 
@@ -38,7 +38,7 @@ This is not a new discovery; it is a rediscovery. Traditional cultures intuitive
 
 **Practical Application**
 
-The goal should be to make gelatin/collagen approximately **one-third to one-half of your total protein intake.** This can be achieved by:
+To support structure without triggering stress, aim for an ancestral protein target of roughly **15% of total calories**. The goal should be to make gelatin/collagen approximately **one-third to one-half of your total protein intake.** This can be achieved by:
 
 - **Prioritizing Gelatinous Cuts:** Incorporating beef/lamb mince (which contains more connective tissue than steak), beef tendon, or pork rinds into the diet.
 

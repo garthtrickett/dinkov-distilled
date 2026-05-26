@@ -41,4 +41,8 @@ A typical analysis will provide a functional status for each of the four key com
 
 For the serious health detective, a test like this is the ultimate tool. It transforms you from a passive consumer of supplements into an empowered mitochondrial mechanic. It provides a roadmap for targeted intervention, allowing you to address the precise point of failure in your energy production system and measure the effects of your experiments with objective data.
 
+### **FoodMarble: Real-Time Digestive Gas Tracking**
+
+In addition to cellular essays, tracing gut fermentation in real time is a critical diagnostic. Utilizing a **FoodMarble** device allows you to measure hydrogen and methane breath gases directly after meals, identifying localized small intestinal bacterial overgrowth (SIBO) and tracking which specific carbohydrate or starch sources are triggering pathogenic fermentation.
+
 ### 

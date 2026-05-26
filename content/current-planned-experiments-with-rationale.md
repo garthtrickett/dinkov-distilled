@@ -7,13 +7,6 @@ tags:
   - health/vitalist/booklet
 ---
 
-Of course. This section is the very embodiment of the "N-of-1 Laboratory" philosophy, moving from established principles to active, personal investigation. It's a perfect fit for Chapter 10.
-
-Here is the "Current & Planned Experiments (with Rationale)" section as a single, comprehensive page.
-
-
----
-
 ### Current & Planned Experiments (with Rationale)
 
 The ultimate goal of this booklet is to transform you from a passive recipient of health information into an active, empowered health detective. Theory is the map, but personal experimentation is the journey. This section outlines several current and planned experiments, grounded in the bioenergetic principles we've discussed. They are presented not as prescriptions, but as examples of how to form a hypothesis, design a protocol, and test it on the most important subject of all: yourself.

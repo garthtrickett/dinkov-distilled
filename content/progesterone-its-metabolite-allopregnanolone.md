@@ -37,6 +37,8 @@ While progesterone's effects are broadly systemic, allopregnanolone's primary ro
 
 This progesterone-allopregnanolone axis is a masterpiece of biological design, providing both systemic metabolic drive (Progesterone) and profound neurological calm (Allopregnanolone). The therapeutic potential of this pathway is so significant that pharmaceutical companies are now developing synthetic versions of allopregnanolone (Brexanolone, Zuranolone) to treat conditions like postpartum depression, highlighting the critical importance of these natural, protective hormones.
 
+For optimal absorption, USP progesterone powder can be dissolved in natural d-alpha tocopherol vitamin E and applied directly to the gums. A dose of 25–50mg before bed helps raise GABA, calm the nervous system, and improve sleep.
+
 ### 
 
 

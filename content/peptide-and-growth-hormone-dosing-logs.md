@@ -17,3 +17,7 @@ While MOTS-c updates metabolic software (improving glucose disposal) and SS-31 r
 Exogenous Human Growth Hormone (HGH) is highly lipolytic, which means direct administration floods the bloodstream with Free Fatty Acids, temporarily triggering the Randle Cycle and blocking glucose metabolism. To bypass this insulin sensitivity issue:
 * **The EOD Strategy:** Administering HGH every other day (EOD) at night (e.g., 2–4 IU) allows the resulting fatty acid spillover to clear during sleep, minimizing daytime insulin resistance.
 * **The Chase Irons Protocol:** Chase Irons runs his entire daily GH protocol (up to 18 IU) exclusively at night in a single injection. This massive nocturnal dose leverages GH's potent anti-cortisol effects (lowering cortisol by 15–30%) and cellular repair mechanisms while allowing the metabolic disruptions of fat mobilization to occur during the fasting window.
+
+### **Tesamorelin: Targeted GHRH Protocol**
+To stimulate endogenous growth hormone production without the extreme, long-lived lipolytic spikes of exogenous HGH:
+* **The Protocol:** Administer **2mg of Tesamorelin at night** before sleep. This leverages natural pulsatile GH release, preserving joint integrity and skin health while maintaining better insulin sensitivity.

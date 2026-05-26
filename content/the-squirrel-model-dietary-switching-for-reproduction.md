@@ -8,11 +8,6 @@ tags:
   - auto-archived
 ---
 
-Excellent point. This adds a crucial layer of mechanistic detail that connects directly to other concepts in the booklet, like the BCAA-insulin resistance link. Here is the revised section incorporating this insight.
-
-
----
-
 ### The Squirrel Model: Dietary Switching for Reproduction
 
 Squirrels are not just opportunistic foragers; they are sophisticated dieticians who instinctively understand that different fuels send different biological signals. Their dietary choices are a powerful demonstration of how specific macronutrient profiles can act as potent physiological triggers, dictating the timing of life's most resource-intensive event: reproduction.

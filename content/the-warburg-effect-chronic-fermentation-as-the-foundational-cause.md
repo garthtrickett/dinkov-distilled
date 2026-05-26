@@ -15,7 +15,9 @@ The universal metabolic signature of cancer is a phenomenon first observed nearl
 
 
 
-In a healthy cell, glucose is broken down into pyruvate, which is then shuttled into the mitochondria to be cleanly and efficiently burned for massive amounts of ATP via oxidative phosphorylation. In a cancer cell, this process is broken. There is a **block at the juncture between glycolysis and the Krebs cycle.** The mitochondrial on-ramp is closed. As a result, the cancer cell becomes addicted to glucose, ravenously consuming it only to ferment it into a toxic byproduct: **lactate**.
+In a healthy cell, glucose is broken down into pyruvate, which is then shuttled into the mitochondria to be cleanly and efficiently burned for massive amounts of ATP via oxidative phosphorylation. In a cancer cell, this process is broken. Cancer cells overexpress HIF-1a, shut down mitochondrial respiration, and run primitive glucose and glutamine fermentation. 
+
+There is a **block at the juncture between glycolysis and the Krebs cycle.** The mitochondrial on-ramp is closed. As a result, the cancer cell becomes addicted to glucose, overexpressing GLUT transporters because they are stuck in fat oxidation and starving for glucose, ravenously consuming it only to ferment it into a toxic byproduct: **lactate**.
 
 
 

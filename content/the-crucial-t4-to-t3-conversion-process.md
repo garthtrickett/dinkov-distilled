@@ -33,7 +33,15 @@ Several key factors are known to sabotage this crucial conversion:
 
 - **Chronic Stress:** High levels of cortisol, the primary stress hormone, can also inhibit the activity of these enzymes, shunting T4 away from T3 production.
 
-Restoring this process is a cornerstone of bioenergetic health. It involves removing the metabolic roadblocks (like PUFAs and chronic stress) while simultaneously ensuring a rich supply of the necessary micronutrient cofactors. A healthy, functioning conversion process is the difference between a body stuck in low gear and one with access to its full metabolic horsepower.
+Restoring this process is a cornerstone of bioenergetic health. It involves removing the metabolic roadblocks (like PUFAs and chronic stress) while simultaneously ensuring a rich supply of the necessary micronutrient cofactors. Active T3 is required to synthesize pregnenolone from cholesterol; thus, a healthy, functioning conversion process is the difference between a body stuck in low gear and one with access to its full metabolic horsepower.
+
+### **Synthetic Thyroid Replacement & Dosing Protocols**
+
+When functional hypothyroidism is severe or locked-in, direct synthetic thyroid replacement can jump-start the engine. 
+
+1. **Secretory Ratios:** To mimic natural human thyroid gland output, replacement therapy should follow a ratio of approximately 3:1 to 4:1 of T4 to T3.
+2. **Frontloading T4:** T4 has a half-life of roughly one week, meaning standard dosing takes 4 to 6 weeks to reach a steady-state concentration. Doubling the T4 dose for the first 4 days (frontloading) brings tissue concentrations to steady state in only 5 days.
+3. **Handling T3:** Never frontload T3, which is fast-acting and highly potent. Keep single oral doses of T3 low—ideally no more than 10mcg at a single time, with a daily maximum of 75mcg. Always consume T3 with food to prevent an adrenaline response.
 
 
 

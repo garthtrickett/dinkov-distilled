@@ -20,7 +20,7 @@ Its primary evolutionary role is likely as a numbing agent for acute, inescapabl
 
 Beyond its effects on mood, serotonin is a systemic metabolic poison, especially the 95% that is produced in the gut. Its pathological effects are extensive:
 
-- **Fatty Liver and Fibrosis:** Increased serotonin from the gut travels to the liver, where it directly stimulates the genes that enhance **fat production (lipogenesis)** and activates the cells responsible for **fibrosis (scarring)**. Peripheral serotonin inhibitors have shown promise in preclinical studies for treating NAFLD for this very reason.
+- **Fatty Liver and Fibrosis:** Increased serotonin from the gut travels to the liver, where it stimulates hepatic stellate cells via 5-HT2B and 5-HT2A receptors. This directly triggers the genes that enhance **fat production (lipogenesis)** and activates the cells responsible for **fibrosis (scarring)**. Peripheral serotonin inhibitors have shown promise in preclinical studies for treating NAFLD for this very reason.
 
 - **Central Fatigue:** The **Central Fatigue Hypothesis** proposes that during prolonged exertion, increased serotonin in the brain dampens motor drive and cognitive function, leading to the perception of profound fatigue. This is a key link to conditions like fibromyalgia and chronic fatigue syndrome.
 

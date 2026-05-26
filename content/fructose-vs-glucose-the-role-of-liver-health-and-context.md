@@ -23,7 +23,7 @@ The primary difference between these two sugars lies in their initial processing
 
 - **\~15-20% is directly converted to Liver Glycogen:** Fructose is exceptionally good at replenishing the liver's own energy stores.
 
-In a realistic scenario, only a **very small percentage (<1-3%) of fructose is converted to fat**. This primarily happens only when the liver is already unhealthy or in massive overfeeding scenarios.
+In a realistic scenario, only a **very small percentage (<1-3%) of fructose is converted to fat**. Fructose infusions yield ~360% more hepatic glycogen than glucose. This conversion of fructose to fat primarily happens only when the liver is already unhealthy or in massive overfeeding scenarios.
 
 **The problems attributed to fructose are almost always due to two factors:**
 

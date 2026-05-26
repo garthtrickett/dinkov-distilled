@@ -17,7 +17,7 @@ If cortisol is the body’s catabolic sword, swung in times of crisis to break d
 
 
 
-**Pregnenolone** is the great matriarch, the "mother hormone" from which virtually all other steroid hormones are born. Synthesized directly from cholesterol, it sits at the top of the hormonal cascade. From pregnenolone, two major pathways diverge, giving rise to all the **"pro-metabolic" steroids** that promote energy, structure, and resilience:
+**Pregnenolone** is the great matriarch, the "mother hormone" from which virtually all other steroid hormones are born. Synthesized directly from cholesterol inside the adrenal mitochondria—which constitutes the rate-limiting step in steroidogenesis—it sits at the top of the hormonal cascade. From pregnenolone, two major pathways diverge, giving rise to all the **"pro-metabolic" steroids** that promote energy, structure, and resilience:
 
 1. **The Progesterone Pathway:** Pregnenolone is converted to **Progesterone**, a powerfully thermogenic and anti-estrogenic hormone, which in turn can become its calming metabolite, **Allopregnanolone**.
 

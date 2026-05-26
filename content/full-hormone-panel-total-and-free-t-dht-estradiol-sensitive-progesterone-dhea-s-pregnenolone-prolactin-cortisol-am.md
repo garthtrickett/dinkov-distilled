@@ -15,13 +15,13 @@ tags:
 
 This is not the minimalist hormonal check-up your doctor might run. This is the full dashboard for your endocrine system, designed to reveal the dynamic interplay and crucial ratios between the hormones of stress, youth, and metabolism. Measuring these together allows us to see the entire orchestra, not just a single, out-of-tune instrument.
 
-- **Total and Free Testosterone:** This is the baseline measure of your primary androgen. Total T shows the entire pool available, while Free T measures the unbound, biologically active portion that can actually interact with your cells.
+- **Total and Free Testosterone:** This is the baseline measure of your primary androgen. Total T shows the entire pool available, while Free T measures the unbound, biologically active portion that can actually interact with your cells. For males on cruise TRT protocols, target total Testosterone should be maintained in the range of **1000–1200 ng/dL**.
 
 - **DHT (Dihydrotestosterone):** This is non-negotiable. DHT is the most potent androgen, the "finished product" of testosterone. It is a powerful anti-cortisol and anti-serotonin hormone. Measuring it reveals the activity of the crucial 5-alpha-reductase enzyme and gives a true picture of your androgenic state.
 
 - **Estradiol (sensitive):** For men, a **sensitive** estradiol assay is mandatory. Standard tests are not accurate enough at the low levels found in men. This allows for the calculation of the critical Testosterone:Estradiol ratio, revealing whether you are in a pro-metabolic or an estrogen-dominant, pro-hibernation state.
 
-- **Progesterone:** Often ignored in men, progesterone is one of the body's most protective, pro-metabolic, and anti-stress hormones. It is a powerful cortisol and estrogen antagonist with a direct, pro-thyroid effect. Low levels are a significant red flag for a stressed system.
+- **Progesterone:** Often ignored in men, progesterone is one of the body's most protective, pro-metabolic, and anti-stress hormones. It is a powerful cortisol and estrogen antagonist with a direct, pro-thyroid effect. Low levels are a significant red flag for a stressed system. For males, the target serum progesterone is **1–4 nmol/L**.
 
 - **DHEA-S (DHEA-Sulfate):** This is the primary circulating form of DHEA, the body's most abundant hormone and the key youthful buffer against cortisol. Its level is a direct measure of your adrenal resilience and long-term anabolic capacity.
 
@@ -40,6 +40,8 @@ Remember, the absolute numbers are secondary to the relationships. We are lookin
 - A **high Cortisol:Testosterone ratio** (e.g., above 10) is a direct indicator of a catabolic state and is strongly linked to metabolic syndrome.
 
 - The **Testosterone:Estradiol ratio** should be optimized, with estradiol at approximately 5-7% of total testosterone for a pro-metabolic androgenic balance.
+
+- The **Testosterone:DHT ratio** should be optimized to aim for a **5:1 ratio** of Total Testosterone to Dihydrotestosterone.
 
 This panel provides a complete, nuanced picture of your hormonal symphony, moving you far beyond "normal" and towards a truly optimal state.
 

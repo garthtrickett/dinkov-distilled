@@ -8,10 +8,6 @@ tags:
   - auto-archived
 ---
 
-Excellent. Let's explore this critical piece of mitochondrial machinery. Here is the section on Nicotinamide Nucleotide Transhydrogenase (NNT).
-
-
----
 
 ### Nicotinamide Nucleotide Transhydrogenase (NNT) as a Pressure Release Valve
 

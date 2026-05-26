@@ -7,12 +7,6 @@ tags:
   - health/vitalist/booklet
 ---
 
-Of course. Let's begin the final part of the booklet with a powerful introduction that reframes the entire purpose of testing.
-
-Here is the introduction for Chapter 9, "Introduction: Moving Beyond 'Normal' to 'Optimal'."
-
-
----
 
 ### Introduction: Moving Beyond "Normal" to "Optimal"
 

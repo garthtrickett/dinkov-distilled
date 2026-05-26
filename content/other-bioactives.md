@@ -5,18 +5,44 @@ created: '2025-07-03T18:28:12+10:00'
 updated: '2025-07-05T22:30:49+10:00'
 tags:
   - health/vitalist/booklet
----
-
-Of course. This is an excellent update, as these newer compounds align perfectly with the advanced, experimental theme of this section. The title should probably be updated to reflect the broader scope.
-
-Here is the revised section, now titled "Other Pro-Metabolic Bioactives," incorporating all four compounds.
-
 
 ---
 
 ### Other Pro-Metabolic Bioactives
 
 Beyond the foundational tiers of supplementation lie the advanced and experimental bioactives. These are not for general use, but are powerful, targeted tools for the dedicated N-of-1 experimenter looking to modulate specific, nuanced pathways. Unlike compounds that work by inducing a controlled stress response, these agents are truly pro-metabolic, working by enhancing efficiency, removing blockages, or preventing the waste of critical resources.
+
+### **Methylene Blue: The Electron Cycler**
+
+Methylene Blue is a powerful metabolic unblocker and redox cycler.
+- **Mechanism:** It travels directly to the mitochondria and acts as an alternative electron cycler, accepting electrons and transferring them directly to oxygen. This allows it to effectively bypass blockages in all four complexes of the ETC (Complex I, II, III, and IV), relieving electron backup and reducing oxidative stress.
+- **Protocol:** A typical dose is **3–5mg of a USP-grade 1% solution** (e.g., 1g of Methylene Blue powder dissolved in a 4oz water bottle). It is best combined with niacinamide to offset any potential MB-induced serotonin increases. Tracking the clearance time of urinary blueing serves as a useful proxy for mitochondrial clearance capacity.
+
+### **R-Alpha-Lipoic Acid (R-ALA): The SIRT1 Activator**
+
+- **Mechanism:** R-ALA is a powerful cofactor and antioxidant that dose-dependently increases SIRT1 activity and optimizes the NAD⁺/NADH ratio.
+- **Protocol:** Standard protocols utilize **500mg twice daily** to restore glucose utilization and clear cytoplasmic NADH backup.
+
+### **Stearoylethanolamide (SEA): The SCD1 Suppressor**
+
+- **Mechanism:** SEA is a direct metabolite of stable stearic acid. It downregulates the pro-hibernation SCD1 enzyme, reduces inflammatory TNF-alpha, and increases metabolic rate.
+- **Protocol:** A common protocol is **300mg twice daily**. (Note that excessive dosing, such as 1200mg/day, can cause excessive body temperature increases).
+
+### **Cyproheptadine: The Serotonin Blocker**
+
+- **Mechanism:** Cyproheptadine is a first-generation antihistamine that acts as a potent antagonist at the 5-HT2 serotonin receptors, releasing the central nervous system and metabolic brakes imposed by chronic serotonin excess.
+
+### **Propranolol: The Adrenaline Buffer**
+
+- **Mechanism:** Propranolol is a non-selective beta-blocker that lowers circulating adrenaline levels, preventing the stress-induced lipolysis that floods the blood with Randle-blocking free fatty acids.
+
+### **L-Carnitine: The Acyl-Ferry**
+
+- **Mechanism:** Shuttles long-chain fatty acids into the mitochondria. Useful primarily to clear severe intramuscular acyl-CoA traffic jams, though chronically it can raise fat oxidation and should be utilized with caution.
+
+### **Puerh Tea Extract: The TLR4 Blocker**
+
+- **Mechanism:** Puerh tea contains unique bioactives that act as direct TLR4 blockers, preventing systemic endotoxin (LPS) signaling and mitigating weight gain on high-fat diets.
 
 ### **ITPP (Myo-inositol trispyrophosphate): The Oxygen Unloader**
 

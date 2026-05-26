@@ -7,11 +7,6 @@ tags:
   - health/vitalist/booklet
 ---
 
-Of course. Here is the next section, "The NAD+/NADH Ratio as the Master Switch of Cellular Energy," written in your booklet's style.
-
-
----
-
 ### The NAD+/NADH Ratio as the Master Switch of Cellular Energy
 
 If the redox state is the overall condition of your cellular engine, the NAD+/NADH ratio is its master switch. This simple ratio between two forms of a molecule—nicotinamide adenine dinucleotide—is the fundamental signal that dictates whether your cells burn fuel for immediate energy or slam on the brakes and shuttle it into storage and inflammatory pathways. Understanding this switch is the key to understanding metabolic control.

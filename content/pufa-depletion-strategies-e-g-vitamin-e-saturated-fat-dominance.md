@@ -20,7 +20,9 @@ Given that most of us have spent a lifetime accumulating unstable polyunsaturate
 
 **1. Saturated Fat Dominance: Dilution is the Solution**
 
-The first principle is to change the composition of your body fat by changing the composition of your dietary fat. By radically minimizing PUFA and MUFA intake and making stable saturated fats the dominant fat source in your diet, you begin a process of gradual replacement. Studies on cebus monkeys have shown that this process works. When switched from a PUFA-rich diet to a diet high in coconut oil (saturated fat), the concentration of PUFAs in their tissues steadily declined. It's a slow process, but it is the foundational step.
+The first principle is to change the composition of your body fat by changing the composition of your dietary fat. By radically minimizing PUFA and MUFA intake and making stable saturated fats the dominant fat source in your diet, you begin a process of gradual replacement. 
+
+Studies on cebus monkeys have shown that this process works. A fat-free diet depleted serum PUFAs in 4 days and tissue PUFAs in 30 days. When switched from a PUFA-rich diet to a diet high in coconut oil (saturated fat, even at 45% of calories), the concentration of PUFAs in their tissues steadily declined, though at a slower rate because exogenous fat reduces the biological requirement to mobilize stored adipose tissue. It's a slow process, but it is the foundational step.
 
 
 

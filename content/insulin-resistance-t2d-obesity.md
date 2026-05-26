@@ -29,7 +29,9 @@ This is the crucial point that conventional medicine misses. The **elevated bloo
 
 
 
-The obese human is trapped in this state. Their blood is high in circulating fatty acids and branched-chain amino acids (BCAAs) that they cannot efficiently break down, further jamming the system. The problem is not that they are lazy; it is that their engine is clogged, and every attempt to add more fuel simply adds to the spillover. To fix the problem, we must look beyond the failed model of counting calories and instead diagnose and clear the underlying failure of fuel oxidation.
+The obese human is trapped in this state. Obese individuals exhibit 1/2 to 1/3 the blood flow in adipose tissue compared to lean individuals, creating regional tissue hypoxia. Their blood is high in circulating fatty acids and branched-chain amino acids (BCAAs) that they cannot efficiently break down, further jamming the system. 
+
+The problem is not that they are lazy; it is that their engine is clogged, and every attempt to add more fuel simply adds to the spillover. To fix the problem, we must look beyond the failed model of counting calories and instead diagnose and clear the underlying failure of fuel oxidation.
 
 
 ---

@@ -36,7 +36,6 @@ Metabolic inflexibility is a state of cellular deafness. When an inflexible pers
 
 This state is the hallmark of the obese and insulin-resistant individual. They can't burn starch well because their PDH gate is chronically locked shut by the background noise of excessive fat oxidation and reductive stress. This state is characterized by high levels of circulating free fatty acids and branched-chain amino acids (BCAAs), which the body struggles to break down.
 
-Of course. Let's define these crucial terms through the bioenergetic lens. Here is the section, "Metabolic Flexibility vs. Inflexibility: The Real Meaning."
 
 The deafness to insulin's signal is stark. Studies powerfully illustrate this:
 

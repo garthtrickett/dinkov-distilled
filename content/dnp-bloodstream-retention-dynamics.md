@@ -10,10 +10,6 @@ tags:
 ### **The Pharmacokinetics of Accumulation**
 Because 2,4-Dinitrophenol (DNP) has an exceptionally long half-life in the human body (approximately 36 hours), daily dosing leads to significant systemic accumulation. If an individual does not account for this accumulation, they can easily exceed their tolerability threshold, leading to severe hyperthermia (>39°C / 102.2°F), cellular dehydration, and death.
 
-The mathematical projection for daily drug accumulation in the bloodstream is calculated using the following formula:
-
-$$\text{New Total} = \text{Dose} + \left( \text{Old Total} \times \left( \frac{1}{2} \right) ^ {\frac{\text{Dosage Period}}{\text{Half-life}}} \right)$$
-
 ### **Daily Accumulation Projection (30-Day Grid)**
 Assuming daily dosing (every 24 hours) and a 36-hour half-life, the active amount of DNP in the bloodstream (in mg) accumulates as follows:
 

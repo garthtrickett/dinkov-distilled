@@ -13,7 +13,7 @@ Beyond its common use as a painkiller, a low-dose daily aspirin is a powerful bi
 
 - **Mechanism:** Aspirin is a potent **COX and LOX inhibitor**, meaning it directly blocks the enzymes that convert dietary PUFAs into inflammatory prostaglandins and leukotrienes. It also **inhibits 11β-HSD1**, the enzyme that creates active cortisol, and has been shown in studies to **lower fat oxidation by up to 30%**, helping to alleviate the Randle Cycle gridlock. It also acts as a mild metabolic uncoupler at higher doses.
 
-- **Dosage & Type:** A "baby aspirin" dose (typically 81mg in the US) is the standard. It is often recommended to dissolve it in warm water before consumption to minimize potential gut irritation.
+- **Dosage & Type:** A "baby aspirin" dose (typically 81mg in the US) is the standard. It is often recommended to dissolve it in warm water before consumption to minimize potential gut irritation. Ray Peat recommended a ratio of **1mg of Vitamin K per 325mg of aspirin** to mitigate mucosal or systemic bleeding risks.
 
 ### **Glycine/Collagen**
 
@@ -35,7 +35,7 @@ Vitamin K2, specifically the **MK-4** form, is a crucial fat-soluble vitamin tha
 
 While Niacinamide (B3) is a foundational tool for boosting NAD⁺, a targeted combination of B-vitamins, as demonstrated in Georgi Dinkov's cancer research, forms a powerful synergistic trio for unblocking the most common bottlenecks in glucose metabolism.
 
-- **Thiamine (B1):** This is the master key for glucose oxidation. Thiamine is the primary and essential **cofactor for the Pyruvate Dehydrogenase (PDH) enzyme**. A deficiency in B1 creates a hard bottleneck at the gate between glycolysis and the Krebs cycle, forcing pyruvate to become lactate and bringing efficient energy production to a grinding halt.
+- **Thiamine (B1):** This is the master key for glucose oxidation. Thiamine is the primary and essential **cofactor for the Pyruvate Dehydrogenase (PDH) enzyme**. A deficiency in B1 creates a hard bottleneck at the gate between glycolysis and the Krebs cycle, forcing pyruvate to become lactate and bringing efficient energy production to a grinding halt. Standard protocols utilize **300–500mg of thiamine chloride** or **100–150mg of lipophilic analogs (e.g., benfotiamine)**, which has been shown to halve lactate buildup during physical exertion.
 
 - **Biotin (B7):** If PDH is blocked, Biotin supports the emergency escape route. It is a cofactor for the enzyme **pyruvate carboxylase**, which provides a backup pathway for pyruvate, helping to prevent it from all being shunted to lactate and allowing it to support other metabolic functions. It helps the cell manage the traffic jam caused by a blocked PDH.
 

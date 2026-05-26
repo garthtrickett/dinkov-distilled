@@ -18,7 +18,9 @@ As established, omega-6 PUFAs from seed oils are metabolic poison, driving infla
 
 ### **The MUFA Deception: The Stealth Hibernator (Oleic Acid/Olive Oil)**
 
-This brings us to the most celebrated "healthy" fat: oleic acid, the primary component of olive oil. While more stable than PUFAs, MUFAs are a primary signal for your body to slow down metabolism and store fat. This is because **monounsaturated fats are preferentially burned in a low-metabolic state**—they are nature's chosen fuel for hibernation.
+This brings us to the most celebrated "healthy" fat: oleic acid, the primary component of olive oil. While more stable than PUFAs, MUFAs are a primary signal for your body to slow down metabolism and store fat. This is because **monounsaturated fats are preferentially burned in a low-metabolic state**—they are nature's chosen fuel for hibernation. MUFAs increase endocannabinoids, causing direct appetite stimulation (the "munchies") and a subsequent metabolic slowdown.
+
+Note that monounsaturated content varies widely among tropical oils; for instance, palm kernel oil contains only around 12% MUFA, whereas standard palm oil contains 39% MUFA.
 
 - **The OEA-PPAR-alpha Switch:** When you consume MUFAs, your body produces a molecule called **oleoylethanolamide (OEA)**. OEA is a powerful **agonist for the PPAR-alpha "winter" switch.** This activation then shuts down glucose metabolism by inhibiting the PDH enzyme.
 

@@ -24,7 +24,13 @@ Theory is useless without application. The N-of-1 laboratory isn't just a place 
 
 - **The Saturated Fat "Buffer":** When consuming a meal you know is higher in PUFAs (e.g., restaurant food), a simple damage-control hack is to consume a spoonful of a stable saturated fat like **coconut oil or MCT oil** with the meal. This helps to shift the ratio of fats being absorbed towards a more favorable, less inflammatory profile.
 
+- **Dandruff / Scalp Treatment:** To clear fungal overgrowth and support scalp mitochondrial health, dissolve **1.5g Salicylic acid** and **3g Baking soda** in water or a basic glucose/glycerol-based shampoo (such as Bloo shampoo). Massage onto the scalp and expose to direct, non-burning sunlight for 10 minutes before rinsing.
+
 ### **Core Recipes & Meal Templates**
+
+- **The Bulgarian Burger:** Mix high-quality ground ruminant meat (beef, lamb, or bison) with gelatin powder and a pinch of calcium carbonate. This improves the calcium-to-phosphorus ratio of the muscle meat, keeping prolactin low and improving overall calcium signaling.
+
+- **Scrotal Test Cream Preparation:** For advanced transdermal androgen replacement, dissolve **10g of pure Testosterone Base powder** in a mixture of **50ml of 95% Ethanol** and **50ml of natural Vitamin E**. Shake well every 30 minutes for 4 to 5 intervals until fully dissolved to yield a 10% transdermal solution. Alternatively, compound the raw testosterone base into a carrier base like SpecializedRx VersaCream Pro. Scrotal application yields excellent DHT conversion.
 
 - **The "30/30" Protein Base:** To ensure an adequate glycine-to-BCAA ratio, a simple and effective protein meal template is **3 eggs plus 30 grams of gelatin.** This combination provides a complete essential amino acid (EAA) profile roughly equivalent to what was shown to maintain positive protein balance in young men in a landmark 1971 trial. It's a simple, repeatable base for a pro-metabolic meal.
 

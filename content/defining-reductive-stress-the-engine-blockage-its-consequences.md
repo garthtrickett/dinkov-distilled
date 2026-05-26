@@ -7,11 +7,6 @@ tags:
   - health/vitalist/booklet
 ---
 
-Of course. Here is the final piece of this subsection, "Defining Reductive Stress (The 'Engine Blockage') & Its Consequences."
-
-
----
-
 ### Defining Reductive Stress (The "Engine Blockage") & Its Consequences
 
 If the oxidized state is a clean-burning engine, reductive stress is a flooded carburetor. It’s a state of electronic gridlock, defined by an overabundance of reduced cofactors (too much NADH) and a scarcity of their oxidized forms (not enough NAD⁺). This is not a state of low energy, but rather a state of *backed-up* energy—too much fuel and not enough air. It is a slowed-down, congested metabolism, a traffic jam of unpaired electrons with nowhere to go.

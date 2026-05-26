@@ -43,8 +43,18 @@ The constant production of lactate (lactic acid) makes the immediate environment
 
 - **It Induces Cell Death in Healthy Cells:** The acidic environment is toxic to healthy cells, helping the tumor carve out space for itself.
 
-- **It Promotes Apoptosis Resistance in Cancer Cells:** Cancer cells are uniquely adapted to thrive in this low-pH environment. In fact, a more **acidic cell can more easily induce apoptosis (programmed cell death)** in defective cells. The alkaline internal environment of a cancer cell is one of its main protections against apoptosis. Therapeutic strategies that can selectively acidify the cancer cell (like high-dose aspirin) are therefore a promising avenue of research.
+- **It Promotes Apoptosis Resistance in Cancer Cells:** Cancer cells are uniquely adapted to thrive in this low-pH environment. In fact, a more **acidic cell can more easily induce apoptosis (programmed cell death)** in defective cells. The alkaline internal environment of a cancer cell is one of its main protections against apoptosis. Therapeutic strategies that can selectively acidify the cancer cell (like high-dose aspirin or the more lipophilic analog, 2,6-dihydroxybenzoic acid) are therefore a promising avenue of research.
 
 This triad—a reduced state, high lactate, and local acidity—creates a fortified, self-sustaining ecosystem for cancer growth. To defeat the cancer, one must first dismantle this toxic environment.
+
+### **The Vitamin-Aspirin Synergy (Dinkov Study)**
+
+A striking demonstration of this metabolic vulnerability was explored in Georgi Dinkov's study on mantle cell lymphoma. Rodent models administered a synergistic combination of:
+* **Vitamin B1 (Thiamine):** 15 mg/kg
+* **Vitamin B3 (Niacinamide):** 30 mg/kg
+* **Vitamin B7 (Biotin):** 1.5 mg/kg
+* **Aspirin:** 15 mg/kg
+
+showed complete tumor regression. Utilizing the more lipophilic analog, **2,6-dihydroxybenzoic acid** (400mg), demonstrated even higher efficacy. Crucially, rodents fed a fat-free diet for just 2 weeks prior to the experiment could not be successfully implanted with tumors, demonstrating that lipid peroxidation and tissue PUFA saturation are mandatory structural backdrops for tumor proliferation.
 
 ### 
