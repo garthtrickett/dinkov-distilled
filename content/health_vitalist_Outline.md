@@ -8,10 +8,6 @@ tags:
   - health/vitalist/booklet
 ---
 
-> ⚠️ **Temporary Raw & Combined Notes Viewing Links:**
-> * [Assorted Notes Combined (Fully Consolidated Manual)](assorted-notes-combined.md) 
-> * [Personal Experimental Log and Sourcing](personal-experimental-log-and-sourcing.md) 
-> * [Bioenergetic Biochemistry and Protocols](bioenergetic-biochemistry-and-protocols.md) 
 
 ### **Part I: The Foundation**
 

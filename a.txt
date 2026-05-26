@@ -9,11 +9,9 @@ content/a-critical-view-on-fasting-calorie-restriction-and-bulking-cutting.md
 content/acyl-carnitine-profile-fatty-acid-oxidation-impairment.md
 content/alzheimer-s-type-3-diabetes-parkinson-s-and-the-failure-of-neuronal-energy.md
 content/androgens-testosterone-dht.md
-content/assorted-notes-combined.md
 content/autoimmune-conditions-a-case-of-mistaken-identity.md
 content/beta-hydroxybutyrate-bhb-ratio.md
 content/beyond-calories-in-calories-out-a-failure-of-fuel-oxidation.md
-content/bioenergetic-biochemistry-and-protocols.md
 content/can-balancing-bcaas-with-sufficient-glycine-fully-negate-their-negative-effects.md
 content/cancer-as-a-metabolic-disease.md
 content/carbohydrates-the-clean-burning-co-producing-fuel.md
@@ -87,7 +85,6 @@ content/nicotinamide-nucleotide-transhydrogenase-nnt-as-a-pressure-release-valve
 content/other-bioactives.md
 content/peptide-and-growth-hormone-dosing-logs.md
 content/peptides-mots-c-ss-31.md
-content/personal-experimental-log-and-sourcing.md
 content/ppar-alpha-the-prepare-for-winter-hibernation-signal.md
 content/practical-tools-recipes-food-hacks-etc.md
 content/progesterone-its-metabolite-allopregnanolone.md
@@ -147,6 +144,7 @@ content/transdermal-vs-oral-administration.md
 content/uncoupling-the-good-adaptive-thermogenesis-and-the-bad-pathological.md
 content/vitamin-e-as-a-pufa-antagonist-niacinamide-b3-magnesium-taurine.md
 c.sh
+current_response.json
 eslint.config.mjs
 .eslintrc.json
 flake.lock
@@ -157,6 +155,8 @@ GEMINI.md
 .gitignore
 .next
 .next/app-build-manifest.json
+.next/app-path-routes-manifest.json
+.next/BUILD_ID
 .next/build-manifest.json
 .next/cache
 .next/cache/next-devtools-config.json
@@ -183,9 +183,11 @@ GEMINI.md
 .next/cache/webpack/client-production
 .next/cache/webpack/client-production/0.pack
 .next/cache/webpack/client-production/index.pack
+.next/cache/webpack/client-production/index.pack.old
 .next/cache/webpack/edge-server-production
 .next/cache/webpack/edge-server-production/0.pack
 .next/cache/webpack/edge-server-production/index.pack
+.next/cache/webpack/edge-server-production/index.pack.old
 .next/cache/webpack/server-development
 .next/cache/webpack/server-development/0.pack.gz
 .next/cache/webpack/server-development/10.pack.gz
@@ -211,55 +213,900 @@ GEMINI.md
 .next/cache/webpack/server-production
 .next/cache/webpack/server-production/0.pack
 .next/cache/webpack/server-production/index.pack
+.next/cache/webpack/server-production/index.pack.old
 next.config.js
+.next/diagnostics
+.next/diagnostics/build-diagnostics.json
+.next/diagnostics/framework.json
 next-env.d.ts
+.next/export-marker.json
+.next/images-manifest.json
+.next/next-minimal-server.js.nft.json
+.next/next-server.js.nft.json
 .next/package.json
 .next/prerender-manifest.json
 .next/react-loadable-manifest.json
+.next/required-server-files.json
 .next/routes-manifest.json
 .next/server
 .next/server/app
+.next/server/app/0098ddb0-561d-11f0-b0fa-43afd165e6d8.html
+.next/server/app/0098ddb0-561d-11f0-b0fa-43afd165e6d8.meta
+.next/server/app/0098ddb0-561d-11f0-b0fa-43afd165e6d8.rsc
+.next/server/app/04528322-5625-11f0-89f3-2f5208f26029.html
+.next/server/app/04528322-5625-11f0-89f3-2f5208f26029.meta
+.next/server/app/04528322-5625-11f0-89f3-2f5208f26029.rsc
+.next/server/app/0491ba94-57db-11f0-ace4-2fc1d72fe0c7.html
+.next/server/app/0491ba94-57db-11f0-ace4-2fc1d72fe0c7.meta
+.next/server/app/0491ba94-57db-11f0-ace4-2fc1d72fe0c7.rsc
+.next/server/app/0875e546-565e-11f0-baec-dfc9a2a90cdf.html
+.next/server/app/0875e546-565e-11f0-baec-dfc9a2a90cdf.meta
+.next/server/app/0875e546-565e-11f0-baec-dfc9a2a90cdf.rsc
+.next/server/app/09700878-58b1-11f0-a493-41a88a68e848.html
+.next/server/app/09700878-58b1-11f0-a493-41a88a68e848.meta
+.next/server/app/09700878-58b1-11f0-a493-41a88a68e848.rsc
+.next/server/app/0b26d3c6-5646-11f0-8235-9ff3fcd46be0.html
+.next/server/app/0b26d3c6-5646-11f0-8235-9ff3fcd46be0.meta
+.next/server/app/0b26d3c6-5646-11f0-8235-9ff3fcd46be0.rsc
+.next/server/app/0f0eaf90-4fc5-11f0-8fce-e7439cd3793b.html
+.next/server/app/0f0eaf90-4fc5-11f0-8fce-e7439cd3793b.meta
+.next/server/app/0f0eaf90-4fc5-11f0-8fce-e7439cd3793b.rsc
+.next/server/app/11d8c262-4fdc-11f0-82fc-1db3a009e386.html
+.next/server/app/11d8c262-4fdc-11f0-82fc-1db3a009e386.meta
+.next/server/app/11d8c262-4fdc-11f0-82fc-1db3a009e386.rsc
+.next/server/app/1212201a-58bb-11f0-bfbc-4b72e8a96379.html
+.next/server/app/1212201a-58bb-11f0-bfbc-4b72e8a96379.meta
+.next/server/app/1212201a-58bb-11f0-bfbc-4b72e8a96379.rsc
+.next/server/app/12d77a7e-57ce-11f0-bf0a-aff35dfa96e4.html
+.next/server/app/12d77a7e-57ce-11f0-bf0a-aff35dfa96e4.meta
+.next/server/app/12d77a7e-57ce-11f0-bf0a-aff35dfa96e4.rsc
+.next/server/app/188025ca-5341-11f0-8b52-69760ca21086.html
+.next/server/app/188025ca-5341-11f0-8b52-69760ca21086.meta
+.next/server/app/188025ca-5341-11f0-8b52-69760ca21086.rsc
+.next/server/app/18f09b78-4e89-11f0-8db4-69eedcc5324e.html
+.next/server/app/18f09b78-4e89-11f0-8db4-69eedcc5324e.meta
+.next/server/app/18f09b78-4e89-11f0-8db4-69eedcc5324e.rsc
+.next/server/app/212c592a-5010-11f0-ba2c-5ff2f320371e.html
+.next/server/app/212c592a-5010-11f0-ba2c-5ff2f320371e.meta
+.next/server/app/212c592a-5010-11f0-ba2c-5ff2f320371e.rsc
+.next/server/app/21761098-4fe2-11f0-9a24-4595492b1a63.html
+.next/server/app/21761098-4fe2-11f0-9a24-4595492b1a63.meta
+.next/server/app/21761098-4fe2-11f0-9a24-4595492b1a63.rsc
+.next/server/app/21a3db7c-4f42-11f0-b4f0-3108ed04f393.html
+.next/server/app/21a3db7c-4f42-11f0-b4f0-3108ed04f393.meta
+.next/server/app/21a3db7c-4f42-11f0-b4f0-3108ed04f393.rsc
+.next/server/app/21c20ec8-4fc7-11f0-951d-07aecf3834c7.html
+.next/server/app/21c20ec8-4fc7-11f0-951d-07aecf3834c7.meta
+.next/server/app/21c20ec8-4fc7-11f0-951d-07aecf3834c7.rsc
+.next/server/app/22533762-570c-11f0-938f-d5661488966e.html
+.next/server/app/22533762-570c-11f0-938f-d5661488966e.meta
+.next/server/app/22533762-570c-11f0-938f-d5661488966e.rsc
+.next/server/app/229553c2-563f-11f0-ba58-d3f05fae4684.html
+.next/server/app/229553c2-563f-11f0-ba58-d3f05fae4684.meta
+.next/server/app/229553c2-563f-11f0-ba58-d3f05fae4684.rsc
+.next/server/app/24782f44-558a-11f0-80ad-7fcb39bbbea9.html
+.next/server/app/24782f44-558a-11f0-80ad-7fcb39bbbea9.meta
+.next/server/app/24782f44-558a-11f0-80ad-7fcb39bbbea9.rsc
+.next/server/app/261e25fa-4fc8-11f0-baf6-c345ad96cb05.html
+.next/server/app/261e25fa-4fc8-11f0-baf6-c345ad96cb05.meta
+.next/server/app/261e25fa-4fc8-11f0-baf6-c345ad96cb05.rsc
+.next/server/app/26f2b4ac-4fe4-11f0-b033-974a3afa62fb.html
+.next/server/app/26f2b4ac-4fe4-11f0-b033-974a3afa62fb.meta
+.next/server/app/26f2b4ac-4fe4-11f0-b033-974a3afa62fb.rsc
+.next/server/app/27653ff0-58bc-11f0-bf4e-d14eb199fe0d.html
+.next/server/app/27653ff0-58bc-11f0-bf4e-d14eb199fe0d.meta
+.next/server/app/27653ff0-58bc-11f0-bf4e-d14eb199fe0d.rsc
+.next/server/app/28c02cd8-5660-11f0-9350-3949cc14ecd8.html
+.next/server/app/28c02cd8-5660-11f0-9350-3949cc14ecd8.meta
+.next/server/app/28c02cd8-5660-11f0-9350-3949cc14ecd8.rsc
+.next/server/app/29277f94-51ad-11f0-8421-f1975e2ddd1d.html
+.next/server/app/29277f94-51ad-11f0-8421-f1975e2ddd1d.meta
+.next/server/app/29277f94-51ad-11f0-8421-f1975e2ddd1d.rsc
+.next/server/app/2ae0aa8a-5622-11f0-bc09-215600477344.html
+.next/server/app/2ae0aa8a-5622-11f0-bc09-215600477344.meta
+.next/server/app/2ae0aa8a-5622-11f0-bc09-215600477344.rsc
+.next/server/app/2b61ef0c-5611-11f0-b565-b12631de7d64.html
+.next/server/app/2b61ef0c-5611-11f0-b565-b12631de7d64.meta
+.next/server/app/2b61ef0c-5611-11f0-b565-b12631de7d64.rsc
+.next/server/app/2bd34a68-4fc6-11f0-a6ce-dd1df376e8a7.html
+.next/server/app/2bd34a68-4fc6-11f0-a6ce-dd1df376e8a7.meta
+.next/server/app/2bd34a68-4fc6-11f0-a6ce-dd1df376e8a7.rsc
+.next/server/app/2bf85eee-57ea-11f0-ae46-c90e180cc825.html
+.next/server/app/2bf85eee-57ea-11f0-ae46-c90e180cc825.meta
+.next/server/app/2bf85eee-57ea-11f0-ae46-c90e180cc825.rsc
+.next/server/app/2e42547c-51a8-11f0-9151-91d7bf8b8e34.html
+.next/server/app/2e42547c-51a8-11f0-9151-91d7bf8b8e34.meta
+.next/server/app/2e42547c-51a8-11f0-9151-91d7bf8b8e34.rsc
+.next/server/app/2f0e4fd8-5616-11f0-b89c-1325444e3617.html
+.next/server/app/2f0e4fd8-5616-11f0-b89c-1325444e3617.meta
+.next/server/app/2f0e4fd8-5616-11f0-b89c-1325444e3617.rsc
+.next/server/app/344e0126-530c-11f0-b5f5-0972b17fd611.html
+.next/server/app/344e0126-530c-11f0-b5f5-0972b17fd611.meta
+.next/server/app/344e0126-530c-11f0-b5f5-0972b17fd611.rsc
+.next/server/app/35babb50-5661-11f0-ba7e-ddaf1f59de23.html
+.next/server/app/35babb50-5661-11f0-ba7e-ddaf1f59de23.meta
+.next/server/app/35babb50-5661-11f0-ba7e-ddaf1f59de23.rsc
+.next/server/app/3c0c6a44-56ca-11f0-82fe-9fe3ff78bb59.html
+.next/server/app/3c0c6a44-56ca-11f0-82fe-9fe3ff78bb59.meta
+.next/server/app/3c0c6a44-56ca-11f0-82fe-9fe3ff78bb59.rsc
+.next/server/app/3e10ff4a-56ce-11f0-b8be-f942fb4b62e4.html
+.next/server/app/3e10ff4a-56ce-11f0-b8be-f942fb4b62e4.meta
+.next/server/app/3e10ff4a-56ce-11f0-b8be-f942fb4b62e4.rsc
+.next/server/app/3fe0e93a-57e0-11f0-b017-1b1cf9a06946.html
+.next/server/app/3fe0e93a-57e0-11f0-b017-1b1cf9a06946.meta
+.next/server/app/3fe0e93a-57e0-11f0-b017-1b1cf9a06946.rsc
+.next/server/app/415cf2ce-57de-11f0-9f50-51e38e50cf8c.html
+.next/server/app/415cf2ce-57de-11f0-9f50-51e38e50cf8c.meta
+.next/server/app/415cf2ce-57de-11f0-9f50-51e38e50cf8c.rsc
+.next/server/app/43b98e1e-5663-11f0-aa9e-0f375fd70064.html
+.next/server/app/43b98e1e-5663-11f0-aa9e-0f375fd70064.meta
+.next/server/app/43b98e1e-5663-11f0-aa9e-0f375fd70064.rsc
+.next/server/app/4455960a-57cc-11f0-8909-b3cc594cfe8c.html
+.next/server/app/4455960a-57cc-11f0-8909-b3cc594cfe8c.meta
+.next/server/app/4455960a-57cc-11f0-8909-b3cc594cfe8c.rsc
+.next/server/app/457d885a-56cb-11f0-87d5-61924d6b0455.html
+.next/server/app/457d885a-56cb-11f0-87d5-61924d6b0455.meta
+.next/server/app/457d885a-56cb-11f0-87d5-61924d6b0455.rsc
+.next/server/app/45972ca8-561f-11f0-b81c-f367a93c0224.html
+.next/server/app/45972ca8-561f-11f0-b81c-f367a93c0224.meta
+.next/server/app/45972ca8-561f-11f0-b81c-f367a93c0224.rsc
+.next/server/app/49cc6a60-5186-11f0-8958-0511ea79b452.html
+.next/server/app/49cc6a60-5186-11f0-8958-0511ea79b452.meta
+.next/server/app/49cc6a60-5186-11f0-8958-0511ea79b452.rsc
+.next/server/app/4cfd75bc-5307-11f0-8501-fb369bf0f4ea.html
+.next/server/app/4cfd75bc-5307-11f0-8501-fb369bf0f4ea.meta
+.next/server/app/4cfd75bc-5307-11f0-8501-fb369bf0f4ea.rsc
+.next/server/app/4f55f56c-58b8-11f0-a1ec-6fc809a935a4.html
+.next/server/app/4f55f56c-58b8-11f0-a1ec-6fc809a935a4.meta
+.next/server/app/4f55f56c-58b8-11f0-a1ec-6fc809a935a4.rsc
+.next/server/app/4fc553be-500a-11f0-9c27-bfa01fb260fc.html
+.next/server/app/4fc553be-500a-11f0-9c27-bfa01fb260fc.meta
+.next/server/app/4fc553be-500a-11f0-9c27-bfa01fb260fc.rsc
+.next/server/app/52b7fbc4-530e-11f0-af9b-a97be10e5863.html
+.next/server/app/52b7fbc4-530e-11f0-af9b-a97be10e5863.meta
+.next/server/app/52b7fbc4-530e-11f0-af9b-a97be10e5863.rsc
+.next/server/app/52e8e4b4-5318-11f0-8b98-47efd006f4da.html
+.next/server/app/52e8e4b4-5318-11f0-8b98-47efd006f4da.meta
+.next/server/app/52e8e4b4-5318-11f0-8b98-47efd006f4da.rsc
+.next/server/app/54bd33d4-58b9-11f0-ba4c-074044d759dd.html
+.next/server/app/54bd33d4-58b9-11f0-ba4c-074044d759dd.meta
+.next/server/app/54bd33d4-58b9-11f0-ba4c-074044d759dd.rsc
+.next/server/app/61030c7e-51aa-11f0-b558-e768c968968a.html
+.next/server/app/61030c7e-51aa-11f0-b558-e768c968968a.meta
+.next/server/app/61030c7e-51aa-11f0-b558-e768c968968a.rsc
+.next/server/app/620f3844-558e-11f0-b43c-5555a87225e4.html
+.next/server/app/620f3844-558e-11f0-b43c-5555a87225e4.meta
+.next/server/app/620f3844-558e-11f0-b43c-5555a87225e4.rsc
+.next/server/app/62f73968-530f-11f0-a9b5-4bd2e659a635.html
+.next/server/app/62f73968-530f-11f0-a9b5-4bd2e659a635.meta
+.next/server/app/62f73968-530f-11f0-a9b5-4bd2e659a635.rsc
+.next/server/app/630add9e-56cd-11f0-b1f3-c97834f088c1.html
+.next/server/app/630add9e-56cd-11f0-b1f3-c97834f088c1.meta
+.next/server/app/630add9e-56cd-11f0-b1f3-c97834f088c1.rsc
+.next/server/app/643d92d2-5309-11f0-a34c-8dad809fce58.html
+.next/server/app/643d92d2-5309-11f0-a34c-8dad809fce58.meta
+.next/server/app/643d92d2-5309-11f0-a34c-8dad809fce58.rsc
+.next/server/app/673f184a-519a-11f0-8ca6-87a7b91b2ddf.html
+.next/server/app/673f184a-519a-11f0-8ca6-87a7b91b2ddf.meta
+.next/server/app/673f184a-519a-11f0-8ca6-87a7b91b2ddf.rsc
+.next/server/app/6879c868-5703-11f0-9845-650f347b6fbd.html
+.next/server/app/6879c868-5703-11f0-9845-650f347b6fbd.meta
+.next/server/app/6879c868-5703-11f0-9845-650f347b6fbd.rsc
+.next/server/app/7027a5ce-4f44-11f0-a361-b9530f05252a.html
+.next/server/app/7027a5ce-4f44-11f0-a361-b9530f05252a.meta
+.next/server/app/7027a5ce-4f44-11f0-a361-b9530f05252a.rsc
+.next/server/app/70d36d34-57e9-11f0-ad4f-81795141e433.html
+.next/server/app/70d36d34-57e9-11f0-ad4f-81795141e433.meta
+.next/server/app/70d36d34-57e9-11f0-ad4f-81795141e433.rsc
+.next/server/app/714986a2-519c-11f0-8864-618001a706bd.html
+.next/server/app/714986a2-519c-11f0-8864-618001a706bd.meta
+.next/server/app/714986a2-519c-11f0-8864-618001a706bd.rsc
+.next/server/app/72c69a56-5304-11f0-b7ef-ad691d9b8718.html
+.next/server/app/72c69a56-5304-11f0-b7ef-ad691d9b8718.meta
+.next/server/app/72c69a56-5304-11f0-b7ef-ad691d9b8718.rsc
+.next/server/app/739a2fe8-4fe3-11f0-883b-b7ee5b1f2c1f.html
+.next/server/app/739a2fe8-4fe3-11f0-883b-b7ee5b1f2c1f.meta
+.next/server/app/739a2fe8-4fe3-11f0-883b-b7ee5b1f2c1f.rsc
+.next/server/app/7b088428-4f43-11f0-aef7-69ac32418669.html
+.next/server/app/7b088428-4f43-11f0-aef7-69ac32418669.meta
+.next/server/app/7b088428-4f43-11f0-aef7-69ac32418669.rsc
+.next/server/app/7d35b1da-57db-11f0-bef1-11c2aded3be7.html
+.next/server/app/7d35b1da-57db-11f0-bef1-11c2aded3be7.meta
+.next/server/app/7d35b1da-57db-11f0-bef1-11c2aded3be7.rsc
+.next/server/app/7db1a604-500c-11f0-9890-7f7ea0077daa.html
+.next/server/app/7db1a604-500c-11f0-9890-7f7ea0077daa.meta
+.next/server/app/7db1a604-500c-11f0-9890-7f7ea0077daa.rsc
+.next/server/app/7db9b39e-57eb-11f0-a58b-d9600cc62ce6.html
+.next/server/app/7db9b39e-57eb-11f0-a58b-d9600cc62ce6.meta
+.next/server/app/7db9b39e-57eb-11f0-a58b-d9600cc62ce6.rsc
+.next/server/app/7e4503ea-561f-11f0-92ab-23f34d77d64e.html
+.next/server/app/7e4503ea-561f-11f0-92ab-23f34d77d64e.meta
+.next/server/app/7e4503ea-561f-11f0-92ab-23f34d77d64e.rsc
+.next/server/app/7f746af8-58b3-11f0-8779-673154e55c1f.html
+.next/server/app/7f746af8-58b3-11f0-8779-673154e55c1f.meta
+.next/server/app/7f746af8-58b3-11f0-8779-673154e55c1f.rsc
+.next/server/app/8293999a-51ae-11f0-88c9-efb81c9998a2.html
+.next/server/app/8293999a-51ae-11f0-88c9-efb81c9998a2.meta
+.next/server/app/8293999a-51ae-11f0-88c9-efb81c9998a2.rsc
+.next/server/app/87049c38-5305-11f0-b502-35a3db3efab0.html
+.next/server/app/87049c38-5305-11f0-b502-35a3db3efab0.meta
+.next/server/app/87049c38-5305-11f0-b502-35a3db3efab0.rsc
+.next/server/app/88f19b6c-57e3-11f0-923b-e932f08efdda.html
+.next/server/app/88f19b6c-57e3-11f0-923b-e932f08efdda.meta
+.next/server/app/88f19b6c-57e3-11f0-923b-e932f08efdda.rsc
+.next/server/app/8d7dbdcc-58a2-11f0-a840-13eb537b8384.html
+.next/server/app/8d7dbdcc-58a2-11f0-a840-13eb537b8384.meta
+.next/server/app/8d7dbdcc-58a2-11f0-a840-13eb537b8384.rsc
+.next/server/app/8e34a284-56c8-11f0-b091-f5afaf5feb93.html
+.next/server/app/8e34a284-56c8-11f0-b091-f5afaf5feb93.meta
+.next/server/app/8e34a284-56c8-11f0-b091-f5afaf5feb93.rsc
+.next/server/app/91add0dc-5648-11f0-9c1d-cd07e89bc693.html
+.next/server/app/91add0dc-5648-11f0-9c1d-cd07e89bc693.meta
+.next/server/app/91add0dc-5648-11f0-9c1d-cd07e89bc693.rsc
+.next/server/app/92a56966-51a5-11f0-80dc-6f948591c6a8.html
+.next/server/app/92a56966-51a5-11f0-80dc-6f948591c6a8.meta
+.next/server/app/92a56966-51a5-11f0-80dc-6f948591c6a8.rsc
+.next/server/app/92c3fc0c-4fe1-11f0-abbd-6df74c5fd9f6.html
+.next/server/app/92c3fc0c-4fe1-11f0-abbd-6df74c5fd9f6.meta
+.next/server/app/92c3fc0c-4fe1-11f0-abbd-6df74c5fd9f6.rsc
+.next/server/app/9805105a-57ea-11f0-b5bc-0dcb14d150d2.html
+.next/server/app/9805105a-57ea-11f0-b5bc-0dcb14d150d2.meta
+.next/server/app/9805105a-57ea-11f0-b5bc-0dcb14d150d2.rsc
+.next/server/app/992740ee-5640-11f0-9416-a18a03c9273d.html
+.next/server/app/992740ee-5640-11f0-9416-a18a03c9273d.meta
+.next/server/app/992740ee-5640-11f0-9416-a18a03c9273d.rsc
+.next/server/app/9b2ab816-519b-11f0-9385-7f6541fc9b6b.html
+.next/server/app/9b2ab816-519b-11f0-9385-7f6541fc9b6b.meta
+.next/server/app/9b2ab816-519b-11f0-9385-7f6541fc9b6b.rsc
+.next/server/app/a30107f4-51a8-11f0-8c67-f16141f20ab0.html
+.next/server/app/a30107f4-51a8-11f0-8c67-f16141f20ab0.meta
+.next/server/app/a30107f4-51a8-11f0-8c67-f16141f20ab0.rsc
+.next/server/app/a3d1343e-500d-11f0-a3a6-bb4c87022385.html
+.next/server/app/a3d1343e-500d-11f0-a3a6-bb4c87022385.meta
+.next/server/app/a3d1343e-500d-11f0-a3a6-bb4c87022385.rsc
+.next/server/app/a47de9c4-51a0-11f0-b388-bfb89fa1ed31.html
+.next/server/app/a47de9c4-51a0-11f0-b388-bfb89fa1ed31.meta
+.next/server/app/a47de9c4-51a0-11f0-b388-bfb89fa1ed31.rsc
+.next/server/app/a4e0d132-4fdf-11f0-b511-f54dd946e237.html
+.next/server/app/a4e0d132-4fdf-11f0-b511-f54dd946e237.meta
+.next/server/app/a4e0d132-4fdf-11f0-b511-f54dd946e237.rsc
+.next/server/app/a50c4b46-51a6-11f0-a404-475f8fd5d76e.html
+.next/server/app/a50c4b46-51a6-11f0-a404-475f8fd5d76e.meta
+.next/server/app/a50c4b46-51a6-11f0-a404-475f8fd5d76e.rsc
+.next/server/app/a6754ef0-57e2-11f0-af5a-33870eb62927.html
+.next/server/app/a6754ef0-57e2-11f0-af5a-33870eb62927.meta
+.next/server/app/a6754ef0-57e2-11f0-af5a-33870eb62927.rsc
+.next/server/app/a6dbfc08-57e8-11f0-88df-7757af789f78.html
+.next/server/app/a6dbfc08-57e8-11f0-88df-7757af789f78.meta
+.next/server/app/a6dbfc08-57e8-11f0-88df-7757af789f78.rsc
+.next/server/app/a7a3c3bc-58b7-11f0-9008-136ad21512d5.html
+.next/server/app/a7a3c3bc-58b7-11f0-9008-136ad21512d5.meta
+.next/server/app/a7a3c3bc-58b7-11f0-9008-136ad21512d5.rsc
+.next/server/app/a81531a8-51a7-11f0-9c24-6559b24ebfda.html
+.next/server/app/a81531a8-51a7-11f0-9c24-6559b24ebfda.meta
+.next/server/app/a81531a8-51a7-11f0-9c24-6559b24ebfda.rsc
+.next/server/app/a82b84c6-56fc-11f0-a74c-f147eb826a17.html
+.next/server/app/a82b84c6-56fc-11f0-a74c-f147eb826a17.meta
+.next/server/app/a82b84c6-56fc-11f0-a74c-f147eb826a17.rsc
+.next/server/app/a8597b42-57e7-11f0-8b20-51836a506bc7.html
+.next/server/app/a8597b42-57e7-11f0-8b20-51836a506bc7.meta
+.next/server/app/a8597b42-57e7-11f0-8b20-51836a506bc7.rsc
+.next/server/app/a9d67f30-4fde-11f0-b72f-bf73aa945870.html
+.next/server/app/a9d67f30-4fde-11f0-b72f-bf73aa945870.meta
+.next/server/app/a9d67f30-4fde-11f0-b72f-bf73aa945870.rsc
+.next/server/app/ab4783f2-4fdc-11f0-97eb-7b8dad9e7aa2.html
+.next/server/app/ab4783f2-4fdc-11f0-97eb-7b8dad9e7aa2.meta
+.next/server/app/ab4783f2-4fdc-11f0-97eb-7b8dad9e7aa2.rsc
+.next/server/app/a-critical-view-on-fasting-calorie-restriction-and-bulking-cutting.html
+.next/server/app/a-critical-view-on-fasting-calorie-restriction-and-bulking-cutting.meta
+.next/server/app/a-critical-view-on-fasting-calorie-restriction-and-bulking-cutting.rsc
+.next/server/app/acyl-carnitine-profile-fatty-acid-oxidation-impairment.html
+.next/server/app/acyl-carnitine-profile-fatty-acid-oxidation-impairment.meta
+.next/server/app/acyl-carnitine-profile-fatty-acid-oxidation-impairment.rsc
+.next/server/app/ae3fc264-519d-11f0-b83b-47a827bb76e1.html
+.next/server/app/ae3fc264-519d-11f0-b83b-47a827bb76e1.meta
+.next/server/app/ae3fc264-519d-11f0-b83b-47a827bb76e1.rsc
+.next/server/app/af1debbe-5181-11f0-85c4-f173cb594b10.html
+.next/server/app/af1debbe-5181-11f0-85c4-f173cb594b10.meta
+.next/server/app/af1debbe-5181-11f0-85c4-f173cb594b10.rsc
+.next/server/app/af833184-57d7-11f0-a207-65279dab83ae.html
+.next/server/app/af833184-57d7-11f0-a207-65279dab83ae.meta
+.next/server/app/af833184-57d7-11f0-a207-65279dab83ae.rsc
+.next/server/app/alzheimer-s-type-3-diabetes-parkinson-s-and-the-failure-of-neuronal-energy.html
+.next/server/app/alzheimer-s-type-3-diabetes-parkinson-s-and-the-failure-of-neuronal-energy.meta
+.next/server/app/alzheimer-s-type-3-diabetes-parkinson-s-and-the-failure-of-neuronal-energy.rsc
+.next/server/app/androgens-testosterone-dht.html
+.next/server/app/androgens-testosterone-dht.meta
+.next/server/app/androgens-testosterone-dht.rsc
+.next/server/app/autoimmune-conditions-a-case-of-mistaken-identity.html
+.next/server/app/autoimmune-conditions-a-case-of-mistaken-identity.meta
+.next/server/app/autoimmune-conditions-a-case-of-mistaken-identity.rsc
+.next/server/app/b1406dfc-5886-11f0-992c-5574708f6f04.html
+.next/server/app/b1406dfc-5886-11f0-992c-5574708f6f04.meta
+.next/server/app/b1406dfc-5886-11f0-992c-5574708f6f04.rsc
+.next/server/app/b1b86b7c-5007-11f0-8aed-5ffad69e40aa.html
+.next/server/app/b1b86b7c-5007-11f0-8aed-5ffad69e40aa.meta
+.next/server/app/b1b86b7c-5007-11f0-8aed-5ffad69e40aa.rsc
+.next/server/app/beta-hydroxybutyrate-bhb-ratio.html
+.next/server/app/beta-hydroxybutyrate-bhb-ratio.meta
+.next/server/app/beta-hydroxybutyrate-bhb-ratio.rsc
+.next/server/app/beyond-calories-in-calories-out-a-failure-of-fuel-oxidation.html
+.next/server/app/beyond-calories-in-calories-out-a-failure-of-fuel-oxidation.meta
+.next/server/app/beyond-calories-in-calories-out-a-failure-of-fuel-oxidation.rsc
+.next/server/app/c05a199a-558f-11f0-867a-d57e93fef31f.html
+.next/server/app/c05a199a-558f-11f0-867a-d57e93fef31f.meta
+.next/server/app/c05a199a-558f-11f0-867a-d57e93fef31f.rsc
+.next/server/app/c0d97c06-5613-11f0-8d99-2db1405eab63.html
+.next/server/app/c0d97c06-5613-11f0-8d99-2db1405eab63.meta
+.next/server/app/c0d97c06-5613-11f0-8d99-2db1405eab63.rsc
+.next/server/app/c243d25e-4fdc-11f0-849a-7b33cd10d8b2.html
+.next/server/app/c243d25e-4fdc-11f0-849a-7b33cd10d8b2.meta
+.next/server/app/c243d25e-4fdc-11f0-849a-7b33cd10d8b2.rsc
+.next/server/app/c4caa882-565c-11f0-9481-9de21f302db2.html
+.next/server/app/c4caa882-565c-11f0-9481-9de21f302db2.meta
+.next/server/app/c4caa882-565c-11f0-9481-9de21f302db2.rsc
+.next/server/app/c592e408-5884-11f0-aa4a-752634944e90.html
+.next/server/app/c592e408-5884-11f0-aa4a-752634944e90.meta
+.next/server/app/c592e408-5884-11f0-aa4a-752634944e90.rsc
+.next/server/app/c5f4f4f4-5708-11f0-9add-31618e5800fe.html
+.next/server/app/c5f4f4f4-5708-11f0-9add-31618e5800fe.meta
+.next/server/app/c5f4f4f4-5708-11f0-9add-31618e5800fe.rsc
+.next/server/app/c78b1496-5646-11f0-9853-670e1fb4fb84.html
+.next/server/app/c78b1496-5646-11f0-9853-670e1fb4fb84.meta
+.next/server/app/c78b1496-5646-11f0-9853-670e1fb4fb84.rsc
+.next/server/app/c896e85c-4fe2-11f0-aefa-8f0dc7d48d5b.html
+.next/server/app/c896e85c-4fe2-11f0-aefa-8f0dc7d48d5b.meta
+.next/server/app/c896e85c-4fe2-11f0-aefa-8f0dc7d48d5b.rsc
+.next/server/app/caf4baaa-4fd5-11f0-9605-1b302ac71d62.html
+.next/server/app/caf4baaa-4fd5-11f0-9605-1b302ac71d62.meta
+.next/server/app/caf4baaa-4fd5-11f0-9605-1b302ac71d62.rsc
+.next/server/app/can-balancing-bcaas-with-sufficient-glycine-fully-negate-their-negative-effects.html
+.next/server/app/can-balancing-bcaas-with-sufficient-glycine-fully-negate-their-negative-effects.meta
+.next/server/app/can-balancing-bcaas-with-sufficient-glycine-fully-negate-their-negative-effects.rsc
+.next/server/app/cancer-as-a-metabolic-disease.html
+.next/server/app/cancer-as-a-metabolic-disease.meta
+.next/server/app/cancer-as-a-metabolic-disease.rsc
+.next/server/app/carbohydrates-the-clean-burning-co-producing-fuel.html
+.next/server/app/carbohydrates-the-clean-burning-co-producing-fuel.meta
+.next/server/app/carbohydrates-the-clean-burning-co-producing-fuel.rsc
+.next/server/app/ceb6dab0-4f44-11f0-aefe-879dd0225ba7.html
+.next/server/app/ceb6dab0-4f44-11f0-aefe-879dd0225ba7.meta
+.next/server/app/ceb6dab0-4f44-11f0-aefe-879dd0225ba7.rsc
+.next/server/app/cf8795ce-51a1-11f0-98b8-3f46ee865055.html
+.next/server/app/cf8795ce-51a1-11f0-98b8-3f46ee865055.meta
+.next/server/app/cf8795ce-51a1-11f0-98b8-3f46ee865055.rsc
+.next/server/app/collagen-aspirin-vitamin-k2-mk-4-b1-b7.html
+.next/server/app/collagen-aspirin-vitamin-k2-mk-4-b1-b7.meta
+.next/server/app/collagen-aspirin-vitamin-k2-mk-4-b1-b7.rsc
+.next/server/app/collagen-solution-balancing-the-amino-acid-profile.html
+.next/server/app/collagen-solution-balancing-the-amino-acid-profile.meta
+.next/server/app/collagen-solution-balancing-the-amino-acid-profile.rsc
+.next/server/app/comparative-efficacy-of-cortisol-reducing-agents-progesterone-emodin-etc.html
+.next/server/app/comparative-efficacy-of-cortisol-reducing-agents-progesterone-emodin-etc.meta
+.next/server/app/comparative-efficacy-of-cortisol-reducing-agents-progesterone-emodin-etc.rsc
+.next/server/app/connection-to-depression-anhedonia-fibromyalgia-and-ibs.html
+.next/server/app/connection-to-depression-anhedonia-fibromyalgia-and-ibs.meta
+.next/server/app/connection-to-depression-anhedonia-fibromyalgia-and-ibs.rsc
+.next/server/app/conscious-breathing-exercises-co2-and-bohr-effect-resynchronization.html
+.next/server/app/conscious-breathing-exercises-co2-and-bohr-effect-resynchronization.meta
+.next/server/app/conscious-breathing-exercises-co2-and-bohr-effect-resynchronization.rsc
+.next/server/app/continuous-glucose-monitor-cgm-experiments.html
+.next/server/app/continuous-glucose-monitor-cgm-experiments.meta
+.next/server/app/continuous-glucose-monitor-cgm-experiments.rsc
+.next/server/app/cortisol-dhea-ratio-the-all-cause-mortality-aging-marker.html
+.next/server/app/cortisol-dhea-ratio-the-all-cause-mortality-aging-marker.meta
+.next/server/app/cortisol-dhea-ratio-the-all-cause-mortality-aging-marker.rsc
+.next/server/app/cortisol-stress-modulators-emodin-l-theanine-phosphatidylserine.html
+.next/server/app/cortisol-stress-modulators-emodin-l-theanine-phosphatidylserine.meta
+.next/server/app/cortisol-stress-modulators-emodin-l-theanine-phosphatidylserine.rsc
+.next/server/app/cortisol-testosterone-ratio-the-anabolic-vs-catabolic-state-marker.html
+.next/server/app/cortisol-testosterone-ratio-the-anabolic-vs-catabolic-state-marker.meta
+.next/server/app/cortisol-testosterone-ratio-the-anabolic-vs-catabolic-state-marker.rsc
+.next/server/app/cortisol-the-driver-of-gluconeogenesis-and-insulin-resistance.html
+.next/server/app/cortisol-the-driver-of-gluconeogenesis-and-insulin-resistance.meta
+.next/server/app/cortisol-the-driver-of-gluconeogenesis-and-insulin-resistance.rsc
+.next/server/app/current-planned-experiments-with-rationale.html
+.next/server/app/current-planned-experiments-with-rationale.meta
+.next/server/app/current-planned-experiments-with-rationale.rsc
+.next/server/app/d06bd5fc-57de-11f0-947b-fb4c34aa8782.html
+.next/server/app/d06bd5fc-57de-11f0-947b-fb4c34aa8782.meta
+.next/server/app/d06bd5fc-57de-11f0-947b-fb4c34aa8782.rsc
+.next/server/app/d166e4a2-4f8e-11f0-9bc6-bbb261cde191.html
+.next/server/app/d166e4a2-4f8e-11f0-9bc6-bbb261cde191.meta
+.next/server/app/d166e4a2-4f8e-11f0-9bc6-bbb261cde191.rsc
+.next/server/app/d5a2dac4-500a-11f0-a3b2-418b4f59d2f5.html
+.next/server/app/d5a2dac4-500a-11f0-a3b2-418b4f59d2f5.meta
+.next/server/app/d5a2dac4-500a-11f0-a3b2-418b4f59d2f5.rsc
+.next/server/app/d9789f18-5563-11f0-85c5-810af93fc1ed.html
+.next/server/app/d9789f18-5563-11f0-85c5-810af93fc1ed.meta
+.next/server/app/d9789f18-5563-11f0-85c5-810af93fc1ed.rsc
+.next/server/app/ddd5414e-5313-11f0-8c95-3bfcf6617e40.html
+.next/server/app/ddd5414e-5313-11f0-8c95-3bfcf6617e40.meta
+.next/server/app/ddd5414e-5313-11f0-8c95-3bfcf6617e40.rsc
+.next/server/app/defining-reductive-stress-the-engine-blockage-its-consequences.html
+.next/server/app/defining-reductive-stress-the-engine-blockage-its-consequences.meta
+.next/server/app/defining-reductive-stress-the-engine-blockage-its-consequences.rsc
+.next/server/app/defining-the-oxidized-state-efficient-energy-flow-high-co.html
+.next/server/app/defining-the-oxidized-state-efficient-energy-flow-high-co.meta
+.next/server/app/defining-the-oxidized-state-efficient-energy-flow-high-co.rsc
+.next/server/app/df8f1562-5644-11f0-8bb8-abea284ce26b.html
+.next/server/app/df8f1562-5644-11f0-8bb8-abea284ce26b.meta
+.next/server/app/df8f1562-5644-11f0-8bb8-abea284ce26b.rsc
+.next/server/app/dhea-pregnenolone-the-youthful-buffers-cortisol-antagonists.html
+.next/server/app/dhea-pregnenolone-the-youthful-buffers-cortisol-antagonists.meta
+.next/server/app/dhea-pregnenolone-the-youthful-buffers-cortisol-antagonists.rsc
+.next/server/app/dietary-frameworks-principles.html
+.next/server/app/dietary-frameworks-principles.meta
+.next/server/app/dietary-frameworks-principles.rsc
+.next/server/app/dmso-dimethyl-sulfoxide.html
+.next/server/app/dmso-dimethyl-sulfoxide.meta
+.next/server/app/dmso-dimethyl-sulfoxide.rsc
+.next/server/app/dnp-bloodstream-retention-dynamics.html
+.next/server/app/dnp-bloodstream-retention-dynamics.meta
+.next/server/app/dnp-bloodstream-retention-dynamics.rsc
+.next/server/app/e0c9032e-556e-11f0-a686-fff3be97763c.html
+.next/server/app/e0c9032e-556e-11f0-a686-fff3be97763c.meta
+.next/server/app/e0c9032e-556e-11f0-a686-fff3be97763c.rsc
+.next/server/app/e14c24e4-4f46-11f0-98d2-0bc1630abaf6.html
+.next/server/app/e14c24e4-4f46-11f0-98d2-0bc1630abaf6.meta
+.next/server/app/e14c24e4-4f46-11f0-98d2-0bc1630abaf6.rsc
+.next/server/app/e5e2b996-561c-11f0-8606-f5b9f7cdb183.html
+.next/server/app/e5e2b996-561c-11f0-8606-f5b9f7cdb183.meta
+.next/server/app/e5e2b996-561c-11f0-8606-f5b9f7cdb183.rsc
+.next/server/app/e7cb704c-517e-11f0-a646-abca406c39ec.html
+.next/server/app/e7cb704c-517e-11f0-a646-abca406c39ec.meta
+.next/server/app/e7cb704c-517e-11f0-a646-abca406c39ec.rsc
+.next/server/app/e842b73a-5627-11f0-99f0-c9fa879b48de.html
+.next/server/app/e842b73a-5627-11f0-99f0-c9fa879b48de.meta
+.next/server/app/e842b73a-5627-11f0-99f0-c9fa879b48de.rsc
+.next/server/app/eaca18ec-5314-11f0-b9c6-aff4a469278d.html
+.next/server/app/eaca18ec-5314-11f0-b9c6-aff4a469278d.meta
+.next/server/app/eaca18ec-5314-11f0-b9c6-aff4a469278d.rsc
+.next/server/app/ebdfedd0-5614-11f0-971b-c93d4e8198e0.html
+.next/server/app/ebdfedd0-5614-11f0-971b-c93d4e8198e0.meta
+.next/server/app/ebdfedd0-5614-11f0-971b-c93d4e8198e0.rsc
+.next/server/app/eca6ba02-51a8-11f0-b6dd-edb053942bbb.html
+.next/server/app/eca6ba02-51a8-11f0-b6dd-edb053942bbb.meta
+.next/server/app/eca6ba02-51a8-11f0-b6dd-edb053942bbb.rsc
+.next/server/app/ecaff78a-51a2-11f0-839b-938320709ad0.html
+.next/server/app/ecaff78a-51a2-11f0-839b-938320709ad0.meta
+.next/server/app/ecaff78a-51a2-11f0-839b-938320709ad0.rsc
+.next/server/app/edc6cd2a-5642-11f0-9bc6-bbb261cde191.html
+.next/server/app/edc6cd2a-5642-11f0-9bc6-bbb261cde191.meta
+.next/server/app/edc6cd2a-5642-11f0-9bc6-bbb261cde191.rsc
+.next/server/app/ee26c00c-51ad-11f0-bfa1-17a6320be40e.html
+.next/server/app/ee26c00c-51ad-11f0-bfa1-17a6320be40e.meta
+.next/server/app/ee26c00c-51ad-11f0-bfa1-17a6320be40e.rsc
+.next/server/app/endotoxins-lps-from-gut-dysbiosis.html
+.next/server/app/endotoxins-lps-from-gut-dysbiosis.meta
+.next/server/app/endotoxins-lps-from-gut-dysbiosis.rsc
+.next/server/app/environmental-factors-emf-plastics-the-intracellular-calcium-link.html
+.next/server/app/environmental-factors-emf-plastics-the-intracellular-calcium-link.meta
+.next/server/app/environmental-factors-emf-plastics-the-intracellular-calcium-link.rsc
+.next/server/app/essential-metabolic-fatty-acids-profile-pufa-status.html
+.next/server/app/essential-metabolic-fatty-acids-profile-pufa-status.meta
+.next/server/app/essential-metabolic-fatty-acids-profile-pufa-status.rsc
+.next/server/app/estrogen-necessary-roles-vs-pathological-excess.html
+.next/server/app/estrogen-necessary-roles-vs-pathological-excess.meta
+.next/server/app/estrogen-necessary-roles-vs-pathological-excess.rsc
+.next/server/app/f01cdc76-4f45-11f0-b451-d53f8ce171f3.html
+.next/server/app/f01cdc76-4f45-11f0-b451-d53f8ce171f3.meta
+.next/server/app/f01cdc76-4f45-11f0-b451-d53f8ce171f3.rsc
+.next/server/app/f3820e2a-4f47-11f0-b65c-a5dbcebf0c38.html
+.next/server/app/f3820e2a-4f47-11f0-b65c-a5dbcebf0c38.meta
+.next/server/app/f3820e2a-4f47-11f0-b65c-a5dbcebf0c38.rsc
+.next/server/app/f4cb5e86-51a3-11f0-9701-59da5dcebe21.html
+.next/server/app/f4cb5e86-51a3-11f0-9701-59da5dcebe21.meta
+.next/server/app/f4cb5e86-51a3-11f0-9701-59da5dcebe21.rsc
+.next/server/app/f548b24e-51aa-11f0-9f3b-03998192e7dc.html
+.next/server/app/f548b24e-51aa-11f0-9f3b-03998192e7dc.meta
+.next/server/app/f548b24e-51aa-11f0-9f3b-03998192e7dc.rsc
+.next/server/app/f5d1e312-4fdd-11f0-b782-43e83d120de5.html
+.next/server/app/f5d1e312-4fdd-11f0-b782-43e83d120de5.meta
+.next/server/app/f5d1e312-4fdd-11f0-b782-43e83d120de5.rsc
+.next/server/app/f760d126-558b-11f0-8d16-737f1c905ef2.html
+.next/server/app/f760d126-558b-11f0-8d16-737f1c905ef2.meta
+.next/server/app/f760d126-558b-11f0-8d16-737f1c905ef2.rsc
+.next/server/app/f8e24c9c-530f-11f0-9e93-a1ae98b7f2be.html
+.next/server/app/f8e24c9c-530f-11f0-9e93-a1ae98b7f2be.meta
+.next/server/app/f8e24c9c-530f-11f0-9e93-a1ae98b7f2be.rsc
+.next/server/app/f97416c2-5611-11f0-aecc-0d8ff9583cc8.html
+.next/server/app/f97416c2-5611-11f0-aecc-0d8ff9583cc8.meta
+.next/server/app/f97416c2-5611-11f0-aecc-0d8ff9583cc8.rsc
+.next/server/app/fat-burns-in-the-flame-of-carbohydrate-explained.html
+.next/server/app/fat-burns-in-the-flame-of-carbohydrate-explained.meta
+.next/server/app/fat-burns-in-the-flame-of-carbohydrate-explained.rsc
+.next/server/app/fat-loss-agents-and-their-considerable-downsides-dnp-glp-1-agonists-1.html
+.next/server/app/fat-loss-agents-and-their-considerable-downsides-dnp-glp-1-agonists-1.meta
+.next/server/app/fat-loss-agents-and-their-considerable-downsides-dnp-glp-1-agonists-1.rsc
+.next/server/app/fat-loss-agents-and-their-considerable-downsides-dnp-glp-1-agonists.html
+.next/server/app/fat-loss-agents-and-their-considerable-downsides-dnp-glp-1-agonists.meta
+.next/server/app/fat-loss-agents-and-their-considerable-downsides-dnp-glp-1-agonists.rsc
+.next/server/app/fats-the-good-the-bad-and-the-misunderstood.html
+.next/server/app/fats-the-good-the-bad-and-the-misunderstood.meta
+.next/server/app/fats-the-good-the-bad-and-the-misunderstood.rsc
+.next/server/app/fb82034e-56fb-11f0-b9cf-79d8c1978d81.html
+.next/server/app/fb82034e-56fb-11f0-b9cf-79d8c1978d81.meta
+.next/server/app/fb82034e-56fb-11f0-b9cf-79d8c1978d81.rsc
+.next/server/app/ffa5b100-5183-11f0-af66-138a1f40cb52.html
+.next/server/app/ffa5b100-5183-11f0-af66-138a1f40cb52.meta
+.next/server/app/ffa5b100-5183-11f0-af66-138a1f40cb52.rsc
+.next/server/app/fgf21-the-starvation-and-stress-hormone.html
+.next/server/app/fgf21-the-starvation-and-stress-hormone.meta
+.next/server/app/fgf21-the-starvation-and-stress-hormone.rsc
+.next/server/app/food-separation-strategies-the-why-minimizing-the-randle-cycle.html
+.next/server/app/food-separation-strategies-the-why-minimizing-the-randle-cycle.meta
+.next/server/app/food-separation-strategies-the-why-minimizing-the-randle-cycle.rsc
+.next/server/app/fructose-vs-glucose-the-role-of-liver-health-and-context.html
+.next/server/app/fructose-vs-glucose-the-role-of-liver-health-and-context.meta
+.next/server/app/fructose-vs-glucose-the-role-of-liver-health-and-context.rsc
+.next/server/app/fuel-oxidation-and-the-randle-cycle.html
+.next/server/app/fuel-oxidation-and-the-randle-cycle.meta
+.next/server/app/fuel-oxidation-and-the-randle-cycle.rsc
+.next/server/app/full-hormone-panel-total-and-free-t-dht-estradiol-sensitive-progesterone-dhea-s-pregnenolone-prolactin-cortisol-am.html
+.next/server/app/full-hormone-panel-total-and-free-t-dht-estradiol-sensitive-progesterone-dhea-s-pregnenolone-prolactin-cortisol-am.meta
+.next/server/app/full-hormone-panel-total-and-free-t-dht-estradiol-sensitive-progesterone-dhea-s-pregnenolone-prolactin-cortisol-am.rsc
+.next/server/app/full-thyroid-panel-tsh-free-t4-free-t3-reverse-t3-1.html
+.next/server/app/full-thyroid-panel-tsh-free-t4-free-t3-reverse-t3-1.meta
+.next/server/app/full-thyroid-panel-tsh-free-t4-free-t3-reverse-t3-1.rsc
+.next/server/app/full-thyroid-panel-tsh-free-t4-free-t3-reverse-t3.html
+.next/server/app/full-thyroid-panel-tsh-free-t4-free-t3-reverse-t3.meta
+.next/server/app/full-thyroid-panel-tsh-free-t4-free-t3-reverse-t3.rsc
+.next/server/app/gssg-ratio.html
+.next/server/app/gssg-ratio.meta
+.next/server/app/gssg-ratio.rsc
+.next/server/app/gut-health-agents-lactoferrin-probiotics-fermented-foods-kefir.html
+.next/server/app/gut-health-agents-lactoferrin-probiotics-fermented-foods-kefir.meta
+.next/server/app/gut-health-agents-lactoferrin-probiotics-fermented-foods-kefir.rsc
+.next/server/app/gut-health-ibs-leaky-gut.html
+.next/server/app/gut-health-ibs-leaky-gut.meta
+.next/server/app/gut-health-ibs-leaky-gut.rsc
+.next/server/app/health_vitalist_Outline.html
+.next/server/app/health_vitalist_Outline.meta
+.next/server/app/health_vitalist_Outline.rsc
+.next/server/app/hormonal-intervention-strategies.html
+.next/server/app/hormonal-intervention-strategies.meta
+.next/server/app/hormonal-intervention-strategies.rsc
+.next/server/app/how-excess-free-fatty-acids-block-glucose-metabolism-pdh-inhibition.html
+.next/server/app/how-excess-free-fatty-acids-block-glucose-metabolism-pdh-inhibition.meta
+.next/server/app/how-excess-free-fatty-acids-block-glucose-metabolism-pdh-inhibition.rsc
+.next/server/app/index.html
+.next/server/app/index.meta
+.next/server/app/index.rsc
+.next/server/app/insulin-resistance-t2d-obesity.html
+.next/server/app/insulin-resistance-t2d-obesity.meta
+.next/server/app/insulin-resistance-t2d-obesity.rsc
+.next/server/app/introduction-becoming-your-own-health-detective.html
+.next/server/app/introduction-becoming-your-own-health-detective.meta
+.next/server/app/introduction-becoming-your-own-health-detective.rsc
+.next/server/app/introduction-beyond-calories-the-quality-of-energy-production.html
+.next/server/app/introduction-beyond-calories-the-quality-of-energy-production.meta
+.next/server/app/introduction-beyond-calories-the-quality-of-energy-production.rsc
+.next/server/app/introduction-food-as-both-fuel-and-information.html
+.next/server/app/introduction-food-as-both-fuel-and-information.meta
+.next/server/app/introduction-food-as-both-fuel-and-information.rsc
+.next/server/app/introduction-hormones-as-messengers-in-a-complex-system-not-isolated-actors.html
+.next/server/app/introduction-hormones-as-messengers-in-a-complex-system-not-isolated-actors.meta
+.next/server/app/introduction-hormones-as-messengers-in-a-complex-system-not-isolated-actors.rsc
+.next/server/app/introduction-moving-beyond-normal-to-optimal.html
+.next/server/app/introduction-moving-beyond-normal-to-optimal.meta
+.next/server/app/introduction-moving-beyond-normal-to-optimal.rsc
+.next/server/app/introduction-nature-s-solutions-to-metabolic-puzzles.html
+.next/server/app/introduction-nature-s-solutions-to-metabolic-puzzles.meta
+.next/server/app/introduction-nature-s-solutions-to-metabolic-puzzles.rsc
+.next/server/app/introduction-shifting-the-paradigm-from-genetics-and-pills-to-energy-and-environment.html
+.next/server/app/introduction-shifting-the-paradigm-from-genetics-and-pills-to-energy-and-environment.meta
+.next/server/app/introduction-shifting-the-paradigm-from-genetics-and-pills-to-energy-and-environment.rsc
+.next/server/app/introduction-when-energy-fails-systems-break.html
+.next/server/app/introduction-when-energy-fails-systems-break.meta
+.next/server/app/introduction-when-energy-fails-systems-break.rsc
+.next/server/app/introduction-why-your-metabolic-engine-stalls-and-how-to-clear-the-jam.html
+.next/server/app/introduction-why-your-metabolic-engine-stalls-and-how-to-clear-the-jam.meta
+.next/server/app/introduction-why-your-metabolic-engine-stalls-and-how-to-clear-the-jam.rsc
+.next/server/app/is-there-an-optimal-ratio-of-dietary-fat-to-carbohydrate-for-t3-production.html
+.next/server/app/is-there-an-optimal-ratio-of-dietary-fat-to-carbohydrate-for-t3-production.meta
+.next/server/app/is-there-an-optimal-ratio-of-dietary-fat-to-carbohydrate-for-t3-production.rsc
+.next/server/app/key-bioenergetic-interpretations-e-g-high-t3-low-rt3-high-dhea-cortisol.html
+.next/server/app/key-bioenergetic-interpretations-e-g-high-t3-low-rt3-high-dhea-cortisol.meta
+.next/server/app/key-bioenergetic-interpretations-e-g-high-t3-low-rt3-high-dhea-cortisol.rsc
+.next/server/app/key-complexes-i-ii-iii-iv-and-common-dysfunctions.html
+.next/server/app/key-complexes-i-ii-iii-iv-and-common-dysfunctions.meta
+.next/server/app/key-complexes-i-ii-iii-iv-and-common-dysfunctions.rsc
+.next/server/app/key-machinery-and-safety-valves.html
+.next/server/app/key-machinery-and-safety-valves.meta
+.next/server/app/key-machinery-and-safety-valves.rsc
+.next/server/app/leptin-and-fructose-induced-resistance.html
+.next/server/app/leptin-and-fructose-induced-resistance.meta
+.next/server/app/leptin-and-fructose-induced-resistance.rsc
+.next/server/app/maximizing-endogenous-t3-production-as-the-primary-dietary-goal.html
+.next/server/app/maximizing-endogenous-t3-production-as-the-primary-dietary-goal.meta
+.next/server/app/maximizing-endogenous-t3-production-as-the-primary-dietary-goal.rsc
+.next/server/app/meal-timing-composition-e-g-fructose-in-am-starches-in-pm.html
+.next/server/app/meal-timing-composition-e-g-fructose-in-am-starches-in-pm.meta
+.next/server/app/meal-timing-composition-e-g-fructose-in-am-starches-in-pm.rsc
+.next/server/app/meldonium-epo-and-advanced-performance-protocols.html
+.next/server/app/meldonium-epo-and-advanced-performance-protocols.meta
+.next/server/app/meldonium-epo-and-advanced-performance-protocols.rsc
+.next/server/app/metabolic-flexibility-vs-inflexibility-the-real-meaning.html
+.next/server/app/metabolic-flexibility-vs-inflexibility-the-real-meaning.meta
+.next/server/app/metabolic-flexibility-vs-inflexibility-the-real-meaning.rsc
+.next/server/app/metabolic-markers-fasting-insulin-glucose-hba1c-iron-panel-hs-crp.html
+.next/server/app/metabolic-markers-fasting-insulin-glucose-hba1c-iron-panel-hs-crp.meta
+.next/server/app/metabolic-markers-fasting-insulin-glucose-hba1c-iron-panel-hs-crp.rsc
+.next/server/app/metabolic-rate-as-the-primary-metric-of-health-temp-pulse.html
+.next/server/app/metabolic-rate-as-the-primary-metric-of-health-temp-pulse.meta
+.next/server/app/metabolic-rate-as-the-primary-metric-of-health-temp-pulse.rsc
+.next/server/app/methionine-restriction-as-a-pro-metabolic-strategy.html
+.next/server/app/methionine-restriction-as-a-pro-metabolic-strategy.meta
+.next/server/app/methionine-restriction-as-a-pro-metabolic-strategy.rsc
+.next/server/app/mitochondrial-modulators-coq10-disodium-succinate-kg.html
+.next/server/app/mitochondrial-modulators-coq10-disodium-succinate-kg.meta
+.next/server/app/mitochondrial-modulators-coq10-disodium-succinate-kg.rsc
+.next/server/app/mitoswab-or-similar-etc-complex-function.html
+.next/server/app/mitoswab-or-similar-etc-complex-function.meta
+.next/server/app/mitoswab-or-similar-etc-complex-function.rsc
+.next/server/app/morning-midday-temperature-and-pulse.html
+.next/server/app/morning-midday-temperature-and-pulse.meta
+.next/server/app/morning-midday-temperature-and-pulse.rsc
+.next/server/app/nadh-ratio-as-the-master-switch-of-cellular-energy.html
+.next/server/app/nadh-ratio-as-the-master-switch-of-cellular-energy.meta
+.next/server/app/nadh-ratio-as-the-master-switch-of-cellular-energy.rsc
+.next/server/app/nadplus-nadh-ratio.html
+.next/server/app/nadplus-nadh-ratio.meta
+.next/server/app/nadplus-nadh-ratio.rsc
+.next/server/app/neurodegeneration-the-brain-s-energy-crisis.html
+.next/server/app/neurodegeneration-the-brain-s-energy-crisis.meta
+.next/server/app/neurodegeneration-the-brain-s-energy-crisis.rsc
+.next/server/app/nicotinamide-nucleotide-transhydrogenase-nnt-as-a-pressure-release-valve.html
+.next/server/app/nicotinamide-nucleotide-transhydrogenase-nnt-as-a-pressure-release-valve.meta
+.next/server/app/nicotinamide-nucleotide-transhydrogenase-nnt-as-a-pressure-release-valve.rsc
+.next/server/app/_not-found
+.next/server/app/_not-found.html
+.next/server/app/_not-found.meta
+.next/server/app/_not-found/page_client-reference-manifest.js
+.next/server/app/_not-found/page.js
+.next/server/app/_not-found/page.js.nft.json
+.next/server/app/_not-found.rsc
+.next/server/app/other-bioactives.html
+.next/server/app/other-bioactives.meta
+.next/server/app/other-bioactives.rsc
 .next/server/app/page_client-reference-manifest.js
 .next/server/app/page.js
+.next/server/app/page.js.nft.json
 .next/server/app-paths-manifest.json
+.next/server/app/peptide-and-growth-hormone-dosing-logs.html
+.next/server/app/peptide-and-growth-hormone-dosing-logs.meta
+.next/server/app/peptide-and-growth-hormone-dosing-logs.rsc
+.next/server/app/peptides-mots-c-ss-31.html
+.next/server/app/peptides-mots-c-ss-31.meta
+.next/server/app/peptides-mots-c-ss-31.rsc
+.next/server/app/ppar-alpha-the-prepare-for-winter-hibernation-signal.html
+.next/server/app/ppar-alpha-the-prepare-for-winter-hibernation-signal.meta
+.next/server/app/ppar-alpha-the-prepare-for-winter-hibernation-signal.rsc
+.next/server/app/practical-tools-recipes-food-hacks-etc.html
+.next/server/app/practical-tools-recipes-food-hacks-etc.meta
+.next/server/app/practical-tools-recipes-food-hacks-etc.rsc
+.next/server/app/progesterone-its-metabolite-allopregnanolone.html
+.next/server/app/progesterone-its-metabolite-allopregnanolone.meta
+.next/server/app/progesterone-its-metabolite-allopregnanolone.rsc
+.next/server/app/protein-more-than-just-building-blocks.html
+.next/server/app/protein-more-than-just-building-blocks.meta
+.next/server/app/protein-more-than-just-building-blocks.rsc
+.next/server/app/pufa-depletion-strategies-e-g-vitamin-e-saturated-fat-dominance.html
+.next/server/app/pufa-depletion-strategies-e-g-vitamin-e-saturated-fat-dominance.meta
+.next/server/app/pufa-depletion-strategies-e-g-vitamin-e-saturated-fat-dominance.rsc
+.next/server/app/pyruvate-ratio.html
+.next/server/app/pyruvate-ratio.meta
+.next/server/app/pyruvate-ratio.rsc
+.next/server/app/reactive-oxygen-species-ros-normal-signaling-vs-harmful-excess.html
+.next/server/app/reactive-oxygen-species-ros-normal-signaling-vs-harmful-excess.meta
+.next/server/app/reactive-oxygen-species-ros-normal-signaling-vs-harmful-excess.rsc
+.next/server/app/reading-the-dashboard-proxies-for-your-mitochondrial-state.html
+.next/server/app/reading-the-dashboard-proxies-for-your-mitochondrial-state.meta
+.next/server/app/reading-the-dashboard-proxies-for-your-mitochondrial-state.rsc
+.next/server/app/reverse-t3-rt3-the-emergency-brake-on-metabolism.html
+.next/server/app/reverse-t3-rt3-the-emergency-brake-on-metabolism.meta
+.next/server/app/reverse-t3-rt3-the-emergency-brake-on-metabolism.rsc
+.next/server/app/saturated-fats-stearic-butter-ghee-coconut-oil-the-preferred-stable-fuel.html
+.next/server/app/saturated-fats-stearic-butter-ghee-coconut-oil-the-preferred-stable-fuel.meta
+.next/server/app/saturated-fats-stearic-butter-ghee-coconut-oil-the-preferred-stable-fuel.rsc
+.next/server/app/scd1-the-enzyme-converting-saturated-fat-to-pro-inflammatory-monounsaturated-fat.html
+.next/server/app/scd1-the-enzyme-converting-saturated-fat-to-pro-inflammatory-monounsaturated-fat.meta
+.next/server/app/scd1-the-enzyme-converting-saturated-fat-to-pro-inflammatory-monounsaturated-fat.rsc
+.next/server/app/serotonin-the-central-fatigue-hypothesis.html
+.next/server/app/serotonin-the-central-fatigue-hypothesis.meta
+.next/server/app/serotonin-the-central-fatigue-hypothesis.rsc
+.next/server/app/serotonin-the-tolerate-suffering-metabolic-inhibitor.html
+.next/server/app/serotonin-the-tolerate-suffering-metabolic-inhibitor.meta
+.next/server/app/serotonin-the-tolerate-suffering-metabolic-inhibitor.rsc
+.next/server/app/sleep-as-a-bioenergetic-issue-sleep-issues-are-issues-of-insufficient-energy-production.html
+.next/server/app/sleep-as-a-bioenergetic-issue-sleep-issues-are-issues-of-insufficient-energy-production.meta
+.next/server/app/sleep-as-a-bioenergetic-issue-sleep-issues-are-issues-of-insufficient-energy-production.rsc
 .next/server/app/[slug]
 .next/server/app/[slug]/page_client-reference-manifest.js
 .next/server/app/[slug]/page.js
+.next/server/app/[slug]/page.js.nft.json
+.next/server/app/starches-white-rice-potato-vs-sugars-honey-fruit-juice.html
+.next/server/app/starches-white-rice-potato-vs-sugars-honey-fruit-juice.meta
+.next/server/app/starches-white-rice-potato-vs-sugars-honey-fruit-juice.rsc
+.next/server/app/strategies-for-lowering-estrogen-restoring-hormonal-balance.html
+.next/server/app/strategies-for-lowering-estrogen-restoring-hormonal-balance.meta
+.next/server/app/strategies-for-lowering-estrogen-restoring-hormonal-balance.rsc
+.next/server/app/strategies-for-lowering-serotonin-releasing-the-metabolic-brake.html
+.next/server/app/strategies-for-lowering-serotonin-releasing-the-metabolic-brake.meta
+.next/server/app/strategies-for-lowering-serotonin-releasing-the-metabolic-brake.rsc
+.next/server/app/subjective-markers-sleep-quality-energy-libido-mood.html
+.next/server/app/subjective-markers-sleep-quality-energy-libido-mood.meta
+.next/server/app/subjective-markers-sleep-quality-energy-libido-mood.rsc
+.next/server/app/testosterone-estradiol-t-e2-ratio.html
+.next/server/app/testosterone-estradiol-t-e2-ratio.meta
+.next/server/app/testosterone-estradiol-t-e2-ratio.rsc
+.next/server/app/the-anabolic-conundrum-hgh-vs-direct-igf-1.html
+.next/server/app/the-anabolic-conundrum-hgh-vs-direct-igf-1.meta
+.next/server/app/the-anabolic-conundrum-hgh-vs-direct-igf-1.rsc
+.next/server/app/the-anti-metabolic-hormones-promoters-of-stress-hibernation.html
+.next/server/app/the-anti-metabolic-hormones-promoters-of-stress-hibernation.meta
+.next/server/app/the-anti-metabolic-hormones-promoters-of-stress-hibernation.rsc
+.next/server/app/the-bcaa-problem-muscle-meats-and-reductive-stress.html
+.next/server/app/the-bcaa-problem-muscle-meats-and-reductive-stress.meta
+.next/server/app/the-bcaa-problem-muscle-meats-and-reductive-stress.rsc
+.next/server/app/the-bear-model-cyclical-insulin-resistance-for-hibernation.html
+.next/server/app/the-bear-model-cyclical-insulin-resistance-for-hibernation.meta
+.next/server/app/the-bear-model-cyclical-insulin-resistance-for-hibernation.rsc
+.next/server/app/the-bioenergetic-food-pyramid-a-visual-principle.html
+.next/server/app/the-bioenergetic-food-pyramid-a-visual-principle.meta
+.next/server/app/the-bioenergetic-food-pyramid-a-visual-principle.rsc
+.next/server/app/the-body-as-an-adaptive-system-not-a-broken-machine.html
+.next/server/app/the-body-as-an-adaptive-system-not-a-broken-machine.meta
+.next/server/app/the-body-as-an-adaptive-system-not-a-broken-machine.rsc
+.next/server/app/the-byproducts-of-energy-signals-and-stress.html
+.next/server/app/the-byproducts-of-energy-signals-and-stress.meta
+.next/server/app/the-byproducts-of-energy-signals-and-stress.rsc
+.next/server/app/the-central-role-of-carbon-dioxide-co-and-the-bohr-effect-for-oxygen-delivery.html
+.next/server/app/the-central-role-of-carbon-dioxide-co-and-the-bohr-effect-for-oxygen-delivery.meta
+.next/server/app/the-central-role-of-carbon-dioxide-co-and-the-bohr-effect-for-oxygen-delivery.rsc
+.next/server/app/the-central-role-of-redox-state-lactate-and-ph.html
+.next/server/app/the-central-role-of-redox-state-lactate-and-ph.meta
+.next/server/app/the-central-role-of-redox-state-lactate-and-ph.rsc
+.next/server/app/the-chronic-stress-signal-cortisol-adrenaline-serotonin.html
+.next/server/app/the-chronic-stress-signal-cortisol-adrenaline-serotonin.meta
+.next/server/app/the-chronic-stress-signal-cortisol-adrenaline-serotonin.rsc
+.next/server/app/the-core-mechanism-mitochondrial-dysfunction-oxygen-leak-dysbiosis.html
+.next/server/app/the-core-mechanism-mitochondrial-dysfunction-oxygen-leak-dysbiosis.meta
+.next/server/app/the-core-mechanism-mitochondrial-dysfunction-oxygen-leak-dysbiosis.rsc
+.next/server/app/the-core-state-reductive-vs-oxidized.html
+.next/server/app/the-core-state-reductive-vs-oxidized.meta
+.next/server/app/the-core-state-reductive-vs-oxidized.rsc
+.next/server/app/the-crucial-t4-to-t3-conversion-process.html
+.next/server/app/the-crucial-t4-to-t3-conversion-process.meta
+.next/server/app/the-crucial-t4-to-t3-conversion-process.rsc
+.next/server/app/the-echidna-model-the-unique-role-of-mufas-in-hibernation.html
+.next/server/app/the-echidna-model-the-unique-role-of-mufas-in-hibernation.meta
+.next/server/app/the-echidna-model-the-unique-role-of-mufas-in-hibernation.rsc
+.next/server/app/the-electron-transport-chain-etc-our-cellular-power-grid.html
+.next/server/app/the-electron-transport-chain-etc-our-cellular-power-grid.meta
+.next/server/app/the-electron-transport-chain-etc-our-cellular-power-grid.rsc
+.next/server/app/the-essential-fatty-acid-efa-myth-and-speakman-bmr-decline-study.html
+.next/server/app/the-essential-fatty-acid-efa-myth-and-speakman-bmr-decline-study.meta
+.next/server/app/the-essential-fatty-acid-efa-myth-and-speakman-bmr-decline-study.rsc
+.next/server/app/the-fat-loss-paradox-why-most-weight-loss-is-metabolically-harmful-and-how-to-do-it-right.html
+.next/server/app/the-fat-loss-paradox-why-most-weight-loss-is-metabolically-harmful-and-how-to-do-it-right.meta
+.next/server/app/the-fat-loss-paradox-why-most-weight-loss-is-metabolically-harmful-and-how-to-do-it-right.rsc
+.next/server/app/the-french-paradox-synergies-of-sfa-starch-and-alcohol.html
+.next/server/app/the-french-paradox-synergies-of-sfa-starch-and-alcohol.meta
+.next/server/app/the-french-paradox-synergies-of-sfa-starch-and-alcohol.rsc
+.next/server/app/the-hero-molecule-reclaiming-carbon-dioxide.html
+.next/server/app/the-hero-molecule-reclaiming-carbon-dioxide.meta
+.next/server/app/the-hero-molecule-reclaiming-carbon-dioxide.rsc
+.next/server/app/the-hormonal-alarms-of-metabolic-stress.html
+.next/server/app/the-hormonal-alarms-of-metabolic-stress.meta
+.next/server/app/the-hormonal-alarms-of-metabolic-stress.rsc
+.next/server/app/the-master-metabolic-switch-thyroid-hormone.html
+.next/server/app/the-master-metabolic-switch-thyroid-hormone.meta
+.next/server/app/the-master-metabolic-switch-thyroid-hormone.rsc
+.next/server/app/the-path-stress-gut-permeability-chronic-inflammation-immune-dysregulation.html
+.next/server/app/the-path-stress-gut-permeability-chronic-inflammation-immune-dysregulation.meta
+.next/server/app/the-path-stress-gut-permeability-chronic-inflammation-immune-dysregulation.rsc
+.next/server/app/the-philosophy-of-biomarkers-proxies-vs-targets.html
+.next/server/app/the-philosophy-of-biomarkers-proxies-vs-targets.meta
+.next/server/app/the-philosophy-of-biomarkers-proxies-vs-targets.rsc
+.next/server/app/the-pig-model-you-are-what-you-eat-literally.html
+.next/server/app/the-pig-model-you-are-what-you-eat-literally.meta
+.next/server/app/the-pig-model-you-are-what-you-eat-literally.rsc
+.next/server/app/the-practical-question-starches-vs-sugars-during-healing.html
+.next/server/app/the-practical-question-starches-vs-sugars-during-healing.meta
+.next/server/app/the-practical-question-starches-vs-sugars-during-healing.rsc
+.next/server/app/the-primary-drivers-of-metabolic-dysfunction.html
+.next/server/app/the-primary-drivers-of-metabolic-dysfunction.meta
+.next/server/app/the-primary-drivers-of-metabolic-dysfunction.rsc
+.next/server/app/the-problem-with-pufas-omega-6-omega-3-and-mufas-oleic-acid-olive-oil.html
+.next/server/app/the-problem-with-pufas-omega-6-omega-3-and-mufas-oleic-acid-olive-oil.meta
+.next/server/app/the-problem-with-pufas-omega-6-omega-3-and-mufas-oleic-acid-olive-oil.rsc
+.next/server/app/the-pro-metabolic-steroids-promoters-of-energy-structure.html
+.next/server/app/the-pro-metabolic-steroids-promoters-of-energy-structure.meta
+.next/server/app/the-pro-metabolic-steroids-promoters-of-energy-structure.rsc
+.next/server/app/the-pufa-cascade-from-seed-oils-to-systemic-inflammation.html
+.next/server/app/the-pufa-cascade-from-seed-oils-to-systemic-inflammation.meta
+.next/server/app/the-pufa-cascade-from-seed-oils-to-systemic-inflammation.rsc
+.next/server/app/the-rhythm-of-fuel-supporting-not-stressing.html
+.next/server/app/the-rhythm-of-fuel-supporting-not-stressing.meta
+.next/server/app/the-rhythm-of-fuel-supporting-not-stressing.rsc
+.next/server/app/the-rhythm-of-light-your-master-clock.html
+.next/server/app/the-rhythm-of-light-your-master-clock.meta
+.next/server/app/the-rhythm-of-light-your-master-clock.rsc
+.next/server/app/the-rhythm-of-movement-integrating-not-annihilating.html
+.next/server/app/the-rhythm-of-movement-integrating-not-annihilating.meta
+.next/server/app/the-rhythm-of-movement-integrating-not-annihilating.rsc
+.next/server/app/the-squirrel-model-dietary-switching-for-reproduction.html
+.next/server/app/the-squirrel-model-dietary-switching-for-reproduction.meta
+.next/server/app/the-squirrel-model-dietary-switching-for-reproduction.rsc
+.next/server/app/the-stress-axis-from-coping-to-collapse.html
+.next/server/app/the-stress-axis-from-coping-to-collapse.meta
+.next/server/app/the-stress-axis-from-coping-to-collapse.rsc
+.next/server/app/the-warburg-effect-chronic-fermentation-as-the-foundational-cause.html
+.next/server/app/the-warburg-effect-chronic-fermentation-as-the-foundational-cause.meta
+.next/server/app/the-warburg-effect-chronic-fermentation-as-the-foundational-cause.rsc
+.next/server/app/thyroid-mimetics-sobetirome-gc-1.html
+.next/server/app/thyroid-mimetics-sobetirome-gc-1.meta
+.next/server/app/thyroid-mimetics-sobetirome-gc-1.rsc
+.next/server/app/transdermal-vs-oral-administration.html
+.next/server/app/transdermal-vs-oral-administration.meta
+.next/server/app/transdermal-vs-oral-administration.rsc
+.next/server/app/uncoupling-the-good-adaptive-thermogenesis-and-the-bad-pathological.html
+.next/server/app/uncoupling-the-good-adaptive-thermogenesis-and-the-bad-pathological.meta
+.next/server/app/uncoupling-the-good-adaptive-thermogenesis-and-the-bad-pathological.rsc
+.next/server/app/vitamin-e-as-a-pufa-antagonist-niacinamide-b3-magnesium-taurine.html
+.next/server/app/vitamin-e-as-a-pufa-antagonist-niacinamide-b3-magnesium-taurine.meta
+.next/server/app/vitamin-e-as-a-pufa-antagonist-niacinamide-b3-magnesium-taurine.rsc
+.next/server/chunks
+.next/server/chunks/294.js
+.next/server/chunks/372.js
+.next/server/chunks/692.js
+.next/server/functions-config-manifest.json
 .next/server/interception-route-rewrite-manifest.js
 .next/server/middleware-build-manifest.js
 .next/server/middleware-manifest.json
 .next/server/middleware-react-loadable-manifest.js
 .next/server/next-font-manifest.js
 .next/server/next-font-manifest.json
+.next/server/pages
+.next/server/pages/404.html
+.next/server/pages/500.html
+.next/server/pages/_app.js
+.next/server/pages/_app.js.nft.json
+.next/server/pages/_document.js
+.next/server/pages/_document.js.nft.json
+.next/server/pages/_error.js
+.next/server/pages/_error.js.nft.json
 .next/server/pages-manifest.json
 .next/server/server-reference-manifest.js
 .next/server/server-reference-manifest.json
-.next/server/vendor-chunks
-.next/server/vendor-chunks/marked@12.0.2.js
-.next/server/vendor-chunks/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6.js
-.next/server/vendor-chunks/@swc+helpers@0.5.15.js
 .next/server/webpack-runtime.js
 .next/static
 .next/static/chunks
+.next/static/chunks/146-1bafdb6c616a2346.js
+.next/static/chunks/400-a017da0691df664d.js
+.next/static/chunks/6fe292aa-e0ec2ab9f0ce6bb7.js
 .next/static/chunks/app
-.next/static/chunks/app/layout.js
-.next/static/chunks/app/page.js
-.next/static/chunks/app-pages-internals.js
+.next/static/chunks/app/layout-2639680708a82f29.js
+.next/static/chunks/app/_not-found
+.next/static/chunks/app/_not-found/page-a947af9391f205d3.js
+.next/static/chunks/app/page-1dc484a7c17e4130.js
 .next/static/chunks/app/[slug]
-.next/static/chunks/app/[slug]/page.js
-.next/static/chunks/main-app.js
-.next/static/chunks/polyfills.js
-.next/static/chunks/webpack.js
+.next/static/chunks/app/[slug]/page-f1fdc0bb9f7ac22d.js
+.next/static/chunks/framework-b72e7048eff13184.js
+.next/static/chunks/main-311a01a904a7ed5f.js
+.next/static/chunks/main-app-7ecbf7fa0bcd7299.js
+.next/static/chunks/pages
+.next/static/chunks/pages/_app-d84828d9d55293cc.js
+.next/static/chunks/pages/_error-63f16ec98f76a2ab.js
+.next/static/chunks/polyfills-42372ed130431b0a.js
+.next/static/chunks/webpack-5b79173195380713.js
 .next/static/css
-.next/static/css/app
-.next/static/css/app/layout.css
-.next/static/development
-.next/static/development/_buildManifest.js
-.next/static/development/_ssgManifest.js
-.next/static/webpack
-.next/static/webpack/633457081244afec._.hot-update.json
-.next/static/webpack/abe76663239b5759.webpack.hot-update.json
-.next/static/webpack/webpack.abe76663239b5759.hot-update.js
+.next/static/css/758de7d15a93c8fe.css
+.next/static/Un0oCK5vjW3Ql3LgHGLiC
+.next/static/Un0oCK5vjW3Ql3LgHGLiC/_buildManifest.js
+.next/static/Un0oCK5vjW3Ql3LgHGLiC/_ssgManifest.js
 .next/trace
 .next/types
 .next/types/app
@@ -1042,264 +1889,6 @@ Understanding the power of these androgens, especially the pure, stable signal o
 
 
 
-File: ./content/assorted-notes-combined.md
-------------------------
----
-title: 'Assorted Notes (Combined & Organized)'
-uuid: 21761098-4fe2-11f0-9a24-4595492b1a63
-created: '2026-05-26T19:00:00+10:00'
-updated: '2026-05-26T19:00:00+10:00'
-tags:
-  - health/vitalist
----
-
-# Dinkov Distilled & Bioenergetic Logs: Combined & Organized Notes
-
-This document consolidates and structures all records from both Assorted Notes One and Assorted Notes Two, serving as a comprehensive bioenergetic manual, personal experimental log, and biochemical index.
-
----
-
-## 1. Core Philosophy & Bioenergetic Fundamentals
-
-### The Energy Paradigm
-* **Declining Baseline Metabolic Rate (BMR):** Research by J.R. Speakman demonstrates a steady decline in BMR over the last 30 years (Speakman study: [https://pubmed.ncbi.nlm.nih.gov/37100994/](https://pubmed.ncbi.nlm.nih.gov/37100994/)). Chronic energy deprivation (e.g., in concentration camps) downregulates BMR long-term, leading to rapid fat regain upon refeeding (fat overshoot model). Obesity is fundamentally an adaptation to a low metabolic rate. Being mildly overweight with a high metabolic rate is healthier than being lean with a suppressed metabolism.
-* **Essential Fatty Acids (EFAs) Myth:** Supposed "essential" fatty acid deficiencies induced in historic studies were actually B-vitamin deficiencies. Removing EFAs accelerates metabolic rate to such an extent that the demand for B-vitamins increases dramatically.
-* **Therapeutic Framework:** Fasting, calorie restriction, aggressively lowering LDL (at the expense of saturated fats), restricting simple sugars, and overdoing resistant starches are methods used to slow down a faulty machine so it breaks slower. Conversely, reducing exposure to seed oils, plastics, and EMFs is designed to unblock the machine so that it runs more efficiently.
-* **Historical Caloric Baseline:** According to the USDA, the average male in 1939 consumed approximately 4,500 calories per day while remaining lean, reflecting a vastly higher historical metabolic baseline.
-
-### Redox Balance: Oxidized vs. Reduced State
-* **The Efficiently Oxidized State (High NAD⁺/NADH, FAD/FADH₂, ATP Consumption):**
-  * The default target for healthy cellular function.
-  * Electron Transport Chain (ETC) is active; NADH and FADH₂ are oxidized efficiently.
-  * ATP is actively consumed, creating the ADP demand that maintains forward proton flow.
-  * Mild uncoupling (via UCPs or proton leak) prevents over-reduction of ETC components, lowers membrane potential to decrease ROS, and promotes thermogenesis.
-* **The Pathological Reduced State (High NADH/NAD⁺, FADH₂/FAD, Low ATP Demand):**
-  * High NADH/NAD⁺ stalls glycolysis, Pyruvate Dehydrogenase (PDH), and the Krebs (TCA) cycle.
-  * Lack of ADP backs up electrons, driving high membrane potential and triggering Reverse Electron Transport (RET).
-  * RET is the primary source of pathological Reactive Oxygen Species (ROS) leakage, which occurs predominantly when oxidizing fatty acids.
-  * Anabolic pathways (tissue synthesis) can sometimes utilize excess reducing equivalents (NADH/NADPH) for biosynthetic processes (protein and nucleotide synthesis).
-* **Redox Indicators (Pairs as Proxies for NAD⁺/NADH):**
-  * **Lactate/Pyruvate:** Reflects cytoplasmic redox status.
-  * **Acetoacetate/Beta-Hydroxybutyrate (BHB):** Reflects mitochondrial redox status. (Acetoacetate is oxidized; BHB is reduced).
-  * **Oxidized/Reduced Glutathione (GSSG/GSH):** The exception where you *want* the reduced form (GSH) dominant to manage ROS.
-
----
-
-## 2. Mitochondrial Respiration & Electron Transport Chain (ETC)
-
-### ATP Dynamics
-* Cells maintain only an 8-to-12 second reserve of ATP and creatine phosphate.
-* Intense physical activity requires anaerobic glycolysis. Pyruvate is converted to lactate, converting NADH back to NAD⁺ to keep glycolysis running.
-* Under aerobic conditions, pyruvate enters the mitochondria and is converted to acetyl-CoA by Pyruvate Dehydrogenase (PDH), releasing CO₂ and reducing NAD⁺ to NADH.
-* NADH donates electrons to Complex I of the ETC, regenerating NAD⁺ for glycolysis and the Krebs cycle.
-
-### ETC Complexes & Target Supports
-* **Complex I:** Primary entry point for carbohydrate-derived electrons. Heavily dependent on B-vitamins (B1/Thiamine for NADH generation, B2/Riboflavin as a structural component). Heart tissue can partially bypass Complex I utilizing specific shuttle mechanisms.
-* **Complex II:** Entry point for fatty acid-derived electrons (FADH₂). SDH activity can be acetylated and impaired in obesity. Fueled directly by disodium succinate.
-* **Complex III:** Junction accepting electrons from Complex I and II via CoQ10. Heavily impaired by statin medications which block CoQ10 synthesis. Blockages cause electron leakage. Quinones (Vitamin K2 MK-4, ubiquinone) can help bridge blockages.
-* **Complex IV (Cytochrome c Oxidase):** Decisive oxygen-reducing step. Highly dependent on copper. Directly stimulated by red and near-infrared light (photoreceptive).
-* **Complex V (ATP Synthase):** Uses the proton gradient to synthesize ATP.
-
-### Safety Valves & Modulators
-* **Nicotinamide Nucleotide Transhydrogenase (NNT):** The mitochondrial pressure-release valve. Uses the proton gradient to transfer an electron from NADH to NADP⁺, regenerating NAD⁺ (alleviating reductive stress) and creating NADPH (fueling antioxidant defenses). Overloaded acetyl-CoA acetylates and impairs NNT.
-* **Uncoupling:**
-  * *Good (Adaptive):* Pokes holes in the proton gradient to vent energy as heat, reducing electron pressure and ROS. Activated by saturated fat oxidation. Vitamin E, niacinamide, glycine, caffeine, and low-dose aspirin act as mild uncouplers.
-  * *Bad (Pathological):* Occurs in a pre-reduced, energy-starved cell, forcing it to work harder and worsening reductive stress.
-  * *Exogenous Uncouplers:* CCCP achieves ~4% uncoupling (good for short-term). BAM15 is considered an upgraded, safer analog of DNP. DNP (2,4-Dinitrophenol) has a 36-hour half-life; excessive accumulation leads to lethal hyperthermia (>39°C / 102.2°F).
-
----
-
-## 3. Fuel Selection, Satiety & The Randle Cycle
-
-### The Randle Cycle (Fuel Competition)
-* Flooding the blood with free fatty acids (FFAs) via high fat intake, adrenaline, or cortisol forces fat oxidation. This generates acetyl-CoA and NADH, activating Pyruvate Dehydrogenase Kinase (PDK). PDK phosphorylates and shuts down Pyruvate Dehydrogenase (PDH).
-* PDH inhibition locks glucose out of mitochondrial respiration, shunting pyruvate to lactate (reductive stress).
-* To limit fat availability to the cell: use anti-lipolytic agents (niacinamide, aspirin, biotin) or direct inhibitors of fat oxidation (Meldonium, which limits fatty acid entry into mitochondria).
-
-### Carbohydrates: The Clean Fuel
-* **Thyroid Conversion:** Adequate glucose is mandatory for the deiodinase enzymes to convert T4 to active T3. High-carb, low-fat diets (<20% fat cals) prevent PPAR-alpha signaling, lower FFAs, raise NAD⁺ via PDH, and increase metabolic rate.
-* **Fructose vs. Glucose:** Fructose is selectively taken up by the liver. In a healthy liver (low PUFA, low endotoxin), fructose is converted to glucose (~50-60%), lactate (~15-25% used by heart/muscle), and liver glycogen (~15-20%), with <1-3% undergoing *de novo* lipogenesis. Fructose infusions yield ~360% more hepatic glycogen than glucose.
-* **Starches:** Use low-BCAA, safe starches (white rice, peeled potatoes, sweet potatoes, tapioca/cassava, taro, yam, chestnuts, plantains, butternut squash, arrowroot). Nigerian cassava- and plantain-eating populations historically exhibited very high levels of tissue saturated fats and high metabolic rates.
-
-### Fats: Saturation vs. Instability
-* **Saturated Fatty Acids (SFAs):** Stearic acid, butter, ghee, and coconut oil are stable fuels lacking weak double bonds. High tissue stearic acid strongly correlates with lower body fat. Stearic acid is metabolized to Stearoylethanolamide (SEA), which suppresses SCD1, lowers TNF-alpha, and resists obesity. Coconut oil contains MCFAs that rapidly beta-oxidize in the liver, stimulating PPAR-alpha transiently but delivering clean energy.
-* **Monounsaturated Fatty Acids (MUFAs):** Oleic acid (prominent in olive oil, 25:1 oleic-to-stearic ratio vs. 2.5:1 in butter) acts as a seasonal hibernation signal. MUFAs upregulate SCD1, activate PPAR-alpha via OEA (oleoylethanolamide), increase endocannabinoids (causing appetite stimulation/munchies and metabolic slowdown), and generate high postprandial triglyceride spikes. 
-  * *Sourcing note:* Palm kernel oil contains only around 12% MUFA, whereas palm oil contains 39% MUFA. If visiting Gekkousou, verify if Tomo-san is open to using palm kernel oil in the Izakaya.
-* **Polyunsaturated Fatty Acids (PUFAs):** Highly unstable, containing weak double bonds prone to lipid peroxidation. They preferentially liberate during lipolysis, activate the PPAR-alpha winter switch, agonize estrogen receptors, and directly inhibit T4-to-T3 thyroid conversion at every level.
-* **PUFA Depletion:** In cebus monkeys (Cebus Monkeys Study: [https://www.sciencedirect.com/science/article/abs/pii/S002231662307061X](https://www.sciencedirect.com/science/article/abs/pii/S002231662307061X)), a fat-free diet depleted serum PUFAs in 4 days and tissue PUFAs in 30 days. Adding coconut oil (even at 45% cals) slowed tissue PUFA depletion because exogenous fat reduces the need to mobilize stored adipose tissues.
-
-### The BCAA Problem & Amino Acid Balancing
-* **BCAAs (Leucine, Isoleucine, Valine):** High circulating BCAAs are strongly causal in insulin resistance and obesity. High dietary BCAAs consume massive NAD⁺ during breakdown, lowering the cytoplasmic NAD⁺/NADH ratio and generating 3-HIB (which drives glucose/triglyceride spikes). High tissue MUFAs indirectly impair BCAA breakdown, causing BCAAs to accumulate. Eliminating isoleucine from high-fat diets completely halts weight gain in mice.
-* **The Glycine Counterbalance:** Glycine (from gelatin/collagen) is the direct antidote to BCAA/methionine/tryptophan toxicity.
-  * Facilitates **glycine conjugation** to bind and clear toxic acyl-CoA intermediates in urine (reducing acyl-carnitine congestion).
-  * Spares NAD⁺, improves gut barrier function (minimizing endotoxin leakage), and decreases fatty acid synthase.
-  * Gelatin acts similarly to insulin, blunting postprandial blood sugar spikes.
-  * Ancestral protein target: 15% of total calories, with 1/3 to 1/2 consisting of collagen/gelatin to offset muscle meat. A basic daily sufficiency template is 3 eggs plus 30 grams of gelatin.
-
----
-
-## 4. Hormones & The Endocrine System
-
-### The Adrenal/Stress Axis
-* **Cortisol:** Catabolic hormone driving gluconeogenesis by shredding muscle mass. Chronically elevated cortisol is the primary driver of high blood glucose and insulin resistance in T2D.
-* **DHEA & Pregnenolone:** Anabolic, pro-growth cortisol antagonists. Pregnenolone synthesis inside adrenal mitochondria is the rate-limiting step in steroidogenesis. With age, DHEA/progesterone decline while cortisol remains high.
-* **Cortisol:DHEA Ratio:** The ultimate marker of biological aging and all-cause mortality. Optimal target is `<0.5` (DHEA at least double cortisol). A ratio `>0.5` is highly correlated with depression; `>1.0` is strongly associated with psychosis and cardiovascular events.
-* **Cortisol:Testosterone Ratio:** Dynamic marker of immediate catabolism vs. anabolism. Ratios `>10` virtually guarantee metabolic syndrome.
-
-### Thyroid: The Master Conductor
-* **T4 to T3 Conversion:** Inactive T4 is converted to active T3 primarily in the liver. Sabotaged by PUFAs, MUFAs, high cortisol, and nutritional deficiencies (selenium, zinc, magnesium, iodine, D3). Active T3 is required to synthesize pregnenolone from cholesterol.
-* **Reverse T3 (rT3):** The metabolic emergency brake. Competes with T3 for cellular receptors without activating them. Elevated by starvation, fasting, and systemic inflammation.
-* **NDT & Synthetic Dosing (Ray Peat Heuristics):**
-  * Mimic natural human secretion ratios (~3:1 or 4:1 T4 to T3).
-  * Standard NDT options: Thyroid-S (Sriprasit Pharma), Armour Thyroid, WP Thyroid, Thyroid TR (T Man Pharma), Thiroyd (Greater Pharma).
-  * *Frontloading T4:* T4 has a 1-week half-life (takes ~4-6 weeks to reach steady state). Doubling the T4 dose for the first 4 days brings levels to steady state in 5 days. Do *not* frontload T3 (fast-acting).
-  * Keep single oral doses of T3 low (no more than 10mcg at a time, max 75mcg/day) and consume with food.
-
-### Androgens vs. Estrogen & Serotonin
-* **DHT (Dihydrotestosterone):** Fully saturated terminal metabolite. Cannot aromatize to estrogen. Potent cortisol blocker, serotonin inhibitor, and synergizes with thyroid to raise free T3. Healthy prostate is a high-DHT, low-estrogen environment. Prostate tumors in mice showed complete regression when treated with DHT plus an aromatase inhibitor.
-* **Progesterone:** The ultimate protective steroid. Potent 11β-HSD1 inhibitor (reducing active cortisol by 50-60%). Opposes estrogen, degrades serotonin, and is highly thermogenic. Bypasses liver first-pass metabolism when applied to gums (USP powder dissolved in natural d-alpha tocopherol vitamin E). Normal dose is 25-50mg before bed to raise GABA and improve sleep.
-* **Estrogen:** Potent reductant that shifts cells toward aerobic glycolysis (Warburg Effect) and away from oxidative phosphorylation. Promoted by PUFA intake, plastics (EDCs), and heavy eccentric exercise.
-* **Serotonin:** The \"tolerate suffering\" hormone. Systemic metabolic inhibitor. High enterocyte-derived serotonin stimulates hepatic stellate cells via 5-HT2B/5-HT2A receptors, driving lipogenesis, fatty liver (NAFLD), and tissue fibrosis. Restricting tryptophan (via gelatin) or using 5-HT2 blockers (Cyproheptadine) releases the metabolic brake.
-
----
-
-## 5. Pathology & Modern Disease Models
-
-### Cancer & The Warburg Effect
-* Cancer cells overexpress HIF-1a, shut down mitochondrial respiration, and run primitive glucose and glutamine fermentation (generating high lactate and ROS) even in the presence of oxygen. They overexpress GLUT transporters because they are stuck in fat oxidation and starving for glucose.
-* **Redox and pH:** Tumor microenvironments are highly reduced (low NAD⁺/NADH), high-lactate, low-CO₂, and highly acidic (low pH). Selective acidification of the internal cancer cell (via high-dose aspirin or 2,6-dihydroxybenzoic acid) triggers apoptosis. Cancer cell cytoplasm is pathologically alkaline, which protects it from programmed cell death.
-* **The Vitamin-Aspirin Synergy:** Georgi Dinkov's study on mantle cell lymphoma demonstrated that combining Vitamin B1 (15mg/kg), B3 (30mg/kg), B7 (1.5mg/kg), and Aspirin (15mg/kg) led to complete tumor regression in rodents. Sourcing a more lipophilic analog, **2,6-dihydroxybenzoic acid** (400mg), worked even better.
-*rodents fed a fat-free diet for 2 weeks prior could not be successfully implanted with tumors.*
-
-### Insulin Resistance & Diabetes
-* Characterized by localized muscle and liver fat accumulation (intramuscular acyl-CoA gridlock). High circulating BCAAs block insulin's ability to promote glucose utilization. Obese individuals exhibit 1/2 to 1/3 the blood flow in adipose tissue compared to lean individuals, creating regional hypoxia.
-
-### Gut Dysbiosis & Leaky Gut
-* Mitochondrial damage to colonocytes -> reduced oxygen consumption -> oxygen leaks into the anaerobic deep colon -> death of beneficial obligate anaerobes (e.g., *Akkermansia*) -> thin mucin layer -> overgrowth of oxygen-tolerant facultative anaerobes -> massive endotoxin (LPS) production -> LPS crosses leaky gut -> LPS binds TLR4 -> systemic inflammation and direct NAD⁺ depletion.
-
-### Neurodegeneration
-* Alzheimer's (\"Type 3 Diabetes\") and Parkinson's represent regional manifestations of neuronal energy failure. Neurons do not perform fermentation; if mitochondrial respiration fails, they undergo apoptosis. Amyloid plaques, tau tangles, and Lewy bodies are the tombstones (debris) of dead cells, not the upstream cause.
-
----
-
-## 6. Therapeutics, Bioactives & Advanced Protocols
-
-### Tier 1 Foundational Supports
-* **Niacinamide (B3):** Direct NAD⁺ precursor. Potent anti-lipolytic. Increases glucose oxidation. Dose: 50-100mg with meals, 3x daily. Avoid nicotinic acid (causes serotonin/histamine release).
-* **Aspirin (Acetylsalicylic Acid):** COX and LOX inhibitor. Directly blocks PUFA conversion to inflammatory prostaglandins. Inhibits 11β-HSD1 to lower cortisol. Lowers fat oxidation by up to 30%. Dose: 81-325mg dissolved in warm water with meals. Ray Peat recommended 1mg Vitamin K per 325mg aspirin.
-* **Thiamine (B1):** Essential cofactor for Pyruvate Dehydrogenase (PDH). 300-500mg thiamine chloride or 100-150mg of lipophilic analogs (e.g., benfotiamine) halves lactate buildup during physical exertion.
-* **Biotin (B7):** Cofactor for pyruvate carboxylase. Helps bypass a blocked PDH by redirecting pyruvate into oxaloacetate for gluconeogenesis / energy metabolism.
-* **Vitamin E:** PUFA antagonist. Prevents lipid peroxidation. Natural d-alpha-tocopherol (pure D isomer with beta, gamma, delta tocopherols) is required. Take with fat.
-* **Magnesium & Zinc:** Cofactors for T4-to-T3 conversion. Magnesium glycinate/malate calms NMDA excitotoxicity and lowers cortisol. Zinc supports androgen synthesis.
-* **Taurine:** Calms excitotoxicity, buffers the \"jitters\" from caffeine/nicotine or MSG.
-
-### Tier 2 & 3 Advanced Bioactives
-* **Methylene Blue (MB):** Electron cycler. Can unblock all 4 complexes of the ETC (Complex I, II, III, and IV). Acts as an alternative electron cycler, reducing electron backup. Combine with niacinamide to offset MB-induced serotonin increases. Dose: 3-5mg (1% concentration: 1g MB in 4oz bottle. Urine turning blue is a health proxy: the slower your urine turns blue, the healthier your mitochondrial clearing capacity).
-* **Alpha-Ketoglutarate (α-KG):** Krebs cycle intermediate depleted by excess BCAAs. Dose: 2000mg twice daily to restore insulin sensitivity.
-* **R-Alpha-Lipoic Acid (R-ALA):** Dose-dependently increases SIRT1 and NAD⁺/NADH ratio. Dose: 500mg twice daily.
-* **Emodin:** Potent 11β-HSD1 inhibitor. Dose: 250-500mg. Sourced via: morphogen nutrition, chemix cortobloc, or gorilla mind.
-* **Cyproheptadine:** Antihistamine and potent 5-HT2 serotonin receptor blocker.
-* **Propranolol:** Beta-blocker that lowers adrenaline, preventing excessive stress-induced lipolysis.
-* **L-Carnitine:** Increases fat oxidation (use with caution; beneficial primarily to clear mitochondrial traffic jams, but chronically raises fat oxidation).
-* **ITPP (Myo-inositol trispyrophosphate):** Binds to hemoglobin, forcing oxygen release (enhancing the Bohr Effect) to treat cellular hypoxia.
-* **Catuaba:** Dopaminergic herb that acts as a functional serotonin antagonist to improve motivation and drive.
-* **SLU-PP-332:** ERRα inverse agonist that pharmacologically inhibits the \"burn fat\" hibernation signal, restoring PDH and glucose oxidation.
-* **5-Amino-1MQ:** NNMT inhibitor. Blocks the NNMT enzyme from wasting NAD⁺ precursors, preserving cellular NAD⁺ pools to clear reductive stress.
-* **Stearoylethanolamide (SEA):** Stearic acid metabolite. Downregulates SCD1, reduces TNF-alpha, and increases metabolic rate. Target: 300mg twice daily (note: 1200mg/day raised Brad Marshall's body temp too excessively).
-* **Puerh Tea Extract:** TLR4 blocker. Blocks endotoxin signaling, preventing weight gain on high-fat diets.
-
-### Peptide, EPO & Growth Hormone Protocols
-* **Peptide Abbreviations & Codings:** SM5 - semaglutide, 2S10 - ss31, MS5 - mots-c, G5k - HCG.
-* **Meldonium and EPO:** Meldonium restricts the entry of fatty acids to the cell, stimulating glucose oxidation. Synergizes with EPO for athletic performance.
-* **MOTS-c:** Mitochondrial-derived peptide. Updates metabolic software by improving glucose utilization and insulin sensitivity. Dose: 2.5mg to 5mg, 3x weekly.
-  * *Synergies:* Steve takes 1mg mots-c and 1mg ss-31. Vig Steve suggests 5mg is the absolute upper limit on a single injection, with 2.5mg delivering most of the benefits without any accompanying side effects.
-* **SS-31 (Elamipretide):** Binds cardiolipin in the inner mitochondrial membrane, stabilizing ETC complexes and preventing electron leakage. Dose: 1mg to 5mg daily. Synergizes with MOTS-c. Vig Steve and Dean Smart noted minimal obvious subjective differences upon adding SS-31 to their routines.
-* **Tesamorelin:** GHRH analog. Dose: 2mg at night (recommended by Chase Irons).
-* **HGH (Human Growth Hormone):** Direct administrator is potently lipolytic (shreds fat, flooding blood with FFAs, inducing diabetic-like glucose blockade via the Randle Cycle). However, it lowers cortisol by 15-30% and improves skin/healing. Apply EOD (every other day) at night (e.g., 2-4 IU) to reduce insulin sensitivity issues. Chase Irons runs his entire daily GH protocol (18 IU) all at night.
-* **IGF-1 (IGF-1 LR3):** The preferred anabolic signal. Direct IGF-1 is anti-lipolytic (prevents FFA flood) and enhances glucose oxidation/uptake. Inhibits 11β-HSD1 directly (HGH does not).
-
-### DNP Bloodstream Retention Dynamics
-* FOOTNOTE VERBATIM CALCULATION: DNP in bloodstream for 30 days using 36 hour half-life.
-  * Formula: `New total = Dose + (Old total * ((1/2)^(Dosage period/Half-life)))`
-  * Complete daily accumulation projection metrics:
-
-| Day | 125mg ED | 200mg ED | 250mg ED | 400mg ED | 500mg ED | 600mg ED | 1g ED |
-|---|---|---|---|---|---|---|---|
-| **1** | 125.0 | 200.0 | 250.0 | 400.0 | 500.0 | 600.0 | 1000.0 |
-| **2** | 203.7 | 326.0 | 407.5 | 652.0 | 815.0 | 978.0 | 1630.0 |
-| **3** | 253.4 | 405.4 | 506.7 | 810.7 | 1013.4 | 1216.1 | 2026.8 |
-| **4** | 284.6 | 455.4 | 569.2 | 910.7 | 1138.4 | 1366.1 | 2276.8 |
-| **5** | 304.3 | 486.9 | 608.6 | 973.7 | 1217.2 | 1460.6 | 2434.3 |
-| **6** | 316.7 | 506.7 | 633.4 | 1013.4 | 1266.8 | 1520.1 | 2533.5 |
-| **7** | 324.5 | 519.2 | 649.0 | 1038.4 | 1298.0 | 1557.6 | 2596.0 |
-| **8** | 329.4 | 527.1 | 658.8 | 1054.2 | 1317.7 | 1581.2 | 2635.4 |
-| **9** | 332.5 | 532.0 | 665.0 | 1064.1 | 1330.1 | 1596.1 | 2660.2 |
-| **10**| 334.5 | 535.2 | 669.0 | 1070.3 | 1337.9 | 1605.5 | 2675.8 |
-| **11**| 335.7 | 537.1 | 671.4 | 1074.3 | 1342.8 | 1611.4 | 2685.7 |
-| **12**| 336.5 | 538.4 | 673.0 | 1076.7 | 1345.9 | 1615.1 | 2691.9 |
-| **13**| 337.0 | 539.2 | 673.9 | 1078.3 | 1347.9 | 1617.5 | 2695.8 |
-| **14**| 337.3 | 539.6 | 674.6 | 1079.3 | 1349.1 | 1618.9 | 2698.2 |
-| **15**| 337.5 | 540.0 | 674.9 | 1079.9 | 1349.9 | 1619.9 | 2699.8 |
-| **16**| 337.6 | 540.2 | 675.2 | 1080.3 | 1350.4 | 1620.5 | 2700.8 |
-| **17**| 337.7 | 540.3 | 675.3 | 1080.5 | 1350.7 | 1620.8 | 2701.4 |
-| **18**| 337.7 | 540.4 | 675.4 | 1080.7 | 1350.9 | 1621.1 | 2701.8 |
-| **19**| 337.7 | 540.4 | 675.5 | 1080.8 | 1351.0 | 1621.2 | 2702.0 |
-| **20**| 337.8 | 540.4 | 675.5 | 1080.9 | 1351.1 | 1621.3 | 2702.2 |
-| **21**| 337.8 | 540.4 | 675.6 | 1080.9 | 1351.1 | 1621.4 | 2702.2 |
-| **22**| 337.8 | 540.5 | 675.6 | 1080.9 | 1351.2 | 1621.4 | 2702.3 |
-| **23**| 337.8 | 540.5 | 675.6 | 1080.9 | 1351.2 | 1621.4 | 2702.3 |
-| **24**| 337.8 | 540.5 | 675.6 | 1080.9 | 1351.2 | 1621.4 | 2702.4 |
-| **25**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
-| **26**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
-| **27**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
-| **28**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
-| **29**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
-| **30**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
-
-*Note that the rate of accumulation of each dose decreases such that even with continual dosage, there is a peak for EACH dosage (i.e. changes eventually become mathematically insignificant).* 
-
----
-
-## 7. Diagnostics, Measurements, & At-Home Tracking
-
-### Daily Check-Ins
-* **Basal Temperature & Pulse:** Waking target: `97.5°F (36.4°C)` with pulse `75-85 bpm`. Midday target (30-40 mins after a high-carb lunch): stable `98.6°F (37.0°C)`. A post-meal *drop* in temperature/pulse indicates a stress-driven metabolism.
-* **Continuous Glucose Monitor (CGM):** Track real-time spikes. Run challenges (e.g., standard glucose OGTT vs. glucose + BCAAs vs. glucose + BCAAs + glycine).
-* **Methylene Blue Clear Time:** Speed of urinary blueing as a proxy of mitochondrial clearing capacity.
-* **Conscious Breathing Exercises:** Decent evidence supports that conscious breathing restructures unconscious breathing over time. Breathe in over your targeted inhale time as deeply as possible while extending your abdomen fully. On the exhale, focus entirely on lowering your abdomen as slowly as possible (exhalation will occur automatically). Hold in a fully exhaled state. Initiate with a hold duration that produces mild air hunger in the second half of a 5-minute block. Once no air hunger is felt across the full 5 minutes, increase the hold time by several seconds.
-
-### Essential Blood Panels
-* **TSH:** Optimal target is `<1.0`, ideally `0.4-1.0` (Ray Peat).
-* **Free T3 & Free T4:** Target upper quartile (top 25% of reference range).
-* **Reverse T3 (rT3):** Target as low as possible.
-* **Full Hormone Panel:** Sensitive Estradiol, Progesterone (nmol/L target: 1-4 for males), DHEA-S, Pregnenolone, Prolactin, AM Cortisol, Total & Free Testosterone. Aim for a 5:1 ratio of T to DHT (target total T ~1000-1200 ng/dL for TRT cruising).
-* **Metabolic Markers:** Fasting Insulin, HbA1c, hs-CRP, and a Full Iron Panel (including Ferritin - high Ferritin with low serum iron indicates tissue sequestration from active inflammation, not true iron deficiency).
-
-### Advanced Diagnostics
-* **Essential & Metabolic Fatty Acids Profile:** Direct measure of red blood cell membrane fats to track PUFA status.
-* **Acyl-Carnitine Profile:** Identifies mitochondrial fatty acid oxidation traffic jams (elevated levels indicate FAO blockages/reductive stress).
-* **MitoSwab™:** Direct cheek swab functional assay of ETC complexes I-IV.
-* **FoodMarble:** Real-time digestive gas monitoring to track small intestinal fermentation.
-
----
-
-## 8. Recipes, Culinary Hacks & Sourcing
-
-### Culinary Hacks
-* **The Bulgarian Burger:** Mix high-quality ground ruminant meat with gelatin and calcium carbonate (to improve the calcium-to-phosphorus ratio and lower prolactin).
-* **Butter-Fortified Roast:** Roast chicken or pork (monogastric, high-PUFA meats), pour off the rendered animal fat, and baste/replace with pure butter during the final minutes of cooking.
-* **The Raw Carrot Salad:** 1-2 raw carrots grated lengthways, 1 tbsp coconut oil (or extra virgin olive oil), 1 tbsp white vinegar (or ACV), and a pinch of salt. Helps bind and excrete endotoxins.
-* **Pre-Bed Glycine Snack:** Warm juice or milk with 1-2 tbsp gelatin powder and honey. Tops off liver glycogen to prevent 4 AM cortisol spikes.
-* **Saturated Fat Buffer:** Drizzle a teaspoon of coconut oil or MCT oil over restaurant/processed meals to displace and dilute absorbed PUFAs.
-* **Scrotal Test Cream Prep:** Dissolve 10g of pure Testosterone Base powder in a mixture of 50ml of 95% Ethanol and 50ml of natural Vitamin E (available on iHerb). Shake well every 30 minutes for 4 to 5 intervals until fully dissolved (produces a 10% transdermal solution; scrotal application yields high DHT conversion with lower doses. Target: 0.15ml twice daily). Or use a carrier like SpecializedRx VersaCream Pro base.
-* **Dandruff / Scalp Treatment:** Dissolve 1.5g Salicylic acid and 3g Baking soda in water or Bloo shampoo (glycerol + glucose base). Rub onto scalp and expose to direct sunlight.
-
-### Sourcing & Medical Directory
-* **Hormone Powders (Qingdao Sigma):** Pregnenolone (MOQ 25g ~$55, 100g ~$120), DHEA, Test Base, DHT Base.
-* **NDT / Thyroid Products:** \n  * Meds.com.mx (Cytomel, Synthroid).\n  * Ndtstore.ecwid.com (Thyroid-S).\n  * Inhousepharmacy.vu (Armour, WP Thyroid).\n* **Thailand Sourcing:** Bayer Test E and Nebido are available over-the-counter at Thai pharmacies. Sustanon and Nebido are similarly OTC in Indonesia.\n* **Bangkok Clinic Services:** Cheap blood testing at Chulalongkorn University (AHS Clinic - Clinical Pricing Directory: [https://www.ahs.chula.ac.th/services/health-sciences-service-clinic/services/pricing/](https://www.ahs.chula.ac.th/services/health-sciences-service-clinic/services/pricing/)). Testosterone: 300 baht, Progesterone: 300 baht, DHEA-S: 750 baht, Cortisol: 350 baht.\n* **Hair Transplant Doctors (Thailand):** \n  * Dr. Phakphinya Jaengchetriu\n  * Dr. Kongkiat Laorwong\n* **Bulk Precursors & Solvents:**\n  * Pregnenolone Powder: [https://www.bulksupplements.com/en-th/products/pregnenolone-powder](https://www.bulksupplements.com/en-th/products/pregnenolone-powder)\n  * DHEA Micronized: [https://purebulk.com/products/dhea-dehydroepiandrosterone-micronized?variant=14294826778673](https://purebulk.com/products/dhea-dehydroepiandrosterone-micronized?variant=14294826778673)\n  * Biovea DHEA Cream: [https://www.biovea.com/th/product/detail/20430/dhea-cream-2oz-57g](https://www.biovea.com/th/product/detail/20430/dhea-cream-2oz-57g)\n  * SpecializedRx Versacream Pro Base: [https://specializedrx.com/products/versacream%E2%84%A2-pro-cream-base](https://specializedrx.com/products/versacream%E2%84%A2-pro-cream-base)\n  * Hair or Scalp Mineral Analysis: [https://idealabs.ecwid.com/Mineral-Analysis-p439014728](https://idealabs.ecwid.com/Mineral-Analysis-p439014728)\n  * Bliss Bar Cleansing Face Bar: [https://www.floraandfauna.com.au/products/bliss-bar-face-cleansing-bar](https://www.floraandfauna.com.au/products/bliss-bar-face-cleansing-bar)\n  * Inhaled Hydrogen (InhaleH2) Device: [https://inhaleh2.com/products/inhale-h2-hydrogen-inhalation-system-pre-order-deposit-for-presale](https://inhaleh2.com/products/inhale-h2-hydrogen-inhalation-system-pre-order-deposit-for-presale)\n  * Haidut Idea Labs Allopregnanolone (AlloP): [https://idealabs.ecwid.com/AlloP-p368909891](https://idealabs.ecwid.com/AlloP-p368909891)\n\n---\n\n## 9. Personal Experimental Log, Tasks, & Security Backups\n\n### Me Actions & Core Tasks\n- [ ] order pps for mick<!-- {"notify":"PT15M","startAt":1753052400,"uuid":"9cdf2205-745a-4ef9-bbe6-9d492c75ee6f"} -->\n- [ ] [https://m.youtube.com/watch?v=m_PRMOVc7ww&list=PLXd1C3iTpUCq1MKNLgPoS1hG7emcYxlqh&index=14&t=2726s&pp=2AGmFZACAQ%3D%3D](https://m.youtube.com/watch?v=m_PRMOVc7ww&list=PLXd1C3iTpUCq1MKNLgPoS1hG7emcYxlqh&index=14&t=2726s&pp=2AGmFZACAQ%3D%3D) dinkov 2 hours<!-- {"notify":"PT15M","startAt":1751324400,"uuid":"8a4242bb-41e3-4bff-a6e0-28d1c41f4267"} -->\n- [ ] get it to put whats remaining into a document same as the outline under each heading <!-- {"uuid":"ed5cf03f-0627-4eb5-8eed-51c112feb482"} -->\n\n### Completed Tasks\n- [x] investigate dsmo <!-- {"uuid":"01cf4494-f46b-4081-9117-2586037522c8","completedAt":1751795011} -->\n- [x] Five days of pregnenolone 300mg a night before blood test with and without butter mix<!-- {"uuid":"efe4454f-2057-4a89-bfd4-5056ae260ec6","completedAt":1751795006} -->\n- [x] try fire in a bottles supp the sat fat acid one stearic metabolite<!-- {"uuid":"e868a6fc-a296-45db-a913-10caced84386","completedAt":1751795004} -->\n- [x] [https://m.youtube.com/watch?v=m_PRMOVc7ww&pp=ygUNR2VvcmdpIGRpbmtvdg%3D%3D](https://m.youtube.com/watch?v=m_PRMOVc7ww&pp=ygUNR2VvcmdpIGRpbmtvdg%3D%3D) dinkov podcast 2:00<!-- {"uuid":"3ee1e72a-defe-4da8-b4ce-ee177b5e7b2b","completedAt":1751680917} -->\n- [x] Is exogenous hgh administration pro bioenergetic <!-- {"uuid":"889e23dc-aa99-441b-9193-4495946d6b3c","completedAt":1751680127} -->\n- [x] look into overnight red light for less morning anxiety<!-- {"uuid":"97d6f522-cbb0-487d-8c15-b78983b49a05","completedAt":1751599637} -->\n- [x] ogtt bcaa + glucose vs glycine + glucose vs bcaa + glycine + glucose 🆔   🆔 sNF4t8 \[<!-- {"uuid":"04686391-2293-4b89-b815-84cd132e61a4","completedAt":1751528559} -->\n- [x] Butter Pregnenolone<!-- {"uuid":"ddfd07d8-22ba-49de-a172-9fb454c3c2f3","completedAt":1749890397} -->\n\n### What Worked for Morning Anxiety\n* **Ineffective:** High-dose T cream, oral DHEA (up to 100mg 2x/day), oral Pregnenolone (up to 400mg 2x/day), topical Progesterone, topical Magnesium, sun at sunrise/sunset, high-dose sauna exposure.\n* **Effective:** Physical affection and intimacy (with Meixi) and returning to active surfing.\n* **Left to Try:** Topical DHEA (33% bioavailable vs 3% oral), sublingual Progesterone dissolved in natural Vitamin E applied to gums, Growth Hormone (healing/skin), overnight red light therapy, Betaine HCl + Pepsin, an active probiotic (milk kefir), and staying up until midnight in Thailand to reset the circadian sleep/defecation pattern.\n\n### Personal Sourcing Log & Markers\n* **Personal Progesterone Butter Test:** 50mg DHEA + Pregnenolone with butter yielded a serum progesterone level 0.5 lower than the 0.7 baseline marker without butter (further trials needed).\n* **DHEA Protocol Refinement:** 100mg DHEA and 1g Pregnenolone split 2x a day achieved target serum DHEA and progesterone. Limit E2 post-DHEA by getting leaner and shifting to transdermal DHEA or topical DHEA base (1g DHEA in 5ml glycerol).\n* **Scrotal TRT Lab Values:** One Reddit user on a 20% test cream scrotal protocol reported DHT: 373 ng/dl, total T: 775 ng/dl, free T: 112 pg/ml, E2: 42 pg/ml. This is a 2:1 T-to-DHT ratio (aiming for 5:1 with cruise protocols).\n* **Self Decode bdnf / cortisol / oxytocin links:** Investigation paths into Shrooms/LSD/Semax.\n* **Circadian Cortisol Relief:** Gratitude and prayer practices are shown in Islamic cohorts to reduce cortisol by 10% and blood glucose by 20%.\n* **Akkermansia Clinical Notes:** Administer on empty stomach first thing in morning post-overnight fast. Mercola notes a firm upcoming production company. Dr. Michael Ruscio emphasizes that Akkermansia has less robust clinical data than traditional lacto/bifido blends.\n* **Electrum Wallet Seed (Backup):** `ginger vicious reject angle wheel cloud just already tree remove front easy`\n* **Public Bitcoin Address:** `bc1qzsanzu4md5r0wnn4d852ykug33d8cyp7wddtrp`\n\n### Self-Experimentation Philosophical Musings\n* *"If you can't fix your face with health improvements plus fat graft what's the point in the hair transplant"*\n* *"fashion might be where i am most sure of my taste"*\n\n---\n\n## 10. Appendix: Dietary Lists, Book Outline, and Community Strategy\n\n### Complete Ray Peat Fruit Selection List\n* Apples (peeled and cooked)\n* Cherimoya\n* Cherries\n* Guavas\n* Longans\n* Lychees\n* Olives (lye-processed, no sulfites/iron)\n* Oranges\n* Pawpaws\n* Pears (peeled and cooked)\n* Sapotes\n* Tangerines\n* Watermelon\n* Avocado (occasional use)\n* Lemons\n* Limes\n* Papaya\n* Mango (metabolic superfood)\n* Bananas (very ripe)\n* Melons\n\n### Book Outline & Community Strategy Heuristics\n* **Before Mentioning the Book on Forums:**\n  * Target: 10–12 sincere, organic posts on targeted forums (e.g., bioenergetic.forum).\n  * Frequency: 2–3x per week.\n  * Timing: Wait 3–4 weeks before introducing any book mentions unless organic engagement occurs earlier.\n  * Tone: Curious, non-promotional, contributor mindset. Keep discussion simple to avoid getting overwhelmed by competing unvetted ideas.\n* **Acknowledging Contributors:** Ensure prominent credit to Georgi Dinkov, Brad Marshall (Fire in a Bottle), and Dr. Joseph Mercola (specifically for hosting them).\n* **Exogenous Growth Hormone Thread:** Focus on the central trade-off: does the anti-cortisol effect of exogenous GH compensate for its lipid-oxidation/glucose-blocking (Randle Cycle) effects?\n\n---\n```
-
-
-
 File: ./content/autoimmune-conditions-a-case-of-mistaken-identity.md
 ------------------------
 ---
@@ -1429,224 +2018,6 @@ This is the tragic paradox of the obese state. The body is swimming in stored en
 
 
 ### 
-
-
-File: ./content/bioenergetic-biochemistry-and-protocols.md
-------------------------
----
-title: 'Bioenergetic Biochemistry and Protocols'
-uuid: 9f8e7d6c-b5a4-3f2e-1d0c-9b8a7f6e5d4c
-created: '2026-05-26T19:20:00+10:00'
-updated: '2026-05-26T19:20:00+10:00'
-tags:
-  - health/vitalist
----
-
-# Bioenergetic Biochemistry, Therapeutics, & Protocol Manual
-
-This document consolidates the fundamental biochemistry, thermodynamic concepts, endocrine profiles, modern pathology models, and active therapeutic protocols of the bioenergetic framework.
-
----
-
-## 1. Core Philosophy & Bioenergetic Fundamentals
-
-### The Energy Paradigm
-* **Declining Baseline Metabolic Rate (BMR):** Modern research (e.g., J.R. Speakman) indicates a progressive decrease in global BMR over the last several decades. Chronic caloric restriction downregulates BMR long-term, which can trigger rapid fat regain during refeeding (the fat overshoot model). Obesity is a survival-driven adaptation to a depressed metabolic rate. Having a slightly higher body fat percentage with a roaring, high BMR is healthier than being lean with a suppressed metabolism.
-* **The Essential Fatty Acid (EFA) Myth:** Supposed EFA deficiencies demonstrated in historic trials were actually B-vitamin deficiencies. Completely removing EFAs accelerates metabolic rate to such a degree that B-vitamin requirements spike dramatically.
-* **Therapeutic Philosophy:** Standard medical interventions (e.g., extreme fasting, aggressive LDL lowering, rigid restriction of simple sugars) attempt to slow a compromised engine so it breaks slower. The bioenergetic goal is to change the environment (minimizing seed oils, plastics, and EMFs) to unblock the engine so it runs efficiently.
-* **Historical Reference Point:** According to USDA data, the average male in 1939 consumed approximately 4,500 calories daily while maintaining a lean, muscular physique—reflecting a vastly superior baseline metabolic rate.
-
-### Redox Balance: The Cellular Tug-of-War
-* **The Efficiently Oxidized State:**
-  * High NAD⁺/NADH, FAD/FADH₂, and active ATP consumption.
-  * The Electron Transport Chain (ETC) is fully functional; NADH is oxidized cleanly.
-  * ATP consumption creates the ADP demand that drives forward proton flow.
-  * Adaptive mitochondrial uncoupling prevents over-reduction of the ETC, lowers membrane potential to minimize ROS, and generates therapeutic heat.
-* **The Pathological Reduced State:**
-  * High NADH/NAD⁺, FADH₂/FAD, and low ATP demand.
-  * Excess NADH stalls glycolysis, the Pyruvate Dehydrogenase (PDH) complex, and the TCA cycle.
-  * Absence of ADP backs up electrons, elevating membrane potential and triggering Reverse Electron Transport (RET).
-  * RET is the primary source of pathological Reactive Oxygen Species (ROS) leakage, occurring predominantly during fatty acid oxidation.
-
----
-
-## 2. Mitochondrial Respiration & Electron Transport Chain (ETC)
-
-### Respiration Dynamics
-* Cells maintain an incredibly tight 8-to-12 second reserve of ATP and creatine phosphate.
-* Under aerobic conditions, pyruvate enters the mitochondria and is converted to acetyl-CoA by Pyruvate Dehydrogenase (PDH), releasing carbon dioxide (CO₂) and converting NAD⁺ to NADH.
-* NADH donates its electrons to Complex I, regenerating NAD⁺ for glycolysis and the TCA cycle.
-
-### The ETC Power Stations & Target Supports
-* **Complex I (NADH:Ubiquinone Oxidoreductase):** Primary entry point for carbohydrate-derived electrons. Dependent on B-vitamins (B1/Thiamine for NADH generation, B2/Riboflavin as a structural component). Blockages cause electron backup, causing severe reductive stress.
-* **Complex II (Succinate Dehydrogenase):** Primary entry point for fatty acid-derived electrons (via FADH₂). SDH activity can be acetylated and impaired in obesity. Directly fueled by disodium succinate.
-* **Complex III (Cytochrome c Reductase):** Accepts electrons from both Complex I and II via CoQ10. Heavily impaired by statin medications which block CoQ10 synthesis. Blockages cause electron leakage. Can be bridged with quinones (Vitamin K2 MK-4, ubiquinone) and Vitamin C.
-* **Complex IV (Cytochrome c Oxidase):** Decisive oxygen-reducing step. Highly dependent on copper. Directly stimulated and upregulated by red and near-infrared light.
-* **Complex V (ATP Synthase):** Uses the proton gradient to synthesize ATP.
-
-### Safety Valves & Modulators
-* **Nicotinamide Nucleotide Transhydrogenase (NNT):** The mitochondrial pressure-release valve. Transfers electrons from NADH to NADP⁺, regenerating NAD⁺ (alleviating reductive stress) and creating NADPH (fueling antioxidant defenses). Overloaded acetyl-CoA acetylates and impairs NNT.
-* **Mitochondrial Uncoupling:**
-  * *Adaptive (Good):* Pokes holes in the proton gradient to vent energy as heat, reducing electron pressure and ROS. Stimulated by saturated fat oxidation. Vitamin E, niacinamide, glycine, caffeine, and low-dose aspirin act as mild uncouplers.
-  * *Pathological (Bad):* Occurs in pre-reduced, energy-starved cells, forcing them to work harder and worsening reductive stress.
-  * *Exogenous Uncouplers:* CCCP achieves ~4% uncoupling. BAM15 is considered an upgraded, safer analog of DNP. DNP (2,4-Dinitrophenol) has a 36-hour half-life; excessive accumulation leads to lethal hyperthermia (>39°C / 102.2°F).
-
----
-
-## 3. Fuel Selection & Satiety (The Randle Cycle)
-
-### The Randle Cycle
-* Flooding the blood with free fatty acids (FFAs) via high fat intake, adrenaline, or cortisol forces fat oxidation. This generates acetyl-CoA and NADH, activating Pyruvate Dehydrogenase Kinase (PDK). PDK phosphorylates and shuts down the Pyruvate Dehydrogenase (PDH) gateway.
-* PDH inhibition locks glucose out of mitochondrial respiration, shunting pyruvate to lactate (reductive stress).
-* To limit fat availability to the cell, utilize anti-lipolytic agents (niacinamide, aspirin, biotin) or direct inhibitors of fat oxidation (Meldonium).
-
-### Carbohydrates: The Clean-Burning Fuel
-* **Thyroid Conversion:** Adequate glucose is mandatory for the deiodinase enzymes to convert T4 to active T3. High-carb, low-fat diets (<20% fat cals) prevent PPAR-alpha signaling, lower FFAs, raise NAD⁺ via PDH, and increase metabolic rate.
-* **Fructose vs. Glucose:** Fructose is selectively processed by the liver. In a healthy liver (low PUFA, low endotoxin), fructose is converted to glucose (~50-60%), lactate (~15-25% used by heart/muscle), and liver glycogen (~15-20%), with <1-3% undergoing *de novo* lipogenesis. Fructose infusions yield ~360% more hepatic glycogen than glucose.
-* **Safe Starches:** Use low-BCAA, safe starches (white rice, peeled potatoes, sweet potatoes, tapioca/cassava, taro, yam, chestnuts, plantains, butternut squash, arrowroot).
-
-### Fats: Saturation vs. Instability
-* **Saturated Fatty Acids (SFAs):** Stearic acid, butter, ghee, and coconut oil are stable fuels lacking weak double bonds. High tissue stearic acid strongly correlates with lower body fat. Stearic acid is metabolized to Stearoylethanolamide (SEA), which suppresses SCD1, lowers TNF-alpha, and resists obesity.
-* **Monounsaturated Fatty Acids (MUFAs):** Oleic acid (olive oil) acts as a seasonal hibernation signal. MUFAs upregulate SCD1, activate PPAR-alpha via OEA (oleoylethanolamide), increase endocannabinoids (causing appetite stimulation and metabolic slowdown), and generate high postprandial triglyceride spikes. Palm kernel oil contains only around 12% MUFA, whereas palm oil contains 39% MUFA.
-* **Polyunsaturated Fatty Acids (PUFAs):** Highly unstable, containing weak double bonds prone to lipid peroxidation. They preferentially liberate during lipolysis, activate the PPAR-alpha winter switch, agonize estrogen receptors, and directly inhibit T4-to-T3 thyroid conversion at every level.
-* **PUFA Depletion:** Fat-free diets can rapidly deplete serum PUFAs in days and tissue PUFAs in about 30 days. Adding coconut oil (even at 45% cals) slows tissue PUFA depletion because exogenous fat reduces the need to mobilize stored adipose tissues.
-
-### The BCAA Problem & Amino Acid Balancing
-* **BCAAs (Leucine, Isoleucine, Valine):** High circulating BCAAs are strongly causal in insulin resistance and obesity. High dietary BCAAs consume massive NAD⁺ during breakdown, lowering the cytoplasmic NAD⁺/NADH ratio and generating 3-HIB (which drives glucose/triglyceride spikes). High tissue MUFAs indirectly impair BCAA breakdown, causing BCAAs to accumulate. Eliminating isoleucine from high-fat diets completely halts weight gain in mice.
-* **The Glycine Counterbalance:** Glycine (from gelatin/collagen) is the direct antidote to BCAA/methionine/tryptophan toxicity.
-  * Facilitates **glycine conjugation** to bind and clear toxic acyl-CoA intermediates in urine (reducing acyl-carnitine congestion).
-  * Spares NAD⁺, improves gut barrier function (minimizing endotoxin leakage), and decreases fatty acid synthase.
-  * Gelatin acts similarly to insulin, blunting postprandial blood sugar spikes.
-  * Ancestral protein target: 15% of total calories, with 1/3 to 1/2 consisting of collagen/gelatin to offset muscle meat. A basic daily sufficiency template is 3 eggs plus 30 grams of gelatin.
-
----
-
-## 4. Hormones & The Endocrine System
-
-### The Adrenal/Stress Axis
-* **Cortisol:** Catabolic hormone driving gluconeogenesis by shredding muscle mass. Chronically elevated cortisol is the primary driver of high blood glucose and insulin resistance in T2D.
-* **DHEA & Pregnenolone:** Anabolic, pro-growth cortisol antagonists. Pregnenolone synthesis inside adrenal mitochondria is the rate-limiting step in steroidogenesis. With age, DHEA/progesterone decline while cortisol remains high.
-* **Cortisol:DHEA Ratio:** The ultimate marker of biological aging and all-cause mortality. Optimal target is `<0.5` (DHEA at least double cortisol). A ratio `>0.5` is highly correlated with depression; `>1.0` is strongly associated with psychosis and cardiovascular events.
-* **Cortisol:Testosterone Ratio:** Dynamic marker of immediate catabolism vs. anabolism. Ratios `>10` virtually guarantee metabolic syndrome.
-
-### Thyroid: The Master Conductor
-* **T4 to T3 Conversion:** Inactive T4 is converted to active T3 primarily in the liver. Sabotaged by PUFAs, MUFAs, high cortisol, and nutritional deficiencies (selenium, zinc, magnesium, iodine, D3). Active T3 is required to synthesize pregnenolone from cholesterol.
-* **Reverse T3 (rT3):** The metabolic emergency brake. Competes with T3 for cellular receptors without activating them. Elevated by starvation, fasting, and systemic inflammation.
-* **Synthetic Dosing (Ray Peat Heuristics):**
-  * Mimic natural human secretion ratios (~3:1 or 4:1 T4 to T3).
-  * *Frontloading T4:* T4 has a 1-week half-life (takes ~4-6 weeks to reach steady state). Doubling the T4 dose for the first 4 days brings levels to steady state in 5 days. Do *not* frontload T3 (fast-acting).
-  * Keep single oral doses of T3 low (no more than 10mcg at a time, max 75mcg/day) and consume with food.
-
-### Androgens vs. Estrogen & Serotonin
-* **DHT (Dihydrotestosterone):** Fully saturated terminal metabolite. Cannot aromatize to estrogen. Potent cortisol blocker, serotonin inhibitor, and synergizes with thyroid to raise free T3. Healthy prostate is a high-DHT, low-estrogen environment.
-* **Progesterone:** The ultimate protective steroid. Potent 11β-HSD1 inhibitor (reducing active cortisol by 50-60%). Opposes estrogen, degrades serotonin, and is highly thermogenic. Bypasses liver first-pass metabolism when applied to gums (USP powder dissolved in natural d-alpha tocopherol vitamin E). Normal dose is 25-50mg before bed to raise GABA and improve sleep.
-* **Estrogen:** Potent reductant that shifts cells toward aerobic glycolysis (Warburg Effect) and away from oxidative phosphorylation. Promoted by PUFA intake, plastics (EDCs), and heavy eccentric exercise.
-* **Serotonin:** The "tolerate suffering" hormone. Systemic metabolic inhibitor. High enterocyte-derived serotonin stimulates hepatic stellate cells via 5-HT2B/5-HT2A receptors, driving lipogenesis, fatty liver (NAFLD), and tissue fibrosis. Restricting tryptophan (via gelatin) or using 5-HT2 blockers (Cyproheptadine) releases the metabolic brake.
-
----
-
-## 5. Pathology & Modern Disease Models
-
-### Cancer & The Warburg Effect
-* Cancer cells overexpress HIF-1a, shut down mitochondrial respiration, and run primitive glucose and glutamine fermentation (generating high lactate and ROS) even in the presence of oxygen. They overexpress GLUT transporters because they are stuck in fat oxidation and starving for glucose.
-* **Redox and pH:** Tumor microenvironments are highly reduced (low NAD⁺/NADH), high-lactate, low-CO₂, and highly acidic (low pH). Selective acidification of the internal cancer cell (via high-dose aspirin or 2,6-dihydroxybenzoic acid) triggers apoptosis. Cancer cell cytoplasm is pathologically alkaline, which protects it from programmed cell death.
-* **The Vitamin-Aspirin Synergy:** Combining Vitamin B1 (15mg/kg), B3 (30mg/kg), B7 (1.5mg/kg), and Aspirin (15mg/kg) has been shown to lead to complete tumor regression in rodent models. Sourcing a more lipophilic analog, **2,6-dihydroxybenzoic acid** (400mg), demonstrated even higher efficacy. Note that rodents fed a fat-free diet for 2 weeks prior could not be successfully implanted with tumors.
-
-### Insulin Resistance & Diabetes
-* Characterized by localized muscle and liver fat accumulation (intramuscular acyl-CoA gridlock). High circulating BCAAs block insulin's ability to promote glucose utilization. Obese individuals exhibit 1/2 to 1/3 the blood flow in adipose tissue compared to lean individuals, creating regional hypoxia.
-
-### Gut Dysbiosis & Leaky Gut
-* Mitochondrial damage to colonocytes -> reduced oxygen consumption -> oxygen leaks into the anaerobic deep colon -> death of beneficial obligate anaerobes (e.g., *Akkermansia*) -> thin mucin layer -> overgrowth of oxygen-tolerant facultative anaerobes -> massive endotoxin (LPS) production -> LPS crosses leaky gut -> LPS binds TLR4 -> systemic inflammation and direct NAD⁺ depletion.
-
-### Neurodegeneration
-* Alzheimer's ("Type 3 Diabetes") and Parkinson's represent regional manifestations of neuronal energy failure. Neurons do not perform fermentation; if mitochondrial respiration fails, they undergo apoptosis. Amyloid plaques, tau tangles, and Lewy bodies are the tombstones (debris) of dead cells, not the upstream cause.
-
----
-
-## 6. Therapeutics, Bioactives & Advanced Protocols
-
-### Foundational Supports
-* **Niacinamide (B3):** Direct NAD⁺ precursor. Potent anti-lipolytic. Increases glucose oxidation. Dose: 50-100mg with meals, 3x daily. Avoid nicotinic acid (causes serotonin/histamine release).
-* **Aspirin (Acetylsalicylic Acid):** COX and LOX inhibitor. Directly blocks PUFA conversion to inflammatory prostaglandins. Inhibits 11β-HSD1 to lower cortisol. Lowers fat oxidation by up to 30%. Dose: 81-325mg dissolved in warm water with meals. Take 1mg Vitamin K per 325mg aspirin.
-* **Thiamine (B1):** Essential cofactor for Pyruvate Dehydrogenase (PDH). 300-500mg thiamine chloride or 100-150mg of lipophilic analogs (e.g., benfotiamine) halves lactate buildup during physical exertion.
-* **Biotin (B7):** Cofactor for pyruvate carboxylase. Helps bypass a blocked PDH by redirecting pyruvate into oxaloacetate for gluconeogenesis / energy metabolism.
-* **Vitamin E:** PUFA antagonist. Prevents lipid peroxidation. Natural d-alpha-tocopherol (pure D isomer with beta, gamma, delta tocopherols) is required. Take with fat.
-* **Magnesium & Zinc:** Cofactors for T4-to-T3 conversion. Magnesium glycinate/malate calms NMDA excitotoxicity and lowers cortisol. Zinc supports androgen synthesis.
-* **Taurine:** Calms excitotoxicity, buffers the "jitters" from caffeine/nicotine or MSG.
-
-### Advanced Bioactives
-* **Methylene Blue (MB):** Electron cycler. Can unblock all 4 complexes of the ETC (Complex I, II, III, and IV). Acts as an alternative electron cycler, reducing electron backup. Combine with niacinamide to offset MB-induced serotonin increases. Dose: 3-5mg (1% concentration: 1g MB in 4oz bottle).
-* **Alpha-Ketoglutarate (α-KG):** Krebs cycle intermediate depleted by excess BCAAs. Dose: 2000mg twice daily to restore insulin sensitivity.
-* **R-Alpha-Lipoic Acid (R-ALA):** Dose-dependently increases SIRT1 and NAD⁺/NADH ratio. Dose: 500mg twice daily.
-* **Emodin:** Potent 11β-HSD1 inhibitor. Dose: 250-500mg.
-* **Cyproheptadine:** Antihistamine and potent 5-HT2 serotonin receptor blocker.
-* **Propranolol:** Beta-blocker that lowers adrenaline, preventing excessive stress-induced lipolysis.
-* **L-Carnitine:** Increases fat oxidation (use with caution; beneficial primarily to clear mitochondrial traffic jams, but chronically raises fat oxidation).
-* **ITPP (Myo-inositol trispyrophosphate):** Binds to hemoglobin, forcing oxygen release (enhancing the Bohr Effect) to treat cellular hypoxia.
-* **Catuaba:** Dopaminergic herb that acts as a functional serotonin antagonist to improve motivation and drive.
-* **SLU-PP-332:** ERRα inverse agonist that pharmacologically inhibits the "burn fat" hibernation signal, restoring PDH and glucose oxidation.
-* **5-Amino-1MQ:** NNMT inhibitor. Blocks the NNMT enzyme from wasting NAD⁺ precursors, preserving cellular NAD⁺ pools to clear reductive stress.
-* **Stearoylethanolamide (SEA):** Stearic acid metabolite. Downregulates SCD1, reduces TNF-alpha, and increases metabolic rate. Target: 300mg twice daily (note: 1200mg/day raised Brad Marshall's body temp too excessively).
-* **Puerh Tea Extract:** TLR4 blocker. Blocks endotoxin signaling, preventing weight gain on high-fat diets.
-
-### Peptide, EPO & Growth Hormone Protocols
-* **Peptide Abbreviations & Codings:** SM5 - semaglutide, 2S10 - ss31, MS5 - mots-c, G5k - HCG.
-* **Meldonium and EPO:** Meldonium restricts the entry of fatty acids to the cell, stimulating glucose oxidation. Synergizes with EPO for athletic performance.
-* **MOTS-c:** Mitochondrial-derived peptide. Updates metabolic software by improving glucose utilization and insulin sensitivity. Dose: 2.5mg to 5mg, 3x weekly.
-* **SS-31 (Elamipretide):** Binds cardiolipin in the inner mitochondrial membrane, stabilizing ETC complexes and preventing electron leakage. Dose: 1mg to 5mg daily. Synergizes with MOTS-c.
-* **Tesamorelin:** GHRH analog. Dose: 2mg at night.
-* **HGH (Human Growth Hormone):** Direct administrator is potently lipolytic (shreds fat, flooding blood with FFAs, inducing diabetic-like glucose blockade via the Randle Cycle). However, it lowers cortisol by 15-30% and improves skin/healing. Apply EOD (every other day) at night (e.g., 2-4 IU) to reduce insulin sensitivity issues.
-* **IGF-1 (IGF-1 LR3):** The preferred anabolic signal. Direct IGF-1 is anti-lipolytic (prevents FFA flood) and enhances glucose oxidation/uptake. Inhibits 11β-HSD1 directly (HGH does not).
-
----
-
-## 7. Diagnostics, Measurements, & At-Home Tracking
-
-### Daily Check-Ins
-* **Basal Temperature & Pulse:** Waking target: `97.5°F (36.4°C)` with pulse `75-85 bpm`. Midday target (30-40 mins after a high-carb lunch): stable `98.6°F (37.0°C)`. A post-meal *drop* in temperature/pulse indicates a stress-driven metabolism.
-* **Continuous Glucose Monitor (CGM):** Track real-time spikes. Run challenges (e.g., standard glucose OGTT vs. glucose + BCAAs vs. glucose + BCAAs + glycine).
-* **Methylene Blue Clear Time:** Speed of urinary blueing as a proxy of mitochondrial clearing capacity.
-* **Conscious Breathing Exercises:** Decent evidence supports that conscious breathing restructures unconscious breathing over time. Breathe in over your targeted inhale time as deeply as possible while extending your abdomen fully. On the exhale, focus entirely on lowering your abdomen as slowly as possible (exhalation will occur automatically). Hold in a fully exhaled state. Initiate with a hold duration that produces mild air hunger in the second half of a 5-minute block. Once no air hunger is felt across the full 5 minutes, increase the hold time by several seconds.
-
-### Essential Blood Panels
-* **TSH:** Optimal target is `<1.0`, ideally `0.4-1.0` (Ray Peat).
-* **Free T3 & Free T4:** Target upper quartile (top 25% of reference range).
-* **Reverse T3 (rT3):** Target as low as possible.
-* **Full Hormone Panel:** Sensitive Estradiol, Progesterone (nmol/L target: 1-4 for males), DHEA-S, Pregnenolone, Prolactin, AM Cortisol, Total & Free Testosterone. Aim for a 5:1 ratio of T to DHT (target total T ~1000-1200 ng/dL for TRT cruising).
-* **Metabolic Markers:** Fasting Insulin, HbA1c, hs-CRP, and a Full Iron Panel (including Ferritin - high Ferritin with low serum iron indicates tissue sequestration from active inflammation, not true iron deficiency).
-
-### Advanced Diagnostics
-* **Essential & Metabolic Fatty Acids Profile:** Direct measure of red blood cell membrane fats to track PUFA status.
-* **Acyl-Carnitine Profile:** Identifies mitochondrial fatty acid oxidation traffic jams (elevated levels indicate FAO blockages/reductive stress).
-* **MitoSwab™:** Direct cheek swab functional assay of ETC complexes I-IV.
-* **FoodMarble:** Real-time digestive gas monitoring to track small intestinal fermentation.
-
----
-
-## 8. Appendix: DNP Bloodstream Retention Dynamics
-
-DNP accumulation in the bloodstream over 30 days of continuous daily dosing, assuming a 36-hour half-life.
-*Formula used:* `New total = Dose + (Old total * ((1/2)^(Dosage period/Half-life)))`
-
-| Day | 125mg ED | 200mg ED | 250mg ED | 400mg ED | 500mg ED | 600mg ED | 1g ED |
-|---|---|---|---|---|---|---|---|
-| **1** | 125.0 | 200.0 | 250.0 | 400.0 | 500.0 | 600.0 | 1000.0 |
-| **2** | 203.7 | 326.0 | 407.5 | 652.0 | 815.0 | 978.0 | 1630.0 |
-| **3** | 253.4 | 405.4 | 506.7 | 810.7 | 1013.4 | 1216.1 | 2026.8 |
-| **4** | 284.6 | 455.4 | 569.2 | 910.7 | 1138.4 | 1366.1 | 2276.8 |
-| **5** | 304.3 | 486.9 | 608.6 | 973.7 | 1217.2 | 1460.6 | 2434.3 |
-| **6** | 316.7 | 506.7 | 633.4 | 1013.4 | 1266.8 | 1520.1 | 2533.5 |
-| **7** | 324.5 | 519.2 | 649.0 | 1038.4 | 1298.0 | 1557.6 | 2596.0 |
-| **8** | 329.4 | 527.1 | 658.8 | 1054.2 | 1317.7 | 1581.2 | 2635.4 |
-| **9** | 332.5 | 532.0 | 665.0 | 1064.1 | 1330.1 | 1596.1 | 2660.2 |
-| **10**| 334.5 | 535.2 | 669.0 | 1070.3 | 1337.9 | 1605.5 | 2675.8 |
-| **11**| 335.7 | 537.1 | 671.4 | 1074.3 | 1342.8 | 1611.4 | 2685.7 |
-| **12**| 336.5 | 538.4 | 673.0 | 1076.7 | 1345.9 | 1615.1 | 2691.9 |
-| **13**| 337.0 | 539.2 | 673.9 | 1078.3 | 1347.9 | 1617.5 | 2695.8 |
-| **14**| 337.3 | 539.6 | 674.6 | 1079.3 | 1349.1 | 1618.9 | 2698.2 |
-| **15**| 337.5 | 540.0 | 674.9 | 1079.9 | 1349.9 | 1619.9 | 2699.8 |
-| **16-30**| ~337.8 | ~540.5 | ~675.6 | ~1081.0 | ~1351.2 | ~1621.4 | ~2702.4 |
-
 
 
 File: ./content/can-balancing-bcaas-with-sufficient-glycine-fully-negate-their-negative-effects.md
@@ -3579,7 +3950,7 @@ The root cause of these conditions is not the food, the bacteria, or the gut lin
 File: ./content/health_vitalist_Outline.md
 ------------------------
 ---
-title: 'Home'
+title: 'Dinkov Distilled: The Metabolic Theory Of Health'
 uuid: 18f09b78-4e89-11f0-8db4-69eedcc5324e
 created: '2025-06-21T20:18:37+10:00'
 updated: '2026-05-26T13:12:10+10:00'
@@ -3588,12 +3959,6 @@ tags:
   - health/vitalist/booklet
 ---
 
-# **Dinkov Distilled: The Metabolic Theory Of Health**
-
-> ⚠️ **Temporary Raw & Combined Notes Viewing Links:**
-> * [Assorted Notes Combined (Fully Consolidated Manual)](assorted-notes-combined.md) 
-> * [Personal Experimental Log and Sourcing](personal-experimental-log-and-sourcing.md) 
-> * [Bioenergetic Biochemistry and Protocols](bioenergetic-biochemistry-and-protocols.md) 
 
 ### **Part I: The Foundation**
 
@@ -5522,150 +5887,6 @@ SS-31's mechanism is even more fundamental and elegant. It is a structural mecha
 
 
 
-
-
-
-File: ./content/personal-experimental-log-and-sourcing.md
-------------------------
----
-title: 'Personal Experimental Log and Sourcing'
-uuid: 1c4a567e-a12b-4cd3-8ef9-0123456789ab
-created: '2026-05-26T19:15:00+10:00'
-updated: '2026-05-26T19:15:00+10:00'
-tags:
-  - health/vitalist
----
-
-# Personal Experimental Log & Sourcing Manual
-
-This document serves as the dedicated personal sandbox, active experimental log, culinary kitchen guide, and sourcing directory, extracted from the primary bioenergetic notes.
-
----
-
-## 1. Active & Completed Tasks
-
-### Pending Actions & Core Tasks
-- [ ] order pps for mick<!-- {"notify":"PT15M","startAt":1753052400,"uuid":"9cdf2205-745a-4ef9-bbe6-9d492c75ee6f"} -->
-- [ ] [Dinkov 2 Hours Video](https://m.youtube.com/watch?v=m_PRMOVc7ww&list=PLXd1C3iTpUCq1MKNLgPoS1hG7emcYxlqh&index=14&t=2726s&pp=2AGmFZACAQ%3D%3D)<!-- {"notify":"PT15M","startAt":1751324400,"uuid":"8a4242bb-41e3-4bff-a6e0-28d1c41f4267"} -->
-- [ ] get it to put whats remaining into a document same as the outline under each heading <!-- {"uuid":"ed5cf03f-0627-4eb5-8eed-51c112feb482"} -->
-
-### Completed Tasks
-- [x] investigate dsmo <!-- {"uuid":"01cf4494-f46b-4081-9117-2586037522c8","completedAt":1751795011} -->
-- [x] Five days of pregnenolone 300mg a night before blood test with and without butter mix<!-- {"uuid":"efe4454f-2057-4a89-bfd4-5056ae260ec6","completedAt":1751795006} -->
-- [x] try fire in a bottles supp the sat fat acid one stearic metabolite<!-- {"uuid":"e868a6fc-a296-45db-a913-10caced84386","completedAt":1751795004} -->
-- [x] [Georgi Dinkov Podcast 2:00](https://m.youtube.com/watch?v=m_PRMOVc7ww&pp=ygUNR2VvcmdpIGRpbmtvdg%3D%3D)<!-- {"uuid":"3ee1e72a-defe-4da8-b4ce-ee177b5e7b2b","completedAt":1751680917} -->
-- [x] Is exogenous hgh administration pro bioenergetic <!-- {"uuid":"889e23dc-aa99-441b-9193-4495946d6b3c","completedAt":1751680127} -->
-- [x] look into overnight red light for less morning anxiety<!-- {"uuid":"97d6f522-cbb0-487d-8c15-b78983b49a05","completedAt":1751599637} -->
-- [x] ogtt bcaa + glucose vs glycine + glucose vs bcaa + glycine + glucose 🆔 sNF4t8 \[<!-- {"uuid":"04686391-2293-4b89-b815-84cd132e61a4","completedAt":1751528559} -->
-- [x] Butter Pregnenolone<!-- {"uuid":"ddfd07d8-22ba-49de-a172-9fb454c3c2f3","completedAt":1749890397} -->
-
----
-
-## 2. Personal Self-Experimentation & Findings
-
-### What Worked for Morning Anxiety
-* **Ineffective interventions:** High-dose T cream, oral DHEA (up to 100mg 2x/day), oral Pregnenolone (up to 400mg 2x/day), topical Progesterone, topical Magnesium, sun exposure at sunrise/sunset, high-dose sauna sessions.
-* **Effective interventions:** Physical affection, close intimacy, and actively returning to surfing.
-* **Pending Trials:** Topical DHEA (approx. 33% bioavailable vs. 3% oral), sublingual Progesterone dissolved in natural Vitamin E applied directly to gums, Growth Hormone (evaluated for healing/skin), overnight red light therapy, Betaine HCl + Pepsin, milk kefir (active probiotic), and intentionally staying awake until midnight in Thailand to reset circadian sleep/defecation patterns.
-
-### Personal Trial Data & Hormonal Markers
-* **Progesterone Butter Test:** 50mg DHEA + Pregnenolone combined with butter yielded a serum progesterone level 0.5 nmol/L lower than the 0.7 nmol/L baseline marker measured without butter (further comparative trials needed).
-* **DHEA Protocol Optimization:** 100mg DHEA combined with 1g Pregnenolone split 2x daily achieved target serum DHEA and progesterone. To limit estradiol (E2) conversion post-DHEA, focus on reducing body fat and transitioning to transdermal DHEA or topical DHEA base (1g DHEA dissolved in 5ml glycerol).
-* **Scrotal TRT Benchmarks:** Scrotal application of 20% testosterone cream has been reported in case studies to achieve: DHT: 373 ng/dl, total T: 775 ng/dl, free T: 112 pg/ml, E2: 42 pg/ml. This demonstrates a robust 2:1 T-to-DHT ratio (targeting a 5:1 ratio on standard cruising TRT protocols).
-* **Self Decode Pathways:** Continued investigation into BDNF, cortisol, and oxytocin pathways (evaluating potential roles of adaptogens/mimetics).
-* **Adrenocortical Circadian Relief:** Conscious prayer and gratitude practices have shown a documented capacity to lower cortisol by approximately 10% and blood glucose by 20% in specific clinical cohorts.
-* **Akkermansia Administration:** Must be taken on an empty stomach first thing in the morning following an overnight fast. Note that traditional bifido/lacto blends currently display more comprehensive clinical backing than isolated Akkermansia.
-
-### Philosophical Musings
-* *"If you can't fix your face with health improvements plus fat graft what's the point in the hair transplant"*
-* *"fashion might be where i am most sure of my taste"*
-
----
-
-## 3. Recipes & Culinary Hacks
-
-* **The Bulgarian Burger:** Mix high-quality ground ruminant meat with gelatin and calcium carbonate (improves calcium-to-phosphorus ratio and lowers prolactin).
-* **Butter-Fortified Roast:** When roasting monogastric, higher-PUFA meats (such as chicken or pork), pour off all rendered animal fat. Baste and replace generously with pure butter during the final minutes of cooking.
-* **The Raw Carrot Salad:** 1-2 raw carrots grated lengthways, 1 tbsp coconut oil (or extra virgin olive oil), 1 tbsp white vinegar (or apple cider vinegar), and a pinch of salt. Helps bind and excrete endotoxins in the gut.
-* **Pre-Bed Glycine Snack:** Warm juice or milk mixed with 1-2 tbsp of gelatin powder and raw honey. Tops off liver glycogen to prevent 4 AM cortisol spikes.
-* **Saturated Fat Buffer:** Drizzle a teaspoon of coconut oil or MCT oil over restaurant or processed meals to displace and dilute absorbed PUFAs.
-* **Dandruff / Scalp Treatment:** Dissolve 1.5g Salicylic acid and 3g Baking soda in water or Bloo shampoo (glycerol + glucose base). Massage onto scalp and expose to direct sunlight.
-
----
-
-## 4. Sourcing & Medical Directory
-
-### Raw Precursors & Solvents
-* **Bulk Hormone Powders (Qingdao Sigma):** Pregnenolone (MOQ 25g ~$55, 100g ~$120), DHEA, Testosterone Base, DHT Base.
-* **Pregnenolone Powder:** [BulkSupplements Pregnenolone](https://www.bulksupplements.com/en-th/products/pregnenolone-powder)
-* **DHEA Micronized:** [PureBulk DHEA Micronized](https://purebulk.com/products/dhea-dehydroepiandrosterone-micronized?variant=14294826778673)
-* **Biovea DHEA Cream:** [Biovea Thailand](https://www.biovea.com/th/product/detail/20430/dhea-cream-2oz-57g)
-* **SpecializedRx VersaCream Pro Base:** [SpecializedRx Cream Base](https://specializedrx.com/products/versacream%E2%84%A2-pro-cream-base)
-* **Haidut Idea Labs Allopregnanolone (AlloP):** [Idea Labs AlloP](https://idealabs.ecwid.com/AlloP-p368909891)
-* **Hair or Scalp Mineral Analysis:** [Idea Labs Mineral Analysis](https://idealabs.ecwid.com/Mineral-Analysis-p439014728)
-
-### NDT & Thyroid Products
-* **Meds Mexico (Cytomel, Synthroid):** [Meds.com.mx](https://Meds.com.mx)
-* **NDT Store (Thyroid-S):** [NDT Store](https://ndtstore.ecwid.com)
-* **Inhouse Pharmacy (Armour, WP Thyroid):** [Inhouse Pharmacy](https://Inhousepharmacy.vu)
-
-### International Clinic Services
-* **Bangkok Clinical Testing:** Extremely cost-effective blood panels at Chulalongkorn University (AHS Clinic - [AHS Chula Pricing Directory](https://www.ahs.chula.ac.th/services/health-sciences-service-clinic/services/pricing/)). 
-  * *Testosterone:* 300 THB (~$8 USD)
-  * *Progesterone:* 300 THB
-  * *DHEA-S:* 750 THB
-  * *Cortisol:* 350 THB
-* **Thailand Over-the-Counter Sourcing:** Bayer Test E and Nebido are available over-the-counter in Thailand. Sustanon and Nebido are similarly OTC in Indonesia.
-* **Hair Transplant Doctors (Thailand):**
-  * Dr. Phakphinya Jaengchetriu
-  * Dr. Kongkiat Laorwong
-
-### Auxiliary Devices & Lifestyle Sourcing
-* **Inhaled Hydrogen System:** [InhaleH2 Device](https://inhaleh2.com/products/inhale-h2-hydrogen-inhalation-system-pre-order-deposit-for-presale)
-* **Bliss Bar Cleansing Face Bar:** [Flora & Fauna Bliss Bar](https://www.floraandfauna.com.au/products/bliss-bar-face-cleansing-bar)
-
----
-
-## 5. Appendix: Dietary Lists & Community Strategy
-
-### Ray Peat Fruit Selection Guide
-* Apples (peeled and cooked)
-* Cherimoya
-* Cherries
-* Guavas
-* Longans
-* Lychees
-* Olives (lye-processed, free of sulfites/iron)
-* Oranges
-* Pawpaws
-* Pears (peeled and cooked)
-* Sapotes
-* Tangerines
-* Watermelon
-* Avocado (infrequent/occasional)
-* Lemons & Limes
-* Papaya
-* Mango (metabolic powerhouse)
-* Bananas (fully ripe)
-* Melons
-
-### Forum & Community Strategy
-* **Pre-Book Forums Soft Launch:**
-  * Target: 10–12 high-quality, sincere, organic posts on targeted platforms (e.g., bioenergetic.forum).
-  * Frequency: 2–3 times per week.
-  * Timeline: Observe a 3–4 week buffer period before introducing any direct book references unless naturally prompted.
-  * Tone: Non-promotional, contributor-focused, keeping theories accessible.
-* **Contributor Attributions:** Ensure prominent, respectful acknowledgement of Georgi Dinkov, Brad Marshall (Fire in a Bottle), and Dr. Joseph Mercola.
-* **Growth Hormone Engagement:** Frame community discussions around the central bioenergetic trade-off: does the anti-cortisol benefit of exogenous GH override its lipolytic/glucose-blocking (Randle Cycle) properties?
-
----
-
-## 6. Secure Backups (Encrypted / Keys)
-
-* **Electrum Wallet Seed Phrase:**
-  `ginger vicious reject angle wheel cloud just already tree remove front easy`
-* **Public Bitcoin Address:**
-  `bc1qzsanzu4md5r0wnn4d852ykug33d8cyp7wddtrp`
 
 
 

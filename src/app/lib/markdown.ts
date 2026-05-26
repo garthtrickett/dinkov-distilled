@@ -22,14 +22,14 @@ export interface MarkdownPage {
   frontmatter: Record<string, unknown>;
 }
 
-function parseFrontmatter(fileContent: string): { data: any; content: string } {
+function parseFrontmatter(fileContent: string): { data: Record<string, unknown>; content: string } {
   const match = fileContent.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
   if (!match) {
     return { data: {}, content: fileContent };
   }
   const yamlBlock = match[1];
   const content = match[2];
-  const data: any = {};
+  const data: Record<string, unknown> = {};
   
   const lines = yamlBlock.split('\n');
   let currentKey = '';
@@ -41,7 +41,7 @@ function parseFrontmatter(fileContent: string): { data: any; content: string } {
       if (!Array.isArray(data[currentKey])) {
         data[currentKey] = [];
       }
-      data[currentKey].push(trimmed.slice(1).trim().replace(/^['"]|['"]$/g, ''));
+      (data[currentKey] as string[]).push(trimmed.slice(1).trim().replace(/^['"]|['"]$/g, ''));
       continue;
     }
     
@@ -78,7 +78,7 @@ function getFilesCache() {
       const slug = file.replace(/\.md$/, '');
       cache.push({
         slug,
-        uuid: data.uuid,
+        uuid: data.uuid as string | undefined,
         filePath,
       });
     } catch (e) {
@@ -129,11 +129,11 @@ export function getMarkdownByIdentifier(identifier: string): MarkdownData | null
     
     return {
       slug: found.slug,
-      uuid: data.uuid,
-      title: data.title || found.slug,
-      created: data.created,
-      updated: data.updated,
-      tags: data.tags,
+      uuid: data.uuid as string | undefined,
+      title: (data.title as string | undefined) || found.slug,
+      created: data.created as string | undefined,
+      updated: data.updated as string | undefined,
+      tags: data.tags as string[] | undefined,
       content,
       htmlContent,
     };
@@ -152,9 +152,9 @@ export function getAllMarkdowns() {
       return {
         slug: item.slug,
         uuid: item.uuid,
-        title: data.title || item.slug,
+        title: (data.title as string | undefined) || item.slug,
       };
-    } catch (e) {
+    } catch {
       return {
         slug: item.slug,
         uuid: item.uuid,
