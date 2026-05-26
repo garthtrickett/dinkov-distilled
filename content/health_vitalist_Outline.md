@@ -11,8 +11,6 @@ tags:
 # **Dinkov Distilled: The Metabolic Theory Of Health**
 
 > ⚠️ **Temporary Raw & Combined Notes Viewing Links:**
-> * [Assorted Notes One (Raw Sandbox Notes)](assorted-notes-one.md) 
-> * [Assorted Notes Two (Raw Outline Sandbox Notes)](assorted-notes-two.md) 
 > * [Assorted Notes Combined (Fully Consolidated Manual)](assorted-notes-combined.md) 
 > * [Personal Experimental Log and Sourcing](personal-experimental-log-and-sourcing.md) 
 > * [Bioenergetic Biochemistry and Protocols](bioenergetic-biochemistry-and-protocols.md) 
@@ -24,6 +22,8 @@ tags:
 - [Introduction: Shifting the Paradigm from Genetics and Pills to Energy and Environment](introduction-shifting-the-paradigm-from-genetics-and-pills-to-energy-and-environment.md) 
 
 - [The Body as an Adaptive System (Not a Broken Machine)](the-body-as-an-adaptive-system-not-a-broken-machine.md) 
+
+- [The Essential Fatty Acid (EFA) Myth & Speakman's BMR Decline Study](the-essential-fatty-acid-efa-myth-and-speakman-bmr-decline-study.md) 
 
 - [The Core State: Reductive vs. Oxidized](the-core-state-reductive-vs-oxidized.md) 
 
@@ -263,9 +263,15 @@ tags:
 
     - [Peptides: MOTS-C, SS-31](peptides-mots-c-ss-31.md) 
 
+    - [Peptide and Growth Hormone Dosing Logs](peptide-and-growth-hormone-dosing-logs.md)
+
+    - [Meldonium, EPO, and Advanced Performance Protocols](meldonium-epo-and-advanced-performance-protocols.md)
+
     - [Thyroid Mimetics: Sobetirome (GC-1)](thyroid-mimetics-sobetirome-gc-1.md) 
 
     - [Fat Loss Agents (and their considerable downsides): DNP, GLP-1 Agonists](fat-loss-agents-and-their-considerable-downsides-dnp-glp-1-agonists.md) 
+
+        - [DNP Bloodstream Retention Dynamics](dnp-bloodstream-retention-dynamics.md)
 
     - [Other Bioactives: ITPP, Catuaba](other-bioactives.md) 
 
@@ -280,6 +286,8 @@ tags:
 - **Level 1: The Daily Check-In (Free & At-Home)**
 
     - [Morning & Midday Temperature and Pulse](morning-midday-temperature-and-pulse.md) 
+
+    - [Conscious Breathing Exercises: CO₂ and Bohr Effect Resynchronization](conscious-breathing-exercises-co2-and-bohr-effect-resynchronization.md)
 
     - [Continuous Glucose Monitor (CGM) Experiments](continuous-glucose-monitor-cgm-experiments.md) 
 
