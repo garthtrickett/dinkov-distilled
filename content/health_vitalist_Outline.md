@@ -11,9 +11,11 @@ tags:
 # **Dinkov Distilled: The Metabolic Theory Of Health**
 
 > ⚠️ **Temporary Raw & Combined Notes Viewing Links:**
-> * [Assorted Notes One (Raw Sandbox Notes)](assorted-notes-one.md)
-> * [Assorted Notes Two (Raw Outline Sandbox Notes)](assorted-notes-two.md)
-> * [Assorted Notes Combined (Fully Consolidated Manual)](assorted-notes-combined.md)
+> * [Assorted Notes One (Raw Sandbox Notes)](assorted-notes-one.md) 
+> * [Assorted Notes Two (Raw Outline Sandbox Notes)](assorted-notes-two.md) 
+> * [Assorted Notes Combined (Fully Consolidated Manual)](assorted-notes-combined.md) 
+> * [Personal Experimental Log and Sourcing](personal-experimental-log-and-sourcing.md) 
+> * [Bioenergetic Biochemistry and Protocols](bioenergetic-biochemistry-and-protocols.md) 
 
 ### **Part I: The Foundation**
 
