@@ -16,7 +16,7 @@ This document consolidates and structures all records from both Assorted Notes O
 ## 1. Core Philosophy & Bioenergetic Fundamentals
 
 ### The Energy Paradigm
-* **Declining Baseline Metabolic Rate (BMR):** Research by J.R. Speakman demonstrates a steady decline in BMR over the last 30 years. Chronic energy deprivation (e.g., in concentration camps) downregulates BMR long-term, leading to rapid fat regain upon refeeding (fat overshoot model). Obesity is fundamentally an adaptation to a low metabolic rate. Being mildly overweight with a high metabolic rate is healthier than being lean with a suppressed metabolism.
+* **Declining Baseline Metabolic Rate (BMR):** Research by J.R. Speakman demonstrates a steady decline in BMR over the last 30 years (Speakman study: [https://pubmed.ncbi.nlm.nih.gov/37100994/](https://pubmed.ncbi.nlm.nih.gov/37100994/)). Chronic energy deprivation (e.g., in concentration camps) downregulates BMR long-term, leading to rapid fat regain upon refeeding (fat overshoot model). Obesity is fundamentally an adaptation to a low metabolic rate. Being mildly overweight with a high metabolic rate is healthier than being lean with a suppressed metabolism.
 * **Essential Fatty Acids (EFAs) Myth:** Supposed "essential" fatty acid deficiencies induced in historic studies were actually B-vitamin deficiencies. Removing EFAs accelerates metabolic rate to such an extent that the demand for B-vitamins increases dramatically.
 * **Therapeutic Framework:** Fasting, calorie restriction, aggressively lowering LDL (at the expense of saturated fats), restricting simple sugars, and overdoing resistant starches are methods used to slow down a faulty machine so it breaks slower. Conversely, reducing exposure to seed oils, plastics, and EMFs is designed to unblock the machine so that it runs more efficiently.
 * **Historical Caloric Baseline:** According to the USDA, the average male in 1939 consumed approximately 4,500 calories per day while remaining lean, reflecting a vastly higher historical metabolic baseline.
@@ -77,9 +77,10 @@ This document consolidates and structures all records from both Assorted Notes O
 
 ### Fats: Saturation vs. Instability
 * **Saturated Fatty Acids (SFAs):** Stearic acid, butter, ghee, and coconut oil are stable fuels lacking weak double bonds. High tissue stearic acid strongly correlates with lower body fat. Stearic acid is metabolized to Stearoylethanolamide (SEA), which suppresses SCD1, lowers TNF-alpha, and resists obesity. Coconut oil contains MCFAs that rapidly beta-oxidize in the liver, stimulating PPAR-alpha transiently but delivering clean energy.
-* **Monounsaturated Fatty Acids (MUFAs):** Oleic acid (prominent in olive oil, 25:1 oleic-to-stearic ratio vs. 2.5:1 in butter) acts as a seasonal hibernation signal. MUFAs upregulate SCD1, activate PPAR-alpha via OEA (oleoylethanolamide), increase endocannabinoids (causing appetite stimulation/munchies and metabolic slowdown), and generate high postprandial triglyceride spikes.
+* **Monounsaturated Fatty Acids (MUFAs):** Oleic acid (prominent in olive oil, 25:1 oleic-to-stearic ratio vs. 2.5:1 in butter) acts as a seasonal hibernation signal. MUFAs upregulate SCD1, activate PPAR-alpha via OEA (oleoylethanolamide), increase endocannabinoids (causing appetite stimulation/munchies and metabolic slowdown), and generate high postprandial triglyceride spikes. 
+  * *Sourcing note:* Palm kernel oil contains only around 12% MUFA, whereas palm oil contains 39% MUFA. If visiting Gekkousou, verify if Tomo-san is open to using palm kernel oil in the Izakaya.
 * **Polyunsaturated Fatty Acids (PUFAs):** Highly unstable, containing weak double bonds prone to lipid peroxidation. They preferentially liberate during lipolysis, activate the PPAR-alpha winter switch, agonize estrogen receptors, and directly inhibit T4-to-T3 thyroid conversion at every level.
-* **PUFA Depletion:** In cebus monkeys, a fat-free diet depleted serum PUFAs in 4 days and tissue PUFAs in 30 days. Adding coconut oil (even at 45% cals) slowed tissue PUFA depletion because exogenous fat reduces the need to mobilize stored adipose tissues.
+* **PUFA Depletion:** In cebus monkeys (Cebus Monkeys Study: [https://www.sciencedirect.com/science/article/abs/pii/S002231662307061X](https://www.sciencedirect.com/science/article/abs/pii/S002231662307061X)), a fat-free diet depleted serum PUFAs in 4 days and tissue PUFAs in 30 days. Adding coconut oil (even at 45% cals) slowed tissue PUFA depletion because exogenous fat reduces the need to mobilize stored adipose tissues.
 
 ### The BCAA Problem & Amino Acid Balancing
 * **BCAAs (Leucine, Isoleucine, Valine):** High circulating BCAAs are strongly causal in insulin resistance and obesity. High dietary BCAAs consume massive NAD⁺ during breakdown, lowering the cytoplasmic NAD⁺/NADH ratio and generating 3-HIB (which drives glucose/triglyceride spikes). High tissue MUFAs indirectly impair BCAA breakdown, causing BCAAs to accumulate. Eliminating isoleucine from high-fat diets completely halts weight gain in mice.
@@ -178,10 +179,12 @@ This document consolidates and structures all records from both Assorted Notes O
 * **Puerh Tea Extract:** TLR4 blocker. Blocks endotoxin signaling, preventing weight gain on high-fat diets.
 
 ### Peptide & Growth Hormone Protocols
+* **Peptide Abbreviations & Codings:** SM5 - semaglutide, 2S10 - ss31, MS5 - mots-c, G5k - HCG.
 * **MOTS-c:** Mitochondrial-derived peptide. Updates metabolic software by improving glucose utilization and insulin sensitivity. Dose: 2.5mg to 5mg, 3x weekly.
-* **SS-31 (Elamipretide):** Binds cardiolipin in the inner mitochondrial membrane, stabilizing ETC complexes and preventing electron leakage. Dose: 1mg to 5mg daily. Synergizes with MOTS-c.
-* **Tesamorelin:** GHRH analog. Dose: 2mg at night.
-* **HGH (Human Growth Hormone):** Direct administrator is potently lipolytic (shreds fat, flooding blood with FFAs, inducing diabetic-like glucose blockade via the Randle Cycle). However, it lowers cortisol by 15-30% and improves skin/healing. Apply EOD (every other day) at night (e.g., 2-4 IU) to reduce insulin sensitivity issues.
+  * *Synergies:* Steve takes 1mg mots-c and 1mg ss-31. Vig Steve suggests 5mg is the absolute upper limit on a single injection, with 2.5mg delivering most of the benefits without any accompanying side effects.
+* **SS-31 (Elamipretide):** Binds cardiolipin in the inner mitochondrial membrane, stabilizing ETC complexes and preventing electron leakage. Dose: 1mg to 5mg daily. Synergizes with MOTS-c. Vig Steve and Dean Smart noted minimal obvious subjective differences upon adding SS-31 to their routines.
+* **Tesamorelin:** GHRH analog. Dose: 2mg at night (recommended by Chase Irons).
+* **HGH (Human Growth Hormone):** Direct administrator is potently lipolytic (shreds fat, flooding blood with FFAs, inducing diabetic-like glucose blockade via the Randle Cycle). However, it lowers cortisol by 15-30% and improves skin/healing. Apply EOD (every other day) at night (e.g., 2-4 IU) to reduce insulin sensitivity issues. Chase Irons runs his entire daily GH protocol (18 IU) all at night.
 * **IGF-1 (IGF-1 LR3):** The preferred anabolic signal. Direct IGF-1 is anti-lipolytic (prevents FFA flood) and enhances glucose oxidation/uptake. Inhibits 11β-HSD1 directly (HGH does not).
 
 ---
@@ -192,6 +195,7 @@ This document consolidates and structures all records from both Assorted Notes O
 * **Basal Temperature & Pulse:** Waking target: `97.5°F (36.4°C)` with pulse `75-85 bpm`. Midday target (30-40 mins after a high-carb lunch): stable `98.6°F (37.0°C)`. A post-meal *drop* in temperature/pulse indicates a stress-driven metabolism.
 * **Continuous Glucose Monitor (CGM):** Track real-time spikes. Run challenges (e.g., standard glucose OGTT vs. glucose + BCAAs vs. glucose + BCAAs + glycine).
 * **Methylene Blue Clear Time:** Speed of urinary blueing as a proxy of mitochondrial clearing capacity.
+* **Conscious Breathing Exercises:** Decent evidence supports that conscious breathing restructures unconscious breathing over time. Breathe in over your targeted inhale time as deeply as possible while extending your abdomen fully. On the exhale, focus entirely on lowering your abdomen as slowly as possible (exhalation will occur automatically). Hold in a fully exhaled state. Initiate with a hold duration that produces mild air hunger in the second half of a 5-minute block. Once no air hunger is felt across the full 5 minutes, increase the hold time by several seconds.
 
 ### Essential Blood Panels
 * **TSH:** Optimal target is `<1.0`, ideally `0.4-1.0` (Ray Peat).
@@ -216,7 +220,7 @@ This document consolidates and structures all records from both Assorted Notes O
 * **The Raw Carrot Salad:** 1-2 raw carrots grated lengthways, 1 tbsp coconut oil (or extra virgin olive oil), 1 tbsp white vinegar (or ACV), and a pinch of salt. Helps bind and excrete endotoxins.
 * **Pre-Bed Glycine Snack:** Warm juice or milk with 1-2 tbsp gelatin powder and honey. Tops off liver glycogen to prevent 4 AM cortisol spikes.
 * **Saturated Fat Buffer:** Drizzle a teaspoon of coconut oil or MCT oil over restaurant/processed meals to displace and dilute absorbed PUFAs.
-* **Scrotal Test Cream Prep:** Dissolve 10g of pure Testosterone Base powder in a mixture of 50ml of 95% Ethanol and 50ml of natural Vitamin E. Shake well until fully dissolved (produces a 10% transdermal solution; scrotal application yields high DHT conversion with lower doses. Target: 0.15ml twice daily). Or use a carrier like SpecializedRx VersaCream Pro base.
+* **Scrotal Test Cream Prep:** Dissolve 10g of pure Testosterone Base powder in a mixture of 50ml of 95% Ethanol and 50ml of natural Vitamin E (available on iHerb). Shake well every 30 minutes for 4 to 5 intervals until fully dissolved (produces a 10% transdermal solution; scrotal application yields high DHT conversion with lower doses. Target: 0.15ml twice daily). Or use a carrier like SpecializedRx VersaCream Pro base.
 * **Dandruff / Scalp Treatment:** Dissolve 1.5g Salicylic acid and 3g Baking soda in water or Bloo shampoo (glycerol + glucose base). Rub onto scalp and expose to direct sunlight.
 
 ### Sourcing & Medical Directory
@@ -226,10 +230,19 @@ This document consolidates and structures all records from both Assorted Notes O
   * Ndtstore.ecwid.com (Thyroid-S).
   * Inhousepharmacy.vu (Armour, WP Thyroid).
 * **Thailand Sourcing:** Bayer Test E and Nebido are available over-the-counter at Thai pharmacies. Sustanon and Nebido are similarly OTC in Indonesia.
-* **Bangkok Clinic Services:** Cheap blood testing at Chulalongkorn University (AHS Clinic). Testosterone: 300 baht, Progesterone: 300 baht, DHEA-S: 750 baht, Cortisol: 350 baht.
+* **Bangkok Clinic Services:** Cheap blood testing at Chulalongkorn University (AHS Clinic - Clinical Pricing Directory: [https://www.ahs.chula.ac.th/services/health-sciences-service-clinic/services/pricing/](https://www.ahs.chula.ac.th/services/health-sciences-service-clinic/services/pricing/)). Testosterone: 300 baht, Progesterone: 300 baht, DHEA-S: 750 baht, Cortisol: 350 baht.
 * **Hair Transplant Doctors (Thailand):** 
   * Dr. Phakphinya Jaengchetriu
   * Dr. Kongkiat Laorwong
+* **Bulk Precursors & Solvents:**
+  * Pregnenolone Powder: [https://www.bulksupplements.com/en-th/products/pregnenolone-powder](https://www.bulksupplements.com/en-th/products/pregnenolone-powder)
+  * DHEA Micronized: [https://purebulk.com/products/dhea-dehydroepiandrosterone-micronized?variant=14294826778673](https://purebulk.com/products/dhea-dehydroepiandrosterone-micronized?variant=14294826778673)
+  * Biovea DHEA Cream: [https://www.biovea.com/th/product/detail/20430/dhea-cream-2oz-57g](https://www.biovea.com/th/product/detail/20430/dhea-cream-2oz-57g)
+  * SpecializedRx Versacream Pro Base: [https://specializedrx.com/products/versacream%E2%84%A2-pro-cream-base](https://specializedrx.com/products/versacream%E2%84%A2-pro-cream-base)
+  * Hair or Scalp Mineral Analysis: [https://idealabs.ecwid.com/Mineral-Analysis-p439014728](https://idealabs.ecwid.com/Mineral-Analysis-p439014728)
+  * Bliss Bar Cleansing Face Bar: [https://www.floraandfauna.com.au/products/bliss-bar-face-cleansing-bar](https://www.floraandfauna.com.au/products/bliss-bar-face-cleansing-bar)
+  * Inhaled Hydrogen (InhaleH2) Device: [https://inhaleh2.com/products/inhale-h2-hydrogen-inhalation-system-pre-order-deposit-for-presale](https://inhaleh2.com/products/inhale-h2-hydrogen-inhalation-system-pre-order-deposit-for-presale)
+  * Haidut Idea Labs Allopregnanolone (AlloP): [https://idealabs.ecwid.com/AlloP-p368909891](https://idealabs.ecwid.com/AlloP-p368909891)
 
 ---
 
@@ -242,7 +255,51 @@ This document consolidates and structures all records from both Assorted Notes O
 
 ### Personal Sourcing Log & Markers
 * **Personal Progesterone Butter Test:** 50mg DHEA + Pregnenolone with butter yielded a serum progesterone level 0.5 lower than the 0.7 baseline marker without butter (further trials needed).
+* **DHEA Protocol Refinement:** 100mg DHEA and 1g Pregnenolone split 2x a day achieved target serum DHEA and progesterone. Limit E2 post-DHEA by getting leaner and shifting to transdermal DHEA or topical DHEA base (1g DHEA in 5ml glycerol).
+* **Scrotal TRT Lab Values:** One Reddit user on a 20% test cream scrotal protocol reported DHT: 373 ng/dl, total T: 775 ng/dl, free T: 112 pg/ml, E2: 42 pg/ml. This is a 2:1 T-to-DHT ratio (aiming for 5:1 with cruise protocols).
+* **Self Decode bdnf / cortisol / oxytocin links:** Investigation paths into Shrooms/LSD/Semax.
+* **Circadian Cortisol Relief:** Gratitude and prayer practices are shown in Islamic cohorts to reduce cortisol by 10% and blood glucose by 20%.
+* **Akkermansia Clinical Notes:** Administer on empty stomach first thing in morning post-overnight fast. Mercola notes a firm upcoming production company. Dr. Michael Ruscio emphasizes that Akkermansia has less robust clinical data than traditional lacto/bifido blends.
 * **Electrum Wallet Seed (Backup):** `ginger vicious reject angle wheel cloud just already tree remove front easy`
 * **Public Bitcoin Address:** `bc1qzsanzu4md5r0wnn4d852ykug33d8cyp7wddtrp`
+
+### Self-Experimentation Philosophical Musings
+* *"If you can't fix your face with health improvements plus fat graft what's the point in the hair transplant"*
+* *"fashion might be where i am most sure of my taste"*
+
+---
+
+## 10. Appendix: Dietary Lists, Book Outline, and Community Strategy
+
+### Complete Ray Peat Fruit Selection List
+* Apples (peeled and cooked)
+* Cherimoya
+* Cherries
+* Guavas
+* Longans
+* Lychees
+* Olives (lye-processed, no sulfites/iron)
+* Oranges
+* Pawpaws
+* Pears (peeled and cooked)
+* Sapotes
+* Tangerines
+* Watermelon
+* Avocado (occasional use)
+* Lemons
+* Limes
+* Papaya
+* Mango (metabolic superfood)
+* Bananas (very ripe)
+* Melons
+
+### Book Outline & Community Strategy Heuristics
+* **Before Mentioning the Book on Forums:**
+  * Target: 10–12 sincere, organic posts on targeted forums (e.g., bioenergetic.forum).
+  * Frequency: 2–3x per week.
+  * Timing: Wait 3–4 weeks before introducing any book mentions unless organic engagement occurs earlier.
+  * Tone: Curious, non-promotional, contributor mindset. Keep discussion simple to avoid getting overwhelmed by competing unvetted ideas.
+* **Acknowledging Contributors:** Ensure prominent credit to Georgi Dinkov, Brad Marshall (Fire in a Bottle), and Dr. Joseph Mercola (specifically for hosting them).
+* **Exogenous Growth Hormone Thread:** Focus on the central trade-off: does the anti-cortisol effect of exogenous GH compensate for its lipid-oxidation/glucose-blocking (Randle Cycle) effects?
 
 ---
