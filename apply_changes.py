@@ -286,6 +286,48 @@ if __name__ == "__main__":
     if os.path.exists(target_file):
         with open(target_file, "r", encoding="utf-8") as f:
             success = apply_diffs(f.read())
+            
+            if success:
+                # --- Auto-migration and Fixes ---
+                import shutil
+                import re
+                
+                # 1. Copy rc/app/[slug] to src/app/[slug]
+                if os.path.exists("rc/app/[slug]"):
+                    print("🤖 Auto-migrating rc/app/[slug] to src/app/[slug]...", flush=True)
+                    os.makedirs("src/app/[slug]", exist_ok=True)
+                    try:
+                        shutil.copy("rc/app/[slug]/page.tsx", "src/app/[slug]/page.tsx")
+                        print("✅ Copied page.tsx successfully to src/app/[slug]/page.tsx", flush=True)
+                    except Exception as e:
+                        print(f"❌ Failed to copy page.tsx: {e}", flush=True)
+
+                # 2. Make src/app/[slug]/page.tsx and src/app/lib/markdown.ts robust to .md suffixes
+                def make_robust_to_md(filepath):
+                    if os.path.exists(filepath):
+                        print(f"🤖 Making {filepath} robust to .md suffixes...", flush=True)
+                        with open(filepath, "r", encoding="utf-8") as f:
+                            content = f.read()
+                        
+                        # Print file for debugging so we can see it in logs
+                        print(f"\n--- ORIGINAL {filepath} ---\n{content}\n--- END ORIGINAL ---\n", flush=True)
+                        
+                        updated = content
+                        updated = updated.replace("${slug}", "${slug.replace(/\\.md$/, \"\")}")
+                        updated = updated.replace("slug + '.md'", "slug.replace(/\\.md$/, \"\") + '.md'")
+                        updated = updated.replace("slug + \"\.md\"", "slug.replace(/\\.md$/, \"\") + \"\.md\"")
+                        updated = re.sub(r'path\.join\(([^)]*)\bslug\b([^)]*)\)', r'path.join(\1slug.replace(/\\.md$/, "")\2)', updated)
+                        
+                        if updated != content:
+                            with open(filepath, "w", encoding="utf-8") as f:
+                                f.write(updated)
+                            print(f"✅ Successfully patched {filepath} to strip .md suffixes.", flush=True)
+                        else:
+                            print(f"ℹ️ No replacements needed or already patched for {filepath}.", flush=True)
+
+                make_robust_to_md("src/app/[slug]/page.tsx")
+                make_robust_to_md("src/app/lib/markdown.ts")
+                
             sys.exit(0 if success else 1)
     else:
         print(f"❌ File not found: {target_file}", flush=True)

@@ -9,6 +9,8 @@ content/a-critical-view-on-fasting-calorie-restriction-and-bulking-cutting.md
 content/acyl-carnitine-profile-fatty-acid-oxidation-impairment.md
 content/alzheimer-s-type-3-diabetes-parkinson-s-and-the-failure-of-neuronal-energy.md
 content/androgens-testosterone-dht.md
+content/assorted-notes-one.md
+content/assorted-notes-two.md
 content/autoimmune-conditions-a-case-of-mistaken-identity.md
 content/beta-hydroxybutyrate-bhb-ratio.md
 content/beyond-calories-in-calories-out-a-failure-of-fuel-oxidation.md
@@ -140,17 +142,121 @@ content/transdermal-vs-oral-administration.md
 content/uncoupling-the-good-adaptive-thermogenesis-and-the-bad-pathological.md
 content/vitamin-e-as-a-pufa-antagonist-niacinamide-b3-magnesium-taurine.md
 c.sh
+eslint.config.mjs
+.eslintrc.json
 flake.lock
 flake.nix
 GEMINI.md
 .github
 .github/workflows
 .gitignore
+.next
+.next/app-build-manifest.json
+.next/build-manifest.json
+.next/cache
+.next/cache/next-devtools-config.json
+.next/cache/.previewinfo
+.next/cache/.rscinfo
+.next/cache/swc
+.next/cache/swc/plugins
+.next/cache/swc/plugins/linux_aarch64_18.0.0
+.next/cache/webpack
+.next/cache/webpack/client-development
+.next/cache/webpack/client-development/0.pack.gz
+.next/cache/webpack/client-development/1.pack.gz
+.next/cache/webpack/client-development/2.pack.gz
+.next/cache/webpack/client-development/3.pack.gz
+.next/cache/webpack/client-development/4.pack.gz
+.next/cache/webpack/client-development/index.pack.gz
+.next/cache/webpack/client-development/index.pack.gz.old
+.next/cache/webpack/client-production
+.next/cache/webpack/client-production/0.pack
+.next/cache/webpack/client-production/index.pack
+.next/cache/webpack/edge-server-production
+.next/cache/webpack/edge-server-production/0.pack
+.next/cache/webpack/edge-server-production/index.pack
+.next/cache/webpack/server-development
+.next/cache/webpack/server-development/0.pack.gz
+.next/cache/webpack/server-development/1.pack.gz
+.next/cache/webpack/server-development/2.pack.gz
+.next/cache/webpack/server-development/index.pack.gz
+.next/cache/webpack/server-development/index.pack.gz.old
+.next/cache/webpack/server-production
+.next/cache/webpack/server-production/0.pack
+.next/cache/webpack/server-production/index.pack
+next.config.js
+next-env.d.ts
+.next/package.json
+.next/prerender-manifest.json
+.next/react-loadable-manifest.json
+.next/routes-manifest.json
+.next/server
+.next/server/app
+.next/server/app/_not-found
+.next/server/app/_not-found/page_client-reference-manifest.js
+.next/server/app/_not-found/page.js
+.next/server/app-paths-manifest.json
+.next/server/interception-route-rewrite-manifest.js
+.next/server/middleware-build-manifest.js
+.next/server/middleware-manifest.json
+.next/server/middleware-react-loadable-manifest.js
+.next/server/next-font-manifest.js
+.next/server/next-font-manifest.json
+.next/server/pages-manifest.json
+.next/server/server-reference-manifest.js
+.next/server/server-reference-manifest.json
+.next/server/vendor-chunks
+.next/server/vendor-chunks/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6.js
+.next/server/vendor-chunks/@swc+helpers@0.5.15.js
+.next/server/webpack-runtime.js
+.next/static
+.next/static/chunks
+.next/static/chunks/app
+.next/static/chunks/app/layout.js
+.next/static/chunks/app/_not-found
+.next/static/chunks/app/_not-found/page.js
+.next/static/chunks/app-pages-internals.js
+.next/static/chunks/main-app.js
+.next/static/chunks/polyfills.js
+.next/static/chunks/webpack.js
+.next/static/css
+.next/static/css/app
+.next/static/css/app/layout.css
+.next/static/development
+.next/static/development/_buildManifest.js
+.next/static/development/_ssgManifest.js
+.next/static/webpack
+.next/static/webpack/02d9869116820c31.webpack.hot-update.json
+.next/static/webpack/633457081244afec._.hot-update.json
+.next/static/webpack/webpack.02d9869116820c31.hot-update.js
+.next/trace
+.next/types
+.next/types/app
+.next/types/app/layout.ts
+.next/types/cache-life.d.ts
+.next/types/package.json
+.next/types/routes.d.ts
+.next/types/validator.ts
+package.json
+pnpm-lock.yaml
+postcss.config.js
 project_concat.txt
 public
+rc
+rc/app
+rc/app/[slug]
+rc/app/[slug]/page.tsx
 src
+src/app
+src/app/globals.css
+src/app/layout.tsx
+src/app/lib
+src/app/lib/markdown.ts
+src/app/page.tsx
 src/components
 src/layouts
+tailwind.config.js
+tsconfig.json
 vercel.json
 
 # End of Project Structure
@@ -860,6 +966,4945 @@ Understanding the power of these androgens, especially the pure, stable signal o
 
 
 
+
+
+File: ./content/assorted-notes-one.md
+------------------------
+---
+title: 'health/vitalist/Main'
+uuid: ce74eef8-2199-11f0-bed7-732494e6d21a
+created: '2025-04-25T15:54:50+10:00'
+updated: '2026-01-10T15:31:00+11:00'
+tags:
+  - health/vitalist
+---
+
+![](images/3bfaa4f2-3e65-493d-a716-a5448942592b.jpg) [^1]
+
+
+
+
+
+
+
+Meldonium, epo
+
+
+
+
+
+
+
+SM5 - semaglutide
+
+2S10 - ss31
+
+MS5 - mots-c
+
+G5k - HCG 
+
+
+
+
+Mots-c and ss31 synergistic effects
+
+mots-c 5-15mg 3 times a week
+
+vig steve reckons 5 is the upper limit on a single injection
+
+2\.5mg gets you most of the benefits without the side effects
+
+letes go 2.5mg three times a week
+
+
+
+
+ss-31, 5mg a day 
+
+vig steve and dean smart didnt notice much of a difference adding in ss-31
+
+steve does 1mg mots-c and 1mg ss-31
+
+
+
+
+
+
+
+
+
+
+
+
+
+100mg dhea and 1gram preg split 2\* a day got me to good serum dhea and progesterone
+
+
+
+
+
+
+
+cleansing bar thats awesome according to shelly - [https://www.floraandfauna.com.au/products/bliss-bar-face-cleansing-bar](https://www.floraandfauna.com.au/products/bliss-bar-face-cleansing-bar) 
+
+BAM15 supposedly upgraded DNP
+
+
+
+
+Stress up then Cortisol increases fatty oxidation which then fucks up the fuel mix means glucose doesn't get processed well
+
+Meldonium that drug Russians get caught using limits the amount of fatty acids to the cell which improves glucose oxidation
+
+Most of the glucose that is inc irculation of t2d patients is not of dietary origin - it's cortisol doing it via shredding muscle mass then it goes to liver and gets turned into glucose via gluconeogenesis. It does this because of perceived lack of glucose in the cell due to too much fatty acid oxidation. 
+
+
+
+
+Fat people have an endogenous supply of the mufas and pufas so as long as they are fat there blood glucose will stay elevated as oxidising those kinds of fats is particularly bad for decreasing the ability to process glucose.
+
+
+
+
+Ruminant aminals stomachs have a process that turns polyunsaturated fats back into saturated ones (why they are less effected by diet than chickens and pigs)
+
+
+
+
+Georgi says a couple hundred milligrams of salycilic acid per day is enough for the metabolic effects. (Most of aspirins effect is this metabolite)
+
+
+
+
+Georgie reckons to not get the negative benefits of niacinamide via too high a dosage stick to 50mg, three times a day.
+
+
+
+
+
+
+
+according to chase irons the correct dose for Tesamoralen according is 2mg at night
+
+[https://idealabs.ecwid.com/Mineral-Analysis-p439014728](https://idealabs.ecwid.com/Mineral-Analysis-p439014728)  hair or scalp
+
+
+
+
+Diet
+
+- Mostly carbs: 
+
+- Fructose only at first meal
+
+- Don't overdo muscle protein of which most is ruminant (beef, lamb)
+
+- Starches - sweet potato, potato, sourdough, pasta, white rice.
+
+- Minimal fats of which as much as possible is saturated
+
+- Balance muscle protein with stuff like beef tendon and eating minced meat over cuts of meat
+
+- Don't drink calories ( flavoured sparkling water for taste)
+
+
+
+
+Stuff I've tried that didn't obviously help with morning anxiety
+
+- High dose t cream so high dht presumably
+
+- Oral dhea up to 100mg twice a day
+
+- Oral preg up to 400mg twice a day
+
+- Topical prog
+
+- Topical magnesium (my levels were already high without any supp)
+
+- Raising vit d through sunlight
+
+- Sunlight at sunrise and sunset
+
+- Spending a lot of time socializing (did this at gekkousou)
+
+Stuff that did work
+
+- getting some affection and intamicy with meixi and being able to surf again
+
+
+
+
+What I haven't tried
+
+- Topical dhea
+
+- Sublingual prog dissolved in vitamin e
+
+- Growth hormone
+
+- Red light therapy
+
+- Betaine HCl + 
+
+- Being able to do something I really enjoy (surfing/juijitsu/perhaps boog)
+
+- An awesome probiotic like milk kefir
+
+
+
+
+
+
+
+
+
+
+42069 marks where im up to in vitalist main extra
+
+
+
+
+at some point - need to do a super clean diet with the high fructose to make sure its not the bad fats making my alt and ast high - start with fruit only on first meal as glucagen stores are depelted from overnight fast
+
+
+
+
+dinkov has hair/scalp biomarker analysis
+
+[https://idealabs.ecwid.com/Mineral-Analysis-p439014728](https://idealabs.ecwid.com/Mineral-Analysis-p439014728)  
+
+
+
+
+hair transplant doctors in thailand
+
+Dr. Phakphinya Jaengchetriu 
+
+Dr. Kongkiat Laorwong
+
+
+
+
+If mots-c or ss-31 makes.a big difference sigma aldrey has powder
+
+
+
+
+chat gpt says oral dhea about 3% bioavailable and topical was 33%
+
+
+
+
+Semaglutide stronger appetite suppression than retatrutide
+
+
+
+
+
+
+
+Panax ginseng meant to reduce cortisol
+
+Ashwaganda maybe increase dhea and reduce cortisol
+
+
+
+
+Brute 
+
+- 10 minutes a day deep squat hold onto something at first
+
+- eventually combine it with hands overhead
+
+
+
+
+Delving deeper into the cellular mechanisms, compelling evidence points to IGF-1's direct influence on cortisol metabolism. Specifically, in vitro studies have shown that IGF-1, and not GH, can inhibit the enzyme 11β-hydroxysteroid dehydrogenase type 1 (11β-HSD1). This enzyme is critical as it is responsible for converting inactive cortisone into the biologically active cortisol within tissues. By inhibiting this enzyme, IGF-1 can effectively reduce the local concentration and action of cortisol in specific tissues.
+
+
+
+
+
+
+
+tyler lebaron is looking to bring a device to market super expensive for inhaled hydrogen  < 3% - [https://inhaleh2.com/products/inhale-h2-hydrogen-inhalation-system-pre-order-deposit-for-presale](https://inhaleh2.com/products/inhale-h2-hydrogen-inhalation-system-pre-order-deposit-for-presale) 
+
+
+
+
+
+
+
+Can mix glucose into milk 
+
+
+
+
+3\.7 hours preg half life
+
+2-3 days (4-6 hours) to reach steady state preg and peog
+
+Prog Peak Peak serum 1.5-3 hours post ingestion
+
+Dhea serum max 2-4 hours post Ingestion
+
+Half life 7-24 hours so 4-7 days to peak
+
+
+
+
+Next test if butter helps with preg and try 50mg dhea twice a day with no butter - RESULTS WAS 0.5 lower than 0.7 FOR ME for prog
+
+
+
+
+low does dnp like 200mg eod or e3d so a colder place is pleasant in the winter
+
+
+
+
+If we get ast and alt down and want to try and introduce fruit again make it first meal of the day or else quite small amounts with meals
+
+
+
+
+20% seems to be the limit you can get test to dissolve to 
+
+
+
+
+bloo shampoo dissolved in glycerol plus some glucose 
+
+the bloo guy said danny roddy told him to dissolve aspirin in water and then rub it on your head and that fixed his dandruff
+
+hair loss - bloo founder says youll geto 70-80% there with just aspirin and bicarb soda
+
+Salycilic acid 1.5 g
+
+Baking soda 3g
+
+
+
+
+One bloke on reddit with 20% test cream gets
+
+dht - 373 ng/dl 
+
+total t -  775 ng/dl
+
+free t - 112 pg/ml
+
+e2 -  42 pg/ml
+
+thats 775/373 about 2:1 t:dht 5:1 is what were aiming for
+
+
+
+
+
+
+
+what causes dandruff according to bloo guy
+
+- chronic inflamattion
+
+- vitamin deficiency - vitamin k2, a or d 
+
+- some kind of microbial infection
+
+- thyroid issue
+
+
+
+
+an infusion of fructose resulted in about 360 percent more hepatic glycogen than a glucose infusion
+
+
+
+
+When in gekkousou see if tomosan minds if I buy the palm kernel oil will they use it in the izakaya
+
+
+
+
+How do you use progesterone? You can easily purchase USP (United
+
+States Pharmacopeia) grade online. Once you have that, you merely
+
+dissolve the powder in natural vitamin E, then apply it to your gums.
+
+That’s the best way to use it. If using the liquid form, make sure it
+
+comes in a glass bottle to avoid contamination by estrogenic
+
+plasticizers.
+
+
+
+
+A word on vitamin E: don’t use the synthetic stuff. Look for natural
+
+vitamin E labeled as “d-alpha tocopherol,” the pure D isomer, which
+
+is what your body can use. You’ll also want to know all the isomers
+
+of tocopherols and tocotrienols. They should be the beta, gamma,
+
+and delta types in the effective D isomer.
+
+The best time to take progesterone is thirty minutes before bed. It
+
+has an anti-cortisol function and will increase GABA levels, promoting
+
+a good night’s sleep
+
+
+
+
+To maximize the effectiveness of your
+
+Akkermansia supplement,
+
+take it on an empty stomach, ideally first thing in the morning after
+
+an overnight fast. Wait at least one to two hours before eating to cut
+
+the transit time allowing the bacteria to reach your colon faster
+
+has to be live strains of akkermansia because unlike traditional probiotics its an oxygen intolerant anerobe so its either dead or alive. mercola knows some company tahts close to producing them
+
+dr michael ruscio says akkermansia does not have as much data behind it as lacto/bifido blends
+
+
+
+
+
+
+
+See how being lean effects trough and peak estrogen after 50mg dhea 
+
+
+
+
+given the amount of pregnenolone and dhea i need to get to the top of the reference range im going to need a bulk powder to make it cost effective 
+
+[https://www.bulksupplements.com/en-th/products/pregnenolone-powder](https://www.bulksupplements.com/en-th/products/pregnenolone-powder) 
+
+[https://purebulk.com/products/dhea-dehydroepiandrosterone-micronized?variant=14294826778673](https://purebulk.com/products/dhea-dehydroepiandrosterone-micronized?variant=14294826778673) 
+
+
+
+
+As Gemini research said there is at least decent evidence conscious breathing effects unconscious breathing over time
+
+Breathe in over your inhale time as deep as you can sticking tummy out as much as you can.
+
+On the exhale focus only on lowering your tummy as slowly as possible. You will automatically exhale.
+
+Hold in fully exhaled state. 
+
+Start with hold time that gives you mild air hunger in the second half of the 5 minutes. Then once you don't get any air hunger throughout the entire five minutes up it by a few seconds.
+
+
+
+
+We typically use Bloo every 2-3 days, but some people use it everyday. We recommend starting with twice a week to see how well Bloo helps your symptoms, then use more frequently if needed.
+
+Dinkov reckons  give your head direct sunlight ( I haven't been doing this because of the hat)
+
+Few blokes on evolutionary reckon
+
+vitamin k2 and magnesium oil 
+
+
+
+
+
+
+
+Things left to try to stop morning cortisol induced early wake up and hour or two of anxiety post wakeup
+
+- growth hormone
+
+- Working out
+
+- aerobic exercise
+
+- if dhea  still isnt high at 50mg twice a week  with tablet crush it and add fats
+
+- Gut stuff like betain hcl with pepsin and probiotics for gut 
+
+- Getting lean and eating really clean 
+
+- Having something like surfing or even boogie boarding if it's fun to look forward to
+
+
+
+
+
+
+
+chase irons does all his iu's of gh (18) all at the night
+
+
+
+
+
+
+
+If you can't fix your face with health improvements plus fat graft what's the point in the hair transplant
+
+
+
+
+
+
+
+*Increased levels of cortisol, estrogen, and polyunsaturated fatty acids, and decreased levels of the active thyroid hormone (T3) and (placental) progesterone have been found to occur in AIDS.*
+
+*\*Progesterone can contribute to the inhibition of HIV replication and transmission.*
+
+
+
+
+main ways to limit the amount of e2 after dhea administration
+
+- get leaner
+
+- switch from oral to topical dhea -> in one steady led to more dht and dhea while no change seen to e1 or e2
+
+[https://www.biovea.com/th/product/detail/20430/dhea-cream-2oz-57g](https://www.biovea.com/th/product/detail/20430/dhea-cream-2oz-57g) 
+
+you can use something like this as a base  [https://specializedrx.com/products/versacream%E2%84%A2-pro-cream-base](https://specializedrx.com/products/versacream%E2%84%A2-pro-cream-base) 
+
+another place says
+
+1gm of dhea and 5ml of glycerol
+
+
+
+
+study did 2 weeks of 10 mL 20% dehydroepiandrosterone which equates to 2000mg a day 
+
+### **Making the Full One-Month Batch**
+
+
+
+
+To turn that 60g of DHEA powder into a 20% solution, you would then need to calculate the carrier:
+
+- The **60g of DHEA** is the 20% part of your final mixture.
+
+- To find the total weight of the solution, you'd calculate: 60 g / 0.20 = **300 grams** (total mixture).
+
+- The amount of carrier needed is: 300 g (total) - 60 g (DHEA) = **240 grams of carrier**.
+
+So, for a 30-day supply based on the study, you would mix:
+
+- **DHEA Powder:** 60 g
+
+- **Carrier:** 240 g
+
+- **Total 20% Solution:** 300 g (which is about 300 mL)
+
+fashion might be where i am most sure of my taste
+
+
+
+
+### Summary of Key Findings - oral vs topical pregnenolone
+
+- The choice between oral and topical pregnenolone supplementation must be guided by a clear understanding of their divergent metabolic fates. They are not interchangeable therapies.
+
+- **Oral pregnenolone** functions primarily as a **pro-drug for the neurosteroid allopregnanolone**. It undergoes extensive first-pass hepatic metabolism, which preferentially shunts it down the Δ4 pathway, resulting in a significant increase in circulating progesterone and allopregnanolone. This route has a negligible impact on DHEA levels.
+
+- **Topical pregnenolone** functions as a **direct delivery system for the parent neurosteroid, pregnenolone**. By bypassing hepatic metabolism, it achieves high and sustained levels of circulating pregnenolone itself, with minimal to no conversion to downstream hormones like progesterone or DHEA.
+
+
+
+
+Aim for 5 to 1 ratio of t to dht (1200 total t)
+
+
+
+
+if i end up with a t to dht ratio of less than 5 with scrotally applied test cream might want to combo the cream with injectable test 
+
+
+
+
+
+
+
+ME Actions
+
+- **Best Fit for cortisol issues Osaka University Hospital – Dr. Iichiro Shimomura**
+
+- Something about Thailand has brought back the waking up to shit and piss in the night. Could be the large amounts of fruit. I need to try and stay up until midnight and see if that helps me sleep in and not wake up to shit at 3am
+
+- 7:30 monday at blood test place
+
+- Look into what healthy gut and mercola have to say about gut stuff
+
+- hcl + pepsin again?
+
+- [ ] order pps for mick<!-- {"notify":"PT15M","startAt":1753052400,"uuid":"9cdf2205-745a-4ef9-bbe6-9d492c75ee6f"} -->
+
+- Scalp Treatment [https://trybloo.com/products/bloo-scalp-treatment](https://trybloo.com/products/bloo-scalp-treatment) 
+
+- Dht + test from India powder made into gel in pump bottl and ddhea and preg would ideal for travelling compared to hcg and test and dht all injectable
+
+- Ask the different chinese vendors if they can do the powder for test base or dht or can put me onto a company that can
+
+- pps, doxycycline
+
+- REMEMBER: With the one month bring meds in from overseas loophole lots of japanese roid munchers do that from Thailand. 
+
+- See if once the stress of getting paid is gone, I keep blinds closed and I sort out the undigest fruit either via less fruit more starch or betaine HCl plus pepsin I still wake up at 4 on this high fruit diet
+
+- Even light milk is like 30% fat needs to be combined with more carbs 
+
+- If I just drink milk instead of water  with my high carb food I'll get some protein and fat in
+
+- its palm kernel oil you want not palm oil has only around 12 % mufa whereas  palm oil is 39% mufa 
+
+
+
+
+
+
+
+electurm seed
+
+ginger vicious reject angle wheel cloud just already tree remove front easy
+
+public address - bc1qzsanzu4md5r0wnn4d852ykug33d8cyp7wddtrp
+
+
+
+
+Cheap blood tests in bangkok - [https://www.ahs.chula.ac.th/services/health-sciences-service-clinic/services/pricing/](https://www.ahs.chula.ac.th/services/health-sciences-service-clinic/services/pricing/) 
+
+
+
+
+Ask them if they can do 
+
+- dihydrotestosterone
+
+Otherwise maybe a hair loss clinic cN do it
+
+
+
+
+Baselines
+
+- chromium
+
+- cobalt
+
+- Testosterone - 300 baht
+
+- Dhea-s - 750 baht
+
+- Cortisol - cortisol 350 baht
+
+buy pregnenolone lazada
+
+use with dhea
+
+and the test cream at whole finger thrice daily
+
+
+
+
+1 week
+
+- Testosterone - 300 baht
+
+- Progesterone - 300 baht
+
+- Dhea-s - 750 baht
+
+- Cortisol - cortisol 350 baht
+
+
+
+
+if preg and dhea doesnt get raised by just eating it add it to butter
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Before mentioning the book 
+
+| | |
+|-|-|
+|Goal|Recommendation|
+|**# of posts**|10–12 sincere posts|
+|**Frequency**|2–3x per week|
+|**Timing**|Wait 3–4 weeks unless he engages earlier|
+|**Tone**|Curious, non-promotional, contributor mindset|
+[https://bioenergetic.forum/topic/6771/bioenergetic-view-of-exogenous-growth-hormone-administration](https://bioenergetic.forum/topic/6771/bioenergetic-view-of-exogenous-growth-hormone-administration) 
+
+Just stick to info dinkov puts out will get overwhelmed by random stuff on that forum its too complicate to vet peoples ideas
+
+
+
+
+
+
+
+
+
+
+!!!! Make sure to credit to say this is mostly dinnkovs work, also some fireinabottle guy  and credt people like wild man mercola for putting them on as guests
+
+### Constructive Suggestions for Refinement
+
+Here are some suggestions, broken down by category, aimed at making an already great outline even better.
+
+
+---
+
+### 1. Structural & Flow Enhancements
+
+The biggest opportunity is to slightly reorganize where you place the "actionable" advice versus the "theoretical" explanations. This creates a clearer separation between understanding the system and manipulating the system.
+
+- **Consolidate "Interventions" into the Toolkit:** You currently have intervention strategies in multiple chapters (e.g., "Hormonal Intervention Strategies" in Ch. 4).
+
+    - **Suggestion:** Consider moving *all* specific, actionable interventions (supplements, drugs, dietary strategies for specific hormonal goals) into **Part III: Practical Application**, particularly **Chapter 8: The Bioenergetic Toolkit**.
+
+    - **Rationale:** This would make Chapter 4 purely about *understanding* the hormonal system, while Chapter 8 becomes the single, go-to chapter for "what to take/do." This helps a reader who just wants to know "How do I lower my cortisol?" find all the answers in one place. Chapter 4 would explain *why* you want to lower it, and Chapter 8 would give you the tools.
+
+- **Integrate the Animal Models:** Chapter 5 ("Lessons from Nature") is a brilliant idea, but as a standalone chapter, it might feel slightly disconnected.
+
+    - **Suggestion:** Weave these animal models directly into the chapters where they best illustrate a concept.
+
+    - **Example:**
+
+        - Discuss the **Bear Model** in **Chapter 3** when you explain the Randle Cycle and cyclical insulin resistance.
+
+        - Discuss the **Pig Model** ("You Are What You Eat") in **Chapter 3** when introducing the PUFA cascade.
+
+        - Discuss the **Echidna Model** (MUFAs in hibernation) in **Chapter 6** in the section on fats.
+
+    - **Rationale:** This makes the concepts "stickier" by providing an immediate, memorable example right after the theory is explained. It transforms the animal models from an interesting aside into powerful teaching tools.
+
+- **Move Advanced Proxies to the Measurement Chapter:** In Chapter 2, you list several lab ratios (NAD+/NADH, Pyruvate, BHB, GSSG) as "proxies."
+
+    - **Suggestion:** Briefly mention *that* these can be measured in Chapter 2, but move the detailed explanation of the labs themselves to **Chapter 9: Measuring What Matters**.
+
+    - **Rationale:** In Chapter 2, the reader is just learning the concepts. Introducing complex lab tests might be overwhelming. By the time they get to Chapter 9, they are ready to learn how to measure their progress, and these advanced markers will fit perfectly there.
+
+
+---
+
+### 2. Chapter-by-Chapter Content Refinements
+
+- **Chapter 1 (Core Philosophy):**
+
+    - The subsection title Defining the Oxidized State (Efficient Energy Flow, High CO₂) could be slightly confusing, as "oxidized" often has a negative connotation (oxidative stress). Consider rephrasing for clarity, e.g., **"The Efficiently Oxidized State: The Goal of High Energy Flow"** or **"Redox Balance: The Power of an Oxidized State."**
+
+- **Chapter 6 (The Bioenergetic Plate):**
+
+    - The subsection The Bioenergetic Food Pyramid is a fantastic idea. **Definitely create a visual graphic for this.** It will be one of the most shared and referenced parts of the book.
+
+- **Chapter 10 (The N-of-1 Laboratory):**
+
+    - This chapter feels a bit thin as is. "Current & Planned Experiments" might become dated.
+
+    - **Suggestion:** Broaden its scope to be a guide on the *philosophy and methodology* of self-experimentation. Teach the reader *how* to think like a scientist:
+
+        - How to Form a Hypothesis (e.g., "I believe my high serotonin is causing my poor sleep.")
+
+        - How to Design a Simple Experiment (Changing one variable at a time).
+
+        - How to Track Variables (Using the tools from Ch. 9).
+
+        - How to Avoid Confirmation Bias.
+
+        - Example protocols for common experiments (e.g., "A 30-Day PUFA Depletion Test," "A 2-Week Niacinamide Trial").
+
+    - The "Practical Tools: Recipes, Food Hacks" might be better placed in an **Appendix**.
+
+    - **"Key Takeaway" Summaries:** At the end of each major chapter (e.g., after "Fuel Wars & Metabolic Gridlock"), consider adding a small, boxed-off section with 3-5 bullet points summarizing the absolute "must-remember" principles. This will help reinforce the core message and prevent reader overwhelm.
+
+
+
+
+- [ ] [https://m.youtube.com/watch?v=m_PRMOVc7ww&list=PLXd1C3iTpUCq1MKNLgPoS1hG7emcYxlqh&index=14&t=2726s&pp=2AGmFZACAQ%3D%3D](https://m.youtube.com/watch?v=m_PRMOVc7ww&list=PLXd1C3iTpUCq1MKNLgPoS1hG7emcYxlqh&index=14&t=2726s&pp=2AGmFZACAQ%3D%3D)  dinkov 2 hours<!-- {"notify":"PT15M","startAt":1751324400,"uuid":"8a4242bb-41e3-4bff-a6e0-28d1c41f4267"} -->
+
+- [ ] get it to put whats remaining into a document same as the outline under each heading <!-- {"uuid":"ed5cf03f-0627-4eb5-8eed-51c112feb482"} -->
+
+### Bioenergetic.forum is a great place to ask questions like the should you split your protein and fat meal away from your mostly carb meals or gh question. If Riley won't do it have AI right the posts.
+
+
+
+
+### 
+
+
+---
+
+### 3. New Elements to Consider
+
+- **A Glossary of Terms:** Your book is filled with technical terms (NNT, rT3, SCD1, PPAR-alpha, etc.). A glossary at the end would be an invaluable resource for readers and make the book far more accessible to a wider audience.
+
+- **Visual Diagrams:** Complex processes are begging for visuals.
+
+    - **The Electron Transport Chain (Ch. 2):** A simplified diagram showing the complexes, electron flow, and where things can go wrong.
+
+    - **The Randle Cycle (Ch. 3):** A visual showing how FFA inhibits glucose oxidation.
+
+    - **The Steroid Hormone Cascade (Ch. 4):** A chart showing how Cholesterol -> Pregnenolone -> Progesterone/DHEA -> Cortisol/Testosterone. This is a cornerstone concept.
+
+- **Case Studies or "Bioenergetic Profiles":** Throughout Part III, you could include short, anonymized case studies.
+
+    - *Example: "Profile of a 'Stressed' Metabolism"* - Show the blood work (high rT3, high cortisol, low T3), list the symptoms (insomnia, anxiety, weight gain), and then walk through the protocol that was applied and the resulting improvements. This makes the entire system tangible and provides powerful social proof.
+
+- **A "Quick Start Guide" or "The 5 Foundational Principles" Chapter:** A one-page or two-page summary at the beginning or end of the book that says, "If you're overwhelmed, start here. Focus on these 5 things first." E.g., 1. Get morning sun, 2. Lower PUFA intake, 3. Balance your meals, 4. Check your temp/pulse, 5. Add Niacinamide/Magnesium/Vitamin E.
+
+
+
+
+Negative effects of the fat oxidation by raising gh more than offset by the reduction in cortisol?
+
+
+
+
+Assuming I get the test cream. I then titrate that dose up and keep retesting and see what e2, free and total t and dht levels i get to. maybe i dont need the dht cream if i can get the ratios between t-e2, t-dht, dht-e2 good
+
+
+
+
+
+
+
+zinc before and after blood test 
+
+
+
+
+MISC
+
+- Test cream when you wake up in bed then in the evening when your about to hop in bed so undies don't soak it up
+
+- 
+
+
+- Ottai Continuous Glucose Monitoring lazada
+
+- 
+
+
+- 
+
+
+- 
+
+
+- Conversion of white fat into brown fat driven by adrenaline which is known promoter of cancer. Why ice baths are bad.  Brown fat more likely to get burned via lypolosis ie ice baths mimick  early stages of cancer state.
+
+- People like finns and sweedes that did hot nd cold exposure culturally after they move to another place (hot place) and only did cold exposure it upped their mortality 
+
+
+
+
+- 
+
+
+- I think the reason I've only been getting the negative effects (anxiety)from  things like caffeine and nicotine is related to the metabolic dysfunction I was having  from my diet
+
+
+
+
+
+
+
+chase irons reckons mots c- 1mg a day start for mito function
+
+2mg of ss31
+
+chase irons reckon tesomarlin 2mg (ghrh) is great
+
+
+
+
+bulgarian burger - adding gelatin and calcium carbonate to ground meat 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- According to chat gpt deep research - hcg raises reliable raises preg and prog but not dhea. Hcg mono + dht cream + dhea 
+
+
+
+
+
+
+
+
+
+
+- 
+
+
+
+
+
+
+
+
+- 
+
+
+- 
+
+
+- 
+
+
+
+
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 
+
+Recommend lowering dose to get Total test around 1000–1200 for long-term sustainability.
+
+Blasting occasionally is fine, but establish ideal cruise/TRT dose first.
+
+
+
+
+- 
+
+
+Content
+
+- [https://open.substack.com/pub/unbekoming/p/tripping-over-the-truth-how-the-metabolic?r=3m7a3&utm_campaign=post&utm_medium=email](https://open.substack.com/pub/unbekoming/p/tripping-over-the-truth-how-the-metabolic?r=3m7a3&utm_campaign=post&utm_medium=email) 
+
+- [https://open.substack.com/pub/unbekoming/p/electromolecular-medicine-the-cds?r=3m7a3&utm_campaign=post&utm_medium=email](https://open.substack.com/pub/unbekoming/p/electromolecular-medicine-the-cds?r=3m7a3&utm_campaign=post&utm_medium=email) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+the metabolic syndrome can lead  to either carb and fat intolerance" or contributing to insulin resistance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Foodmarble digestion monitoring device
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Greek study did keto vs not 66% survival rate keto vs 8% not
+
+
+
+
+
+
+
+Dinkov study
+
+ - \~\~Human\~\~ cancer transplanted into rodent model
+
+ - - dht plus ai 
+
+\- - complete regression
+
+\- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\*
+
+
+
+
+
+
+
+
+
+
+Aim for 5 to 1 ratio of t to dht (1200 total t)
+
+
+
+
+20% dht cream on dick for growth
+
+
+
+
+
+
+
+Experiment
+
+\- Do transdermal t by itself and see where dht and total t end up. Modulate pregnenolone first see if it brings preg and prog up if not hcg to try and get prog and dhea serum levels up
+
+
+
+
+
+
+
+\- 
+
+\---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\- B vitamins unblock most commonly blocked complex ->  3, 1 and 2 most important
+
+
+
+
+
+
+
+\- Dinkov:  Liquid form supplements much better absorbed when taking as a solid
+
+
+
+
+
+
+
+\## Methionine restriction stops high fat induced diabeties
+
+
+
+
+Supplements that do take should be related to raising metabolic rate either directly or by reducing negative effects of tings like pufa and endotoxin (vitamin e)
+
+Tiaean Clarke's blood pressure reduction using magnesium and vitamin e could be related to vitamin es pufa negative effect attenustion
+
+Vitamin a, b ,e and k. Need to taken alongside fat to be absorbed
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 gram methylene blue in 4oz bottle ends up with approx 1% concentration
+
+
+
+
+
+
+
+100mg DECA?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Bone broth from store or concentrate
+
+Wargburg effect leads to   process increases glucose uptake and glycolysis, which leads to increased lactate production
+
+\## T3, cortisol and full iron panel 
+
+High cortisol, high dhea
+
+\- stressed but body still functioning OK
+
+High cortisol, low dhea
+
+\- stressed and body can't produce enough precursor hormones
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+Short chain fatty acids seem to only be observable through stool sample
+
+Unanswered Questions
+
+
+
+
+
+
+
+
+
+
+\- 
+
+French paradox
+
+
+
+
+similar question is there any evidence balancing bcca's with enough gelatin/collagen based amino's negates bcca's negative effect?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+French paradox
+
+France eats decent amount of bcaa from wheat starch in bread and pasta  and muscle meat bcaa, drinks a bit of alcohol and gets a but of fructose from fruit and table sugar
+
+Is the presence of enough starch in the diet sufficient to render to stop the above additions to the diet from making them fat?
+
+Also the presence of sat fat as opposed to mufa and pufa is helping
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+obese humans - have lots of unsaturated fats in their tissues
+
+\- XXX. high levels of circulating bcaa - cant break them down - insulin resistance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+obese people have 1/2 to 1/3 the blood flow in fat tissue compared to regular people - > less oxygen -> not good
+
+production of super high quality, essential info only animation style videos could help get more eyes on videos. ask jaeger if he wants to be involved.
+
+
+
+
+Mercolas working on 50 dollar microbiome assay
+
+Video on reductive stress (engine blockage causing leaks)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+insulin administration increases 
+
+\- pdh
+
+\- glycogen storage
+
+\- glucose utilization in the mitochondria
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gut inflammation -> increased desat enzymes -> more mufas -> further towards reductive stress -> glycine down -> leaky gut 
+
+Obesity pattern high bcaa, low glycine
+
+
+
+
+SEA = Stearoylethanolamide (downstrs of stearic scid) stops nf kappa betta, redufes tnf-a, supressed sdc-1 -> metabolic rate up
+
+1200mg a day raisedbrsd marshalls body temp too much
+
+300mg, twice a day ended up with better temp
+
+
+
+
+
+
+
+pairs as proxy of nadh to nad+
+
+\- lactate/pyruvate
+
+\- acetoacetste/bhb
+
+\- XXX. oxidised/reduced glutsthione (this is the only pair where you do want the reduced one) to deal with ROS 
+
+Methylene blue, melatonin and alpha lipoic acid  suck up the excess electrons in the nadh so they can't hit the oxygen and become ROS
+
+Pua tea extract stopped mice eating in a caloric surplus (tlr4 blocker) from gaining weight 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+feeding mice insulin resistant inducing diet was completely attenuated by adding SEA to the diet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+in male monkeys 
+
+- \*\*In males\*\*, DHT also reduced \*\*CRF-stimulated cortisol release\*\*, indicating that DHT can reduce the activation of the hypothalamic-pituitary-adrenal (HPA) axis in response to stress.
+
+
+
+
+
+
+
+Simplified chain from pufa intake to endotoxin
+
+9\. PUFA intake → PUFA oxidation in mitochondria → increased reactive oxygen species (ROS).
+
+10\. Mitochondrial damage → reduced ATP production in colonocytes.
+
+
+
+
+12\. Dysbiosis → no good bacteria there to process resistant starches and fiber so X
+
+13\. Endotoxins and inflammation further damage the colon and mitochondria, perpetuating dysfunction.
+
+14\. Mitochondrial Dysfunction: When the mitochondria in colon cells (colonocytes) do not function properly, energy production is compromised. Colonocytes typically derive much of their energy from short-chain fatty acids (SCFAs), primarily butyrate, which are produced by beneficial anaerobic bacteria during the fermentation of fiber and resistant starch.
+
+15\. Colonocyte Death: Without adequate energy, the colonocytes begin to die. This weakens the colon lining and may allow oxygen to leak into the colon.
+
+16\. Disruption of Gut Flora: The presence of oxygen in the colon disrupts the balance of gut bacteria, as beneficial anaerobic bacteria (oxygen-intolerant) die off. These beneficial bacteria are key to maintaining gut health and producing SCFAs. As they die, harmful, oxygen-tolerant bacteria (facultative anaerobes or aerobes) can take over.
+
+
+
+
+
+
+
+
+
+
+Foods that make you insulin resistant do it because of envolutionsry response to needing to store fat before winter/times of lack of food. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\[Repletion and Depletion of Polyunsaturated Fatty Acids in Cebus Monkeys\](https://www.sciencedirect.com/science/article/abs/pii/S002231662307061X)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What biomarkers apart from mitoswab can you use to get an idea how well your conversion of glucose into energy is working
+
+
+
+
+
+
+
+
+
+
+
+
+
+Grounding, particularly walking in ocean good way to get read of electrons
+
+
+
+
+**Molecular hydrogen** 
+
+Molecular hydrogen appears to be adaptsgenic in the etc in relation to reductive stress induced oxidative stress. Neutralizes harmful ros while leaving the ros that is beneficial for cellular signaling alone.  It also can also help the redux balance in the etc reducing the buildup of excess electrons in the first place.
+
+
+
+
+
+
+
+It's one of the most critical and misunderstood aspects of HGH's metabolic effects. **Exogenous HGH is a powerful blocker of glucose oxidation.** This isn't a minor side effect; it is a primary mechanism of action, and it's the direct reason why HGH has a well-known "diabetogenic" (diabetes-causing) reputation in medicine. ANy time you upregulate fat oxidation you induce a diabetogenic state
+
+ 
+
+
+
+
+Emodin sellers
+
+\- morphogen nutrition
+
+\- chemix cortobloc
+
+\- gorilla mind
+
+
+
+
+what metrixs can be looked at to get a measure of mitochondrial health?
+
+redux pair ratios?
+
+Only sell products and supplements you have personally used
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Need to test dinkovs claims like -  mixing precursor hormones with fat increases absorption
+
+\- 
+
+
+
+
+
+
+
+Vitamin b1 300-500mg thiamine chloride or 100-150mg of lipophylic analogs halved lactate buildup caused by exercise - could this be good for surfing to stop muscles burning?
+
+
+
+
+Muscles - concentric vs eccentric
+
+Mitochondria
+
+\- concentric exercise increases the mitochondrial biogensis, size and density mitochondria more than eccentric
+
+\- concentric improves glucose uptake into the cell and reduce lactic acid
+
+
+
+
+Georgie dinkov is a fan of molecular hydrogen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Biotin helps bypass blocked pyruvste dehydrogenase through? as a cofactor for enzymes such as pyruvate carboxylase, helps redirect pyruvate into gluconeogenesis, producing oxaloacetate instead of acetyl-CoA. This oxaloacetate can then be used for glucose production, helping maintain energy metabolism even when PDH is inhibited.
+
+Aspirin anti lipolytic also st higher dose directly inhibits oxidation of fat in the cell
+
+
+
+
+
+
+
+Something more lipolytic and acidic would be better than aspirin 
+
+Aspirin (acetylsalicylic acid) is known for its anti-inflammatory properties and mild lipolytic effects, but its role in fat metabolism is not as pronounced. 2,6-dihydroxybenzoic acid (a salicylic acid derivative) has stronger acidity and possibly different metabolic effects.
+
+2,6-dihydroxybenzoic acid worked best by itself without b vitamins at around 400mg dose.
+
+Dinkov takes regular tablet aspirin twice a week
+
+Niacinamide 100mg with meals
+
+Vitamin k once a week
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kreb cycle
+
+Randall cycle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Increased glycolosis which leads to increase in lactic acid buildup 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinkovs studies showed b3 had more benefit than b1 by itself 
+
+
+
+
+Cells convert glucose into pyruvate through glycolosis (fermentation) leading to 2 atps. This is OK when your under acute exercise stress but not chronically
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Niacinamide- 50-100mg 3 times a day (max 300mg a day)
+
+The key metabolite that confers many of aspirin's benefits is salicylic acid. Aspirin (acetylsalicylic acid) is converted into salicylic acid after it is absorbed into the body. They just took it and added acetate to it so they could patent it.
+
+
+
+
+
+
+
+
+
+
+Immediate relaase aspirin not extended
+
+ Aspirin lowers cortisol by inhibiting 11hsdb1, increases glucose oxidation and lowers fst oxidation
+
+
+
+
+Taking propranolol lowers adrenoline which lowers the amount of lipolysis
+
+L-carnitine increases fst oxidation by increasing the movment of fatty acids into the mitocondria
+
+
+
+
+
+
+
+
+
+
+
+
+
+Testing oral progesterone with and without fat good way to test one of dinkovs pearls
+
+Studies suggested a significant 15-30% reduction in cortisol from exogenous GH use
+
+
+
+
+When you combine testosterone emulsion with long chain fat (mixed into butter or ghee)
+
+Belly button over 80% absorption administering test with acetone 
+
+
+
+
+
+
+
+
+
+
+Aspirin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dinkov reccomends purebulk brand for b vitamins
+
+
+
+
+Glucose window for exercise is  somewhere between 30-60 minutes. Shorter for steady state aerobic exercise and longer for anaerobic exercise. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Niacinamide helps oxidise glucose oxidation by increasing NAD+ 
+
+Additionally, niacinamide helps increase the levels of NAD+ <- (nicotinamide adenine dinucleotide), a coenzyme involved in glucose metabolism. NAD+ plays a critical role in glycolysis and the Krebs cycle, processes that are key to glucose oxidation. By supporting NAD+ levels, niacinamide enhances the body’s ability to oxidize glucose efficiently, which can contribute to better energy production and reduced reliance on fat oxidation, particularly the harmful oxidation of polyunsaturated fatty acids (PUFAs).
+
+
+
+
+
+
+
+Georgi says B1 and 500mg B3 (niacinamide) if under stress and once or  twice week. 
+
+Look at Fatique, sleep quality improvements for.it
+
+
+
+
+Being in the sun reduces melonoma while increasing risk of more benign skin cancer 
+
+
+
+
+Acetoacetate is a ketone - Makes you sleepy take before bed or nap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ - would having a hard time getting the electrons from food to the oxyfen eam you nee d more oxygen?. Could methylene blue decrease breathing requirements 
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 
+
+
+
+
+
+- 
+
+
+## Metabolic Health
+
+- 
+
+
+- exercise should not be done fasted as your gonna go into starvation mode which will set you up to burn fat during the exercise but hold on to the carbs you eat later
+
+- 
+
+
+
+
+
+
+
+
+### 
+
+- methylne blue can ublock all 4 stages of electron blockages. K2 Only 2 and coq10 2 and 3. methylene blue and red light patented
+
+- 
+
+
+    - Georgi dinkov says combine methylene blue with niacinamide to offset its increase in serrotonin
+
+- 
+
+
+- Methylene blue3- 5mg to unblock complex one, two, three and four
+
+
+
+
+### 
+
+Things that speed this process up
+
+- 
+
+
+### inferior way of using glucose
+
+
+
+
+## 
+
+
+
+
+
+
+
+## Cancer
+
+Dinkovs experiment B1, B3 and B7  — and aspirin <- to combat a highly lethal form of human mantle cell lymphoma. He found that while the vitamins alone stopped tumor growth, adding aspirin at a human-equivalent dose of about 1.5 grams per day led to complete tumor regression in all three test subjects.
+
+Building on the success with aspirin, Dinkov introduced a more potent analog of aspirin known as 2,6-dihydroxybenzoic acid. Not only is it much stronger, it’s also much more lipophilic, meaning it has a greater affinity for lipids (fats) than water. Lipophilic compounds tend to be more easily absorbed through cell membranes.
+
+Georgi dinkovs researches couldn't implant tumor into mice that had been fed fat free diet for 2 weeks leading up to it
+
+### human equivalent doses of haidut's study
+
+His answer: "Daily dose (administered once daily, orally): \~15mg/kg vitamin B1 (thiamine), \~30mg/kg vitamin B3 (niacinamide), \~1.5mg/kg vitamin B7 (biotin), and \~15mg/kg aspirin. Not high at all. No known human toxicity at those doses for any of the compounds."
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Unspecific
+
+- 
+
+
+- Ray once recommended getting 1mg vitamin K per 325mg aspirin.
+
+- 50mg niacinimide, 3-4 yes a day. Way cheaper as powder. Take it 30 minutes before magnesium dose.  
+
+- 
+
+
+- 
+
+
+- Baby aspirin with each meal inhibits absorption of the muscle meat amino acids.
+
+- 
+
+
+- 
+
+
+- The lower amount of methylene blue before your piss turns blue, the healthier you are. 5mg legit
+
+- Optimal blood levels range from 60 to 80 ng/mL vit d
+
+- 
+
+
+
+
+
+## Bioenergetic important markers
+
+- allopregnanalone
+
+- 
+
+
+- 
+
+
+- 
+
+
+- 30-50 ng/ml vitamin d levels
+
+- 
+
+
+    - 
+
+
+- Upper limit of what I want for long periods of the day is 37.4 (99.32)
+
+- 
+
+
+- 
+
+
+    - bicarbonate
+
+- pivurate/lactate
+
+
+
+
+### Microbiome
+
+Mercola - Microbiome tests really important. akkermansia meant to be most important one. Find out which food guys you have. Make more of them to competitively inhibit the bad ones . Mercola tests for six species
+
+## Metabolism
+
+### Glucose Metabolism Efficiency
+
+1. 
+
+
+1. **Alanine Levels**: amino acid profile
+
+    - Elevated alanine suggests a shift towards **gluconeogenesis** or compensatory pathways when pyruvate is not efficiently entering the TCA cycle, which could occur under conditions favoring glucose metabolism over fat oxidation.
+
+1. **Glutathione (GSH) / Glutathione Disulfide (GSSG) Ratio**:
+
+    - A higher GSH/GSSG ratio reflects a reduced state with lower oxidative stress, indicating efficient mitochondrial function.
+
+1. **Lactate Dehydrogenase (LDH)**: XX
+
+    - Elevated LDH may indicate a reliance on anaerobic glycolysis due to mitochondrial inefficiency, suggesting less efficient glucose metabolism under stress or dysfunction.
+
+1. **Malondialdehyde (MDA) and F2-isoprostanes**:
+
+    - These markers indicate oxidative damage from ROS, which can occur when glucose metabolism is impaired, leading to mitochondrial stress.
+
+1. **Citrate Synthase, α-KGDH, and SDH**:
+
+    - Higher levels of these enzymes indicate a well-functioning TCA cycle. They are essential for efficient glucose metabolism and mitochondrial activity.
+
+### Glucose vs. Beta Oxidation
+
+1. **Respiratory Exchange Ratio (RER)**:
+
+    - An RER of **1.0** indicates predominant **glucose oxidation**, while an RER around **0.7** indicates reliance on **fat oxidation**.
+
+1. **Serum Free Fatty Acids (FFAs) and Ketones**: XX
+
+    - Elevated levels suggest increased beta-oxidation, particularly in fasting or low-carbohydrate conditions.
+
+1. **Lactate Levels**:
+
+    - Low lactate levels during exertion suggest beta-oxidation dominance, as fat metabolism doesn’t produce lactate.
+
+1. **Insulin Levels**:
+
+    - Low insulin levels, especially in a fasted state, correlate with increased fat oxidation because insulin suppression allows for the release and utilization of FFAs.
+
+1. **Acylcarnitines**:
+
+    - Elevated levels of long-chain acylcarnitines are indicative of active beta-oxidation, particularly when glucose levels are low.
+
+1. **Pyruvate and Alanine Levels**:
+
+    - High levels indicate active glycolysis (glucose oxidation). Lower levels, with high FFAs or ketones, suggest a shift towards fat oxidation.
+
+1. **CO₂ and Bicarbonate (HCO₃⁻)**:  
+
+
+
+
+Anecdotal
+
+- pineapple
+
+    - seemed to make me tired when plus sweet potato
+
+    - didn't digest well
+
+    - made me piss alot
+
+
+
+
+- 
+
+
+- 15% of calories from protein. Not too much of it from muscle meat. At least a third (up to half) of that collagen/gelatin to offset the muscle meat amino acids.
+
+- 
+
+
+- Tablespoon of coconut oil/ghee/ butter with meals
+
+- feel like shit next day after eating alot of gluten (pizza and crepes)
+
+- 
+
+
+- Mangoes are metabolic super foot
+
+
+
+
+
+
+
+### Timing
+
+### Fats
+
+- coconut oil,dairy products, from lean ruminants
+
+- Mercola doesn't rate olive oils because omega 9, oleic acid
+
+- 2% of diet calories in pufa, peat has also suggested ingest 4 grams or less of PUFA per day,
+
+### Dinkov on fats in general
+
+- When you have too much free fatty acids it gets in the way of glucose getting used properly.
+
+- Instead it gets turned into lactic acidosis and fat. Not just pufas can get in the way of glucose. Sat fat too
+
+### Supps to combat pufas
+
+- niacinomide
+
+- Aspirin, vitamin e
+
+- Few times a day teaspoon of coconut oil for a better ufa to pita ratio (take it with meals, especially where pufas are present)
+
+### Carbs
+
+250 - 500 grams carbs from
+
+- 
+
+
+- 
+
+
+- Fruit vegetables – squash, zucchini, cucumbers, pumpkin
+
+- White rice
+
+- Dairy: milk, ice cream and cheeses (including cottage, parmegianno)without additives (from raw if you can get it). Low fat milk means you can drink more of it. Jersey cows produce mostly a2
+
+- 
+
+
+- potatoes less often than white rice.
+
+- avoid resistant starch foods - wholegrains, legumes, pulses, oats, unripe bananas, plantains, hi maize corn
+
+### Ray peat fruit list
+
+Apples, peeled and cooked
+
+Cherimoya
+
+Cherries
+
+Guavas
+
+Longans
+
+Lychees
+
+Olives- lye processed, no sulfites or iron
+
+Oranges
+
+Pawpaws
+
+Pears, peeled and cooked
+
+Sapotes
+
+Tangerines
+
+Watermelon
+
+Avocado, occasional use
+
+Lemons
+
+Limes
+
+Papaya
+
+Mango
+
+Bananas (very ripe)
+
+Melons
+
+## Protein
+
+1 gram per pound of bodyweight protein (150 for me)
+
+- grass fed beef or lamb
+
+- if your going to eat chicken or pork make sure its a really lean cut so it has less fat and therefore less chance for pufas
+
+## In limited amounts
+
+- liver and osyters 1-2 twice a week. Mercola says you gotta be careful with liver
+
+- eggs 2 a day
+
+- Eating  low-fat seafood including shellfish (sole, whitefish, turbot, scallops, oysters, lobster, shrimp, squid, etc.) once in a while can provide useful trace minerals, without much risk.
+
+# Meeting certain micronutrient targets
+
+## Gelatin
+
+- beef/lamb bone broth to get gelatin protein. Make it a fast made bone broth < 2 hours to avoid to much build up of histamines.  gelatin supp or bone broth RP mentioned that for an adult gelatin can be 30-50 percent of total protein intake. I think i like drinking warmed up gelatin in juice more than eating it. 3 cups of broth or about 2-6 tablespoons of powdered gelatin a day should be a sufficient amount. - XXX. Ground meet from ruminants have more gelatin cause they chuck all the random parts of the animal in
+
+## Calcium
+
+- litre of milk = at least a gram of calcium, one egg shell has like 2 grams of calcium (to lower prolactin which is linked to hairloss). XXX. low fat milk allows you to get same calcium with less calories and less vitamin A.
+
+- Calcium to phosphorus ratio higher the better
+
+### Raw milk
+
+- milkup.co.id raw milk in bali
+
+- https://getrawmilk.com raw milk globe search
+
+### Cheese
+
+- Cheese has lots of tryptophan but the caseine protein and calcium blocks it
+
+- Most cheese has GMO renin which makes it bad for you
+
+## Magnesium
+
+- A bar of dark choclate for the magnesium at least 100 grams maybe 200 grams. canalso suppplement this
+
+- 
+
+
+### Misc
+
+- 
+
+
+    - use brown baking paper (unbleached chlorine free) instead of regular
+
+Carrot salad 
+
+NOTE: can also just eat the carrot by itself.
+
+- 1-2 raw carrots grated lengthways
+
+- 1 tablespoon coconut oil or extra virgin olive oil
+
+- 1 tablespoon white vinegar / apple cider vinegar
+
+- pinch of salt
+
+
+
+
+### Reasoning behind skipping omega 3's
+
+- new born babies don't have any of the quote "essential" unsaturated fats
+
+- omega 3's also bad according to peat because they slow the thyroid systsem down even more than pufas
+
+- studies show that omega 3's are good is if you have a bunch of omega 6's floating around in the body then your better off having alot of omega 3's but if you don't have a bunch of omega 6's floating around then your better off not having the omega 3's
+
+
+
+
+## Dairy
+
+- dont eat cheese unless it says animal renin on it.
+
+- 
+
+
+- 
+
+
+
+
+
+## Dieting
+
+- If hungry after hitting protein that day eat frozen berries, grape
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 
+
+
+- 
+
+
+
+
+
+## 
+
+
+
+
+
+
+
+
+
+
+## Serrotonin
+
+
+
+
+
+
+
+## Gaba plus l-theanine for anxiety
+
+100mg to  gaba 3-4 grams for anxiety and depression
+
+100mg gaba significantly lowered peoples anxiety and depression score
+
+Gaba to treat anxiety depression and XXX. -> progesterone is gaba agonist
+
+
+
+Previously thought gaba didn't cross blood brain barrier but dinkov thinks it does
+
+
+
+
+
+
+
+
+
+
+
+
+
+## exogenous supps in glucose to atp
+
+r-ala
+
+- when given to mice makes them not get fat
+
+- dose dependant increase in sirt1
+
+- dose dependnat increase in nad+/nadh ratio
+
+- r-ala dose 500mg twice a day
+
+pyruvate
+
+- drive down nadh in cytoplasm
+
+
+
+
+- 
+
+
+XXX. alpha-ketoglutarate (α-KG) 2000mg a day
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Desired changes
+
+UP
+
+pregnenolone
+
+dhea
+
+progesterone
+
+allo pregnanolone
+
+test
+
+Uncertain
+
+shbg
+
+Down
+
+estradiol
+
+cortisol
+
+prolactin
+
+Misc
+
+Indonesia cooks with palm oil, which is much lower in pufas than seed oils (around 10%)
+
+Serotonin
+
+
+
+
+Cortisol
+
+bdnf / cortisol / oxytocin linked linked according to self decode. Shrooms/lsd/semax/ for it?
+
+
+
+
+Emodin is meant to be powerful otc cortisol blocker - dose 250-500mg start out first week at 250
+
+supposedly muslims praying reduces cortisol by 10% blood glucose by 20%. I wonder what some kind of gratitude practice would do
+
+
+
+
+﻿
+
+ 
+
+Simple sugars lke  frutcose glucose lower it.  Can eat some sugar before bed to try have it lower in the morning. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magnesium,
+
+ashwaghanda
+
+L-Theanine, and Ginseng Complex
+
+dandelion root
+
+Rhodiola Rosea
+
+Holy Basil
+
+sugar
+
+gelatin (has glycine in it)
+
+Derecks calming stack called gorilla mind calm(cortisol lowering) ASKWHICH OF THESE CAN BE CONSIDERED BIOENERGETIC APPROVED 
+
+Ashwagandha Extract (KSM-66®) (root): 300 mg (4 capsules), 600 mg (8 capsules)
+
+Standardized to 5% Withanolides
+
+Phosphatidylserine (from Sunflower Lecithin): 300 mg (4 capsules), 600 mg (8 capsules)
+
+Rhodiola Rosea Extract (root): 300 mg (4 capsules), 600 mg (8 capsules)
+
+Standardized to 3% Rosavins and 1% Salidroside
+
+L-Theanine: 200 mg (4 capsules), 400 mg (8 capsules)
+
+Saffron Extract (stigma): 15 mg (4 capsules), 30 mg (8 capsules)
+
+Standardized to 0.3% Safranal
+
+Estradiol
+
+
+
+
+
+
+
+synthetic fiber clothing is meant to agonise androgen receptors
+
+Testosterone
+
+
+
+
+
+
+
+
+
+
+If i have this in a bottle of vitamin e cream will be much easier to travel with than sarms in pills or test with vials and needles
+
+
+
+
+
+
+
+
+
+
+Sourcing
+
+Sustanon and nebido available in indo from pharmacies
+
+bayer test e and nebido available at thai pharmacies
+
+Dissolving test base in vitamin
+
+reddit link
+
+﻿
+
+ 
+
+He added 50ml of 95% Ethanol and Vitamin E iherb
+
+﻿
+
+ (each) in a bottle i.e. 100ml in total. And then added 10g of Test Base to this solution.
+
+He shook the bottle after every 30 mins for 4 to 5 times, and it fully dissolved. I didn't need to heat it at all
+
+He mostly apply on Scrotum, sometimes on shoulders. Morning and night. I think 0.15ml would be agood starting point dose x2 day.
+
+
+
+
+We conclude that testosterone administration to scrotal skin is well tolerated and produces dose-dependent peak serum testosterone concentration with a much lower dose relative to the non-scrotal transdermal route.
+
+ It also says that transdermal application leads to higher conversion into DHT but also says
+
+DHT
+
+
+
+
+Vitamin D
+
+30 minutes midday sun on back and then front
+
+Pregnenolone
+
+
+
+
+
+
+
+
+
+
+﻿
+
+ 
+
+Testing
+
+First health japan seems to have pregnenolone test and Allopregnanolone via Basic Hormones Dried Urine.
+
+https://nutripath.com.au/product/estrogen-elite-profile-dried-urine-hormone-profile-test-code-1505/
+
+﻿
+
+ included allopregnanolone and pregnenolone
+
+Progesterone -supposedly With butter so it absorbs like 5 times as muxh
+
+progesterone - 50/50 ratio with vitamin e even better   lasts 48 hours
+
+Dose before bed
+
+Rapid effect rub on inside of mouth cheeks
+
+If you wanna know if its working take a hefty dose and you'll feel sedated.
+
+ray peat progest-e
+
+﻿
+
+ 
+
+dinkov/mercola - reccomend  50mg natural progesterone
+
+USP progesterone powder  + vitamin e oil - Half life if you take it with vitamin e is 48 hours vs much much shorter without.
+
+Topical Use
+
+smokey mountain progesterone cream
+
+﻿
+
+transdermal prog leads to high allopre gvia high 5ar in skin but you want prog as its more thermogenic
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+﻿
+
+ 
+
+
+
+
+﻿
+
+
+
+
+﻿
+
+.
+
+
+
+
+If growth hormone reduces cortisol (test this) then maybe it is net benefit even thuough it ups fat oxidation
+
+
+
+
+
+
+
+Growth Hormone
+
+See what a few units of hgh (get to around 250-300 ng/dl) does to the skin on my face
+
+Administer at night for healing, in the morning fasted for fat metabolism
+
+Applyng EOD seems to have similar effects with less resultant insulin sensitivity
+
+NOTE - HGH also can help with skin
+
+**Allopregnanolone**
+
+
+
+
+Synthetic versions - brexanolone, zuranolone are synthetic versions of allopregnenlone
+
+Sourcing
+
+Haidut's Idea Labs - https://idealabs.ecwid.com/AlloP-p368909891
+
+﻿
+
+ 
+
+
+
+
+
+
+
+Topical versions exist
+
+Thyroid
+
+Pork thyroid not as good as bovine or sheep because they are feeding them pufas
+
+
+
+
+
+
+
+﻿
+
+ 
+
+Thyroid TR by T Man Pharma and
+
+Thiroyd by Greater Pharma.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ray Peat Recommended Supplementation
+
+fat soluable vitamins, b vitamins, Pete also encouraged experimentation with supplements such as thyroid hormone, niacinamide, pregnenolone, vitamin D, aspirin, vitamin A (retinol), and vitamin E
+
+
+
+
+2 units of vitamin e per gram of pufa consumed daily. Take that amount of vitamin e once a week.
+
+
+
+
+
+
+
+
+
+
+Liberally salt your meals. I use clean, unrefined, non-ionized White Sea salt.
+
+Add coconut oil. Example: generally I use 2 teaspoons to cook my fish, I drizzle 1 tbs coconut oil over my grated carrot salad and I add 1 tablespoon to my eggnog or homemade protein smoothie.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Completed tasks<!-- {"omit":true} -->
+
+- [x] investigate dsmo <!-- {"uuid":"01cf4494-f46b-4081-9117-2586037522c8","completedAt":1751795011} -->
+
+- [x] Five days of pregnenolone 300mg a night before blood test with and without butter mix<!-- {"uuid":"efe4454f-2057-4a89-bfd4-5056ae260ec6","completedAt":1751795006} -->
+
+- [x] try fire in a bottles supp the sat fat acid one stearic metabolite<!-- {"uuid":"e868a6fc-a296-45db-a913-10caced84386","completedAt":1751795004} -->
+
+- [x] https://m.youtube.com/watch?v=m_PRMOVc7ww&pp=ygUNR2VvcmdpIGRpbmtvdg%3D%3D dinkov podcast 2:00<!-- {"uuid":"3ee1e72a-defe-4da8-b4ce-ee177b5e7b2b","completedAt":1751680917} -->
+
+- [x] Is exogenous hgh administration pro bioenergetic <!-- {"uuid":"889e23dc-aa99-441b-9193-4495946d6b3c","completedAt":1751680127} -->
+
+- [x]  look into overnight red light for less morning anxiety<!-- {"uuid":"97d6f522-cbb0-487d-8c15-b78983b49a05","completedAt":1751599637} -->
+
+- [x] ogtt bcaa + glucose vs glycine + glucose vs bcaa + glycine + glucose 🆔   🆔 sNF4t8 \[<!-- {"uuid":"04686391-2293-4b89-b815-84cd132e61a4","completedAt":1751528559} -->
+
+- [x] Butter Pregnenolone<!-- {"uuid":"ddfd07d8-22ba-49de-a172-9fb454c3c2f3","completedAt":1749890397} -->
+
+[^1]: DNP in bloodstream for 30 days using 36 hour half-life
+    New total = Dose + (Old total \* ((1/2)^(Dosage period/Half-life)))
+    125mg ED 200mg ED
+    250mg ED
+    400mg ED
+    500mg ED
+    600mg ED
+    1g ED
+    1
+    125
+    200
+    250
+    400
+    500
+    1
+    600
+    1
+    1000
+    203.7451
+    325.9921
+    407.4901
+    651.9842
+    814.9803
+    977.9763
+    1629.961
+    W N
+    W N
+    W N
+    W N
+    253.3513
+    405.3622
+    A W N
+    506.7027
+    810.7243
+    1013.405
+    1216.086
+    2026.811
+    284.6013
+    455.3622
+    569.2027
+    910.7243
+    1138.405
+    4
+    1366.086
+    2276.811
+    5
+    2434.301
+    304.2876
+    5
+    486.8602
+    608.5752
+    973.7204
+    1217.15
+    5
+    1460.581
+    316.6892
+    6
+    506.7027
+    633.3784
+    1013.405
+    1266.757
+    6
+    1520.108
+    6
+    2533.513
+    7
+    519.2027
+    649.0034
+    1038.405
+    1298.007
+    1557.608
+    7
+    2596.013
+    324.5017
+    329.4233
+    527.0772
+    658.8465
+    1054.154
+    1317.693
+    1581.232
+    8
+    2635.386
+    Co
+    Co
+    LD CO
+    LD CO
+    332.5236
+    9
+    532.0378
+    665.0473
+    1064.076
+    1330.095
+    9
+    1596.113
+    9
+    2660.189
+    10 334.4768
+    10 535.1628
+    10
+    668.9535
+    10 1070.326
+    10 1337.907
+    10 1605.488
+    10 2675.814
+    11 335.7072
+    11 537.1315
+    11 671.4143
+    11 1074.263
+    11 1342.829
+    11 1611.394
+    11 2685.657
+    12
+    538.3716
+    12 672.9645
+    12 1076.743
+    12
+    1345.929
+    12 1615.115
+    12
+    2691.858
+    12 336.4823
+    336.9705
+    13
+    539.1529
+    13 673.9411
+    13 1078.306
+    13
+    1347.882
+    13 1617.459
+    13
+    2695.764
+    14 337.2781
+    14
+    539.645
+    14 674.5563
+    14
+    1079.29
+    14
+    1349.113
+    14 1618.935
+    14
+    2698.225
+    2699.775
+    15 337.4719
+    15
+    539.9551
+    15 674.9438
+    15
+    1079.91
+    15
+    1349.888
+    1619.865
+    15
+    16
+    337.594
+    5 540.1504
+    16
+    675.188
+    16 1080.301
+    16
+    1350.376
+    16 1620.451
+    16 2700.752
+    17 337.6709
+    17 540.2734
+    17 675.3418
+    17 1080.547
+    17
+    1350.684
+    17
+    1620.82
+    17 2701.367
+    337.7193
+    18
+    540.3509
+    18 675.4387
+    18
+    1080.702
+    18
+    1350.877
+    18 1621.053
+    18 2701.755
+    19
+    337.7498
+    19
+    540.3998
+    19 675.4997
+    19
+    1080.8
+    19
+    1350.999
+    19
+    1621.199
+    19 2701.999
+    20 337.7691
+    20
+    540.4305
+    20 675.5381
+    20 1080.861
+    20
+    1351.076
+    20
+    1621.292
+    20 2702.153
+    21
+    337.7812
+    21
+    540.4499
+    21 675.5624
+    21
+    1080.9
+    21
+    1351.125
+    21
+    1621.35
+    21
+    2702.249
+    22 337.7888
+    22
+    540.4621
+    22 675.5776
+    22
+    1080.924
+    22
+    1351.155
+    22 1621.386
+    22
+    2702.31
+    23 337.7936
+    23
+    540.4698
+    23 675.5872
+    23
+    1080.94
+    23
+    1351.174
+    23
+    1621.409
+    23 2702.349
+    24
+    337.7966
+    24
+    540.4746
+    24 675.5933
+    24
+    1080.949
+    24
+    1351.187
+    24
+    1621.424
+    24
+    2702.373
+    25
+    337.7986
+    25
+    540.4777
+    25 675.5971
+    25
+    1080.955
+    25
+    1351.194
+    25
+    1621.433
+    25
+    2702.388
+    26 337.7998
+    26
+    540.4796
+    26 675.5995
+    26 1080.959
+    26
+    1351.199
+    26
+    1621.439
+    26 2702.398
+    27
+    337.8005
+    27
+    540.4808
+    27
+    675.601
+    27
+    1080.962
+    27
+    1351.202
+    27 1621.442
+    27
+    2702.404
+    28
+    337.801
+    28
+    540.4816
+    28
+    675.602
+    28 1080.963
+    28
+    1351.204
+    28 1621.445
+    2702.408
+    29
+    540.4821
+    29 675.6026
+    29
+    1080.964
+    29
+    1351.205
+    29
+    1621.446
+    29
+    2702.41
+    29 337.8013
+    30 337.8015
+    30 540.4824
+    30
+    675.603
+    30 1080.965
+    30 1351.206
+    30 1621.447
+    30 2702.412
+    Notice the rate of accumulation of each dose decreases such that
+    even with continual dosage, there is a peak for EACH dosage
+    (ie. changes are insignificant)
+
+
+
+
+File: ./content/assorted-notes-two.md
+------------------------
+---
+title: 'health/vitalist/main-extra'
+uuid: c139960a-5a4f-11f0-8ee7-91e30f109743
+created: '2025-07-06T19:58:23+10:00'
+updated: '2025-07-21T21:33:02+10:00'
+tags:
+  - auto-archived
+---
+
+Of course. Here are your notes integrated verbatim into the respective sections of the book outline. I will place them under the most relevant existing sub-section.
+
+
+---
+
+### **Part I: The Foundation**
+
+**1. The Core Philosophy: Health as Energy, Not as Code**
+
+- **Introduction: Shifting the Paradigm from Genetics and Pills to Energy and Environment**
+
+    - Efas aren't essential its just that when you drop them your engine revs up so high that you need more b vitamins. So what they showed was they induced b vitamin deficiency
+
+    - Fasting, calorie restriction, lowering ldl (reducing saturated fats), reducing simple carbohydrate intake and increasing consumption of resistant starches - all about slowing down a faulty machine so it breaks slower whereas reducing exposure to seed oils, plastics and emf are about unblocking the machine so that it can run better
+
+    - According to usda, in 1939 average man ate 4500 calories
+
+- **Defining the Oxidized State (Efficient Energy Flow, High CO₂)**
+
+    - **Oxidized State (High NAD⁺/NADH, FAD/FADH₂, ATP being used)**
+
+        - **"Good" state** for cells under normal metabolic function.
+
+            - The electron transport chain (ETC) is active, **NADH and FADH₂ are being oxidized** efficiently.
+
+            - ATP is **actively being consumed**, creating a **demand** that keeps oxidative phosphorylation running.
+
+            - **Mild uncoupling** (e.g., via UCP proteins or proton leak) can actually help:
+
+                - Prevents over-reduction of ETC components.<!-- {"indent":5} -->
+
+                    - Reduces ROS by lowering membrane potential.
+
+                    - Promotes thermogenesis in brown fat, for instance.
+
+- **Defining Reductive Stress (The "Engine Blockage") & Its Consequences**
+
+    - **Reduced State (High NADH/NAD⁺, FADH₂/FAD, ATP not being used)**
+
+        - **"Bad" state** when sustained:
+
+            - High NADH/NAD⁺ ratio stalls glycolysis, PDH, and TCA cycle.
+
+            - ETC slows down due to lack of ADP (no ATP demand = no proton flow = backed up electrons).
+
+        - High membrane potential **increases ROS production**.
+
+        - This leads to metabolic stress, damage to lipids/proteins/DNA, and possibly cell death.
+
+    - **Anabolic Pathways (Tissue Synthesis)** – Some of the excess reducing equivalents get used in biosynthetic processes, including protein and nucleotide synthesis.
+
+- **Metabolic Rate as the Primary Metric of Health (Temp & Pulse)**
+
+    - As a high level endurance rate rmr declines, increased incidence of lung conditions
+
+    - People who were in concentration camps who then ate a bunch got fat cause bmr was so low
+
+    - Better to be midly overweight but metabolic rate is higher..obesity is a adaption to lowe metabolic rate
+
+    - Jr speakman study on declining BMR over the last 30 years [https://pubmed.ncbi.nlm.nih.gov/37100994/](https://www.google.com/url?sa=E&q=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F37100994%2F) 
+
+**2. The Engine of Life: Understanding Your Mitochondria**
+
+- **Introduction: Beyond Calories - The Quality of Energy Production**
+
+    - 8-12 seconds of ATP and creatine phosphate energy in body before its depleted
+
+    - After that you use need anaerobic glycolisis for intense exercise glucose gets broken down to creste atp and Pyruvate. In the absence of sufficient oxygen the pyruvste gets turned into lactate whuxh has a byproduct effect of convert nadh back into NAD+ this NAD+ that can then be used for either anaerobic or aerobic glycolosis
+
+    - Aerobic portion
+
+    - Pyruvate enters the mitochondria and it first converted to acetyl-CoA by the enzyme pyruvate dehydrogenase. This step releases one molecule of CO₂ and produces NADH (nicotinamide adenine dinucleotide, reduced form).
+
+    - Acetyl-CoA then enters the Krebs cycle where it undergoes a series of reactions
+
+    - 
+
+
+        - During glycolysis, the Krebs cycle, and the pyruvate dehydrogenase reaction, NAD⁺ is reduced to NADH. This means NAD⁺ accepts electrons (and protons) during these metabolic reactions, turning into NADH.
+
+    - Role of NAD⁺ in Cellular Respiration:
+
+    - 
+
+
+    - NADH donates its electrons to Complex I of the ETC, where the electrons enter the chain. NADH is then oxidized back to NAD⁺, allowing NAD⁺ to be reused in glycolysis and the Krebs cycle.
+
+    - From Complex I, the electrons are passed through a series of protein complexes (Complex I, III, and IV) and mobile electron carriers (ubiquinone and cytochrome c), ultimately reducing oxygen to water at the end of the chain.
+
+    - NADH in the Electron Transport Chain:
+
+    - 
+
+
+    - NAD⁺ needs to be constantly regenerated in order to sustain glycolysis, the Krebs cycle, and pyruvate dehydrogenase. Without sufficient NAD⁺, these processes would halt because they rely on the availability of NAD⁺ to accept electrons.
+
+    - In aerobic conditions, NAD⁺ is regenerated as NADH passes its electrons to the ETC.
+
+    - In anaerobic conditions, where the ETC isn’t fully functional due to a lack of oxygen, cells regenerate NAD⁺ through lactate fermentation (in humans), converting pyruvate to lactate and allowing glycolysis to continue.
+
+    - Importance of NAD⁺ Regeneration:
+
+    - So if not enough glucose oxidation is taking place not enough NAD+ is being regenerated.
+
+    - And then pyruvate gets used to turn the nadh into NAD+ but the byproduct of this is lactate
+
+- **The Electron Transport Chain (ETC): Our Cellular Power Grid**
+
+    - If enough of these electrons are backed up they can start donating backwards from to the complex before it. This is called reverse electron transport. This leads to nad+ going back into nadh
+
+    - Heart tissue can skip complex 1 because of shuttle
+
+- **Key Complexes (I, II, III, IV) and Common Dysfunctions**
+
+    - B vitamins unblock most commonly blocked complex -> 3, 1, 7 most important<!-- {"indent":2} -->
+
+- **Uncoupling: The Good (Adaptive Thermogenesis) and The Bad (Pathological)**
+
+    - Cccp another uncoupler like dnp which achieves four % uncoupling. Good for short term
+
+    - Metabolic uncouplers
+
+        - vitamin e
+
+        - niacinamide
+
+        - glycine
+
+        - caffeine
+
+        - dnp
+
+- **The Byproducts of Energy: Signals and Stress**
+
+    - Most ros comes from reverse electron transport which only happens via oxidizing fatty acids
+
+    - Reactive Oxygen Species(ROS): signalling molecules produced in the mitochondria especially when saturated fat is being burned. The lower “octane” of the fuel (the more unsaturated it is), the less ROS is produced.
+
+    - Reactive Oxygen Species
+
+        - electrons and react with oxygen to form ROS
+
+    - A certain percentage of oxygen turning into free radicals is normal
+
+**3. Fuel Wars & Metabolic Gridlock**
+
+- **Fuel Oxidation and The Randle Cycle**
+
+    - Aerobic exercise ncreases lypolosis which makes you insulin resistance especially when fasted
+
+    - Too much fat as a percentage of calories even if its saturated will lead to too much fatty acis oxidation which leads to low mitochondrial NAD/nadh ratio
+
+    - When dietary fat—especially in high amounts as a percentage of calories—is heavily oxidized, it increases fatty acid β-oxidation in the mitochondria. This process generates lots of NADH, which can overwhelm the electron transport chain if demand for ATP isn't high enough. As a result: The mitochondrial NAD⁺/NADH ratio can decrease (more NADH relative to to NAD⁺), This redox imbalance can inhibit key metabolic enzymes (like pyruvate dehydrogenase), It can suppress glucose oxidation (Randle cycle),
+
+    - Pufa or not pufa when a lot of fat in the blood it is more likely to be used as fuel and due to the Randall cycle puts the cycle into a reductive stress. This leads to an increase of nadh relative to NAD+ which the body will try to fix by using pyruvate to convert nadh into NAD+ which has bad byproduct of lactate
+
+    - block comes at PHD which is what the krep cycle receives in the mitochondria to where glucose oxidation takes place.
+
+    - Limit the supply of fat to the cell - Niacinimide stops the lipolysis of fat, lower fat intake, lower stress. Niacibimide through NAD+ which has anti lipolyic affect. Biotin has such an effect so does aspirin
+
+    - Limit fat oxidation once its available to the cell -/Meldonium stops the oxidation of fat.
+
+- **"Fat Burns in the Flame of Carbohydrate": Explained**
+
+    - if you have lower fat and higher carb diet, a higher percentage of the fat you burn can come from addipose tissue as opposed to ingested fat and the oxidation of the carbs helps oxidised the fats better (fat burns in the fire of carbs)
+
+    - Adequate carbohydrate availability helps maintain kreb cycle cycle, allowing the body to oxidize **acetyl-CoA** from fat more effectively
+
+    - Fat burns in the flame if glucose - If you eat a mixed meal insulin will rise
+
+- **The Primary Drivers of Metabolic Dysfunction**
+
+    - nuclear receptors when activated by their ligand -> turn on genes
+
+    - more nuclear receptors
+
+        - ahr - activate by oxidised phospolipids
+
+        - vdr - vitamin d
+
+        - rxr - vitamin a
+
+        - sxr - recognises bpa
+
+- **The PUFA Cascade: From Seed Oils to Systemic Inflammation**
+
+    - Omega 6 plus refined sugar -> sky high AA -> lots of inflammation -> anxiety
+
+    - Yes, polyunsaturated fatty acids (PUFAs) tend to be preferentially liberated during lipolysis, compared to saturated and monounsaturated fats. This is because PUFAs are generally more fluid and less stable than saturated fats, making them easier to mobilize from fat stores.
+
+    - Pufas getting oxidised gives a signal for more of your sat fat into mufa
+
+    - High nadh in the cytoplasm -> more oxidisation of linoleaic acid
+
+    - Healthy breed isn't oxidising the linoleac acid
+
+    - While saturated fats and MUFAs are generally stored in less harmful locations like subcutaneous fat, PUFAs, particularly omega-6s, are more likely to be found in visceral fat, which is associated with greater health risks (e.g., insulin resistance, cardiovascular disease).
+
+    - Additionally, where their instability can influence cellular function, especially under oxidative stress.
+
+- **The Hormonal Alarms of Metabolic Stress**
+
+- **PPAR-alpha: The "Prepare for Winter" Hibernation Signal**
+
+    - ppar alpha triggers making fat and burning fat
+
+        - **"Break down fat"**
+
+            - **Peroxisomal β-oxidation**
+
+            - **Mitochondrial β-oxidation / oxidative phosphorylation**
+
+        - **"Make fat"**
+
+    - **Lipogenesis**
+
+    - coconut oil triggers ppar a ->
+
+    - **Medium-Chain Fatty Acids (MCFAs)**: Coconut oil is rich in MCFAs, which are absorbed directly into the liver and rapidly metabolized for energy through **beta-oxidation**. These MCFAs have been shown to **activate PPAR-alpha**, particularly in the liver, increasing the expression of enzymes involved in fatty acid oxidation.
+
+    - oleic acid (a monounsaturated fatty acid) has been shown to up regulate with Sterol Regulatory Element-Binding Protein (SREBP), a master regulator of lipid synthesis. SREBP is a transcription factor that controls the expression of genes involved in lipogenesis (fat creation), including those for fatty acid synthase and acetyl-CoA carboxylase.
+
+    - oleic acid may have an indirect effect on the breakdown of endocannabinoids, particularly anandamide (AEA) via inhibiting the enzyme fatty acid amide hydrolase, which is one of the primary cannabinoids produced by the body.
+
+    - STEARIC acid does the opposite it enhances it
+
+    - cananbanoids increase appetite and also inhibit metabolic rate
+
+    - oleic acid can also up regulated PPAR-α (Peroxisome Proliferator-Activated Receptor Alpha), which is another important regulator of lipid metabolism. PPAR-α is a nuclear receptor that controls the expression of genes involved in fatty acid oxidation
+
+    - PPAR-alpha is a nuclear receptor that plays a key role in regulating fatty acid oxidation, particularly in the liver and muscle tissues. It is more activated by unsaturated fats, especially long-chain PUFAs, such as those found in olive oil. PUFAs can serve as ligands for PPAR-alpha, promoting the expression of genes involved in fat oxidation. Also truefor mufas but to a lesser degree
+
+    - Mice without ppar allha fed fish oil died in 10 days
+
+- **SCD1: The Enzyme Converting Saturated Fat to Pro-Inflammatory Monounsaturated Fat**
+
+    - 
+
+
+        - When MUFA intake increases, it can upregulate enzymes like stearoyl-CoA desaturase (SCD1), which converts saturated fats (like stearic acid) into monounsaturated fats (like oleic acid). This shift can affect membrane fluidity and cell signaling, potentially influencing metabolic flexibility.
+
+    - Enzyme Activation by Monounsaturated Fats:
+
+    - 
+
+
+    - Increased MUFA consumption may also affect enzymes like lipoxygenases (LOX), which oxidize polyunsaturated fats like linoleic acid (an omega-6 PUFA) into various hydroperoxy fatty acids like 5-HETE, 12-HETE, and 15-HETE. These oxidized derivatives are bioactive lipid mediators and can activate nuclear receptors such as peroxisome proliferator-activated receptors (PPARs) and aryl hydrocarbon receptor, pcausing shifts in gene expression that promote a slower, more conservation-oriented metabolic state. This is consistent with the body's preference for limiting oxidative stress and preserving energy in response to increased lipid oxidation products. Also to prepare for winter
+
+    - Oxidation of Linoleic Acid (LA):
+
+
+---
+
+### **Part II: The Control Systems**
+
+**4. The Hormonal Symphony: Conductors of Metabolism**
+
+- **Cortisol:Testosterone Ratio (The Anabolic vs. Catabolic State Marker)**
+
+    - When I ran out of testosterone cream i noticed i woke.up way earlier and felt the cortisol a lot more in the morning
+
+- **Testosterone:Estradiol (T:E2) Ratio**
+
+    - 100/1 Progesterone to estrogen minimum higher the better up to about 300/1
+
+- **The Master Metabolic Switch: Thyroid Hormone**
+
+    - He advocated for a treatment approach that combines T4 and T3 hormones in a ratio that mimics the natural secretion of the human thyroid gland.
+
+    - Eat with food (no more than 10mg of t3 at a time) so split mine into twice a day with meals
+
+    - Synthetic thyroid
+
+        - [https://meds.com.mx/](https://www.google.com/url?sa=E&q=https%3A%2F%2Fmeds.com.mx%2F) 
+
+        - T3 liothyronine sodium
+
+        - Trade name: Cytomel, Triostat
+
+        - T4: levothyroxine sodium
+
+        - Trade name : Eltroxin, Elthroid, Synthroid, Levoxyl, Levothroid, Levolet, L-Thyroxin, Thyroxin, T4-KP, Levo-T, Novothyrox, Unithroid
+
+    - Thyroid extract
+
+    - Sriprasit Pharma's Thyroid-S [https://ndtstore.ecwid.com/](https://www.google.com/url?sa=E&q=https%3A%2F%2Fndtstore.ecwid.com%2F) )
+
+    - armour thyroid [https://www.inhousepharmacy.vu/](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.inhousepharmacy.vu%2F) 
+
+    - wp thyroid [https://www.inhousepharmacy.vu/](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.inhousepharmacy.vu%2F) 
+
+    - Thyroid TR by T Man Pharma and
+
+    - Thiroyd by Greater Pharma.
+
+    - Front loading thyroid (me not peat)
+
+    - The half-life of T4 is 1 week. Generally, it is thought that six half-lives of the medication are required before levels reach a steady state. Thea's thyroid function should be checked 6 weeks after starting the full replacement dose.
+
+    - A good solution is to double dose T4 during the first four days of use. This brings levels to the steady state in about 5 days instead of a month. T3 is fast acting and absolutely no frontloading compensation should be made. So when using the above schedules for combining T3 and T4, double the T4 in the first four days, but keep T3 the same.
+
+    - Max dose of 75 t3 per day
+
+    - Peat on thyroid dosing
+
+    - Although most synthetic combination thyroid products now use a ratio of four T4 to one T3, many people feel that their memory and thinking are clearer when they take a ratio of about three to one
+
+    - An effective way to use supplements is to take a combination T4-T3 dose, e.g., 40 mcg of T4 and 10 mcg of T3 once a day, and to use a few mcg of T3 at other times in the day. Keeping a 14-day chart of pulse rate and temperature allows you to see whether the dose is producing the desired response. If the figures aren't increasing at all after a few days, the dose can be increased, until a gradual daily increment can be seen, moving toward the goal at the rate of about 1/14 per day
+
+- **The Stress Axis: From Coping to Collapse**
+
+    - Chronic exercise combined with prolonged fasting puts you into a state where 11b51 enzymes. Increases ability to increase cortisol
+
+    - Constrained model of energy expenditure - aerobic exercise doesn't increase bmr actually decreases it but you offset it through the calories you lose while you exercizs When your young and you exercise you get a burst of dhea to counter the cortisol but as you age itllthat happens less (more of a net benefit to exercise the younger you are)
+
+    - more than week after stopping the dhea and pregnenolone i have fucked up anxiety feelings in the morning in japan
+
+    - If youve had high cortisol lifestyle for long eniugh and go to low stress cortisol doesnt go down without and or
+
+        - 
+
+
+            - something that inhibits the creation of cortisol
+
+        - 
+
+
+    - something that blocks cortisol at the receptor
+
+- **Cortisol: The Driver of Gluconeogenesis and Insulin Resistance**
+
+    - Higher in the morning
+
+    - Blocked by Hormones#Testosterone
+
+    - 
+
+
+    - RU486 (Mifepristone) -3 11bhsd1 with drugs. this drug also lowers prog/preg so will want to make you are supplementing with them
+
+    - In studies repeated sauna exposure had an effect on cortisol - RESULT: didn't notice a different in morning anxiety on it
+
+    - Growth hormone also seems to have an effect on cortisol production. (Makes sense as super heavyweight body builders are chill AF)
+
+    - studies suggests these substances lower cortisol
+
+        - Magnesium,
+
+        - ashwaghanda
+
+        - L-Theanine, and Ginseng Complex
+
+        - dandelion root
+
+        - Rhodiola Rosea
+
+        - Holy Basil
+
+        - sugar
+
+        - gelatin (has glycine in it)
+
+    - Cortisone/cortisol same
+
+- **DHEA & Pregnenolone: The Youthful Buffers & Cortisol Antagonists**
+
+    - In the adrenal glands, pregnenolone is synthesized directly from cholesterol. Here’s a brief overview of the process: 1. Cholesterol Source: Cholesterol used in the adrenal glands can come from circulating lipoproteins (like LDL) or be synthesized within the cells. 2. Transport into Mitochondria: The cholesterol is transported into the mitochondria by the steroidogenic acute regulatory (StAR) protein. 1. Conversion to Pregnenolone: Inside the mitochondria, the enzyme cytochrome P450 side-chain cleavage enzyme (P450scc, also known as CYP11A1) converts cholesterol into pregnenolone. This step is the rate-limiting step in steroid hormone synthesis
+
+    - On Dosage
+
+        - Once again, I am amazed at how well Ray's recommendations are backed by science. He has said that taking DHEA is fine and can restore proper youthful hormone balance. However, he cautioned that DHEA should only be taken in doses of no more than 10mg at once and preferably no more than 15mg daily.
+
+        - Virtually all studies with DHEA used doses 50mg+ daily and the results for men were quite disappointing in terms of hormonal profile as in men DHEA raises estrogen quite a bit while in women it raised mostly DHT.
+
+    - My Own Experience - I felt really off when I tried 50mg twice a day dhea for a few days.
+
+    - Ray peat on the consequences of too much dhea
+
+    - One study has found that the only hormone abnormality in a groupt of Alzheimers patients' brains was an excess of DHEA. In cell culture, DHEA can cause changes in glial cells resembling those seen in the aging brain. These observations suggest that DHEA should be used with caution. Supplements of pregnenolone and thyroid seem to be the safest way to optimize DHEA production.
+
+- **The "Pro-Metabolic" Steroids: Promoters of Energy & Structure**
+
+- **Androgens: Testosterone & DHT**
+
+    - in male monkeys DHT also reduced CRF-stimulated cortisol release, indicating that DHT can reduce the activation of the hypothalamic-pituitary-adrenal (HPA) axis in response to stress.
+
+    - Testosterone blocks cortisol
+
+    - few studies suggest hcg monotherapy safe and preferable for vit-d levels and lower PSA compares with test
+
+    - Increasing test and dht can help the feelings associated with oestrogen dominance
+
+    - Short ester test seems to increase dht more (thats why longer ester test is less bad on the hair)
+
+    - If calcium really does stop hair loss induced by prolactin then I could add in primo to get a better androgen (dht) to estradiol ratio
+
+    - taiean clarke claims longer esthers like test decanoate/ undecanoate are less androgenic and thus better for those worried about their hair. Would this mean lower conversion into dht and higher into e2? or just more t less of both downstream hormones.
+
+    - DHT/T ratio effect on prostate
+
+        - The clinical significance of such increased DHT/T ratio, common to all non-parenteral routes of testosterone administration, is doubtful as studies maintained circulating DHT levels of 10 times the physiological concentrations for up to 2 years without increasing prostate size or growth or any adverse sequelae
+
+- **Progesterone & its metabolite Allopregnanolone**
+
+    - 
+
+
+        - Dinkov has 3a-dhp
+
+    - Supposedly most of the circulating progesterone in men comes from the adrenals even though more is produced in testes but that is quickly converted to testosterone
+
+    - Allopregnanolone
+
+    - The biosynthesis of allopregnanolone and pregnanolone has been associated with the emergence of depressive disorders and post-traumatic stress disorder (PTSD) (12–14).
+
+    - Seems to be the main stress reliever on the progesterone half of the hormone cascade
+
+    - Anecdotal report - Even on very stressful days, 10mg was pretty potent. I tried using for several weeks in a row and 5mg-8mg felt "right", depending on the day. More than that was too sedating.
+
+    - PROG
+
+    - Adult male range - 1-4 nmol/l (0.3-1.3ng/l)
+
+    - mercola on progesterone
+
+    - You can purchase pharmaceutical grade bioidentical progesterone as Progesterone Powder, Bioidentical Micronized Powder, 10 grams for about $40 on many online stores like Amazon. That is nearly a year's supply, depending on the dose you choose.
+
+    - However, you will need to purchase some small stainless steel measuring spoons as you will need a 1/64 tsp, which is 25 mg and a 1/32 tsp, which is 50 mg. A normal dose is typically 25-50 mg and is taken 30 minutes before bed, as it has an anti-cortisol function and will increase GABA levels for a good night's sleep.
+
+    - brand of progesterone disolved in vitamin e oil that mercola recommends [https://healthnatura.com/simply-progesterone-1-08-oz](https://www.google.com/url?sa=E&q=https%3A%2F%2Fhealthnatura.com%2Fsimply-progesterone-1-08-oz) 
+
+    - normal dose is 25-50mg, taken before bed but i reckon if it doesn't make me too drowsy could also take it in the morning
+
+    - allopreg
+
+    - . It’s found in high concentrations in the brain and the thymus gland, reflecting its protective function
+
+    - In a progesterone deficiency, the body produces too much cortisol, which can cause osteoporosis, aging of the skin, damage to brain cells, and fat accumulation
+
+- **The "Anti-Metabolic" Hormones: Promoters of Stress & Hibernation**
+
+- **Estrogen: Necessary Roles vs. Pathological Excess**
+
+    - 
+
+
+    - Mercola reckons seed oils and plastic fucking with estrogen receptors 2 big causes of problems
+
+    - estrogen may reduce the reliance on oxidative phosphorylation which is the process by which cells generate ATP through the electron transport chain in the mitochondria. Estrogen's influence on mitochondrial function includes altering the efficiency of oxidative phosphorylation, possibly by modifying mitochondrial enzymes, decreasing the production of ATP through this pathway, and shifting the balance toward glycolysis.
+
+- **Serotonin: The "Tolerate Suffering" & Metabolic Inhibitor**
+
+    - Serotonin. In high‐fat diet models, increased gut synthesis of serotonin raises its levels in the portal blood, where it acts on liver cells via receptors (notably the 5‑HT2A receptor) to stimulate the expression of genes that enhance fat production. Studies have shown that blocking either serotonin production in the gut or its signaling in the liver can reduce fat accumulation in the liver, suggesting that this enterohepatic serotonin pathway plays a direct role in the development of nonalcoholic fatty liver disease.
+
+    - serrotonn and fibroysis
+
+        - Specifically, serotonin can stimulate the activation of hepatic stellate cells through receptors—most notably the 5‑HT2B receptor.
+
+    - Peripheral serotonin inhibitors and metabolic disease
+
+    - Peripheral serotonin inhibitors—agents that either reduce serotonin synthesis in the gut or block its signaling in peripheral tissues—have shown promise in preclinical studies for a range of metabolic diseases, particularly nonalcoholic fatty liver disease (NAFLD), obesity, and type 2 diabetes.
+
+    - Real Primary role of serrotinin is metabolic its a metabolic inhibutor. Evolutionary role of serotonin is probably to numb pain when under stress but at the expense of turning other emotions as well.
+
+    - Gelatin used in studies to lower tryptophan which is a precursor to serotonin
+
+- **Hormonal Intervention Strategies**
+
+    - some anecdotal evidence that transermally applied pregennolone tot he scrotum raises serum testosterone in males
+
+    - dhea doesnt raise serum test in males in females it does
+
+    - dhea in low dose 5mg per dose and 15mg per day
+
+    - dinkov prefers transdermal route because you have less aromatase enzyme there so you end up with less conversion of dhea into estrogen
+
+    - According to chat gpt deep research - hcg raises reliable raises preg and prog but not dhea. Hcg mono + dht cream + dhea. preg only reliably raises preg not preg and prog so if preg doesnt wor to raise prog oyu need hcg
+
+    - In one rat study hcg increased pregnenolone after 72 hours
+
+    - Groome et al. (1983) in the Journal of Clinical Endocrinology & Metabolism investigated the effects of hCG on Leydig cell steroidogenesis. Their findings included:
+
+        - A marked increase in testosterone levels following hCG administration.
+
+        - A moderate, transient rise in progesterone levels.
+
+        - Only minimal or transient changes in upstream intermediates such as pregnenolone and DHEA, suggesting that once pregnenolone is produced, it is rapidly converted downstream along the steroidogenic pathway.
+
+    - Another review article by Miller and Auchus (2011) in Endocrine Reviews summarizes many aspects of human steroidogenesis—including the response of the Leydig cell to hCG—and notes that while hCG stimulates the conversion of cholesterol to pregnenolone, the predominant measurable effect in circulation is the robust increase in testosterone (with estradiol increasing via aromatization). The intermediates (pregnenolone, progesterone, and DHEA) tend not to accumulate because they are quickly converted to downstream products.
+
+    - While pregnenolone supplementation reliably increases circulating pregnenolone, the evidence to date suggests that it does not consistently or robustly elevate circulating DHEA or progesterone levels
+
+    - So perhaps you need to supplement dhea and progesterone directly
+
+    - Ray Peat reckoned that if you supplemented with adequate pregnenolone it would stop dhea/progesterone/test base supplemntation from shutting you down.
+
+    - Routes of administration/ Sourcing
+
+    - 5mg nootropics depot sublingual (many times more potent than oral per mg)
+
+    - 100mg from life exntesion or puritans pride
+
+    - Seems to be OTC in USA, Thailand and INDO. Need a prescription for progesterone, pregnenolone and dhea and in Australia
+
+    - Quindao Sigma - Pregnenolone MOQ 25g $55 , 100g $120
+
+    - Topical versions exist [https://mydfx.com.au/products/eurovital-pregnenolone-cream-2oz-57g](https://www.google.com/url?sa=E&q=https%3A%2F%2Fmydfx.com.au%2Fproducts%2Feurovital-pregnenolone-cream-2oz-57g) 
+
+    - 100mg life extensions preg can be shipped to aus if you have prescription [https://www.lifeextensionaustralia.com/product/pregnenolone-2/](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.lifeextensionaustralia.com%2Fproduct%2Fpregnenolone-2%2F) 
+
+    - Mercola reckons progesterone most important one out of dhea, pregnenolone dhea for health. Says its a potent cortisol blocker.
+
+    - Thyroid, pregnenolone, dhea, test, progesterone need to be disolved in long chain fat so it bypasses liver metabolism. Ghee, butter or tallow
+
+    - Take progesterone and or pegnenolone when you take dhea to stop conversion into e2
+
+    - With the pregnenalone and dhea if in pill crush/take out powder and mix with half a teaspoon of butter to enhance effects. Doesn't need to dissolve just mix in
+
+    - 100mg pregnenolone sees to be OK to restore your steroidal balance back to normal
+
+    - Progesterone inhibits the enzyme that synthesizes serotonin and increases serotonin degradation
+
+    - So does androgens particularly dht
+
+    - Ray peat forum user on dhea and preg being low before trt rather than trt making it low
+
+    - TRT is rarely the cause of DHEA and Pregnenolone depletion.
+
+    - Levels were depleted to begin with, but people never bothered to check before going on TRT.
+
+    - This echoes what chat gippity says - In summary, pregnenolone and DHEA are largely produced peripherally and by the adrenal glands, rather than being directly regulated by the HPTA.
+
+    - PROGESTERONE CASE
+
+    - progesterone is produced in testes in males so trt could lower it via hpta supressoin which could then result in lower allopregnanolone
+
+    - Reddit user on reason to add dhea in addition to pregnenolone
+
+    - You don't need to, but it was believed early on when pregnenolone started being added as an adjunct, that DHEA should also be added. Pregnenolone itself likely won't raise DHEA enough if you are low, so labs are needed if there is a doubt.
+
+    - For me, I started with both many years ago and ended up dropping DHEA because once my levels were stable, Pregnenolone was enough to keep it there and added DHEA raised my e2 a lot. On the same hand, too much pregnenolone causes the same, so I keep dose low at around 10mg sublingual.
+
+    - Reddit user on taking multiple doses of pregnenolone per day
+
+    - You don’t need to take DHEA with pregnenolone. If your progesterone is low, pregnenolone can raise it on its own. Take smaller doses multiple times a day instead of one large dose if you can, since these hormones metabolize quickly.
+
+    - Ray peat forum user quoting study on preg supplementation not raising coritsol or estradiol
+
+    - I found a recent pregnenolone study here [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3427920/](https://www.google.com/url?sa=E&q=http%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC3427920%2F) 
+
+    - . In the study is says "patients were randomized to pregnenolone (fixed escalating doses to 500 mg/day) or placebo, for 8 weeks." It also says "Pregnenolone administration also increased serum progesterone over fourfold and DHEAS levels by approximately 16% (Table 6). Treatment with pregnenolone did not increase serum testosterone, free testosterone, cortisol, DHEA, estradiol, or androstenedione levels (Table 6)." Here is a link to table 6...
+
+    - Studies reasoning on 500mg a day of pregnenolone to bring it up to youthful levels
+
+    - Although human pharmacokinetic studies addressing acute administration are extremely few, a single oral dose of pregnenolone 175 mg approximately doubles serum levels over the course of 4–8 h (Roberts, 1995
+
+    - . As pregnenolone levels decrease by approximately 60% with age (Morley et al, 1997; Roberts, 1995
+
+    - 
+
+
+    - , and as we estimated that the mean study participant age would be greater than 40, we predicted that our dosing strategy of 500 mg/day of pregnenolone in the last 4 weeks of the study would likely produce pregnenolone levels that are close to those observed in young adulthood or up to twofold higher than typical young adult levels.
+
+- **Comparative Efficacy of Cortisol-Reducing Agents (Progesterone, Emodin, etc.)**
+
+    - 
+
+
+    - Progesterone: Progesterone can significantly inhibit cortisol production, with reductions reported as high as 50-60% in some studies due to its strong inhibitory effect on the enzyme 11β-HSD1, which converts inactive cortisone to active cortisol. Route of administration was oral micronized version at 200mg for these studies
+
+    - 
+
+
+    - DHT (Dihydrotestosterone): DHT’s effects on cortisol are less studied, but it may not significantly reduce cortisol directly. Instead, DHT typically modulates androgenic responses rather than directly lowering stress hormones like cortisol.
+
+    - 11-b hsd1 inhibitor blocks cortisol production
+
+- **Strategies for Lowering Serotonin: Releasing the Metabolic Brake**
+
+    - Cyproheptadine is known to act as both an antihistamine and an antiserotonergic agent—it primarily blocks the 5-HT2 (serotonin) receptors
+
+**5. Lessons from Nature: Animal Models in Metabolism**
+
+- **The Squirrel Model: Dietary Switching for Reproduction**
+
+    - Squirrels have higher gut permubulity in autumn then spring. This could be because they want to shift towards energy storage
+
+
+---
+
+### **Part III: Practical Application**
+
+**6. The Bioenergetic Plate: Eating for Energy**
+
+- **Introduction: Food as Both Fuel and Information**
+
+    - High Level
+
+        - Consume fruit, lean beef/lamb, honey and white rice.
+
+    - 2 to 1 ratio of sugar to protein (fruit and honey, glucose)
+
+    - If your consuming less than 20% of cals from fats hard to overeat carbs.
+
+    - Salt intake not below a teaspoon a day
+
+    - Meals after mental effort. Stuff like milk and oranges during
+
+    - Last protein and fat meal around sunset (3 hours before bed)
+
+    - Avoid resistant starches until metabolism is firing on all cylinders
+
+- **Fats: The Good, The Bad, and The Misunderstood**
+
+    - Saturated fat reduces coritsol production
+
+    - Yes, foods high in vitamin E (a fat-soluble vitamin) often tend to be high in monounsaturated fatty acids (MUFA) and polyunsaturated fatty acids (PUFA). This is because vitamin E acts as an antioxidant, and its presence is critical for protecting the unsaturated fats in these foods from oxidation.
+
+    - Yes, cold-water fish, such as salmon, mackerel, herring, and sardines, tend to have higher levels of unsaturated fats, particularly omega-3 fatty acids like EPA (eicosapentaenoic acid) and DHA (docosahexaenoic acid). These polyunsaturated fats remain more fluid in cold temperatures, helping the fish maintain cell membrane flexibility in chilly waters. This fluidity is essential for fish to survive in colder environments, as more saturated fats would otherwise solidify and impair cellular function at low temperatures.
+
+    - Ruminant animals can change ingested pufas into saturated fat. This means when cows/lambs and chickens/pork get fed pufa rich diet, the tissues of the ruminants are much lower in pufa compared to the chicken/pork. Thats why you want to avoid lard and fatty cuts or chicken/pork
+
+    - Fat soluable vitamins in animal skin, fat and liver have a lot but aren't quantified in the liver.
+
+    - Olive oil makes you fat
+
+    - ratio of oleic to stearic acid in
+
+        - olive oil 25 to 1
+
+        - butter 2.5 to 1
+
+        - beef suet (tallow from kidney) higher than tallow
+
+    - stearic acid levels humans have halved - gone from 6 to 3
+
+    - palm kernel oil is mostly saturated fat
+
+
+
+
+- **Saturated Fats (Stearic, Butter, Ghee, Coconut Oil): The Preferred Stable Fuel**
+
+    - amount of sea in blood correlates with stearic acid in fat tissue
+
+    - giving mice sea heavily reduces scd1
+
+    - adding sea to IR inducing diet in mice brings TNF a back to control diet levels
+
+    - mouse on fat free diet plus stearic acid did way better than plus oleic acid
+
+    - Taking stearic acid supp can help shift endocannabanoid fat storage and munchies down
+
+    - Stearic acid with butter to change the type of fat in your body
+
+    - higher percentage of stearic acid correlates strongly lower body fat percentage
+
+- **PUFA Depletion Strategies (e.g., Vitamin E, Saturated Fat Dominance)**
+
+    - [Repletion and Depletion of Polyunsaturated Fatty Acids in Cebus Monkeys](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fabs%2Fpii%2FS002231662307061X) 
+
+    - in cebus monkeys, depleting serum pufas with fat free diet takes about 4 days and tissue about 30 days.
+
+    - [https://www.i-screen.com.au/tests/essential-fatty-acids](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.i-screen.com.au%2Ftests%2Fessential-fatty-acids) 
+
+    - Monkeys switched to a fat-free diet experienced a **faster depletion** of serum PUFA levels compared to those switched to a coconut oil diet.
+
+    - Doesn't make sense that serum levels would go down and then tissue levels go down because shouldn't serum levels go up because the fat is being lipolysised?
+
+    - Maybe its getting beta oxidised faster then the lipolysis can free it
+
+    - What numbers in the blood can be proxies for lipolysis/beta oxidation?
+
+    - In the coconut oil arm of the trial 45% of their total calories came from coconut oil.
+
+    - These monkeys had much slower reductions in tissue/serum concentrations in pufa than the fat free diet arm. Perhaps body's need to mobilize stored fats for energy is reduced when dietary fat is available, even if it's low in PUFAs.
+
+    - Monkeys that had been fed fat-free diets or coconut oil diets for 8 months had their deficit of PFA in the serum total lipid and cholesterol ester fractions corrected after a single meal containing corn oil.
+
+    - The reversal of PFA concentrations in muscle, skin, and testis was much slower; however, the reversal in PFA concentrations had occoured within 31 days.
+
+    - studies have shown that when monkeys (and other animals) are fed a fat-free diet, it can lead to a depletion of polyunsaturated fatty acids (PUFAs) from cell membranes, particularly in the phospholipid bilayers of cells, which are crucial for maintaining membrane fluidity and function. Over time, in the absence of dietary PUFAs, the body begins to replace these fats with other types, such as saturated or monounsaturated fats.
+
+    - Combatting pufa's
+
+        - Vitamin E
+
+    - 2mg per gram of pufas so if you have 50 grams of pufas then 100mg vit-e
+
+- **Carbohydrates: The Clean-Burning, CO₂-Producing Fuel**
+
+    - Want to avoid fiber until gut bacteria are fixed so doesn't that mean fruits? Yes fruits are higher in soluble than insoluble fiber
+
+    - resistant starch feeds your gut bacteria which is supposedly bad if all your anerobic gut bacteria are dead
+
+    - Juicing oranges reduces the amount of fiber
+
+    - Also true for
+
+        - Grape juice
+
+        - apple juice
+
+        - pineapple juice
+
+        - other citrus like grapefruit, lemon, lime
+
+- **Fructose vs. Glucose: The Role of Liver Health and Context**
+
+    - Cocacola rat study increased energy intake
+
+    - Maybe the fruit from sugar/honey etc is OK for liver if your not also consuming lots of mufa, pufa and bcaa. Maybe in the absence of them the liver ends up converting less fructose into fat in the liver
+
+    - Fructose is primarily taken up in liver where it is either stored as glycogen (in the liver) or stored as fat in liver or released as fat (triglycerides)
+
+    - Multiple studies demonstrated that honey does not trigger the hyper normal hyperglycemic response of the other simple carbs.
+
+- **Starches (White Rice, Potato) vs. Sugars (Honey, Fruit, Juice)**
+
+    - 
+
+
+        - sweet potatoes
+
+    - green plantains
+
+    - low bcaa starches (not how most of these are grown primarily closer to equator)
+
+    - cassava (tapioca is made out of cassava)
+
+    - taro
+
+    - yam
+
+    - sweet potatoes
+
+    - chestnuts
+
+    - plantains (particularly green unripe ones)
+
+    - butternut squash, acorn squash
+
+    - arrow root
+
+- **Protein: More Than Just Building Blocks**
+
+    - Oxidising protein as fuel means you will begenerating a lot of ammonium
+
+    - cysteine defficiency associated with rapid weight loss
+
+    - in mice going from 5 to 10% calories from protein significantly reduces energy expenditure. further decreases from 10% to 30%
+
+    - supposedly around 45 grams protein total (equivalent to 3 eggs + 30 grams gelatin) was enough to be protein sufficient for 6 young men in 1971 study
+
+    - I like this - 30-40g of whole food protein + gelatin/collagen peptides/beef tendon4. No overthinking. Great. Thank you very much.
+
+    - Beef liver will give me vitamin a and lots of copper
+
+    - If your going to eat fish make it a tropical warm water on that will be lower in omega-3s
+
+- **The BCAA Problem: Muscle Meats and Reductive Stress**
+
+    - If you wan't to lower bcaa intake much better to focus on less meat /swap for milk and eggs (yolk) than which carb source your getting. Swapping carb sources is much less of a change in total bcaa's vs just consuming less meat.
+
+    - aiming to lower ingested bcaa's by 75% lowered circulatin bcaa's by 50%
+
+    - **lowering BCAA intake** while on a **high-fat diet** can prevent certain metabolic issues typically associated with high-fat diets. In studies, when BCAA levels were reduced in mice fed a high-fat diet, the animals showed:
+
+        - **Prevention of body weight gain**: The reduction in BCAAs halted the weight gain commonly seen with high-fat diets.
+
+        - **Lower serum glucose levels**: Glucose levels remained stable or were reduced, indicating improved glucose metabolism.
+
+        - **Reduced serum insulin**: Lower circulating insulin levels were observed, suggesting improved insulin sensitivity.
+
+    - obese people have much higher 3-hib, a metabolite of bcaa
+
+    - feeding bcaa metabolic 3-hib led to increases in serum glucose and serum triglycerides
+
+    - high bcaa levels drive obesity associated decline in circulating glycine levels?
+
+    - so mufa indirectly reduces bodies ability to break down bcaa
+
+    - so then bcaa's will rise in blood stream
+
+    - mouse study where increasing mufas and decrease sat fat (higher oleic/lower stearic acid) led to much higher serum concentrations of bcaa's
+
+    - mature adipocytes use alot of bcaa's for de novo lipogenssis if available
+
+    - eliminating icoleucine from high fat, fat inducing diet it stops them getting fat
+
+- **Collagen Solution: Balancing the Amino Acid Profile**
+
+    - Glycine, proline and hydroxyprolien levels returned to baseline within 240 minutes of ingestion of either gelatin or collagen peptides
+
+    - **Glycine conjugation** This process helps regulate acyl-carnitine levels by preventing the accumulation of toxic acyl-CoA compounds, which could otherwise interfere with mitochondrial function.
+
+    - collagen/gelatin contains arganine -
+
+    - arganine -> NO -> helps oxygen get into things
+
+    - collagen supplementation decreased fatty acid synthase(the one that makes new fat)
+
+    - Collagen acts as insulin when you eat carbs meaning you don't get the same spike of it following carb consumption
+
+    - Glycine also helps with this. Gelatin is 30% or so gelatin. 2 tablespoons gelatin will get you to 10mg-15mg glycine
+
+- **Dietary Frameworks & Principles**
+
+    - high carb, high fat diet can be ok maybe -
+
+        - high fat/high starch diet when bcaa's are taken out keeps mice lean<!-- {"indent":3} -->
+
+    - high carb low fat diets
+
+        - don't increase ppar signalling
+
+        - reduces ffa -> increases insulin sensitivity
+
+        - nad+ up via pdhc
+
+        - high sat in tissues
+
+        - high metabolic rates
+
+    - Study in 1962 found Nigerian cassava and plantain eating cultures had highest amount of saturated fat
+
+    - Mice fed starches and sat fat have much higher metabolic rate.
+
+    - People in amazon eating lots of starch and not a lot of bcaas had super high metabolic rate.
+
+    - thai farmers who eat super high carb have super high metabolic rate
+
+    - same with brazillian tribe that eats alot of plantains
+
+    - When you increase carbs you need to lower fats otherwise tryglicyerides
+
+    - Lower fat diet 15-20℅ in terms of calories then your mitochondria can efficiently burn the glucose. At above 30% start using more of the primitive process with the glucose you consume (the fermentation one that doesn't use oxygen)
+
+    - Salt intake
+
+- **The Fat Loss Paradox: Why Most Weight Loss is Metabolically Harmful (And How to Do It Right)**
+
+    - Fat overshoot model- Lose weight
+
+        - Lipolysis up metabolically disregulated state with less muscld
+
+        - Body wants to regain the lean mass so makes you hungry but because your metabolically messed up you end up with more fat by the time you get back to same lean muscle mass
+
+    - seems to me you want to get the fat off by burning more fat but fat oxidation is not good long term then you want to switch to more glucose oxidation
+
+    - the leaner you are the higher percentage of protein you burn in a calorie deficit
+
+- **Meal Timing & Composition (e.g., Fructose in AM, Starches in PM)**
+
+    - Wait until thirty minutes after meals to decide if your still hungry enough to warrant more food.
+
+- **A Critical View on Fasting, Calorie Restriction, and "Bulking & Cutting"**
+
+    - Fasting increases fat oxidation which isn't good if your full of pro inflammatory pufas
+
+**7. The Bioenergetic Lens: Reframing Modern Disease**
+
+- **Introduction: When Energy Fails, Systems Break**
+
+    - I think the reason I've only been getting the negative effects (anxiety)from things like caffeine and nicotine is related to the metabolic dysfunction I was having from my diet
+
+- **Cancer as a Metabolic Disease**
+
+    - Shooting test into prostate worked good on prostate cancer.
+
+    - gate between glycolosis and kreb cycle - University Toronto helped I'mprove the gate between these two which showed promise.
+
+    - Some researches added 300mg of b7 halted severe type of ms. Adding spficically b7 increased redux pairs in favourable way. Pyruvate/lactate up, NAD+/nadh up, acetoacetate/hydrocybuturate up and co2 up.
+
+    - B1, b3 and b7 tumor size reduced but not gone.
+
+        - Aspirin inhibits breakdown of co2<!-- {"indent":3} -->
+
+        - 
+
+
+    - B1, b3 and b7 plus aspirin led to total regression of tumors.
+
+    - Cancerous cells get enough oxygen but also over express hif1a which stops them properly using it.
+
+    - via primitive glucose fermentation cancer sells create ros and then ferment glutamine. (Make lactate).
+
+    - Greek study did keto vs not 66% survival rate keto vs 8% not
+
+    - Dinkov study on prostate cancer
+
+        - ~~Human~~ cancer transplanted into rodent model
+
+        - dht plus ai
+
+        - complete regression
+
+    - Yes, a diet with more than 30% fat intake can potentially interfere with glucose oxidation and increase reliance on anaerobic glycolysis, which can contribute to the Warburg effect—a phenomenon where cells, especially cancer cells, prefer anaerobic glycolysis over oxidative phosphorylation, even in the presence of oxygen.
+
+    - Cancer cells produce most of its ATP through beta - oxidation then most of the glucose goes into lactate through glycolosis because beta oxidation lowers the NAD+/Nadh ratio which puts the cell into reductive state and lowers pyruvate dehydrogenase which means more glucose is converted using anerobic glycolosis
+
+    - Apoxotises the really messed up cells and improves the less bad one by decreasing fat oxidstion and increases glucose oxidation 42069
+
+    - Cancer rate in high carb amazonian tribe 1 in 100 thousand. 1 in 2 in the west
+
+    - In mice if you give enough energy to the cancerous cell directly through ATP infusions it cures it. Supports the idea that all you need to restore cell to normal is provide it enough energy either directly or indirectly.
+
+    - cancer cell stuck oxidising fats so more glucose around (some of which you pee out) or you convert it into lactic acid. Same thing in cancer, too much fat oxidation. Because the cell needs glucose and its stuck using fat it creates more of the transports that move glucose known as glut1-4
+
+    - Cancer
+
+    - Dinkovs experiment B1, B3 and B7 — and aspirin <- to combat a highly lethal form of human mantle cell lymphoma. He found that while the vitamins alone stopped tumor growth, adding aspirin at a human-equivalent dose of about 1.5 grams per day led to complete tumor regression in all three test subjects.
+
+    - Building on the success with aspirin, Dinkov introduced a more potent analog of aspirin known as 2,6-dihydroxybenzoic acid. Not only is it much stronger, it’s also much more lipophilic, meaning it has a greater affinity for lipids (fats) than water. Lipophilic compounds tend to be more easily absorbed through cell membranes.
+
+    - Georgi dinkovs researches couldn't implant tumor into mice that had been fed fat free diet for 2 weeks leading up to it
+
+    - human equivalent doses of haidut's study
+
+    - His answer: "Daily dose (administered once daily, orally): \~15mg/kg vitamin B1 (thiamine), \~30mg/kg vitamin B3 (niacinamide), \~1.5mg/kg vitamin B7 (biotin), and \~15mg/kg aspirin. Not high at all. No known human toxicity at those doses for any of the compounds."
+
+- **The Warburg Effect: Chronic Fermentation as the Foundational Cause**
+
+    - Wargburg effect leads to process increases glucose uptake and glycolysis, which leads to increased lactate production
+
+    - Cells convert glucose into pyruvate through glycolosis (fermentation) leading to 2 atps. This is OK when your under acute exercise stress but not chronically
+
+- **Insulin Resistance, T2D & Obesity**
+
+    - the metabolic syndrome can lead to either carb and fat intolerance" or contributing to insulin resistance.
+
+    - obese humans - have lots of unsaturated fats in their tissues
+
+        - 
+
+
+            - XXX. high levels of circulating bcaa - cant break them down - insulin resistance
+
+    - obese people have 1/2 to 1/3 the blood flow in fat tissue compared to regular people - > less oxygen -> not good
+
+    - Obesity pattern high bcaa, low glycine
+
+    - Foods that make you insulin resistant do it because of envolutionsry response to needing to store fat before winter/times of lack of food.
+
+- **Gut Health, IBS & Leaky Gut**
+
+    - Gut inflammation -> increased desat enzymes -> more mufas -> further towards reductive stress -> glycine down -> leaky gut
+
+    - Simplified chain from pufa intake to endotoxin
+
+        - 
+
+
+        - PUFA intake → PUFA oxidation in mitochondria → increased reactive oxygen species (ROS).
+
+        - 
+
+
+        - Mitochondrial damage → reduced ATP production in colonocytes.
+
+        - 
+
+
+        - Dysbiosis → no good bacteria there to process resistant starches and fiber so X
+
+        - 
+
+
+        - Endotoxins and inflammation further damage the colon and mitochondria, perpetuating dysfunction.
+
+        - 
+
+
+        - Mitochondrial Dysfunction: When the mitochondria in colon cells (colonocytes) do not function properly, energy production is compromised. Colonocytes typically derive much of their energy from short-chain fatty acids (SCFAs), primarily butyrate, which are produced by beneficial anaerobic bacteria during the fermentation of fiber and resistant starch.
+
+        - 
+
+
+        - Colonocyte Death: Without adequate energy, the colonocytes begin to die. This weakens the colon lining and may allow oxygen to leak into the colon.
+
+        - 
+
+
+        - Disruption of Gut Flora: The presence of oxygen in the colon disrupts the balance of gut bacteria, as beneficial anaerobic bacteria (oxygen-intolerant) die off. These beneficial bacteria are key to maintaining gut health and producing SCFAs. As they die, harmful, oxygen-tolerant bacteria (facultative anaerobes or aerobes) can take over.
+
+    - Microbiome
+
+    - Mercola - Microbiome tests really important. akkermansia meant to be most important one. Find out which food guys you have. Make more of them to competitively inhibit the bad ones . Mercola tests for six species
+
+- **Serotonin & The Central Fatigue Hypothesis**
+
+    - insulin administration increases
+
+        - 
+
+
+            - pdh
+
+        - 
+
+
+    - glycogen storage
+
+        - 
+
+
+    - glucose utilization in the mitochondria
+
+**8. The Bioenergetic Toolkit: Lifestyle, Supplements & Bioactive Compounds**
+
+- **General Principles**
+
+    - Supplements that do take should be related to raising metabolic rate either directly or by reducing negative effects of tings like pufa and endotoxin (vitamin e)
+
+    - Vitamin a, b ,e and k. Need to taken alongside fat to be absorbed
+
+    - Only sell products and supplements you have personally used
+
+    - Dinkov reccomends purebulk brand for b vitamins
+
+    - Ray Peat Recommended Supplementation
+
+        - fat soluable vitamins, b vitamins, Pete also encouraged experimentation with supplements such as thyroid hormone, niacinamide, pregnenolone, vitamin D, aspirin, vitamin A (retinol), and vitamin E
+
+- **Tier 0: The Foundational Rhythms (Light, Movement, and Fuel)**
+
+    - Conversion of white fat into brown fat driven by adrenaline which is known promoter of cancer. Why ice baths are bad. Brown fat more likely to get burned via lypolosis ie ice baths mimick early stages of cancer state.
+
+    - People like finns and sweedes that did hot nd cold exposure culturally after they move to another place (hot place) and only did cold exposure it upped their mortality
+
+    - Grounding, particularly walking in ocean good way to get read of electrons
+
+    - Being in the sun reduces melonoma while increasing risk of more benign skin cancer
+
+    - synthetic fiber clothing is meant to agonise androgen receptors
+
+    - 30 minutes midday sun on back and then front
+
+- **The Rhythm of Movement: Integrating, Not Annihilating**
+
+    - Muscles - concentric vs eccentric
+
+        - Mitochondria
+
+            - 
+
+
+                - concentric exercise increases the mitochondrial biogensis, size and density mitochondria more than eccentric
+
+            - 
+
+
+    - concentric improves glucose uptake into the cell and reduce lactic acid
+
+    - Glucose window for exercise is somewhere between 30-60 minutes. Shorter for steady state aerobic exercise and longer for anaerobic exercise.
+
+    - exercise should not be done fasted as your gonna go into starvation mode which will set you up to burn fat during the exercise but hold on to the carbs you eat later
+
+- **Tier 1: Foundational Support (For Most People)**
+
+    - Dinkov: Liquid form supplements much better absorbed when taking as a solid
+
+    - Tiaean Clarke's blood pressure reduction using magnesium and vitamin e could be related to vitamin es pufa negative effect attenustion
+
+    - Methionine restriction stops high fat induced diabeties
+
+    - Vitamin b1 300-500mg thiamine chloride or 100-150mg of lipophylic analogs halved lactate buildup caused by exercise - could this be good for surfing to stop muscles burning?
+
+    - Biotin helps bypass blocked pyruvste dehydrogenase through? as a cofactor for enzymes such as pyruvate carboxylase, helps redirect pyruvate into gluconeogenesis, producing oxaloacetate instead of acetyl-CoA. This oxaloacetate can then be used for glucose production, helping maintain energy metabolism even when PDH is inhibited.
+
+    - Aspirin anti lipolytic also st higher dose directly inhibits oxidation of fat in the cell
+
+    - Dinkov takes regular tablet aspirin twice a week
+
+    - Niacinamide 100mg with meals
+
+    - Vitamin k once a week
+
+    - Dinkovs studies showed b3 had more benefit than b1 by itself
+
+    - Niacinamide- 50-100mg 3 times a day (max 300mg a day)
+
+    - The key metabolite that confers many of aspirin's benefits is salicylic acid. Aspirin (acetylsalicylic acid) is converted into salicylic acid after it is absorbed into the body. They just took it and added acetate to it so they could patent it.
+
+    - Immediate relaase aspirin not extended
+
+    - Aspirin lowers cortisol by inhibiting 11hsdb1, increases glucose oxidation and lowers fst oxidation
+
+    - Niacinamide helps oxidise glucose oxidation by increasing NAD+
+
+    - Additionally, niacinamide helps increase the levels of NAD+ <- (nicotinamide adenine dinucleotide), a coenzyme involved in glucose metabolism. NAD+ plays a critical role in glycolysis and the Krebs cycle, processes that are key to glucose oxidation. By supporting NAD+ levels, niacinamide enhances the body’s ability to oxidize glucose efficiently, which can contribute to better energy production and reduced reliance on fat oxidation, particularly the harmful oxidation of polyunsaturated fatty acids (PUFAs).
+
+    - Georgi says B1 and 500mg B3 (niacinamide) if under stress and once or twice week.
+
+    - Ray once recommended getting 1mg vitamin K per 325mg aspirin.
+
+    - 50mg niacinimide, 3-4 yes a day. Way cheaper as powder. Take it 30 minutes before magnesium dose.
+
+    - Baby aspirin with each meal inhibits absorption of the muscle meat amino acids.
+
+- **Tier 2: Targeted Intervention (For Specific Issues)**
+
+    - Methylene blue, melatonin and alpha lipoic acid suck up the excess electrons in the nadh so they can't hit the oxygen and become ROS
+
+    - methylne blue can ublock all 4 stages of electron blockages. K2 Only 2 and coq10 2 and 3. methylene blue and red light patented
+
+    - Georgi dinkov says combine methylene blue with niacinamide to offset its increase in serrotonin
+
+    - Methylene blue3- 5mg to unblock complex one, two, three and four
+
+    - masterjohn on using methylene blue as a mitochondrial fixer
+
+        - if a single complex isn't working in the respiratory chain is broken relative to the others then perhaps you can use methylene blue for this but there are more targeted options
+
+        - first rule out any nutritional deficiencies
+
+        - riboflavin (b2), coq10, copper
+
+        - second
+
+        - goal of getting lactate down to the lower end of the 0.5 to 1.5 mmol/l range
+
+        - disorders.
+
+        - methylene blue shows secondary promise in complex 3 disorders
+
+    - exogenous supps in glucose to atp
+
+    - r-ala
+
+    - when given to mice makes them not get fat
+
+    - dose dependant increase in sirt1
+
+    - dose dependnat increase in nad+/nadh ratio
+
+    - r-ala dose 500mg twice a day
+
+    - pyruvate
+
+    - drive down nadh in cytoplasm
+
+    - XXX. alpha-ketoglutarate (α-KG) 2000mg a day
+
+- **Cortisol & Stress Modulators: Emodin, L-Theanine, Phosphatidylserine**
+
+    - Emodin sellers
+
+        - 
+
+
+            - morphogen nutrition
+
+        - 
+
+
+    - chemix cortobloc
+
+        - 
+
+
+    - gorilla mind
+
+    - Gaba plus l-theanine for anxiety
+
+    - Previously thought gaba didn't cross blood brain barrier but dinkov thinks it does
+
+    - Derecks calming stack called gorilla mind calm(cortisol lowering) ASKWHICH OF THESE CAN BE CONSIDERED BIOENERGETIC APPROVED
+
+Of course. Here is that section written out again with the original formatting and wording.
+
+
+---
+
+**Tier 3: Advanced & Experimental Protocols**
+
+- chase irons reckons mots c- 1mg a day start for mito function
+
+- 2mg of ss31
+
+- chase irons reckon tesomarlin 2mg (ghrh) is great
+
+- Recommend lowering dose to get Total test around 1000–1200 for long-term sustainability.
+
+- Blasting occasionally is fine, but establish ideal cruise/TRT dose first.
+
+- Something more lipolytic and acidic would be better than aspirin
+
+- 2,6-dihydroxybenzoic acid worked best by itself without b vitamins at around 400mg dose.
+
+- Taking propranolol lowers adrenoline which lowers the amount of lipolysis
+
+- L-carnitine increases fst oxidation by increasing the movment of fatty acids into the mitocondria
+
+- When you combine testosterone emulsion with long chain fat (mixed into butter or ghee)
+
+- Belly button over 80% absorption administering test with acetone
+
+- **Other Bioactives: ITPP, Catuaba**
+
+    - Molecular hydrogen
+
+    - Molecular hydrogen appears to be adaptsgenic in the etc in relation to reductive stress induced oxidative stress. Neutralizes harmful ros while leaving the ros that is beneficial for cellular signaling alone. It also can also help the redux balance in the etc reducing the buildup of excess electrons in the first place.
+
+    - Georgie dinkov is a fan of molecular hydrogen
+
+    - SEA = Stearoylethanolamide (downstrs of stearic scid) stops nf kappa betta, redufes tnf-a, supressed sdc-1 -> metabolic rate up
+
+        - 1200mg a day raisedbrsd marshalls body temp too much
+
+        - 300mg, twice a day ended up with better temp
+
+    - feeding mice insulin resistant inducing diet was completely attenuated by adding SEA to the diet
+
+    - Pua tea extract stopped mice eating in a caloric surplus (tlr4 blocker) from gaining weight
+
+    - Acetoacetate is a ketone - Makes you sleepy take before bed or nap
+
+    - 1 gram methylene blue in 4oz bottle ends up with approx 1% concentration
+
+    - Haidut's Idea Labs - [https://idealabs.ecwid.com/AlloP-p368909891](https://www.google.com/url?sa=E&q=https%3A%2F%2Fidealabs.ecwid.com%2FAlloP-p368909891) 
+
+- **The Anabolic Conundrum: HGH vs. Direct IGF-1**
+
+    - 100mg DECA?
+
+    - It's one of the most critical and misunderstood aspects of HGH's metabolic effects. Exogenous HGH is a powerful blocker of glucose oxidation. This isn't a minor side effect; it is a primary mechanism of action, and it's the direct reason why HGH has a well-known "diabetogenic" (diabetes-causing) reputation in medicine. ANy time you upregulate fat oxidation you induce a diabetogenic state
+
+    - Studies suggested a significant 15-30% reduction in cortisol from exogenous GH use
+
+    - See what a few units of hgh (get to around 250-300 ng/dl) does to the skin on my face
+
+    - Administer at night for healing, in the morning fasted for fat metabolism
+
+    - Applyng EOD seems to have similar effects with less resultant insulin sensitivity
+
+    - NOTE - HGH also can help with skin
+
+### **Part IV: Measurement and The Path Forward**
+
+**9. Measuring What Matters: Testing, Biomarkers & Progress Tracking**
+
+- **Introduction: Moving Beyond "Normal" to "Optimal"**
+
+    - What biomarkers apart from mitoswab can you use to get an idea how well your conversion of glucose into energy is working
+
+    - what metrixs can be looked at to get a measure of mitochondrial health?
+
+        - redux pair ratios?
+
+    - Masterjohn on advanced health checks
+
+    - Ranked and sorted genetics
+
+    - need whole genome sequencing
+
+    - functional markers of nutrient status
+
+    - comprehensive screening for impairments in energy metabolism
+
+- **Level 1: The Daily Check-In (Free & At-Home)**
+
+    - Ottai Continuous Glucose Monitoring lazada
+
+- **Subjective Markers: Sleep Quality, Energy, Libido, Mood**
+
+    - The lower amount of methylene blue before your piss turns blue, the healthier you are. 5mg legit
+
+    - Upper limit of what I want for long periods of the day is 37.4 (99.32)
+
+    - Look at Fatique, sleep quality improvements for.it
+
+- **Level 2: Essential Blood Work (The Core Panel)**
+
+    - zinc before and after blood test
+
+    - T3, cortisol and full iron panel
+
+    - Optimal blood levels range from 60 to 80 ng/mL vit d
+
+    - 30-50 ng/ml vitamin d levels
+
+    - Bioenergetic important markers
+
+        - allopregnanalone
+
+- **Key Bioenergetic Interpretations (e.g., High T3, Low rT3, High DHEA:Cortisol)**
+
+    - High cortisol, high dhea
+
+        - 
+
+
+            - stressed but body still functioning OK
+
+    - High cortisol, low dhea
+
+    - 
+
+
+        - stressed and body can't produce enough precursor hormones
+
+    - Desired changes
+
+    - UP
+
+        - pregnenolone
+
+        - dhea
+
+        - progesterone
+
+        - allo pregnanolone
+
+        - test
+
+    - Uncertain
+
+    - shbg
+
+    - Down
+
+    - estradiol
+
+    - cortisol
+
+    - prolactin
+
+- **Level 3: Advanced Functional Diagnostics**
+
+    - Foodmarble digestion monitoring device
+
+    - Short chain fatty acids seem to only be observable through stool sample
+
+    - Mercolas working on 50 dollar microbiome assay
+
+    - pairs as proxy of nadh to nad+
+
+        - 
+
+
+            - lactate/pyruvate
+
+        - 
+
+
+    - acetoacetste/bhb
+
+        - 
+
+
+    - XXX. oxidised/reduced glutsthione (this is the only pair where you do want the reduced one) to deal with ROS
+
+    - Metabolism
+
+    - Glucose Metabolism Efficiency
+
+        - Alanine Levels: amino acid profile
+
+        - Elevated alanine suggests a shift towards gluconeogenesis or compensatory pathways when pyruvate is not efficiently entering the TCA cycle, which could occur under conditions favoring glucose metabolism over fat oxidation.
+
+        - Glutathione (GSH) / Glutathione Disulfide (GSSG) Ratio:
+
+        - A higher GSH/GSSG ratio reflects a reduced state with lower oxidative stress, indicating efficient mitochondrial function.
+
+        - Lactate Dehydrogenase (LDH): XX
+
+        - Elevated LDH may indicate a reliance on anaerobic glycolysis due to mitochondrial inefficiency, suggesting less efficient glucose metabolism under stress or dysfunction.
+
+        - Malondialdehyde (MDA) and F2-isoprostanes:
+
+        - These markers indicate oxidative damage from ROS, which can occur when glucose metabolism is impaired, leading to mitochondrial stress.
+
+        - Citrate Synthase, α-KGDH, and SDH:
+
+        - Higher levels of these enzymes indicate a well-functioning TCA cycle. They are essential for efficient glucose metabolism and mitochondrial activity.
+
+    - Glucose vs. Beta Oxidation
+
+    - Respiratory Exchange Ratio (RER):
+
+    - An RER of 1.0 indicates predominant glucose oxidation, while an RER around 0.7 indicates reliance on fat oxidation.
+
+    - Serum Free Fatty Acids (FFAs) and Ketones: XX
+
+    - Elevated levels suggest increased beta-oxidation, particularly in fasting or low-carbohydrate conditions.
+
+    - Lactate Levels:
+
+    - Low lactate levels during exertion suggest beta-oxidation dominance, as fat metabolism doesn’t produce lactate.
+
+    - Insulin Levels:
+
+    - Low insulin levels, especially in a fasted state, correlate with increased fat oxidation because insulin suppression allows for the release and utilization of FFAs.
+
+    - Acylcarnitines:
+
+    - Elevated levels of long-chain acylcarnitines are indicative of active beta-oxidation, particularly when glucose levels are low.
+
+    - Pyruvate and Alanine Levels:
+
+    - High levels indicate active glycolysis (glucose oxidation). Lower levels, with high FFAs or ketones, suggest a shift towards fat oxidation.
+
+    - CO₂ and Bicarbonate (HCO₃⁻):
+
+**10. The N-of-1 Laboratory: Personal Experimentation & Planning**
+
+- **Current & Planned Experiments (with Rationale)**
+
+    - Assuming I get the test cream. I then titrate that dose up and keep retesting and see what e2, free and total t and dht levels i get to. maybe i dont need the dht cream if i can get the ratios between t-e2, t-dht, dht-e2 good
+
+    - 20% dht cream on dick for growth
+
+    - Experiment
+
+        - 
+
+
+            - Do transdermal t by itself and see where dht and total t end up. Modulate pregnenolone first see if it brings preg and prog up if not hcg to try and get prog and dhea serum levels up
+
+    - Need to test dinkovs claims like - mixing precursor hormones with fat increases absorption
+
+    - Testing oral progesterone with and without fat good way to test one of dinkovs pearls
+
+    - Anecdotal
+
+    - pineapple
+
+    - seemed to make me tired when plus sweet potato
+
+    - didn't digest well
+
+    - made me piss alot
+
+- **Practical Tools: Recipes, Food Hacks, etc.**
+
+    - bulgarian burger - adding gelatin and calcium carbonate to ground meat
+
+**11. Epilogue: The Frontier of Bioenergetic Science**
+
+- **Key Unanswered Questions & Areas for Continued Research**
+
+    - 
+
+
+        - would having a hard time getting the electrons from food to the oxyfen eam you nee d more oxygen?. Could methylene blue decrease breathing requirements
+
+- **The French Paradox: Synergies of SFA, Starch, and Alcohol**
+
+    - French paradox
+
+        - France eats decent amount of bcaa from wheat starch in bread and pasta and muscle meat bcaa, drinks a bit of alcohol and gets a but of fructose from fruit and table sugar
+
+        - Is the presence of enough starch in the diet sufficient to render to stop the above additions to the diet from making them fat?
+
+        - Also the presence of sat fat as opposed to mufa and pufa is helping
+
+- **Can balancing BCAAs with sufficient glycine fully negate their negative effects?**
+
+    - similar question is there any evidence balancing bcca's with enough gelatin/collagen based amino's negates bcca's negative effect?
+
+- **Additional Content/Sources**
+
+    - Content
+
+        - [https://open.substack.com/pub/unbekoming/p/tripping-over-the-truth-how-the-metabolic?r=3m7a3&utm_campaign=post&utm_medium=email](https://www.google.com/url?sa=E&q=https%3A%2F%2Fopen.substack.com%2Fpub%2Funbekoming%2Fp%2Ftripping-over-the-truth-how-the-metabolic%3Fr%3D3m7a3%26utm_campaign%3Dpost%26utm_medium%3Demail) 
+
+        - [https://open.substack.com/pub/unbekoming/p/electromolecular-medicine-the-cds?r=3m7a3&utm_campaign=post&utm_medium=email](https://www.google.com/url?sa=E&q=https%3A%2F%2Fopen.substack.com%2Fpub%2Funbekoming%2Fp%2Felectromolecular-medicine-the-cds%3Fr%3D3m7a3%26utm_campaign%3Dpost%26utm_medium%3Demail) 
+
+    - Sourcing
+
+    - Sustanon and nebido available in indo from pharmacies
+
+    - bayer test e and nebido available at thai pharmacies
+
+    - Dissolving test base in vitamin
+
+    - reddit link
+
+    - He added 50ml of 95% Ethanol and Vitamin E iherb
+
+    - \(each) in a bottle i.e. 100ml in total. And then added 10g of Test Base to this solution.
+
+    - He shook the bottle after every 30 mins for 4 to 5 times, and it fully dissolved. I didn't need to heat it at all
+
+    - He mostly apply on Scrotum, sometimes on shoulders. Morning and night. I think 0.15ml would be agood starting point dose x2 day.
+
+    - We conclude that testosterone administration to scrotal skin is well tolerated and produces dose-dependent peak serum testosterone concentration with a much lower dose relative to the non-scrotal transdermal route.
+
+    - It also says that transdermal application leads to higher conversion into DHT but also says
 
 
 File: ./content/autoimmune-conditions-a-case-of-mistaken-identity.md
@@ -2871,330 +7916,307 @@ tags:
 
 **1. The Core Philosophy: Health as Energy, Not as Code**
 
-- [Introduction: Shifting the Paradigm from Genetics and Pills to Energy and Environment](https://www.amplenote.com/notes/21a3db7c-4f42-11f0-b4f0-3108ed04f393) 
+- [Introduction: Shifting the Paradigm from Genetics and Pills to Energy and Environment](introduction-shifting-the-paradigm-from-genetics-and-pills-to-energy-and-environment.md) 
 
-- [The Body as an Adaptive System (Not a Broken Machine)](https://www.amplenote.com/notes/7b088428-4f43-11f0-aef7-69ac32418669) 
+- [The Body as an Adaptive System (Not a Broken Machine)](the-body-as-an-adaptive-system-not-a-broken-machine.md) 
 
-- [The Core State: Reductive vs. Oxidized](https://www.amplenote.com/notes/7027a5ce-4f44-11f0-a361-b9530f05252a) 
+- [The Core State: Reductive vs. Oxidized](the-core-state-reductive-vs-oxidized.md) 
 
-    - [Defining the Oxidized State (Efficient Energy Flow, High CO₂)](https://www.amplenote.com/notes/ceb6dab0-4f44-11f0-aefe-879dd0225ba7) 
+    - [Defining the Oxidized State (Efficient Energy Flow, High CO₂)](defining-the-oxidized-state-efficient-energy-flow-high-co.md) 
 
-    - [Defining Reductive Stress (The "Engine Blockage") & Its Consequences](https://www.amplenote.com/notes/f01cdc76-4f45-11f0-b451-d53f8ce171f3) 
+    - [Defining Reductive Stress (The "Engine Blockage") & Its Consequences](defining-reductive-stress-the-engine-blockage-its-consequences.md) 
 
-- [The Hero Molecule: Reclaiming Carbon Dioxide](https://www.amplenote.com/notes/35babb50-5661-11f0-ba7e-ddaf1f59de23) 
+- [The Hero Molecule: Reclaiming Carbon Dioxide](the-hero-molecule-reclaiming-carbon-dioxide.md) 
 
-- [NADH Ratio as the Master Switch of Cellular Energy](https://www.amplenote.com/notes/e14c24e4-4f46-11f0-98d2-0bc1630abaf6) 
+- [NADH Ratio as the Master Switch of Cellular Energy](nadh-ratio-as-the-master-switch-of-cellular-energy.md) 
 
-- [Metabolic Rate as the Primary Metric of Health (Temp & Pulse)](https://www.amplenote.com/notes/f3820e2a-4f47-11f0-b65c-a5dbcebf0c38) 
+- [Metabolic Rate as the Primary Metric of Health (Temp & Pulse)](metabolic-rate-as-the-primary-metric-of-health-temp-pulse.md) 
 
-- [The Philosophy of Biomarkers: Proxies vs. Targets](https://www.amplenote.com/notes/0f0eaf90-4fc5-11f0-8fce-e7439cd3793b) 
+- [The Philosophy of Biomarkers: Proxies vs. Targets](the-philosophy-of-biomarkers-proxies-vs-targets.md) 
 
-- [Sleep as a Bioenergetic Issue: "Sleep issues are issues of insufficient energy production"](https://www.amplenote.com/notes/2bd34a68-4fc6-11f0-a6ce-dd1df376e8a7) 
+- [Sleep as a Bioenergetic Issue: "Sleep issues are issues of insufficient energy production"](sleep-as-a-bioenergetic-issue-sleep-issues-are-issues-of-insufficient-energy-production.md) 
 
 **2. The Engine of Life: Understanding Your Mitochondria**
 
-- [Introduction: Beyond Calories - The Quality of Energy Production](https://www.amplenote.com/notes/21c20ec8-4fc7-11f0-951d-07aecf3834c7) 
+- [Introduction: Beyond Calories - The Quality of Energy Production](introduction-beyond-calories-the-quality-of-energy-production.md) 
 
-- [The Electron Transport Chain (ETC): Our Cellular Power Grid](https://www.amplenote.com/notes/261e25fa-4fc8-11f0-baf6-c345ad96cb05) 
+- [The Electron Transport Chain (ETC): Our Cellular Power Grid](the-electron-transport-chain-etc-our-cellular-power-grid.md) 
 
-    - [Key Complexes (I, II, III, IV) and Common Dysfunctions](https://www.amplenote.com/notes/caf4baaa-4fd5-11f0-9605-1b302ac71d62) 
+    - [Key Complexes (I, II, III, IV) and Common Dysfunctions](key-complexes-i-ii-iii-iv-and-common-dysfunctions.md) 
 
-- [Key Machinery and Safety Valves](https://www.amplenote.com/notes/ab4783f2-4fdc-11f0-97eb-7b8dad9e7aa2) 
+- [Key Machinery and Safety Valves](key-machinery-and-safety-valves.md) 
 
-    - [Nicotinamide Nucleotide Transhydrogenase (NNT) as a Pressure Release Valve](https://www.amplenote.com/notes/11d8c262-4fdc-11f0-82fc-1db3a009e386) 
+    - [Nicotinamide Nucleotide Transhydrogenase (NNT) as a Pressure Release Valve](nicotinamide-nucleotide-transhydrogenase-nnt-as-a-pressure-release-valve.md) 
 
-    - [Uncoupling: The Good (Adaptive Thermogenesis) and The Bad (Pathological)](https://www.amplenote.com/notes/c243d25e-4fdc-11f0-849a-7b33cd10d8b2) 
+    - [Uncoupling: The Good (Adaptive Thermogenesis) and The Bad (Pathological)](uncoupling-the-good-adaptive-thermogenesis-and-the-bad-pathological.md) 
 
-- [The Byproducts of Energy: Signals and Stress](https://www.amplenote.com/notes/f5d1e312-4fdd-11f0-b782-43e83d120de5) 
+- [The Byproducts of Energy: Signals and Stress](the-byproducts-of-energy-signals-and-stress.md) 
 
-    - [Reactive Oxygen Species (ROS): Normal Signaling vs. Harmful Excess](https://www.amplenote.com/notes/a9d67f30-4fde-11f0-b72f-bf73aa945870) 
+    - [Reactive Oxygen Species (ROS): Normal Signaling vs. Harmful Excess](reactive-oxygen-species-ros-normal-signaling-vs-harmful-excess.md) 
 
-    - [The Central Role of Carbon Dioxide (CO₂) and The Bohr Effect for Oxygen Delivery](https://www.amplenote.com/notes/a4e0d132-4fdf-11f0-b511-f54dd946e237) 
+    - [The Central Role of Carbon Dioxide (CO₂) and The Bohr Effect for Oxygen Delivery](the-central-role-of-carbon-dioxide-co-and-the-bohr-effect-for-oxygen-delivery.md) 
 
-- [Reading the Dashboard: Proxies for Your Mitochondrial State](https://www.amplenote.com/notes/92c3fc0c-4fe1-11f0-abbd-6df74c5fd9f6) 
+- [Reading the Dashboard: Proxies for Your Mitochondrial State](reading-the-dashboard-proxies-for-your-mitochondrial-state.md) 
 
-    - [NADplus-NADH Ratio](https://www.amplenote.com/notes/21761098-4fe2-11f0-9a24-4595492b1a63) 
+    - [NADplus-NADH Ratio](nadplus-nadh-ratio.md) 
 
-    - [Pyruvate Ratio](https://www.amplenote.com/notes/c896e85c-4fe2-11f0-aefa-8f0dc7d48d5b) 
+    - [Pyruvate Ratio](pyruvate-ratio.md) 
 
-    - [Beta-Hydroxybutyrate (BHB) Ratio](https://www.amplenote.com/notes/739a2fe8-4fe3-11f0-883b-b7ee5b1f2c1f) 
+    - [Beta-Hydroxybutyrate (BHB) Ratio](beta-hydroxybutyrate-bhb-ratio.md) 
 
-    - [GSSG) Ratio](https://www.amplenote.com/notes/26f2b4ac-4fe4-11f0-b033-974a3afa62fb) 
+    - [GSSG) Ratio](gssg-ratio.md) 
 
 **3. Fuel Wars & Metabolic Gridlock**
 
-- [Introduction: Why Your Metabolic Engine Stalls and How to Clear the Jam](https://www.amplenote.com/notes/b1b86b7c-5007-11f0-8aed-5ffad69e40aa) 
+- [Introduction: Why Your Metabolic Engine Stalls and How to Clear the Jam](introduction-why-your-metabolic-engine-stalls-and-how-to-clear-the-jam.md) 
 
-- [Fuel Oxidation and The Randle Cycle](https://www.amplenote.com/notes/4fc553be-500a-11f0-9c27-bfa01fb260fc) 
+- [Fuel Oxidation and The Randle Cycle](fuel-oxidation-and-the-randle-cycle.md) 
 
-    - [How Excess Free Fatty Acids "Block" Glucose Metabolism (PDH Inhibition)](https://www.amplenote.com/notes/d5a2dac4-500a-11f0-a3b2-418b4f59d2f5) 
+    - [How Excess Free Fatty Acids "Block" Glucose Metabolism (PDH Inhibition)](how-excess-free-fatty-acids-block-glucose-metabolism-pdh-inhibition.md) 
 
-    - ["Fat Burns in the Flame of Carbohydrate": Explained](https://www.amplenote.com/notes/7db1a604-500c-11f0-9890-7f7ea0077daa) 
+    - ["Fat Burns in the Flame of Carbohydrate": Explained](fat-burns-in-the-flame-of-carbohydrate-explained.md) 
 
-    - [Metabolic Flexibility vs. Inflexibility: The Real Meaning](https://www.amplenote.com/notes/a3d1343e-500d-11f0-a3a6-bb4c87022385) 
+    - [Metabolic Flexibility vs. Inflexibility: The Real Meaning](metabolic-flexibility-vs-inflexibility-the-real-meaning.md) 
 
-- [The Primary Drivers of Metabolic Dysfunction](https://www.amplenote.com/notes/212c592a-5010-11f0-ba2c-5ff2f320371e) 
+- [The Primary Drivers of Metabolic Dysfunction](the-primary-drivers-of-metabolic-dysfunction.md) 
 
-    - [The PUFA Cascade: From Seed Oils to Systemic Inflammation](https://www.amplenote.com/notes/e7cb704c-517e-11f0-a646-abca406c39ec) 
+    - [The PUFA Cascade: From Seed Oils to Systemic Inflammation](the-pufa-cascade-from-seed-oils-to-systemic-inflammation.md) 
 
-    - [Endotoxins (LPS) from Gut Dysbiosis](https://www.amplenote.com/notes/af1debbe-5181-11f0-85c4-f173cb594b10) 
+    - [Endotoxins (LPS) from Gut Dysbiosis](endotoxins-lps-from-gut-dysbiosis.md) 
 
-    - [The Chronic Stress Signal (Cortisol, Adrenaline, Serotonin)](https://www.amplenote.com/notes/ffa5b100-5183-11f0-af66-138a1f40cb52) 
+    - [The Chronic Stress Signal (Cortisol, Adrenaline, Serotonin)](the-chronic-stress-signal-cortisol-adrenaline-serotonin.md) 
 
-    - [Environmental Factors (EMF, Plastics) & The Intracellular Calcium Link](https://www.amplenote.com/notes/49cc6a60-5186-11f0-8958-0511ea79b452) 
+    - [Environmental Factors (EMF, Plastics) & The Intracellular Calcium Link](environmental-factors-emf-plastics-the-intracellular-calcium-link.md) 
 
-- [The Hormonal Alarms of Metabolic Stress](https://www.amplenote.com/notes/673f184a-519a-11f0-8ca6-87a7b91b2ddf) 
+- [The Hormonal Alarms of Metabolic Stress](the-hormonal-alarms-of-metabolic-stress.md) 
 
-    - [FGF21: The Starvation and Stress Hormone](https://www.amplenote.com/notes/9b2ab816-519b-11f0-9385-7f6541fc9b6b) 
+    - [FGF21: The Starvation and Stress Hormone](fgf21-the-starvation-and-stress-hormone.md) 
 
-    - [PPAR-alpha: The "Prepare for Winter" Hibernation Signal](https://www.amplenote.com/notes/714986a2-519c-11f0-8864-618001a706bd) 
+    - [PPAR-alpha: The "Prepare for Winter" Hibernation Signal](ppar-alpha-the-prepare-for-winter-hibernation-signal.md) 
 
-    - [SCD1: The Enzyme Converting Saturated Fat to Pro-Inflammatory Monounsaturated Fat](https://www.amplenote.com/notes/ae3fc264-519d-11f0-b83b-47a827bb76e1) 
+    - [SCD1: The Enzyme Converting Saturated Fat to Pro-Inflammatory Monounsaturated Fat](scd1-the-enzyme-converting-saturated-fat-to-pro-inflammatory-monounsaturated-fat.md) 
 
 ### **Part II: The Control Systems**
 
 **4. The Hormonal Symphony: Conductors of Metabolism**
 
-- [Introduction: Hormones as Messengers in a Complex System, Not Isolated Actors](https://www.amplenote.com/notes/a47de9c4-51a0-11f0-b388-bfb89fa1ed31) 
+- [Introduction: Hormones as Messengers in a Complex System, Not Isolated Actors](introduction-hormones-as-messengers-in-a-complex-system-not-isolated-actors.md) 
 
-    - [Cortisol:DHEA Ratio (The "All-Cause Mortality" & Aging Marker)](https://www.amplenote.com/notes/cf8795ce-51a1-11f0-98b8-3f46ee865055) 
+    - [Cortisol:DHEA Ratio (The "All-Cause Mortality" & Aging Marker)](cortisol-dhea-ratio-the-all-cause-mortality-aging-marker.md) 
 
-    - [Cortisol:Testosterone Ratio (The Anabolic vs. Catabolic State Marker)](https://www.amplenote.com/notes/ecaff78a-51a2-11f0-839b-938320709ad0) 
+    - [Cortisol:Testosterone Ratio (The Anabolic vs. Catabolic State Marker)](cortisol-testosterone-ratio-the-anabolic-vs-catabolic-state-marker.md) 
 
-    - [Testosterone:Estradiol (T:E2) Ratio](https://www.amplenote.com/notes/f4cb5e86-51a3-11f0-9701-59da5dcebe21) 
+    - [Testosterone:Estradiol (T:E2) Ratio](testosterone-estradiol-t-e2-ratio.md) 
 
-- [The Master Metabolic Switch: Thyroid Hormone](https://www.amplenote.com/notes/92a56966-51a5-11f0-80dc-6f948591c6a8) 
+- [The Master Metabolic Switch: Thyroid Hormone](the-master-metabolic-switch-thyroid-hormone.md) 
 
-    - [The Crucial T4-to-T3 Conversion Process](https://www.amplenote.com/notes/a50c4b46-51a6-11f0-a404-475f8fd5d76e) 
+    - [The Crucial T4-to-T3 Conversion Process](the-crucial-t4-to-t3-conversion-process.md) 
 
-    - [Reverse T3 (rT3): The Emergency Brake on Metabolism](https://www.amplenote.com/notes/a81531a8-51a7-11f0-9c24-6559b24ebfda) 
+    - [Reverse T3 (rT3): The Emergency Brake on Metabolism](reverse-t3-rt3-the-emergency-brake-on-metabolism.md) 
 
-- [The Stress Axis: From Coping to Collapse](https://www.amplenote.com/notes/2e42547c-51a8-11f0-9151-91d7bf8b8e34) 
+- [The Stress Axis: From Coping to Collapse](the-stress-axis-from-coping-to-collapse.md) 
 
-    - [Cortisol: The Driver of Gluconeogenesis and Insulin Resistance](https://www.amplenote.com/notes/a30107f4-51a8-11f0-8c67-f16141f20ab0) 
+    - [Cortisol: The Driver of Gluconeogenesis and Insulin Resistance](cortisol-the-driver-of-gluconeogenesis-and-insulin-resistance.md) 
 
-    - [DHEA & Pregnenolone: The Youthful Buffers & Cortisol Antagonists](https://www.amplenote.com/notes/eca6ba02-51a8-11f0-b6dd-edb053942bbb) 
+    - [DHEA & Pregnenolone: The Youthful Buffers & Cortisol Antagonists](dhea-pregnenolone-the-youthful-buffers-cortisol-antagonists.md) 
 
-- [The "Pro-Metabolic" Steroids: Promoters of Energy & Structure](https://www.amplenote.com/notes/61030c7e-51aa-11f0-b558-e768c968968a) 
+- [The "Pro-Metabolic" Steroids: Promoters of Energy & Structure](the-pro-metabolic-steroids-promoters-of-energy-structure.md) 
 
-    - [Androgens: Testosterone & DHT](https://www.amplenote.com/notes/f548b24e-51aa-11f0-9f3b-03998192e7dc) 
+    - [Androgens: Testosterone & DHT](androgens-testosterone-dht.md) 
 
-    - [Progesterone & its metabolite Allopregnanolone](https://www.amplenote.com/notes/29277f94-51ad-11f0-8421-f1975e2ddd1d) 
+    - [Progesterone & its metabolite Allopregnanolone](progesterone-its-metabolite-allopregnanolone.md) 
 
-- [The "Anti-Metabolic" Hormones: Promoters of Stress & Hibernation](https://www.amplenote.com/notes/ee26c00c-51ad-11f0-bfa1-17a6320be40e) 
+- [The "Anti-Metabolic" Hormones: Promoters of Stress & Hibernation](the-anti-metabolic-hormones-promoters-of-stress-hibernation.md) 
 
-    - [Estrogen: Necessary Roles vs. Pathological Excess](https://www.amplenote.com/notes/8293999a-51ae-11f0-88c9-efb81c9998a2) 
+    - [Estrogen: Necessary Roles vs. Pathological Excess](estrogen-necessary-roles-vs-pathological-excess.md) 
 
-    - [Serotonin: The "Tolerate Suffering" & Metabolic Inhibitor](https://www.amplenote.com/notes/72c69a56-5304-11f0-b7ef-ad691d9b8718) 
+    - [Serotonin: The "Tolerate Suffering" & Metabolic Inhibitor](serotonin-the-tolerate-suffering-metabolic-inhibitor.md) 
 
-    - [Leptin (and Fructose-Induced Resistance)](https://www.amplenote.com/notes/87049c38-5305-11f0-b502-35a3db3efab0) 
+    - [Leptin (and Fructose-Induced Resistance)](leptin-and-fructose-induced-resistance.md) 
 
-- [Hormonal Intervention Strategies](https://www.amplenote.com/notes/4cfd75bc-5307-11f0-8501-fb369bf0f4ea) 
+- [Hormonal Intervention Strategies](hormonal-intervention-strategies.md) 
 
-    - [Comparative Efficacy of Cortisol-Reducing Agents (Progesterone, Emodin, etc.)](https://www.amplenote.com/notes/643d92d2-5309-11f0-a34c-8dad809fce58) 
+    - [Comparative Efficacy of Cortisol-Reducing Agents (Progesterone, Emodin, etc.)](comparative-efficacy-of-cortisol-reducing-agents-progesterone-emodin-etc.md) 
 
-    - [Transdermal vs. Oral Administration](https://www.amplenote.com/notes/344e0126-530c-11f0-b5f5-0972b17fd611) 
+    - [Transdermal vs. Oral Administration](transdermal-vs-oral-administration.md) 
 
-    - [Strategies for Lowering Serotonin: Releasing the Metabolic Brake](https://www.amplenote.com/notes/eaca18ec-5314-11f0-b9c6-aff4a469278d) 
+    - [Strategies for Lowering Serotonin: Releasing the Metabolic Brake](strategies-for-lowering-serotonin-releasing-the-metabolic-brake.md) 
 
-    - [Strategies for Lowering Estrogen: Restoring Hormonal Balance](https://www.amplenote.com/notes/52e8e4b4-5318-11f0-8b98-47efd006f4da) 
+    - [Strategies for Lowering Estrogen: Restoring Hormonal Balance](strategies-for-lowering-estrogen-restoring-hormonal-balance.md) 
 
 **5. Lessons from Nature: Animal Models in Metabolism**
 
-- [Introduction: Nature's Solutions to Metabolic Puzzles](https://www.amplenote.com/notes/52b7fbc4-530e-11f0-af9b-a97be10e5863) 
+- [Introduction: Nature's Solutions to Metabolic Puzzles](introduction-nature-s-solutions-to-metabolic-puzzles.md) 
 
-- [The Bear Model: Cyclical Insulin Resistance for Hibernation](https://www.amplenote.com/notes/62f73968-530f-11f0-a9b5-4bd2e659a635) 
+- [The Bear Model: Cyclical Insulin Resistance for Hibernation](the-bear-model-cyclical-insulin-resistance-for-hibernation.md) 
 
-- [The Squirrel Model: Dietary Switching for Reproduction](https://www.amplenote.com/notes/f8e24c9c-530f-11f0-9e93-a1ae98b7f2be) 
+- [The Squirrel Model: Dietary Switching for Reproduction](the-squirrel-model-dietary-switching-for-reproduction.md) 
 
-- [The Pig Model: You Are What You Eat (Literally)](https://www.amplenote.com/notes/ddd5414e-5313-11f0-8c95-3bfcf6617e40) 
+- [The Pig Model: You Are What You Eat (Literally)](the-pig-model-you-are-what-you-eat-literally.md) 
 
-- [The Echidna Model: The Unique Role of MUFAs in Hibernation](https://www.amplenote.com/notes/188025ca-5341-11f0-8b52-69760ca21086) 
+- [The Echidna Model: The Unique Role of MUFAs in Hibernation](the-echidna-model-the-unique-role-of-mufas-in-hibernation.md) 
 
 ### **Part III: Practical Application**
 
 **6. The Bioenergetic Plate: Eating for Energy**
 
-- [Introduction: Food as Both Fuel and Information](https://www.amplenote.com/notes/d9789f18-5563-11f0-85c5-810af93fc1ed) 
+- [Introduction: Food as Both Fuel and Information](introduction-food-as-both-fuel-and-information.md) 
 
-- [Fats: The Good, The Bad, and The Misunderstood](https://www.amplenote.com/notes/e0c9032e-556e-11f0-a686-fff3be97763c) 
+- [Fats: The Good, The Bad, and The Misunderstood](fats-the-good-the-bad-and-the-misunderstood.md) 
 
-    - [Saturated Fats (Stearic, Butter, Ghee, Coconut Oil): The Preferred Stable Fuel](https://www.amplenote.com/notes/24782f44-558a-11f0-80ad-7fcb39bbbea9) 
+    - [Saturated Fats (Stearic, Butter, Ghee, Coconut Oil): The Preferred Stable Fuel](saturated-fats-stearic-butter-ghee-coconut-oil-the-preferred-stable-fuel.md) 
 
-    - [Olive Oil)](https://www.amplenote.com/notes/f760d126-558b-11f0-8d16-737f1c905ef2) 
+    - [Olive Oil)](the-problem-with-pufas-omega-6-omega-3-and-mufas-oleic-acid-olive-oil.md) 
 
-    - [PUFA Depletion Strategies (e.g., Vitamin E, Saturated Fat Dominance)](https://www.amplenote.com/notes/620f3844-558e-11f0-b43c-5555a87225e4) 
+    - [PUFA Depletion Strategies (e.g., Vitamin E, Saturated Fat Dominance)](pufa-depletion-strategies-e-g-vitamin-e-saturated-fat-dominance.md) 
 
-- [Carbohydrates: The Clean-Burning, CO₂-Producing Fuel](https://www.amplenote.com/notes/c05a199a-558f-11f0-867a-d57e93fef31f) 
+- [Carbohydrates: The Clean-Burning, CO₂-Producing Fuel](carbohydrates-the-clean-burning-co-producing-fuel.md) 
 
-    - [Fructose vs. Glucose: The Role of Liver Health and Context](https://www.amplenote.com/notes/2b61ef0c-5611-11f0-b565-b12631de7d64) 
+    - [Fructose vs. Glucose: The Role of Liver Health and Context](fructose-vs-glucose-the-role-of-liver-health-and-context.md) 
 
-    - [Starches (White Rice, Potato) vs. Sugars (Honey, Fruit, Juice)](https://www.amplenote.com/notes/f97416c2-5611-11f0-aecc-0d8ff9583cc8) 
+    - [Starches (White Rice, Potato) vs. Sugars (Honey, Fruit, Juice)](starches-white-rice-potato-vs-sugars-honey-fruit-juice.md) 
 
-- [Protein: More Than Just Building Blocks](https://www.amplenote.com/notes/c0d97c06-5613-11f0-8d99-2db1405eab63) 
+- [Protein: More Than Just Building Blocks](protein-more-than-just-building-blocks.md) 
 
-    - [The BCAA Problem: Muscle Meats and Reductive Stress](https://www.amplenote.com/notes/ebdfedd0-5614-11f0-971b-c93d4e8198e0) 
+    - [The BCAA Problem: Muscle Meats and Reductive Stress](the-bcaa-problem-muscle-meats-and-reductive-stress.md) 
 
-    - [Collagen Solution: Balancing the Amino Acid Profile](https://www.amplenote.com/notes/2f0e4fd8-5616-11f0-b89c-1325444e3617) 
+    - [Collagen Solution: Balancing the Amino Acid Profile](collagen-solution-balancing-the-amino-acid-profile.md) 
 
-    - [Methionine Restriction as a Pro-Metabolic Strategy](https://www.amplenote.com/notes/2ae0aa8a-5622-11f0-bc09-215600477344) 
+    - [Methionine Restriction as a Pro-Metabolic Strategy](methionine-restriction-as-a-pro-metabolic-strategy.md) 
 
-- [Dietary Frameworks & Principles](https://www.amplenote.com/notes/04528322-5625-11f0-89f3-2f5208f26029) 
+- [Dietary Frameworks & Principles](dietary-frameworks-principles.md) 
 
-    - [The Fat Loss Paradox: Why Most Weight Loss is Metabolically Harmful (And How to Do It Right)](https://www.amplenote.com/notes/7f746af8-58b3-11f0-8779-673154e55c1f) 
+    - [The Fat Loss Paradox: Why Most Weight Loss is Metabolically Harmful (And How to Do It Right)](the-fat-loss-paradox-why-most-weight-loss-is-metabolically-harmful-and-how-to-do-it-right.md) 
 
-    - [The Bioenergetic Food Pyramid: A Visual Principle (Base of Carbs, Balanced Protein, SFA)](https://www.amplenote.com/notes/7e4503ea-561f-11f0-92ab-23f34d77d64e) 
+    - [The Bioenergetic Food Pyramid: A Visual Principle (Base of Carbs, Balanced Protein, SFA)](the-bioenergetic-food-pyramid-a-visual-principle.md) 
 
-    - [Maximizing Endogenous T3 Production as the Primary Dietary Goal](https://www.amplenote.com/notes/e842b73a-5627-11f0-99f0-c9fa879b48de) 
+    - [Maximizing Endogenous T3 Production as the Primary Dietary Goal](maximizing-endogenous-t3-production-as-the-primary-dietary-goal.md) 
 
-    - [Meal Timing & Composition (e.g., Fructose in AM, Starches in PM)](https://www.amplenote.com/notes/229553c2-563f-11f0-ba58-d3f05fae4684) 
+    - [Meal Timing & Composition (e.g., Fructose in AM, Starches in PM)](meal-timing-composition-e-g-fructose-in-am-starches-in-pm.md) 
 
-    - [Food Separation Strategies & The "Why" (Minimizing the Randle Cycle)](https://www.amplenote.com/notes/992740ee-5640-11f0-9416-a18a03c9273d)  
+    - [Food Separation Strategies & The "Why" (Minimizing the Randle Cycle)](food-separation-strategies-the-why-minimizing-the-randle-cycle.md)  
 
-- [A Critical View on Fasting, Calorie Restriction, and "Bulking & Cutting"](https://www.amplenote.com/notes/edc6cd2a-5642-11f0-9bc6-bbb261cde191) 
+- [A Critical View on Fasting, Calorie Restriction, and "Bulking & Cutting"](a-critical-view-on-fasting-calorie-restriction-and-bulking-cutting.md) 
 
 **7. The Metabolic Lens: Reframing Modern Disease**
 
-- [Introduction: When Energy Fails, Systems Break](https://www.amplenote.com/notes/df8f1562-5644-11f0-8bb8-abea284ce26b) 
+- [Introduction: When Energy Fails, Systems Break](introduction-when-energy-fails-systems-break.md) 
 
-- [Cancer as a Metabolic Disease](https://www.amplenote.com/notes/0b26d3c6-5646-11f0-8235-9ff3fcd46be0) 
+- [Cancer as a Metabolic Disease](cancer-as-a-metabolic-disease.md) 
 
-    - [The Warburg Effect: Chronic Fermentation as the Foundational Cause](https://www.amplenote.com/notes/c78b1496-5646-11f0-9853-670e1fb4fb84) 
+    - [The Warburg Effect: Chronic Fermentation as the Foundational Cause](the-warburg-effect-chronic-fermentation-as-the-foundational-cause.md) 
 
-    - [The Central Role of Redox State, Lactate, and pH](https://www.amplenote.com/notes/91add0dc-5648-11f0-9c1d-cd07e89bc693) 
+    - [The Central Role of Redox State, Lactate, and pH](the-central-role-of-redox-state-lactate-and-ph.md) 
 
-- [Insulin Resistance, T2D & Obesity](https://www.amplenote.com/notes/c4caa882-565c-11f0-9481-9de21f302db2) 
+- [Insulin Resistance, T2D & Obesity](insulin-resistance-t2d-obesity.md) 
 
-    - [Beyond "Calories In, Calories Out": A Failure of Fuel Oxidation](https://www.amplenote.com/notes/0875e546-565e-11f0-baec-dfc9a2a90cdf) 
+    - [Beyond "Calories In, Calories Out": A Failure of Fuel Oxidation](beyond-calories-in-calories-out-a-failure-of-fuel-oxidation.md) 
 
-- [Gut Health, IBS & Leaky Gut](https://www.amplenote.com/notes/28c02cd8-5660-11f0-9350-3949cc14ecd8) 
+- [Gut Health, IBS & Leaky Gut](gut-health-ibs-leaky-gut.md) 
 
-    - [The Core Mechanism: Mitochondrial Dysfunction → Oxygen Leak → Dysbiosis](https://www.amplenote.com/notes/43b98e1e-5663-11f0-aa9e-0f375fd70064) 
+    - [The Core Mechanism: Mitochondrial Dysfunction → Oxygen Leak → Dysbiosis](the-core-mechanism-mitochondrial-dysfunction-oxygen-leak-dysbiosis.md) 
 
-    - [The Practical Question: Starches vs. Sugars During Healing?](https://www.amplenote.com/notes/8e34a284-56c8-11f0-b091-f5afaf5feb93) 
+    - [The Practical Question: Starches vs. Sugars During Healing?](the-practical-question-starches-vs-sugars-during-healing.md) 
 
-- [Serotonin & The Central Fatigue Hypothesis](https://www.amplenote.com/notes/3c0c6a44-56ca-11f0-82fe-9fe3ff78bb59) 
+- [Serotonin & The Central Fatigue Hypothesis](serotonin-the-central-fatigue-hypothesis.md) 
 
-    - [Connection to Depression, Anhedonia, Fibromyalgia, and IBS](https://www.amplenote.com/notes/457d885a-56cb-11f0-87d5-61924d6b0455) 
+    - [Connection to Depression, Anhedonia, Fibromyalgia, and IBS](connection-to-depression-anhedonia-fibromyalgia-and-ibs.md) 
 
-- [Autoimmune Conditions: A Case of Mistaken Identity?](https://www.amplenote.com/notes/630add9e-56cd-11f0-b1f3-c97834f088c1) 
+- [Autoimmune Conditions: A Case of Mistaken Identity?](autoimmune-conditions-a-case-of-mistaken-identity.md) 
 
-    - [The Path: Stress → Gut Permeability → Chronic Inflammation → Immune Dysregulation](https://www.amplenote.com/notes/3e10ff4a-56ce-11f0-b8be-f942fb4b62e4) 
+    - [The Path: Stress → Gut Permeability → Chronic Inflammation → Immune Dysregulation](the-path-stress-gut-permeability-chronic-inflammation-immune-dysregulation.md) 
 
-- [Neurodegeneration: The Brain's Energy Crisis](https://www.amplenote.com/notes/fb82034e-56fb-11f0-b9cf-79d8c1978d81) 
+- [Neurodegeneration: The Brain's Energy Crisis](neurodegeneration-the-brain-s-energy-crisis.md) 
 
-    - [Alzheimer's ("Type 3 Diabetes"), Parkinson's, and the Failure of Neuronal Energy](https://www.amplenote.com/notes/a82b84c6-56fc-11f0-a74c-f147eb826a17) 
+    - [Alzheimer's ("Type 3 Diabetes"), Parkinson's, and the Failure of Neuronal Energy](alzheimer-s-type-3-diabetes-parkinson-s-and-the-failure-of-neuronal-energy.md) 
 
 **8. The Bioenergetic Toolkit: Lifestyle, Supplements & Bioactive Compounds** 
 
 - **Tier 0: The Foundational Rhythms (Light, Movement, and Fuel)**
 
-    - [The Rhythm of Light: Your Master Clock](https://www.amplenote.com/notes/e5e2b996-561c-11f0-8606-f5b9f7cdb183) 
+    - [The Rhythm of Light: Your Master Clock](the-rhythm-of-light-your-master-clock.md) 
 
-    - [The Rhythm of Movement: Integrating, Not Annihilating](https://www.amplenote.com/notes/0098ddb0-561d-11f0-b0fa-43afd165e6d8) 
+    - [The Rhythm of Movement: Integrating, Not Annihilating](the-rhythm-of-movement-integrating-not-annihilating.md) 
 
-    - [The Rhythm of Fuel: Supporting, Not Stressing](https://www.amplenote.com/notes/45972ca8-561f-11f0-b81c-f367a93c0224) 
+    - [The Rhythm of Fuel: Supporting, Not Stressing](the-rhythm-of-fuel-supporting-not-stressing.md) 
 
 - **Tier 1: Foundational Support (For Most People)**
 
-    - [Vitamin E (as a PUFA-antagonist), Niacinamide (B3), Magnesium, Taurine](https://www.amplenote.com/notes/6879c868-5703-11f0-9845-650f347b6fbd) 
+    - [Vitamin E (as a PUFA-antagonist), Niacinamide (B3), Magnesium, Taurine](vitamin-e-as-a-pufa-antagonist-niacinamide-b3-magnesium-taurine.md) 
 
-    - [Collagen, Aspirin, Vitamin K2 (MK-4), B1, B7](https://www.amplenote.com/notes/c5f4f4f4-5708-11f0-9add-31618e5800fe) 
+    - [Collagen, Aspirin, Vitamin K2 (MK-4), B1, B7](collagen-aspirin-vitamin-k2-mk-4-b1-b7.md) 
 
 - **Tier 2: Targeted Intervention (For Specific Issues)**
 
-    - [Mitochondrial Modulators: CoQ10, Disodium Succinate, α-KG](https://www.amplenote.com/notes/22533762-570c-11f0-938f-d5661488966e) 
+    - [Mitochondrial Modulators: CoQ10, Disodium Succinate, α-KG](mitochondrial-modulators-coq10-disodium-succinate-kg.md) 
 
-    - [Cortisol & Stress Modulators: Emodin, L-Theanine, Phosphatidylserine](https://www.amplenote.com/notes/4455960a-57cc-11f0-8909-b3cc594cfe8c) 
+    - [Cortisol & Stress Modulators: Emodin, L-Theanine, Phosphatidylserine](cortisol-stress-modulators-emodin-l-theanine-phosphatidylserine.md) 
 
-    - [Gut Health Agents: Lactoferrin, Probiotics  - Fermented Foods (Kefir)](https://www.amplenote.com/notes/12d77a7e-57ce-11f0-bf0a-aff35dfa96e4) 
+    - [Gut Health Agents: Lactoferrin, Probiotics  - Fermented Foods (Kefir)](gut-health-agents-lactoferrin-probiotics-fermented-foods-kefir.md) 
 
 - **Tier 3: Advanced & Experimental Protocols**
 
-    - [Peptides: MOTS-C, SS-31](https://www.amplenote.com/notes/af833184-57d7-11f0-a207-65279dab83ae) 
+    - [Peptides: MOTS-C, SS-31](peptides-mots-c-ss-31.md) 
 
-    - [Thyroid Mimetics: Sobetirome (GC-1)](https://www.amplenote.com/notes/0491ba94-57db-11f0-ace4-2fc1d72fe0c7) 
+    - [Thyroid Mimetics: Sobetirome (GC-1)](thyroid-mimetics-sobetirome-gc-1.md) 
 
-    - [Fat Loss Agents (and their considerable downsides): DNP, GLP-1 Agonists](https://www.amplenote.com/notes/7d35b1da-57db-11f0-bef1-11c2aded3be7) 
+    - [Fat Loss Agents (and their considerable downsides): DNP, GLP-1 Agonists](fat-loss-agents-and-their-considerable-downsides-dnp-glp-1-agonists.md) 
 
-    - [Other Bioactives: ITPP, Catuaba](https://www.amplenote.com/notes/a8597b42-57e7-11f0-8b20-51836a506bc7) 
+    - [Other Bioactives: ITPP, Catuaba](other-bioactives.md) 
 
-    - [The Anabolic Conundrum: HGH vs. Direct IGF-1](https://www.amplenote.com/notes/09700878-58b1-11f0-a493-41a88a68e848) 
+    - [The Anabolic Conundrum: HGH vs. Direct IGF-1](the-anabolic-conundrum-hgh-vs-direct-igf-1.md) 
 
 ### **Part IV: Measurement and The Path Forward**
 
 **9. Measuring What Matters: Testing, Biomarkers & Progress Tracking**
 
-- [Introduction: Moving Beyond "Normal" to "Optimal"](https://www.amplenote.com/notes/415cf2ce-57de-11f0-9f50-51e38e50cf8c) 
+- [Introduction: Moving Beyond "Normal" to "Optimal"](introduction-moving-beyond-normal-to-optimal.md) 
 
 - **Level 1: The Daily Check-In (Free & At-Home)**
 
-    - [Morning & Midday Temperature and Pulse](https://www.amplenote.com/notes/d06bd5fc-57de-11f0-947b-fb4c34aa8782) 
+    - [Morning & Midday Temperature and Pulse](morning-midday-temperature-and-pulse.md) 
 
-    - [Continuous Glucose Monitor (CGM) Experiments](https://www.amplenote.com/notes/3fe0e93a-57e0-11f0-b017-1b1cf9a06946) 
+    - [Continuous Glucose Monitor (CGM) Experiments](continuous-glucose-monitor-cgm-experiments.md) 
 
-    - [Subjective Markers: Sleep Quality, Energy, Libido, Mood](https://www.amplenote.com/notes/a6754ef0-57e2-11f0-af5a-33870eb62927) 
+    - [Subjective Markers: Sleep Quality, Energy, Libido, Mood](subjective-markers-sleep-quality-energy-libido-mood.md) 
 
 - **Level 2: Essential Blood Work (The Core Panel)**
 
-    - [Full Thyroid Panel: TSH, Free T4, Free T3, Reverse T3](https://www.amplenote.com/notes/88f19b6c-57e3-11f0-923b-e932f08efdda) 
+    - [Full Thyroid Panel: TSH, Free T4, Free T3, Reverse T3](full-thyroid-panel-tsh-free-t4-free-t3-reverse-t3.md) 
 
-    - [Full Hormone Panel: Total and Free T, DHT, Estradiol (sensitive), Progesterone, DHEA-S, Pregnenolone, Prolactin, Cortisol (AM)](https://www.amplenote.com/notes/a6dbfc08-57e8-11f0-88df-7757af789f78) 
+    - [Full Hormone Panel: Total and Free T, DHT, Estradiol (sensitive), Progesterone, DHEA-S, Pregnenolone, Prolactin, Cortisol (AM)](full-hormone-panel-total-and-free-t-dht-estradiol-sensitive-progesterone-dhea-s-pregnenolone-prolactin-cortisol-am.md) 
 
-    - [Metabolic Markers: Fasting Insulin, Glucose, HbA1c, Iron Panel, hs-CRP](https://www.amplenote.com/notes/70d36d34-57e9-11f0-ad4f-81795141e433) 
+    - [Metabolic Markers: Fasting Insulin, Glucose, HbA1c, Iron Panel, hs-CRP](metabolic-markers-fasting-insulin-glucose-hba1c-iron-panel-hs-crp.md) 
 
-    - [Key Bioenergetic Interpretations (e.g., High T3, Low rT3, High DHEA:Cortisol)](https://www.amplenote.com/notes/2bf85eee-57ea-11f0-ae46-c90e180cc825) 
+    - [Key Bioenergetic Interpretations (e.g., High T3, Low rT3, High DHEA:Cortisol)](key-bioenergetic-interpretations-e-g-high-t3-low-rt3-high-dhea-cortisol.md) 
 
 - **Level 3: Advanced Functional Diagnostics**
 
-    - [Essential & Metabolic Fatty Acids Profile (PUFA status)](https://www.amplenote.com/notes/9805105a-57ea-11f0-b5bc-0dcb14d150d2) 
+    - [Essential & Metabolic Fatty Acids Profile (PUFA status)](essential-metabolic-fatty-acids-profile-pufa-status.md) 
 
-    - [Acyl-Carnitine Profile (Fatty Acid Oxidation impairment)](https://www.amplenote.com/notes/7db9b39e-57eb-11f0-a58b-d9600cc62ce6) 
+    - [Acyl-Carnitine Profile (Fatty Acid Oxidation impairment)](acyl-carnitine-profile-fatty-acid-oxidation-impairment.md) 
 
-    - [MitoSwab™ or similar (ETC complex function)](https://www.amplenote.com/notes/c592e408-5884-11f0-aa4a-752634944e90) 
+    - [MitoSwab™ or similar (ETC complex function)](mitoswab-or-similar-etc-complex-function.md) 
 
 **10. The N-of-1 Laboratory: Personal Experimentation & Planning**
 
-- [Introduction: Becoming Your Own Health Detective](https://www.amplenote.com/notes/b1406dfc-5886-11f0-992c-5574708f6f04) 
+- [Introduction: Becoming Your Own Health Detective](introduction-becoming-your-own-health-detective.md) 
 
-- [Current & Planned Experiments (with Rationale)](https://www.amplenote.com/notes/8d7dbdcc-58a2-11f0-a840-13eb537b8384) 
+- [Current & Planned Experiments (with Rationale)](current-planned-experiments-with-rationale.md) 
 
-- [DMSO (Dimethyl sulfoxide)](https://www.amplenote.com/notes/a7a3c3bc-58b7-11f0-9008-136ad21512d5) 
+- [DMSO (Dimethyl sulfoxide)](dmso-dimethyl-sulfoxide.md) 
 
-- [Practical Tools: Recipes, Food Hacks, etc.](https://www.amplenote.com/notes/54bd33d4-58b9-11f0-ba4c-074044d759dd) 
+- [Practical Tools: Recipes, Food Hacks, etc.](practical-tools-recipes-food-hacks-etc.md) 
 
 **11. Epilogue: The Frontier of Bioenergetic Science**
 
 - Key Unanswered Questions & Areas for Continued Research
 
-    - [The French Paradox: Synergies of SFA, Starch, and Alcohol](https://www.amplenote.com/notes/4f55f56c-58b8-11f0-a1ec-6fc809a935a4) 
+    - [The French Paradox: Synergies of SFA, Starch, and Alcohol](the-french-paradox-synergies-of-sfa-starch-and-alcohol.md) 
 
-    - [Can balancing BCAAs with sufficient glycine fully negate their negative effects?](https://www.amplenote.com/notes/1212201a-58bb-11f0-bfbc-4b72e8a96379) 
+    - [Can balancing BCAAs with sufficient glycine fully negate their negative effects?](can-balancing-bcaas-with-sufficient-glycine-fully-negate-their-negative-effects.md) 
 
-    - [Is there an optimal ratio of dietary fat-to-carbohydrate for T3 production?](https://www.amplenote.com/notes/27653ff0-58bc-11f0-bf4e-d14eb199fe0d) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    - [Is there an optimal ratio of dietary fat-to-carbohydrate for T3 production?](is-there-an-optimal-ratio-of-dietary-fat-to-carbohydrate-for-t3-production.md)
 
 
 
