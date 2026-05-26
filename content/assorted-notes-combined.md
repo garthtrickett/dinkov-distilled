@@ -94,22 +94,6 @@ This document consolidates and structures all records from both Assorted Notes O
 
 ## 4. Hormones & The Endocrine System
 
-```
-                    CHOLESTEROL
-                         │ (StAR protein + CYP11A1 / P450scc in Mitochondria)
-                         ▼
-                    PREGNENOLONE
-            ┌────────────┴────────────┐
-            ▼                         ▼
-       PROGESTERONE                 DHEA
-  (via 11β-HSD1) │                    │
-                 ▼                    ▼
-              CORTISOL           ANDROGENS (Testosterone ──► DHT via 5AR)
-                                      │
-                                      ▼
-                                  ESTROGEN (via Aromatase)
-```
-
 ### The Adrenal/Stress Axis
 * **Cortisol:** Catabolic hormone driving gluconeogenesis by shredding muscle mass. Chronically elevated cortisol is the primary driver of high blood glucose and insulin resistance in T2D.
 * **DHEA & Pregnenolone:** Anabolic, pro-growth cortisol antagonists. Pregnenolone synthesis inside adrenal mitochondria is the rate-limiting step in steroidogenesis. With age, DHEA/progesterone decline while cortisol remains high.
@@ -129,7 +113,7 @@ This document consolidates and structures all records from both Assorted Notes O
 * **DHT (Dihydrotestosterone):** Fully saturated terminal metabolite. Cannot aromatize to estrogen. Potent cortisol blocker, serotonin inhibitor, and synergizes with thyroid to raise free T3. Healthy prostate is a high-DHT, low-estrogen environment. Prostate tumors in mice showed complete regression when treated with DHT plus an aromatase inhibitor.
 * **Progesterone:** The ultimate protective steroid. Potent 11β-HSD1 inhibitor (reducing active cortisol by 50-60%). Opposes estrogen, degrades serotonin, and is highly thermogenic. Bypasses liver first-pass metabolism when applied to gums (USP powder dissolved in natural d-alpha tocopherol vitamin E). Normal dose is 25-50mg before bed to raise GABA and improve sleep.
 * **Estrogen:** Potent reductant that shifts cells toward aerobic glycolysis (Warburg Effect) and away from oxidative phosphorylation. Promoted by PUFA intake, plastics (EDCs), and heavy eccentric exercise.
-* **Serotonin:** The "tolerate suffering" hormone. Systemic metabolic inhibitor. High enterocyte-derived serotonin stimulates hepatic stellate cells via 5-HT2B/5-HT2A receptors, driving lipogenesis, fatty liver (NAFLD), and tissue fibrosis. Restricting tryptophan (via gelatin) or using 5-HT2 blockers (Cyproheptadine) releases the metabolic brake.
+* **Serotonin:** The \"tolerate suffering\" hormone. Systemic metabolic inhibitor. High enterocyte-derived serotonin stimulates hepatic stellate cells via 5-HT2B/5-HT2A receptors, driving lipogenesis, fatty liver (NAFLD), and tissue fibrosis. Restricting tryptophan (via gelatin) or using 5-HT2 blockers (Cyproheptadine) releases the metabolic brake.
 
 ---
 
@@ -148,7 +132,7 @@ This document consolidates and structures all records from both Assorted Notes O
 * Mitochondrial damage to colonocytes -> reduced oxygen consumption -> oxygen leaks into the anaerobic deep colon -> death of beneficial obligate anaerobes (e.g., *Akkermansia*) -> thin mucin layer -> overgrowth of oxygen-tolerant facultative anaerobes -> massive endotoxin (LPS) production -> LPS crosses leaky gut -> LPS binds TLR4 -> systemic inflammation and direct NAD⁺ depletion.
 
 ### Neurodegeneration
-* Alzheimer's ("Type 3 Diabetes") and Parkinson's represent regional manifestations of neuronal energy failure. Neurons do not perform fermentation; if mitochondrial respiration fails, they undergo apoptosis. Amyloid plaques, tau tangles, and Lewy bodies are the tombstones (debris) of dead cells, not the upstream cause.
+* Alzheimer's (\"Type 3 Diabetes\") and Parkinson's represent regional manifestations of neuronal energy failure. Neurons do not perform fermentation; if mitochondrial respiration fails, they undergo apoptosis. Amyloid plaques, tau tangles, and Lewy bodies are the tombstones (debris) of dead cells, not the upstream cause.
 
 ---
 
@@ -161,31 +145,72 @@ This document consolidates and structures all records from both Assorted Notes O
 * **Biotin (B7):** Cofactor for pyruvate carboxylase. Helps bypass a blocked PDH by redirecting pyruvate into oxaloacetate for gluconeogenesis / energy metabolism.
 * **Vitamin E:** PUFA antagonist. Prevents lipid peroxidation. Natural d-alpha-tocopherol (pure D isomer with beta, gamma, delta tocopherols) is required. Take with fat.
 * **Magnesium & Zinc:** Cofactors for T4-to-T3 conversion. Magnesium glycinate/malate calms NMDA excitotoxicity and lowers cortisol. Zinc supports androgen synthesis.
-* **Taurine:** Calms excitotoxicity, buffers the "jitters" from caffeine/nicotine or MSG.
+* **Taurine:** Calms excitotoxicity, buffers the \"jitters\" from caffeine/nicotine or MSG.
 
 ### Tier 2 & 3 Advanced Bioactives
 * **Methylene Blue (MB):** Electron cycler. Can unblock all 4 complexes of the ETC (Complex I, II, III, and IV). Acts as an alternative electron cycler, reducing electron backup. Combine with niacinamide to offset MB-induced serotonin increases. Dose: 3-5mg (1% concentration: 1g MB in 4oz bottle. Urine turning blue is a health proxy: the slower your urine turns blue, the healthier your mitochondrial clearing capacity).
 * **Alpha-Ketoglutarate (α-KG):** Krebs cycle intermediate depleted by excess BCAAs. Dose: 2000mg twice daily to restore insulin sensitivity.
 * **R-Alpha-Lipoic Acid (R-ALA):** Dose-dependently increases SIRT1 and NAD⁺/NADH ratio. Dose: 500mg twice daily.
-* **Emodin:** Potent 11β-HSD1 inhibitor. Dose: 250-500mg.
+* **Emodin:** Potent 11β-HSD1 inhibitor. Dose: 250-500mg. Sourced via: morphogen nutrition, chemix cortobloc, or gorilla mind.
 * **Cyproheptadine:** Antihistamine and potent 5-HT2 serotonin receptor blocker.
 * **Propranolol:** Beta-blocker that lowers adrenaline, preventing excessive stress-induced lipolysis.
 * **L-Carnitine:** Increases fat oxidation (use with caution; beneficial primarily to clear mitochondrial traffic jams, but chronically raises fat oxidation).
 * **ITPP (Myo-inositol trispyrophosphate):** Binds to hemoglobin, forcing oxygen release (enhancing the Bohr Effect) to treat cellular hypoxia.
 * **Catuaba:** Dopaminergic herb that acts as a functional serotonin antagonist to improve motivation and drive.
-* **SLU-PP-332:** ERRα inverse agonist that pharmacologically inhibits the "burn fat" hibernation signal, restoring PDH and glucose oxidation.
+* **SLU-PP-332:** ERRα inverse agonist that pharmacologically inhibits the \"burn fat\" hibernation signal, restoring PDH and glucose oxidation.
 * **5-Amino-1MQ:** NNMT inhibitor. Blocks the NNMT enzyme from wasting NAD⁺ precursors, preserving cellular NAD⁺ pools to clear reductive stress.
-* **Stearoylethanolamide (SEA):** Stearic acid metabolite. Downregulates SCD1, reduces TNF-alpha, and increases metabolic rate. Target: 300mg twice daily.
+* **Stearoylethanolamide (SEA):** Stearic acid metabolite. Downregulates SCD1, reduces TNF-alpha, and increases metabolic rate. Target: 300mg twice daily (note: 1200mg/day raised Brad Marshall's body temp too excessively).
 * **Puerh Tea Extract:** TLR4 blocker. Blocks endotoxin signaling, preventing weight gain on high-fat diets.
 
-### Peptide & Growth Hormone Protocols
+### Peptide, EPO & Growth Hormone Protocols
 * **Peptide Abbreviations & Codings:** SM5 - semaglutide, 2S10 - ss31, MS5 - mots-c, G5k - HCG.
+* **Meldonium and EPO:** Meldonium restricts the entry of fatty acids to the cell, stimulating glucose oxidation. Synergizes with EPO for athletic performance.
 * **MOTS-c:** Mitochondrial-derived peptide. Updates metabolic software by improving glucose utilization and insulin sensitivity. Dose: 2.5mg to 5mg, 3x weekly.
   * *Synergies:* Steve takes 1mg mots-c and 1mg ss-31. Vig Steve suggests 5mg is the absolute upper limit on a single injection, with 2.5mg delivering most of the benefits without any accompanying side effects.
 * **SS-31 (Elamipretide):** Binds cardiolipin in the inner mitochondrial membrane, stabilizing ETC complexes and preventing electron leakage. Dose: 1mg to 5mg daily. Synergizes with MOTS-c. Vig Steve and Dean Smart noted minimal obvious subjective differences upon adding SS-31 to their routines.
 * **Tesamorelin:** GHRH analog. Dose: 2mg at night (recommended by Chase Irons).
 * **HGH (Human Growth Hormone):** Direct administrator is potently lipolytic (shreds fat, flooding blood with FFAs, inducing diabetic-like glucose blockade via the Randle Cycle). However, it lowers cortisol by 15-30% and improves skin/healing. Apply EOD (every other day) at night (e.g., 2-4 IU) to reduce insulin sensitivity issues. Chase Irons runs his entire daily GH protocol (18 IU) all at night.
 * **IGF-1 (IGF-1 LR3):** The preferred anabolic signal. Direct IGF-1 is anti-lipolytic (prevents FFA flood) and enhances glucose oxidation/uptake. Inhibits 11β-HSD1 directly (HGH does not).
+
+### DNP Bloodstream Retention Dynamics
+* FOOTNOTE VERBATIM CALCULATION: DNP in bloodstream for 30 days using 36 hour half-life.
+  * Formula: `New total = Dose + (Old total * ((1/2)^(Dosage period/Half-life)))`
+  * Complete daily accumulation projection metrics:
+
+| Day | 125mg ED | 200mg ED | 250mg ED | 400mg ED | 500mg ED | 600mg ED | 1g ED |
+|---|---|---|---|---|---|---|---|
+| **1** | 125.0 | 200.0 | 250.0 | 400.0 | 500.0 | 600.0 | 1000.0 |
+| **2** | 203.7 | 326.0 | 407.5 | 652.0 | 815.0 | 978.0 | 1630.0 |
+| **3** | 253.4 | 405.4 | 506.7 | 810.7 | 1013.4 | 1216.1 | 2026.8 |
+| **4** | 284.6 | 455.4 | 569.2 | 910.7 | 1138.4 | 1366.1 | 2276.8 |
+| **5** | 304.3 | 486.9 | 608.6 | 973.7 | 1217.2 | 1460.6 | 2434.3 |
+| **6** | 316.7 | 506.7 | 633.4 | 1013.4 | 1266.8 | 1520.1 | 2533.5 |
+| **7** | 324.5 | 519.2 | 649.0 | 1038.4 | 1298.0 | 1557.6 | 2596.0 |
+| **8** | 329.4 | 527.1 | 658.8 | 1054.2 | 1317.7 | 1581.2 | 2635.4 |
+| **9** | 332.5 | 532.0 | 665.0 | 1064.1 | 1330.1 | 1596.1 | 2660.2 |
+| **10**| 334.5 | 535.2 | 669.0 | 1070.3 | 1337.9 | 1605.5 | 2675.8 |
+| **11**| 335.7 | 537.1 | 671.4 | 1074.3 | 1342.8 | 1611.4 | 2685.7 |
+| **12**| 336.5 | 538.4 | 673.0 | 1076.7 | 1345.9 | 1615.1 | 2691.9 |
+| **13**| 337.0 | 539.2 | 673.9 | 1078.3 | 1347.9 | 1617.5 | 2695.8 |
+| **14**| 337.3 | 539.6 | 674.6 | 1079.3 | 1349.1 | 1618.9 | 2698.2 |
+| **15**| 337.5 | 540.0 | 674.9 | 1079.9 | 1349.9 | 1619.9 | 2699.8 |
+| **16**| 337.6 | 540.2 | 675.2 | 1080.3 | 1350.4 | 1620.5 | 2700.8 |
+| **17**| 337.7 | 540.3 | 675.3 | 1080.5 | 1350.7 | 1620.8 | 2701.4 |
+| **18**| 337.7 | 540.4 | 675.4 | 1080.7 | 1350.9 | 1621.1 | 2701.8 |
+| **19**| 337.7 | 540.4 | 675.5 | 1080.8 | 1351.0 | 1621.2 | 2702.0 |
+| **20**| 337.8 | 540.4 | 675.5 | 1080.9 | 1351.1 | 1621.3 | 2702.2 |
+| **21**| 337.8 | 540.4 | 675.6 | 1080.9 | 1351.1 | 1621.4 | 2702.2 |
+| **22**| 337.8 | 540.5 | 675.6 | 1080.9 | 1351.2 | 1621.4 | 2702.3 |
+| **23**| 337.8 | 540.5 | 675.6 | 1080.9 | 1351.2 | 1621.4 | 2702.3 |
+| **24**| 337.8 | 540.5 | 675.6 | 1080.9 | 1351.2 | 1621.4 | 2702.4 |
+| **25**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
+| **26**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
+| **27**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
+| **28**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
+| **29**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
+| **30**| 337.8 | 540.5 | 675.6 | 1081.0 | 1351.2 | 1621.4 | 2702.4 |
+
+*Note that the rate of accumulation of each dose decreases such that even with continual dosage, there is a peak for EACH dosage (i.e. changes eventually become mathematically insignificant).* 
 
 ---
 
@@ -225,81 +250,4 @@ This document consolidates and structures all records from both Assorted Notes O
 
 ### Sourcing & Medical Directory
 * **Hormone Powders (Qingdao Sigma):** Pregnenolone (MOQ 25g ~$55, 100g ~$120), DHEA, Test Base, DHT Base.
-* **NDT / Thyroid Products:** 
-  * Meds.com.mx (Cytomel, Synthroid).
-  * Ndtstore.ecwid.com (Thyroid-S).
-  * Inhousepharmacy.vu (Armour, WP Thyroid).
-* **Thailand Sourcing:** Bayer Test E and Nebido are available over-the-counter at Thai pharmacies. Sustanon and Nebido are similarly OTC in Indonesia.
-* **Bangkok Clinic Services:** Cheap blood testing at Chulalongkorn University (AHS Clinic - Clinical Pricing Directory: [https://www.ahs.chula.ac.th/services/health-sciences-service-clinic/services/pricing/](https://www.ahs.chula.ac.th/services/health-sciences-service-clinic/services/pricing/)). Testosterone: 300 baht, Progesterone: 300 baht, DHEA-S: 750 baht, Cortisol: 350 baht.
-* **Hair Transplant Doctors (Thailand):** 
-  * Dr. Phakphinya Jaengchetriu
-  * Dr. Kongkiat Laorwong
-* **Bulk Precursors & Solvents:**
-  * Pregnenolone Powder: [https://www.bulksupplements.com/en-th/products/pregnenolone-powder](https://www.bulksupplements.com/en-th/products/pregnenolone-powder)
-  * DHEA Micronized: [https://purebulk.com/products/dhea-dehydroepiandrosterone-micronized?variant=14294826778673](https://purebulk.com/products/dhea-dehydroepiandrosterone-micronized?variant=14294826778673)
-  * Biovea DHEA Cream: [https://www.biovea.com/th/product/detail/20430/dhea-cream-2oz-57g](https://www.biovea.com/th/product/detail/20430/dhea-cream-2oz-57g)
-  * SpecializedRx Versacream Pro Base: [https://specializedrx.com/products/versacream%E2%84%A2-pro-cream-base](https://specializedrx.com/products/versacream%E2%84%A2-pro-cream-base)
-  * Hair or Scalp Mineral Analysis: [https://idealabs.ecwid.com/Mineral-Analysis-p439014728](https://idealabs.ecwid.com/Mineral-Analysis-p439014728)
-  * Bliss Bar Cleansing Face Bar: [https://www.floraandfauna.com.au/products/bliss-bar-face-cleansing-bar](https://www.floraandfauna.com.au/products/bliss-bar-face-cleansing-bar)
-  * Inhaled Hydrogen (InhaleH2) Device: [https://inhaleh2.com/products/inhale-h2-hydrogen-inhalation-system-pre-order-deposit-for-presale](https://inhaleh2.com/products/inhale-h2-hydrogen-inhalation-system-pre-order-deposit-for-presale)
-  * Haidut Idea Labs Allopregnanolone (AlloP): [https://idealabs.ecwid.com/AlloP-p368909891](https://idealabs.ecwid.com/AlloP-p368909891)
-
----
-
-## 9. Personal Experimental Log & Security Backups
-
-### What Worked for Morning Anxiety
-* **Ineffective:** High-dose T cream, oral DHEA (up to 100mg 2x/day), oral Pregnenolone (up to 400mg 2x/day), topical Progesterone, topical Magnesium, sun at sunrise/sunset, high-dose sauna exposure.
-* **Effective:** Physical affection and intimacy (with Meixi) and returning to active surfing.
-* **Left to Try:** Topical DHEA (33% bioavailable vs 3% oral), sublingual Progesterone dissolved in natural Vitamin E applied to gums, Growth Hormone (healing/skin), overnight red light therapy, Betaine HCl + Pepsin, an active probiotic (milk kefir), and staying up until midnight in Thailand to reset the circadian sleep/defecation pattern.
-
-### Personal Sourcing Log & Markers
-* **Personal Progesterone Butter Test:** 50mg DHEA + Pregnenolone with butter yielded a serum progesterone level 0.5 lower than the 0.7 baseline marker without butter (further trials needed).
-* **DHEA Protocol Refinement:** 100mg DHEA and 1g Pregnenolone split 2x a day achieved target serum DHEA and progesterone. Limit E2 post-DHEA by getting leaner and shifting to transdermal DHEA or topical DHEA base (1g DHEA in 5ml glycerol).
-* **Scrotal TRT Lab Values:** One Reddit user on a 20% test cream scrotal protocol reported DHT: 373 ng/dl, total T: 775 ng/dl, free T: 112 pg/ml, E2: 42 pg/ml. This is a 2:1 T-to-DHT ratio (aiming for 5:1 with cruise protocols).
-* **Self Decode bdnf / cortisol / oxytocin links:** Investigation paths into Shrooms/LSD/Semax.
-* **Circadian Cortisol Relief:** Gratitude and prayer practices are shown in Islamic cohorts to reduce cortisol by 10% and blood glucose by 20%.
-* **Akkermansia Clinical Notes:** Administer on empty stomach first thing in morning post-overnight fast. Mercola notes a firm upcoming production company. Dr. Michael Ruscio emphasizes that Akkermansia has less robust clinical data than traditional lacto/bifido blends.
-* **Electrum Wallet Seed (Backup):** `ginger vicious reject angle wheel cloud just already tree remove front easy`
-* **Public Bitcoin Address:** `bc1qzsanzu4md5r0wnn4d852ykug33d8cyp7wddtrp`
-
-### Self-Experimentation Philosophical Musings
-* *"If you can't fix your face with health improvements plus fat graft what's the point in the hair transplant"*
-* *"fashion might be where i am most sure of my taste"*
-
----
-
-## 10. Appendix: Dietary Lists, Book Outline, and Community Strategy
-
-### Complete Ray Peat Fruit Selection List
-* Apples (peeled and cooked)
-* Cherimoya
-* Cherries
-* Guavas
-* Longans
-* Lychees
-* Olives (lye-processed, no sulfites/iron)
-* Oranges
-* Pawpaws
-* Pears (peeled and cooked)
-* Sapotes
-* Tangerines
-* Watermelon
-* Avocado (occasional use)
-* Lemons
-* Limes
-* Papaya
-* Mango (metabolic superfood)
-* Bananas (very ripe)
-* Melons
-
-### Book Outline & Community Strategy Heuristics
-* **Before Mentioning the Book on Forums:**
-  * Target: 10–12 sincere, organic posts on targeted forums (e.g., bioenergetic.forum).
-  * Frequency: 2–3x per week.
-  * Timing: Wait 3–4 weeks before introducing any book mentions unless organic engagement occurs earlier.
-  * Tone: Curious, non-promotional, contributor mindset. Keep discussion simple to avoid getting overwhelmed by competing unvetted ideas.
-* **Acknowledging Contributors:** Ensure prominent credit to Georgi Dinkov, Brad Marshall (Fire in a Bottle), and Dr. Joseph Mercola (specifically for hosting them).
-* **Exogenous Growth Hormone Thread:** Focus on the central trade-off: does the anti-cortisol effect of exogenous GH compensate for its lipid-oxidation/glucose-blocking (Randle Cycle) effects?
-
----
+* **NDT / Thyroid Products:** \n  * Meds.com.mx (Cytomel, Synthroid).\n  * Ndtstore.ecwid.com (Thyroid-S).\n  * Inhousepharmacy.vu (Armour, WP Thyroid).\n* **Thailand Sourcing:** Bayer Test E and Nebido are available over-the-counter at Thai pharmacies. Sustanon and Nebido are similarly OTC in Indonesia.\n* **Bangkok Clinic Services:** Cheap blood testing at Chulalongkorn University (AHS Clinic - Clinical Pricing Directory: [https://www.ahs.chula.ac.th/services/health-sciences-service-clinic/services/pricing/](https://www.ahs.chula.ac.th/services/health-sciences-service-clinic/services/pricing/)). Testosterone: 300 baht, Progesterone: 300 baht, DHEA-S: 750 baht, Cortisol: 350 baht.\n* **Hair Transplant Doctors (Thailand):** \n  * Dr. Phakphinya Jaengchetriu\n  * Dr. Kongkiat Laorwong\n* **Bulk Precursors & Solvents:**\n  * Pregnenolone Powder: [https://www.bulksupplements.com/en-th/products/pregnenolone-powder](https://www.bulksupplements.com/en-th/products/pregnenolone-powder)\n  * DHEA Micronized: [https://purebulk.com/products/dhea-dehydroepiandrosterone-micronized?variant=14294826778673](https://purebulk.com/products/dhea-dehydroepiandrosterone-micronized?variant=14294826778673)\n  * Biovea DHEA Cream: [https://www.biovea.com/th/product/detail/20430/dhea-cream-2oz-57g](https://www.biovea.com/th/product/detail/20430/dhea-cream-2oz-57g)\n  * SpecializedRx Versacream Pro Base: [https://specializedrx.com/products/versacream%E2%84%A2-pro-cream-base](https://specializedrx.com/products/versacream%E2%84%A2-pro-cream-base)\n  * Hair or Scalp Mineral Analysis: [https://idealabs.ecwid.com/Mineral-Analysis-p439014728](https://idealabs.ecwid.com/Mineral-Analysis-p439014728)\n  * Bliss Bar Cleansing Face Bar: [https://www.floraandfauna.com.au/products/bliss-bar-face-cleansing-bar](https://www.floraandfauna.com.au/products/bliss-bar-face-cleansing-bar)\n  * Inhaled Hydrogen (InhaleH2) Device: [https://inhaleh2.com/products/inhale-h2-hydrogen-inhalation-system-pre-order-deposit-for-presale](https://inhaleh2.com/products/inhale-h2-hydrogen-inhalation-system-pre-order-deposit-for-presale)\n  * Haidut Idea Labs Allopregnanolone (AlloP): [https://idealabs.ecwid.com/AlloP-p368909891](https://idealabs.ecwid.com/AlloP-p368909891)\n\n---\n\n## 9. Personal Experimental Log, Tasks, & Security Backups\n\n### Me Actions & Core Tasks\n- [ ] order pps for mick<!-- {"notify":"PT15M","startAt":1753052400,"uuid":"9cdf2205-745a-4ef9-bbe6-9d492c75ee6f"} -->\n- [ ] [https://m.youtube.com/watch?v=m_PRMOVc7ww&list=PLXd1C3iTpUCq1MKNLgPoS1hG7emcYxlqh&index=14&t=2726s&pp=2AGmFZACAQ%3D%3D](https://m.youtube.com/watch?v=m_PRMOVc7ww&list=PLXd1C3iTpUCq1MKNLgPoS1hG7emcYxlqh&index=14&t=2726s&pp=2AGmFZACAQ%3D%3D) dinkov 2 hours<!-- {"notify":"PT15M","startAt":1751324400,"uuid":"8a4242bb-41e3-4bff-a6e0-28d1c41f4267"} -->\n- [ ] get it to put whats remaining into a document same as the outline under each heading <!-- {"uuid":"ed5cf03f-0627-4eb5-8eed-51c112feb482"} -->\n\n### Completed Tasks\n- [x] investigate dsmo <!-- {"uuid":"01cf4494-f46b-4081-9117-2586037522c8","completedAt":1751795011} -->\n- [x] Five days of pregnenolone 300mg a night before blood test with and without butter mix<!-- {"uuid":"efe4454f-2057-4a89-bfd4-5056ae260ec6","completedAt":1751795006} -->\n- [x] try fire in a bottles supp the sat fat acid one stearic metabolite<!-- {"uuid":"e868a6fc-a296-45db-a913-10caced84386","completedAt":1751795004} -->\n- [x] [https://m.youtube.com/watch?v=m_PRMOVc7ww&pp=ygUNR2VvcmdpIGRpbmtvdg%3D%3D](https://m.youtube.com/watch?v=m_PRMOVc7ww&pp=ygUNR2VvcmdpIGRpbmtvdg%3D%3D) dinkov podcast 2:00<!-- {"uuid":"3ee1e72a-defe-4da8-b4ce-ee177b5e7b2b","completedAt":1751680917} -->\n- [x] Is exogenous hgh administration pro bioenergetic <!-- {"uuid":"889e23dc-aa99-441b-9193-4495946d6b3c","completedAt":1751680127} -->\n- [x] look into overnight red light for less morning anxiety<!-- {"uuid":"97d6f522-cbb0-487d-8c15-b78983b49a05","completedAt":1751599637} -->\n- [x] ogtt bcaa + glucose vs glycine + glucose vs bcaa + glycine + glucose 🆔   🆔 sNF4t8 \[<!-- {"uuid":"04686391-2293-4b89-b815-84cd132e61a4","completedAt":1751528559} -->\n- [x] Butter Pregnenolone<!-- {"uuid":"ddfd07d8-22ba-49de-a172-9fb454c3c2f3","completedAt":1749890397} -->\n\n### What Worked for Morning Anxiety\n* **Ineffective:** High-dose T cream, oral DHEA (up to 100mg 2x/day), oral Pregnenolone (up to 400mg 2x/day), topical Progesterone, topical Magnesium, sun at sunrise/sunset, high-dose sauna exposure.\n* **Effective:** Physical affection and intimacy (with Meixi) and returning to active surfing.\n* **Left to Try:** Topical DHEA (33% bioavailable vs 3% oral), sublingual Progesterone dissolved in natural Vitamin E applied to gums, Growth Hormone (healing/skin), overnight red light therapy, Betaine HCl + Pepsin, an active probiotic (milk kefir), and staying up until midnight in Thailand to reset the circadian sleep/defecation pattern.\n\n### Personal Sourcing Log & Markers\n* **Personal Progesterone Butter Test:** 50mg DHEA + Pregnenolone with butter yielded a serum progesterone level 0.5 lower than the 0.7 baseline marker without butter (further trials needed).\n* **DHEA Protocol Refinement:** 100mg DHEA and 1g Pregnenolone split 2x a day achieved target serum DHEA and progesterone. Limit E2 post-DHEA by getting leaner and shifting to transdermal DHEA or topical DHEA base (1g DHEA in 5ml glycerol).\n* **Scrotal TRT Lab Values:** One Reddit user on a 20% test cream scrotal protocol reported DHT: 373 ng/dl, total T: 775 ng/dl, free T: 112 pg/ml, E2: 42 pg/ml. This is a 2:1 T-to-DHT ratio (aiming for 5:1 with cruise protocols).\n* **Self Decode bdnf / cortisol / oxytocin links:** Investigation paths into Shrooms/LSD/Semax.\n* **Circadian Cortisol Relief:** Gratitude and prayer practices are shown in Islamic cohorts to reduce cortisol by 10% and blood glucose by 20%.\n* **Akkermansia Clinical Notes:** Administer on empty stomach first thing in morning post-overnight fast. Mercola notes a firm upcoming production company. Dr. Michael Ruscio emphasizes that Akkermansia has less robust clinical data than traditional lacto/bifido blends.\n* **Electrum Wallet Seed (Backup):** `ginger vicious reject angle wheel cloud just already tree remove front easy`\n* **Public Bitcoin Address:** `bc1qzsanzu4md5r0wnn4d852ykug33d8cyp7wddtrp`\n\n### Self-Experimentation Philosophical Musings\n* *"If you can't fix your face with health improvements plus fat graft what's the point in the hair transplant"*\n* *"fashion might be where i am most sure of my taste"*\n\n---\n\n## 10. Appendix: Dietary Lists, Book Outline, and Community Strategy\n\n### Complete Ray Peat Fruit Selection List\n* Apples (peeled and cooked)\n* Cherimoya\n* Cherries\n* Guavas\n* Longans\n* Lychees\n* Olives (lye-processed, no sulfites/iron)\n* Oranges\n* Pawpaws\n* Pears (peeled and cooked)\n* Sapotes\n* Tangerines\n* Watermelon\n* Avocado (occasional use)\n* Lemons\n* Limes\n* Papaya\n* Mango (metabolic superfood)\n* Bananas (very ripe)\n* Melons\n\n### Book Outline & Community Strategy Heuristics\n* **Before Mentioning the Book on Forums:**\n  * Target: 10–12 sincere, organic posts on targeted forums (e.g., bioenergetic.forum).\n  * Frequency: 2–3x per week.\n  * Timing: Wait 3–4 weeks before introducing any book mentions unless organic engagement occurs earlier.\n  * Tone: Curious, non-promotional, contributor mindset. Keep discussion simple to avoid getting overwhelmed by competing unvetted ideas.\n* **Acknowledging Contributors:** Ensure prominent credit to Georgi Dinkov, Brad Marshall (Fire in a Bottle), and Dr. Joseph Mercola (specifically for hosting them).\n* **Exogenous Growth Hormone Thread:** Focus on the central trade-off: does the anti-cortisol effect of exogenous GH compensate for its lipid-oxidation/glucose-blocking (Randle Cycle) effects?\n\n---\n```

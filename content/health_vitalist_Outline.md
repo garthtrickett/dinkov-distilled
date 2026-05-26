@@ -10,6 +10,11 @@ tags:
 
 # **Dinkov Distilled: The Metabolic Theory Of Health**
 
+> ⚠️ **Temporary Raw & Combined Notes Viewing Links:**
+> * [Assorted Notes One (Raw Sandbox Notes)](assorted-notes-one.md)
+> * [Assorted Notes Two (Raw Outline Sandbox Notes)](assorted-notes-two.md)
+> * [Assorted Notes Combined (Fully Consolidated Manual)](assorted-notes-combined.md)
+
 ### **Part I: The Foundation**
 
 **1. The Core Philosophy: Health as Energy, Not as Code**
