@@ -2374,6 +2374,14 @@ If the oxidized state is a clean-burning engine, reductive stress is a flooded c
 
 This blockage is primarily driven by an overload of fuel, especially when the cell is forced to oxidize excessive amounts of fat. When you have too many free fatty acids in your system—whether from a high-fat diet, chronic stress-induced lipolysis, or the release of stored inflammatory PUFAs—they effectively block the on-ramp for glucose metabolism at a key enzyme (PDH). This is the Randle Cycle in action. Because fat oxidation itself generates a flood of NADH, it depletes the cell’s NAD⁺ supply, creating a self-perpetuating cycle of reductive stress.
 
+### **The Pathological Reduced State**
+
+When the cell is forced into a state of chronic, unmitigated reductive stress, it enters a pathological reduced state. This state is biochemically characterized by:
+
+*   **Cofactor Congestion:** A highly elevated ratio of both NADH/NAD⁺ and FADH₂/FAD, which stalls glycolysis, the Pyruvate Dehydrogenase (PDH) complex, and the clean transit of the TCA (Krebs) cycle.
+*   **ADP Starvation:** A distinct lack of ADP (low ATP consumption/demand) backs up electrons along the mitochondrial power grid, elevating mitochondrial membrane potential to unsafe levels.
+*   **Reverse Electron Transport (RET):** This high membrane potential and lack of ADP demand forces electrons to flow backward through the respiratory complexes. RET is the primary source of pathological, damaging Reactive Oxygen Species (ROS) leakage, a process that occurs predominantly during fatty acid oxidation.
+
 With the electron transport chain jammed, the consequences are severe:
 
 1. **Reactive Oxygen Species (ROS) Leakage:** Electrons have nowhere to go. They begin to back up, and like cars getting off a gridlocked freeway, they start to "leak." These backed-up electrons react directly with oxygen where they shouldn’t, forming damaging ROS like superoxide, especially at Complex I. In severe cases, this can even cause electrons to flow backward through the chain (Reverse Electron Transport), a potent source of mitochondrial damage.

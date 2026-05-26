@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'Dinkov Distilled: The Metabolic Theory Of Health'
 uuid: 18f09b78-4e89-11f0-8db4-69eedcc5324e
 created: '2025-06-21T20:18:37+10:00'
 updated: '2026-05-26T13:12:10+10:00'
