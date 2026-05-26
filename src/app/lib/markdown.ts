@@ -9,7 +9,7 @@ export interface MarkdownPage {
   slug: string
   title: string
   contentHtml: string
-  frontmatter: Record<string, any>
+  frontmatter: Record<string, unknown>
 }
 
 export async function getPageData(slug: string): Promise<MarkdownPage | null> {
@@ -32,7 +32,7 @@ export async function getPageData(slug: string): Promise<MarkdownPage | null> {
       slug: safeSlug,
       title: data.title || safeSlug,
       contentHtml,
-      frontmatter: data,
+      frontmatter: data as Record<string, unknown>,
     }
   } catch (error) {
     console.error(`Error loading markdown data for slug ${slug}:`, error)
