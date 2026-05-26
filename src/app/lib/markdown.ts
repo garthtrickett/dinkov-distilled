@@ -15,6 +15,13 @@ export interface MarkdownData {
   htmlContent: string;
 }
 
+export interface MarkdownPage {
+  slug: string;
+  title: string;
+  contentHtml: string;
+  frontmatter: Record<string, unknown>;
+}
+
 function parseFrontmatter(fileContent: string): { data: any; content: string } {
   const match = fileContent.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
   if (!match) {
@@ -156,44 +163,22 @@ export function getAllMarkdowns() {
     }
   });
 }
-import fs from 'node:fs'
-import path from 'node:path'
-import matter from 'gray-matter'
-import { marked } from 'marked'
 
-const contentDirectory = path.join(process.cwd(), 'content')
-
-export interface MarkdownPage {
-  slug: string
-  title: string
-  contentHtml: string
-  frontmatter: Record<string, unknown>
-}
-
+// Backwards compatibility wrapper for standard page loaders
 export async function getPageData(slug: string): Promise<MarkdownPage | null> {
-  try {
-    // Sanitize slug to prevent directory traversal
-    const safeSlug = path.basename(slug, '.md')
-    const fullPath = path.join(contentDirectory, `${safeSlug}.md`)
-    
-    if (!fs.existsSync(fullPath)) {
-      return null
-    }
+  const data = getMarkdownByIdentifier(slug);
+  if (!data) return null;
 
-    const fileContents = fs.readFileSync(fullPath, 'utf8')
-    const { data, content } = matter(fileContents)
-
-    // Convert Markdown content to HTML string
-    const contentHtml = await marked(content)
-
-    return {
-      slug: safeSlug,
-      title: data.title || safeSlug,
-      contentHtml,
-      frontmatter: data as Record<string, unknown>,
-    }
-  } catch (error) {
-    console.error(`Error loading markdown data for slug ${slug.replace(/\.md$/, "")}:`, error)
-    return null
-  }
+  return {
+    slug: data.slug,
+    title: data.title || data.slug,
+    contentHtml: data.htmlContent,
+    frontmatter: {
+      uuid: data.uuid,
+      title: data.title,
+      created: data.created,
+      updated: data.updated,
+      tags: data.tags,
+    },
+  };
 }

@@ -31,7 +31,7 @@ export default function RootLayout({
         <footer className="border-t border-stone-200 py-8 bg-stone-100 text-stone-500 text-xs mt-12">
           <div className="max-w-4xl mx-auto px-6 flex items-center justify-between">
             <p>© {new Date().getFullYear()} Dinkov Distilled</p>
-            <p>Built with Next.js & Vercel</p>
+            <p>Compiled by Garth Trickett</p>
           </div>
         </footer>
       </body>
