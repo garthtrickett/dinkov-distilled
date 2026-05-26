@@ -195,6 +195,8 @@ next-env.d.ts
 .next/server/app/_not-found
 .next/server/app/_not-found/page_client-reference-manifest.js
 .next/server/app/_not-found/page.js
+.next/server/app/page_client-reference-manifest.js
+.next/server/app/page.js
 .next/server/app-paths-manifest.json
 .next/server/interception-route-rewrite-manifest.js
 .next/server/middleware-build-manifest.js
@@ -206,7 +208,16 @@ next-env.d.ts
 .next/server/server-reference-manifest.js
 .next/server/server-reference-manifest.json
 .next/server/vendor-chunks
+.next/server/vendor-chunks/esprima@4.0.1.js
+.next/server/vendor-chunks/extend-shallow@2.0.1.js
+.next/server/vendor-chunks/gray-matter@4.0.3.js
+.next/server/vendor-chunks/is-extendable@0.1.1.js
+.next/server/vendor-chunks/js-yaml@3.14.2.js
+.next/server/vendor-chunks/kind-of@6.0.3.js
+.next/server/vendor-chunks/marked@12.0.2.js
 .next/server/vendor-chunks/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6.js
+.next/server/vendor-chunks/section-matter@1.0.0.js
+.next/server/vendor-chunks/strip-bom-string@1.0.0.js
 .next/server/vendor-chunks/@swc+helpers@0.5.15.js
 .next/server/webpack-runtime.js
 .next/static
@@ -215,6 +226,7 @@ next-env.d.ts
 .next/static/chunks/app/layout.js
 .next/static/chunks/app/_not-found
 .next/static/chunks/app/_not-found/page.js
+.next/static/chunks/app/page.js
 .next/static/chunks/app-pages-internals.js
 .next/static/chunks/main-app.js
 .next/static/chunks/polyfills.js
@@ -227,12 +239,15 @@ next-env.d.ts
 .next/static/development/_ssgManifest.js
 .next/static/webpack
 .next/static/webpack/02d9869116820c31.webpack.hot-update.json
+.next/static/webpack/1018e2633a921983.webpack.hot-update.json
 .next/static/webpack/633457081244afec._.hot-update.json
 .next/static/webpack/webpack.02d9869116820c31.hot-update.js
+.next/static/webpack/webpack.1018e2633a921983.hot-update.js
 .next/trace
 .next/types
 .next/types/app
 .next/types/app/layout.ts
+.next/types/app/page.ts
 .next/types/cache-life.d.ts
 .next/types/package.json
 .next/types/routes.d.ts
@@ -552,6 +567,48 @@ if __name__ == "__main__":
     if os.path.exists(target_file):
         with open(target_file, "r", encoding="utf-8") as f:
             success = apply_diffs(f.read())
+            
+            if success:
+                # --- Auto-migration and Fixes ---
+                import shutil
+                import re
+                
+                # 1. Copy rc/app/[slug] to src/app/[slug]
+                if os.path.exists("rc/app/[slug]"):
+                    print("🤖 Auto-migrating rc/app/[slug] to src/app/[slug]...", flush=True)
+                    os.makedirs("src/app/[slug]", exist_ok=True)
+                    try:
+                        shutil.copy("rc/app/[slug]/page.tsx", "src/app/[slug]/page.tsx")
+                        print("✅ Copied page.tsx successfully to src/app/[slug]/page.tsx", flush=True)
+                    except Exception as e:
+                        print(f"❌ Failed to copy page.tsx: {e}", flush=True)
+
+                # 2. Make src/app/[slug]/page.tsx and src/app/lib/markdown.ts robust to .md suffixes
+                def make_robust_to_md(filepath):
+                    if os.path.exists(filepath):
+                        print(f"🤖 Making {filepath} robust to .md suffixes...", flush=True)
+                        with open(filepath, "r", encoding="utf-8") as f:
+                            content = f.read()
+                        
+                        # Print file for debugging so we can see it in logs
+                        print(f"\n--- ORIGINAL {filepath} ---\n{content}\n--- END ORIGINAL ---\n", flush=True)
+                        
+                        updated = content
+                        updated = updated.replace("${slug}", "${slug.replace(/\\.md$/, \"\")}")
+                        updated = updated.replace("slug + '.md'", "slug.replace(/\\.md$/, \"\") + '.md'")
+                        updated = updated.replace("slug + \"\.md\"", "slug.replace(/\\.md$/, \"\") + \"\.md\"")
+                        updated = re.sub(r'path\.join\(([^)]*)\bslug\b([^)]*)\)', r'path.join(\1slug.replace(/\\.md$/, "")\2)', updated)
+                        
+                        if updated != content:
+                            with open(filepath, "w", encoding="utf-8") as f:
+                                f.write(updated)
+                            print(f"✅ Successfully patched {filepath} to strip .md suffixes.", flush=True)
+                        else:
+                            print(f"ℹ️ No replacements needed or already patched for {filepath}.", flush=True)
+
+                make_robust_to_md("src/app/[slug]/page.tsx")
+                make_robust_to_md("src/app/lib/markdown.ts")
+                
             sys.exit(0 if success else 1)
     else:
         print(f"❌ File not found: {target_file}", flush=True)
