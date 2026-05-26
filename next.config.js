@@ -6,6 +6,20 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  async rewrites() { 
+    return [
+      {
+        // Intercept standard root markdown paths (e.g. /some-chapter.md)
+        source: '/:slug.md',
+        destination: '/:slug',
+      },
+      {
+        // Intercept folder-prefixed markdown paths (e.g. /content/some-chapter.md)
+        source: '/content/:slug.md',
+        destination: '/:slug',
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
